@@ -1,0 +1,11 @@
+framework module DixaMessenger {
+  umbrella header "DixaMessenger.h"
+
+  export *
+  module * { export * }
+}
+
+module DixaMessenger.Swift {
+    header "DixaMessenger-Swift.h"
+    requires objc
+}
