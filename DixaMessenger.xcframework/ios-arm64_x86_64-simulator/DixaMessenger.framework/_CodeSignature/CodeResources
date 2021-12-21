@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		9irAzTBfeeUgrK5Z5iz1NqPZzMM=
+		5k9OOC8olPLJYwtZ/pzL6cNP260=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<data>
-		kSJSXjk+C8vU2rFfXQAA49R99tE=
+		WUIvVypPRy3QKarghYn/pJLhHv4=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		+vaO/C1p7/jtLvXJome+pqaQaqE=
+		AW56STRiegwmwJGoWxx36KNDJqQ=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		3gDyjuDYtbFdRe66xptOtIldFsc=
+		cEgj5tmLbQGNhi2gRpEUdU0lhmA=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		ruHpQdTnI7r5rIv+f0+csSOuiTI=
+		BAgFqSYTtOJZO6Pw0dSLCGyLcsA=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/DixaMessenger-Swift.h</key>
 		<data>
-		+Mlr9ZeLnOkCniuDcUAAFwj3n70=
+		0muj6awghLvhWx8cAe4/lFyVb+g=
 		</data>
 		<key>Headers/DixaMessenger.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3mW+a2q5yxe1B/VCxgAvvywNSBo=
+		HvDKvGsewn0ruZTc7EyyfQLvu5o=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		3mW+a2q5yxe1B/VCxgAvvywNSBo=
+		HvDKvGsewn0ruZTc7EyyfQLvu5o=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p6o9t6lIlVa61dSpBcsdzeYpfTI=
+		Ak+n9VeOuslGDvnYkX0gSSszfbg=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -94,224 +94,239 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		p6o9t6lIlVa61dSpBcsdzeYpfTI=
+		Ak+n9VeOuslGDvnYkX0gSSszfbg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		qTxjfnPD9xjvwNeyx9vtrwg/jjw=
 		</data>
-		<key>ar.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/Info.plist</key>
+		<data>
+		s91RJRIK67lLKtcp8nU41cbojbU=
+		</data>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		jrXvTRDYAQ5lSIPDrwV3Oq0iWME=
+		</data>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		y8Zpx6tP8qnSwk7k9joWnlfPOvc=
+		</data>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		RdKFVbbP2wXw3xmF15sQkGfqNi0=
+		</data>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Modules_Localization.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1szH1xM1p4vLmNS+3sYFqZOO3xw=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>da.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/da.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0P2z8QG7dyn6WG4+dNWbRLkK3Rc=
+			XCgB9rN4XEuzt87xo1d9iMUqdzA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>de.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/de.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			mkiTbQxp0RfGflIPUueMwpssqa4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1szH1xM1p4vLmNS+3sYFqZOO3xw=
+			LCdlPSGQtEZmWHi7T13EUiFSLlE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>es.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/es.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>et.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/et.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>fi.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/fi.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>fr.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>hu-HU.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/hu.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h5/EzRf6EBAmnswI1k5jbYlIx/s=
+			8LoMyAOTbSmkfoAIGdG7nAZBERg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>hu.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/is.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xZQTJhwyOdZAGyytSqHyYTCnYvY=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>is.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/it.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			AMd1uejHpVAS+GxAvg7GjQ1g/aE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>it.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ja.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UWat6g1r6U7AdTsG61UPwPBKyYk=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ko.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/lt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UWat6g1r6U7AdTsG61UPwPBKyYk=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>lt.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/lv.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A/aEWxKnhVb00cR0BoCqvQ/CrsU=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>lv.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/no.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A/aEWxKnhVb00cR0BoCqvQ/CrsU=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>no.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/pl.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pl.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A/aEWxKnhVb00cR0BoCqvQ/CrsU=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pt.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			nA4CUzB9MvpbNHAK6EoXPzcRITQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ru.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/sv.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r+MRnKW1jbEYceUKB6XndA8N42M=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>sv.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/th.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>th.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/tr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UWat6g1r6U7AdTsG61UPwPBKyYk=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>tr.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/zh.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agM1DrAODVlwwdtQy/9UFnmwjaQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UWat6g1r6U7AdTsG61UPwPBKyYk=
+			En+dNBj1OvRHSuTun3ZJr8ZLtpI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -323,14 +338,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V4x8/1kxwMzwU7WaYZYuprao6qZthdR9hPK7pbfWjqo=
+			oytb/pynKvEZWcoTF23DwxqBvL9ROaysadEsP4mbhQg=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PIxuChKd33OhIO1+PBHaRsmYPocG3Mr2rgf+5Sj/S3A=
+			P1VkHx4Mc/IPGK1sD63i1KUrbLto8r7+gO3vs5VxwX0=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
@@ -344,7 +359,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LK/Kmz1No2qeE8LLKozPzYM3Uzz+ERvOPOrde8axdHw=
+			yi8zBBZfJMKV48OfrtUe1CdOUzgHruYputcOsNm1gjY=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
@@ -358,14 +373,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wt6z0UD4QOduQ9lg+PKn9IQCUYa4IDvbE1DPWYIAZI=
+			BOeJNs/jXTG5tscEAQgQSE3BAYZWV+6lX4ddac7MeV0=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GCNeeGiw6pARZadyyK5TZkWK4JDLkzuoI9bDwbmweF4=
+			L8qCUwoUWafbZEfoVGkdc+tugocO+A2Wra2Nl+Dtdxo=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
@@ -379,7 +394,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a1dOiqYBDHczMidGzs5iN8deuYiY7XnNHM1KYuabmp4=
+			20lyXNhE3y+YIZa77JWkFLGrlwABqygm+LVa6/EFTLg=
 			</data>
 		</dict>
 		<key>Headers/DixaMessenger.h</key>
@@ -407,7 +422,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WaAdnbrSImp6DcXlCvgXoB5PCpzgIPQrRyrkCBodNaM=
+			ltKinGHQezMt7oAr/s/mCX02oXKVRd+mqVqAkjfucz8=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64.swiftdoc</key>
@@ -428,7 +443,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WaAdnbrSImp6DcXlCvgXoB5PCpzgIPQrRyrkCBodNaM=
+			ltKinGHQezMt7oAr/s/mCX02oXKVRd+mqVqAkjfucz8=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -449,7 +464,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IqX+ksI09XTO8mus6Gk7YIZZJ+JLWgWlsH5V3wa2o7M=
+			ULjSQD1w4TXNobryj5oMaXS78elQMQe3e5uBd4o50Ao=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64.swiftdoc</key>
@@ -470,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IqX+ksI09XTO8mus6Gk7YIZZJ+JLWgWlsH5V3wa2o7M=
+			ULjSQD1w4TXNobryj5oMaXS78elQMQe3e5uBd4o50Ao=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -480,218 +495,251 @@
 			UI1pSgYsJdTVe1f0DMRxGChHQlQdQsa0GwRzVblJpl0=
 			</data>
 		</dict>
-		<key>ar.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q21MC+WyPeU+OD3L+p6bdMmZ64C+3ij0Peu3q0Fca8I=
+			nqDH4/rqvF0hdDWpo9RYH7aPIZ8kVlsRPMNrgRfXaVg=
+			</data>
+		</dict>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tdfEzEE/i3EnCOrA6M+k7WMjDlk8bWpiua4l9+YC0tE=
+			</data>
+		</dict>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H3oMm7+jYGNupEYhDpTGi/Rv3wCDzjIy3YOeWj9tGNY=
+			</data>
+		</dict>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sVbYeWQ/T0RVYtr1tD7zmlSQDCcieHtMRntLCUcrgOk=
+			</data>
+		</dict>
+		<key>Modules_Localization.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>Modules_Localization.bundle/ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>da.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/da.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hKQou4kb1cqdFRZW8zONLuIDk+JolZ0S4hb5GFx0IwY=
+			xOkdOMVk36QQYRvG2TBuwRJjsZUE6jX8FD8YNe2qCss=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>de.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/de.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			kCBsH8gIq4YP0ocX2SftW7JTqggv7KBndLcwT+Fdwdw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q21MC+WyPeU+OD3L+p6bdMmZ64C+3ij0Peu3q0Fca8I=
+			WENTQwpppkzkxEmRI4VBj+eXIhefM4qaeq8rbe3nuZY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>es.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/es.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>et.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/et.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>fi.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/fi.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>fr.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>hu-HU.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/hu.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bO8IItT2XEbVYXC0Mhw5R8ufzZWoptEndB5/JMA2H1o=
+			VfSUuHOSwWjGgjlgwnoW+RS4pa4H3Xa0ZPxq95IhLCY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>hu.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/is.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9wgCucc2CU24d+YX4BQv7Gclxmc4bFMDI3nPHIq8MNY=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>is.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/it.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			0uihvGbUijtf+y3UcUR43OxuOcp0mKn0ZOWzZa9p6k0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>it.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ja.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/4VCUtrPP2ThYYmci8BJsFyp+6NJ/kgqOHRhV5HOvNI=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ko.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/lt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/4VCUtrPP2ThYYmci8BJsFyp+6NJ/kgqOHRhV5HOvNI=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>lt.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/lv.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+gY+Hi78zhsU9pH792RMyX8qCl2GFKJ4tPBQyKyWEEY=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>lv.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/no.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+gY+Hi78zhsU9pH792RMyX8qCl2GFKJ4tPBQyKyWEEY=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>no.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/pl.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pl.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+gY+Hi78zhsU9pH792RMyX8qCl2GFKJ4tPBQyKyWEEY=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pt.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			F+w02JMzw+tZeQM0HrznWtnpteLLs5MS8rzhuPYjtW4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ru.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/sv.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VYLmjAaDAlH3hli9+hIPxIQ4acVBuFpm9LrjHmo8dsA=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>sv.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/th.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>th.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/tr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/4VCUtrPP2ThYYmci8BJsFyp+6NJ/kgqOHRhV5HOvNI=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>tr.lproj/Localizable.strings</key>
+		<key>Modules_Localization.bundle/zh.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Yx/pELreKJYxl4vTjVhvfM81AR6xsYMjn3Vuu+qMw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>zh.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/4VCUtrPP2ThYYmci8BJsFyp+6NJ/kgqOHRhV5HOvNI=
+			8Fit3l20JyM3FYskCTy20mNJ3Zl9eP1EW/rnv4rJZJ0=
 			</data>
 			<key>optional</key>
 			<true/>
