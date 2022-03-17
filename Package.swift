@@ -13,6 +13,6 @@ let package = Package(
             targets: ["DixaMessenger"]),
     ],
     targets: [
-        .binaryTarget(name: "DixaMessenger", url: "https://github.com/dixahq/ios-messenger/releases/download/1.0.0/DixaMessenger.xcframework.zip", checksum: "9048bb12037d544be8d20d6df4598c12b09c72deb645cb05ed69af780ad08152")
+        .binaryTarget(name: "DixaMessenger", url: "https://github.com/dixahq/ios-messenger/releases/download/1.0.0/DixaMessenger.xcframework.zip, checksum: "6eda4b60ba62ce81d25a7315407cf9808106aee88c2a18aa35b85e0e07f144af")
     ]
 )
