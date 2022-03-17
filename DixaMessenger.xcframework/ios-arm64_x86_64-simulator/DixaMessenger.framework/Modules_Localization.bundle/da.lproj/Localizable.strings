@@ -307,4 +307,21 @@
 "dixa_frontpage_continue_conversation" = "Fortsæt samtalen";
 
 /* loco:6168043aa8e5357081734583 */
-"dixa_invalid_email" = "Ugyldig email";
+"dixa_invalid_email" = "Ugyldig e-mail. Prøv igen.";
+
+/* name textfield label */
+"dixa_name_field_label" = "Dit navn";
+
+/* name textfield placeholder*/
+"dixa_name_field_placeholder" = "Hvad er dit fornavn?";
+
+/* email textfield label */
+"dixa_email_field_label" = "Din e-mail";
+
+/* email field placeholder */
+"dixa_email_field_placeholder" = "For eksempel \"bruce@wayne.com\"";
+
+/*login/ user identification screen header text*/
+"dixa_user_claim_header" = "Lad os komme i gang med dine oplysninger";
+/* error message when name field is left blanc*/
+"dixa_invalid_name" = "Please enter your name";

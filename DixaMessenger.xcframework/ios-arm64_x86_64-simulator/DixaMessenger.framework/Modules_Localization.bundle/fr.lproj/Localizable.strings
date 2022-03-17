@@ -9,270 +9,270 @@
  loco:60f7de8d40efd37b18055312
  * Toolbar */
 
-"dixa_chat_title_we_usually_reply" = "We usually reply";
+"dixa_chat_title_we_usually_reply" = "Nous répondons généralement";
 
 /* loco:60f7de8d40efd37b18055313 */
-"dixa_chat_title_response_time" = "Within 10 minutes";
+"dixa_chat_title_response_time" = "Dans un délai de 10 minutes";
 
 /* loco:60f7de8d40efd37b18055314
  * Message */
-"dixa_hint_write_your_message" = "Write your message";
+"dixa_hint_write_your_message" = "Écrivez votre message";
 
 /* loco:60f7de8d40efd37b18055315
  * Unread Messages */
-"dixa_message_new_messages" = "New messages";
+"dixa_message_new_messages" = "Nouveaux messages";
 
 /* loco:60f7de8d40efd37b18055316
  * Agent */
-"dixa_message_agent_joined_the_conversation" = "%@ joined the conversation";
+"dixa_message_agent_joined_the_conversation" = "%@ a rejoint la conversation";
 
 /* loco:60f7de8d40efd37b18055317
  * Access Permissions */
-"dixa_error_message_access_denied" = "Please allow access to your phone's media in order to attach and send files.";
+"dixa_error_message_access_denied" = "Veuillez autoriser l'accès aux fichiers multimédias de votre téléphone afin de joindre et d'envoyer des fichiers.";
 
 /* loco:60f7de8d40efd37b18055318
  * Content Description */
-"dixa_accessibility_label_back" = "Back";
+"dixa_accessibility_label_back" = "Retour";
 
 /* loco:60f7de8d40efd37b18055319 */
-"dixa_accessibility_label_agent_photo" = "Agent's photo";
+"dixa_accessibility_label_agent_photo" = "Photo de l'agent";
 
 /* loco:60f7de8d40efd37b1805531b */
-"dixa_accessibility_label_agent_is_typing" = "Agent is typing";
+"dixa_accessibility_label_agent_is_typing" = "L'agent est en train d'écrire";
 
 /* loco:60f7de8d40efd37b1805531d */
-"dixa_accessibility_label_expand_input_field" = "Expand input field";
+"dixa_accessibility_label_expand_input_field" = "Agrandir le champ de saisie";
 
 /* loco:60f7de8d40efd37b1805531e */
-"dixa_accessibility_label_collapse_input_field" = "Collapse input field";
+"dixa_accessibility_label_collapse_input_field" = "Réduire le champ de saisie";
 
 /* loco:60f7de8d40efd37b18055320 */
-"dixa_accessibility_label_download_file" = "Download file";
+"dixa_accessibility_label_download_file" = "Télécharger le fichier";
 
 /* loco:60f7de8d40efd37b18055321 */
-"dixa_accessibility_label_attach_file" = "Attach file";
+"dixa_accessibility_label_attach_file" = "Joindre un fichier";
 
 /* loco:60f7de8d40efd37b18055322 */
-"dixa_accessibility_label_send_message" = "Send message";
+"dixa_accessibility_label_send_message" = "Envoyer le message ";
 
 /* loco:60f7e10a3c543245a60bc012 */
-"dixa_message_state_sending" = "Sending";
+"dixa_message_state_sending" = "Envoi en cours";
 
 /* loco:60f7e1210b15b5190230fd92 */
-"dixa_message_state_sent" = "Sent";
+"dixa_message_state_sent" = "Envoyé";
 
 /* loco:60f7e1333a5da90c4f1481d3 */
-"dixa_message_state_delivered" = "Delivered";
+"dixa_message_state_delivered" = "Reçu";
 
 /* loco:60f7e13c62bc0a3ea204f362 */
-"dixa_message_state_seen" = "Seen";
+"dixa_message_state_seen" = "Lu";
 
 /* loco:60f7e149afb31164004fbe42 */
-"dixa_message_state_failed_to_send" = "Failed to send";
+"dixa_message_state_failed_to_send" = "Échec de l'envoi";
 
 /* loco:610403c6751c8b16453f3592 */
-"dixa_frontpage_start_new_conversation" = "Start a conversation";
+"dixa_frontpage_start_new_conversation" = "Commencer une conversation";
 
 /* loco:6107a9cb34ad852afd5bc4a2 */
-"dixa_accessibility_label_exit_button" = "Exit";
+"dixa_accessibility_label_exit_button" = "Quitter";
 
 /* loco:6107a9f9ca07942cbf4a3f52 */
-"dixa_accessibility_label_loading_progress_bar" = "Loading";
+"dixa_accessibility_label_loading_progress_bar" = "Chargement";
 
 /* loco:6107abe2f999e05b1f6f1a42 */
-"dixa_frontpage_view_previous_conversations" = "View previous conversations";
+"dixa_frontpage_view_previous_conversations" = "Afficher les conversations précédentes";
 
 /* loco:6107ac8031c9d864260b9072 */
-"dixa_frontpage_footer" = "We're using Dixa";
+"dixa_frontpage_footer" = "Nous utilisons Dixa";
 
 /* loco:6107aca41a5587331c1a6b92 */
-"dixa_frontpage_error_title" = "Sorry...";
+"dixa_frontpage_error_title" = "Nous sommes désolés…";
 
 /* loco:6107acda3fa307445a5c3892 */
-"dixa_frontpage_error_subtitle" = "We're having network issues. You can try to refresh the page or email our support team.";
+"dixa_frontpage_error_subtitle" = "Nous rencontrons des problèmes de réseau. Vous pouvez essayer d'actualiser la page ou envoyer un e-mail à notre équipe d'assistance.";
 
 /* loco:6107ad02279d6a68c77c4ba3 */
-"dixa_frontpage_refresh_button" = "Refresh the page";
+"dixa_frontpage_refresh_button" = "Actualiser la page";
 
 /* loco:6107b0e8455d1f26cb1d5912 */
-"dixa_accessibility_label_cancel" = "Cancel";
+"dixa_accessibility_label_cancel" = "Annuler";
 
 /* loco:6107b1c38818932d0c1027e3 */
-"dixa_accessibility_label_message_status_failed" = "Message failed to send";
+"dixa_accessibility_label_message_status_failed" = "Échec de l'envoi du message";
 
 /* loco:6107b1dce39849525b1bd1b2 */
-"dixa_accessibility_label_message_status_sent" = "Message sent";
+"dixa_accessibility_label_message_status_sent" = "Message envoyé";
 
 /* loco:6107b1ee11f9f863d72975f2 */
-"dixa_accessibility_label_message_status_delivered" = "Message delivered";
+"dixa_accessibility_label_message_status_delivered" = "Message reçu";
 
 /* loco:6107b202ff6dfd4511463f82 */
-"dixa_accessibility_label_message_status_seen" = "Message seen";
+"dixa_accessibility_label_message_status_seen" = "Message lu";
 
 /* loco:6107b214528e7441d53089c2 */
-"dixa_accessibility_label_message_status_sending" = "Sending the message";
+"dixa_accessibility_label_message_status_sending" = "Envoi du message";
 
 /* loco:6107bf3bce0ba60a620ff6f2 */
-"dixa_frontpage_greeting_subtitle" = "Feel free to reach out. We're ready to help.";
+"dixa_frontpage_greeting_subtitle" = "N'hésitez pas à nous contacter. Nous sommes là pour vous aider.";
 
 /* loco:6107bf71ce0ba60a620ff6f4 */
-"dixa_frontpage_greeting_title" = "Hey there 👋 ";
+"dixa_frontpage_greeting_title" = "Bonjour 👋 ";
 
 /* loco:610bd86ca85c0c3a081d3e03 */
-"dixa_accessibility_label_message_with_image" = "Message with image";
+"dixa_accessibility_label_message_with_image" = "Message avec image";
 
 /* loco:610d23cd128ef23c623c9d64 */
-"dixa_select_a_smaller_file_error_message" = "Please select a file under 10MB";
+"dixa_select_a_smaller_file_error_message" = "Veuillez sélectionner un fichier de moins de 10 Mo";
 
 /* loco:6110fdd36475e07e7f6975a2 */
-"dixa_last_message_user_prefix" = "You: %@";
+"dixa_last_message_user_prefix" = "Vous : %@";
 
 /* loco:6111433d2381b25a153d3bd2 */
-"dixa_last_message_no_text" = "Continue your conversation";
+"dixa_last_message_no_text" = "Continuer votre conversation";
 
 /* loco:6114e437f195376afe2c2df4 */
-"dixa_previous_conversations_header" = "Your previous conversations";
+"dixa_previous_conversations_header" = "Vos conversations précédentes";
 
 /* loco:6114edb9bac50e62167ae8f2 */
-"dixa_closed_conversation_start_new_conversation" = "Start a new conversation";
+"dixa_closed_conversation_start_new_conversation" = "Commencer une nouvelle conversation";
 
 /* loco:6114ee4104d1c612164cff95 */
-"dixa_closed_conversation_message" = "Your conversation has ended.";
+"dixa_closed_conversation_message" = "Votre conversation est terminée.";
 
 /* loco:6116310f0076a37fa47b5282 */
-"dixa_toolbar_agent_online" = "Online now";
+"dixa_toolbar_agent_online" = "En ligne actuellement";
 
 /* loco:61163432f5b4e41e23144bb5 */
-"dixa_attachment_permission_settings_button" = "Settings";
+"dixa_attachment_permission_settings_button" = "Paramètres";
 
 /* loco:6116345def574f222501fd16 */
-"dixa_cancel_button" = "Cancel";
+"dixa_cancel_button" = "Annuler";
 
 /* loco:6116349f9165e12401377145 */
 "dixa_attachment_image_title" = "Image";
 
 /* loco:611634b59165e12401377147 */
-"dixa_attachment_file_title" = "File";
+"dixa_attachment_file_title" = "Fichier";
 
 /* loco:611634de394e7548310a44d2 */
-"dixa_attachment_type_title" = "Attachment type";
+"dixa_attachment_type_title" = "Type de pièce jointe";
 
 /* loco:61163512311d220c902b7562 */
-"dixa_attachment_type_message" = "Select file from gallery or archive";
+"dixa_attachment_type_message" = "Sélectionner un fichier dans la galerie ou le dossier";
 
 /* loco:611638d94c152a5aac338f22 */
-"dixa_toolbar_agent_away" = "Away";
+"dixa_toolbar_agent_away" = "Absent(e)";
 
 /* loco:61180fc2e7b52c5d5a4d5262 */
-"dixa_previous_conversations_error_subtitle" = "We’re having issues loading your previous conversations. You can try to refresh the page or email our support team.";
+"dixa_previous_conversations_error_subtitle" = "Nous rencontrons des problèmes pour charger vos conversations précédentes. Vous pouvez essayer d'actualiser la page ou envoyer un e-mail à notre équipe d'assistance.";
 
 /* loco:611810caa6b60c796014eaf2 */
-"dixa_previous_conversations_error_title" = "Sorry..";
+"dixa_previous_conversations_error_title" = "Nous sommes désolés…";
 
 /* loco:611b69ef7f08a65e71347746 */
-"dixa_open_file_error" = "Failed to open a file";
+"dixa_open_file_error" = "Impossible d'ouvrir le fichier";
 
 /* loco:611b7fa15d606462c83d1b42 */
-"dixa_attachment_download_label_in_progress" = "Downloading";
+"dixa_attachment_download_label_in_progress" = "Téléchargement";
 
 /* loco:611b7fc1d4d18b3b533df2c5 */
-"dixa_attachment_download_label_success" = "Downloaded";
+"dixa_attachment_download_label_success" = "Téléchargé";
 
 /* loco:611b7fd773dacb447029c422 */
-"dixa_attachment_download_label_error" = "Failed to download";
+"dixa_attachment_download_label_error" = "Échec du téléchargement";
 
 /* loco:611b849d84e41d2378415393 */
-"dixa_accessibility_label_open_file" = "Open file";
+"dixa_accessibility_label_open_file" = "Ouvrir le fichier";
 
 /* loco:611e22f0aa31a8697e5dc0a2 */
-"dixa_error_select_an_attachment" = "Please select a valid photo or file";
+"dixa_error_select_an_attachment" = "Veuillez sélectionner une photo ou un fichier valide";
 
 /* loco:61262710d9972f38f45c7112 */
 "dixa_file_too_big_error_ok" = "OK";
 
 /* loco:612f633075538025f02bb932 */
-"dixa_android_push_notification_channel_name" = "Customer support";
+"dixa_android_push_notification_channel_name" = "Assistance à la clientèle";
 
 /* loco:61320b63a23ea67e81664d56 */
-"dixa_network_issues_error_message" = "Sorry, we’re having network issues. You can try to refresh the page or email our support team.";
+"dixa_network_issues_error_message" = "Nous sommes désolés, nous rencontrons des problèmes de réseau. Vous pouvez essayer d'actualiser la page ou envoyer un e-mail à notre équipe d'assistance.";
 
 /* loco:613214d1cefdd85f6113f6c2 */
-"dixa_send_message_to_start_conversation" = "Send a message to start a conversation";
+"dixa_send_message_to_start_conversation" = "Envoyez un message pour démarrer une conversation";
 
 /* loco:613717a4a605ea60ee0199c2 */
-"dixa_network_issues_reconnected_message" = "Great! You’ve been reconnected.";
+"dixa_network_issues_reconnected_message" = "Excellent ! Vous avez été reconnecté(e).";
 
 /* loco:61372ce6a3010252bf266332 */
-"dixa_resend_message" = "Resend message";
+"dixa_resend_message" = "Renvoyer le message";
 
 /* loco:61372d0f4d68a81f735cf504 */
-"dixa_delete_message" = "Delete message";
+"dixa_delete_message" = "Supprimer le message";
 
 /* loco:6138c25252374851ef4478c3 */
-"dixa_csat_emoji_label_bad" = "Bad";
+"dixa_csat_emoji_label_bad" = "Mauvaise";
 
 /* loco:6138c26b4f84a7150e45e3f2 */
-"dixa_csat_emoji_label_meh" = "Meh";
+"dixa_csat_emoji_label_meh" = "Mouais";
 
 /* loco:6138c27d52374851ef4478c6 */
-"dixa_csat_emoji_label_okay" = "Okay";
+"dixa_csat_emoji_label_okay" = "Correcte";
 
 /* loco:6138c28e9999206ee6679386 */
-"dixa_csat_emoji_label_good" = "Good";
+"dixa_csat_emoji_label_good" = "Bonne";
 
 /* loco:6138c2a046bec603b66dd897 */
-"dixa_csat_emoji_label_great" = "Great";
+"dixa_csat_emoji_label_great" = "Excellente";
 
 /* loco:6138c2e0b0badf0aa53921c2 */
-"dixa_csat_add_comment" = "Add a comment";
+"dixa_csat_add_comment" = "Ajouter un commentaire";
 
 /* loco:6138c2f64daeb310a0580c72 */
-"dixa_csat_save_comment" = "Save comment";
+"dixa_csat_save_comment" = "Enregistrer le commentaire";
 
 /* loco:6138c32ba68f3650bb2050b2 */
-"dixa_csat_see_comment" = "See your comment";
+"dixa_csat_see_comment" = "Afficher votre commentaire";
 
 /* loco:6138c364a68f3650bb2050b4 */
-"dixa_csat_hide_comment" = "Hide your comment";
+"dixa_csat_hide_comment" = "Masquer votre commentaire";
 
 /* loco:6138c3e87bd53a70c72edb43 */
-"dixa_message_agent_left_the_conversation" = "%@ left the conversation";
+"dixa_message_agent_left_the_conversation" = "%@ a quitté la conversation";
 
 /* loco:613f4e33c13ac642c62cdc82 */
-"dixa_bulletin_board_show_more" = "Show more";
+"dixa_bulletin_board_show_more" = "Afficher plus";
 
 /* loco:613f4e52ae0b645e63586492 */
-"dixa_bulletin_board_show_less" = "Show less";
+"dixa_bulletin_board_show_less" = "Afficher moins";
 
 /* loco:6140a16d72c44a4ec857db33 */
-"dixa_message_sent_interval_now" = "Just now";
+"dixa_message_sent_interval_now" = "À l'instant";
 
 /* loco:6140a224600e886e3b3ba295 */
-"dixa_message_sent_interval_less_than_a_minute" = "Less than one minute ago";
+"dixa_message_sent_interval_less_than_a_minute" = "Il y a moins d'une minute";
 
 /* loco:6140a4263ae2d5100d1d0d42 */
-"dixa_message_sent_interval_minutes" = "1 minute ago";
+"dixa_message_sent_interval_minutes" = "Il y a 1 minute";
 
 /* loco:6140a4437359c031495ee6c2 */
-"dixa_message_sent_interval_x_minutes" = "%d minutes ago";
+"dixa_message_sent_interval_x_minutes" = "Il y a %d minutes";
 
 /* loco:6140a6ddd950c10d283c64a4 */
-"dixa_message_sent_interval_hours" = "1 hour ago";
+"dixa_message_sent_interval_hours" = "Il y a 1 heure";
 
 /* loco:6140a70f6747061e477e3802 */
-"dixa_message_sent_interval_x_hours" = "%d hours ago";
+"dixa_message_sent_interval_x_hours" = "Il y a %d heures";
 
 /* loco:6141b36031fe824b755f77a2 */
-"dixa_title_reply_time" = "We usually reply within 10 minutes";
+"dixa_title_reply_time" = "Nous répondons généralement dans un délai de 10 minutes";
 
 /* loco:6144867c61928d6c4f372ed3 */
-"dixa_message_state_failed_to_deliver" = "Failed to deliver";
+"dixa_message_state_failed_to_deliver" = "Échec de l'envoi";
 
 /* loco:61518243fdf18619fb6d1162 */
-"dixa_no_messages_sent" = "No messages sent";
+"dixa_no_messages_sent" = "Aucun message envoyé";
 
 /* loco:6152f1e34a248a7ae90bae22 */
-"dixa_unable_to_start_new_conversation_error" = "Sorry! We’re having issues starting  new conversations. You can try again  or email our support team.";
+"dixa_unable_to_start_new_conversation_error" = "Nous sommes désolés ! Nous rencontrons des problèmes pour démarrer de nouvelles conversations. Vous pouvez réessayer ou envoyer un e-mail à notre équipe d'assistance.";
 
 /* loco:615bcdcc2c89326bcf297324 */
 "dixa_message_sent_interval_minutes-plural-2" = "";
@@ -281,30 +281,47 @@
 "dixa_message_sent_interval_hours-plural-2" = "";
 
 /* loco:615fdcfede0c6b419e49a233 */
-"dixa_your_name" = "Your name";
+"dixa_your_name" = "Votre nom";
 
 /* loco:615fdd55b1167b76987201d2 */
-"dixa_your_email" = "Your email";
+"dixa_your_email" = "Votre adresse e-mail";
 
 /* loco:615fdd6f6193485355724282 */
-"dixa_enter_details" = "Enter details";
+"dixa_enter_details" = "Saisissez les informations";
 
 /* loco:615fdd8fde0c6b419e49a235 */
-"dixa_leave_message" = "Leave message";
+"dixa_leave_message" = "Laisser un message";
 
 /* loco:615fe04e6dae5b4925026972 */
-"dixa_contact_form_whats_your_name" = "What’s your first name?";
+"dixa_contact_form_whats_your_name" = "Quel est votre prénom ?";
 
 /* loco:615fe06ee3f1914e4e429aa2 */
-"dixa_contact_form_email_example" = "For example “bruce@wayne.com”";
+"dixa_contact_form_email_example" = "Par exemple, « bruce@wayne.com »";
 
 /* loco:615fe09696ea1a64d6036ad2 */
-"dixa_contact_form_tell_us_everything" = "Tell us everything we need to know";
+"dixa_contact_form_tell_us_everything" = "Dites-nous tout ce que nous devons savoir";
 
 /* loco:61641128c50d266dbc2414b2 */
-"dixa_contact_form" = "Contact form";
+"dixa_contact_form" = "Formulaire de contact";
 
-"dixa_frontpage_continue_conversation" = "Continue the conversation";
+"dixa_frontpage_continue_conversation" = "Continuer la conversation";
 
 /* loco:6168043aa8e5357081734583 */
-"dixa_invalid_email" = "Invalid email";
+"dixa_invalid_email" = "Adresse e-mail invalide. Veuillez réessayer.";
+
+/* name textfield label */
+"dixa_name_field_label" = "Votre nom";
+
+/* name textfield placeholder*/
+"dixa_name_field_placeholder" = "Quel est votre prénom ?";
+
+/* email textfield label */
+"dixa_email_field_label" = "Votre adresse e-mail";
+
+/* email field placeholder */
+"dixa_email_field_placeholder" = "Par exemple, « bruce@wayne.com »";
+
+/*login/ user identification screen header text*/
+"dixa_user_claim_header" = "Commençons avec vos informations";
+/* error message when name field is left blanc*/
+"dixa_invalid_name" = "Please enter your name";

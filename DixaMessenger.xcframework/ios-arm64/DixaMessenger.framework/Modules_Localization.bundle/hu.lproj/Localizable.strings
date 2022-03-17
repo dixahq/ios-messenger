@@ -281,7 +281,7 @@
 "dixa_message_sent_interval_hours-plural-2" = "";
 
 /* loco:615fdcfede0c6b419e49a233 */
-"dixa_your_name" = "Your name";
+"dixa_your_name" = "Az Ön neve";
 
 /* loco:615fdd55b1167b76987201d2 */
 "dixa_your_email" = "E-mail címe";
@@ -307,4 +307,21 @@
 "dixa_frontpage_continue_conversation" = "Folytassa a beszélgetést";
 
 /* loco:6168043aa8e5357081734583 */
-"dixa_invalid_email" = "Érvénytelen e-mail";
+"dixa_invalid_email" = "Érvénytelen e-mail. Próbálja meg újra.";
+
+/* name textfield label */
+"dixa_name_field_label" = "Az Ön neve";
+
+/* name textfield placeholder*/
+"dixa_name_field_placeholder" = "Mi a keresztneve?";
+
+/* email textfield label */
+"dixa_email_field_label" = "Az Ön Email címe";
+
+/* email field placeholder */
+"dixa_email_field_placeholder" = "Például bruce@wayne.com";
+
+/*login/ user identification screen header text*/
+"dixa_user_claim_header" = "Kezdjük az adataival";
+/* error message when name field is left blanc*/
+"dixa_invalid_name" = "Please enter your name";

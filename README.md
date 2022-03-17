@@ -73,9 +73,17 @@ DixaConfiguration().logLevel(_: LogLevel) -> DixaConfiguration
 /// - Returns: Configuration
 DixaConfiguration().pushEnvironment(_: PushEnvironment) -> DixaConfiguration
 
+
+/// The `supportedLaguages` array overrides the language settings from the Agent Interface.
+/// This setting only affects the conversation language, not the UI language. The UI language is automatically set based on the system settings.
+/// - Parameter supportedLanguages: a list of conversation languages supported by the SDK (two letter language code)
+/// - Returns: Configuration
+DixaConfiguration().supportedLanguages(_: [String]) -> DixaConfiguration
+
 /// Configures the Messenger
 /// - Parameter config: Configuration to configure the Client
 DixaMessenger.configure(_: DixaConfiguration)
+
 ```
 
 Example:
@@ -88,10 +96,11 @@ DixaConfiguration()
     .apiKey("<api-key-goes-here>")
     .logLevel(.error)
     .pushEnvironment(.sandbox) // default .production
+    .supportedLanguages(["en", "da"])
 ```
 
 ### Log level
-The messenger provides you with different options for loggin information to the console.
+The messenger provides you with different options for logging information to the console.
 By default, no messages is logged to console
 ```swift
 /// This logging level will not print any messages

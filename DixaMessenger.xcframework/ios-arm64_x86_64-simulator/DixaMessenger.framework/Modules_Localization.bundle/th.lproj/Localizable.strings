@@ -307,4 +307,21 @@
 "dixa_frontpage_continue_conversation" = "Continue the conversation";
 
 /* loco:6168043aa8e5357081734583 */
-"dixa_invalid_email" = "Invalid email";
+"dixa_invalid_email" = "Invalid email. Try again.";
+
+/* name textfield label */
+"dixa_name_field_label" = "Your name";
+
+/* name textfield placeholder*/
+"dixa_name_field_placeholder" = "What’s your first name?";
+
+/* email textfield label */
+"dixa_email_field_label" = "Your e-mail";
+
+/* email field placeholder */
+"dixa_email_field_placeholder" = "For example “bruce@wayne.com”";
+
+/*login/ user identification screen header text*/
+"dixa_user_claim_header" = "Let’s get started with your information";
+/* error message when name field is left blanc*/
+"dixa_invalid_name" = "Please enter your name";

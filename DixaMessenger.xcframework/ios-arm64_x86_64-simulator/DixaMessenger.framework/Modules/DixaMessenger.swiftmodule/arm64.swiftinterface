@@ -21,22 +21,6 @@ import os
 extension Combine.Publisher where Self.Failure == Swift.Never {
   public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
 }
-public struct DixaConfiguration {
-  public enum PushEnvironment {
-    case production
-    case sandbox
-    public static func == (a: DixaMessenger.DixaConfiguration.PushEnvironment, b: DixaMessenger.DixaConfiguration.PushEnvironment) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public init(token: Swift.String, logLevel: DixaMessenger.LogLevel = .none, pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment = .production)
-  public init()
-  public func apikey(_ token: Swift.String) -> DixaMessenger.DixaConfiguration
-  public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
-  public func pushEnvironment(_ environment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
-}
 @_hasMissingDesignatedInitializers final public class Messenger {
   public static var pushNotification: DixaMessenger.RemoteNotification {
     get
@@ -95,6 +79,23 @@ extension Combine.Publishers {
 extension Swift.Dictionary {
   public mutating func merge(contentsOf dictionary: [Key : Value])
   public func merging(contentsOf dictionary: [Key : Value]) -> [Key : Value]
+}
+public struct DixaConfiguration {
+  public enum PushEnvironment {
+    case production
+    case sandbox
+    public static func == (a: DixaMessenger.DixaConfiguration.PushEnvironment, b: DixaMessenger.DixaConfiguration.PushEnvironment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init(token: Swift.String, logLevel: DixaMessenger.LogLevel = .none, pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment = .production)
+  public init()
+  public func apikey(_ token: Swift.String) -> DixaMessenger.DixaConfiguration
+  public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
+  public func pushEnvironment(_ environment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
+  public func supportedLanguages(_ languages: [Swift.String]) -> DixaMessenger.DixaConfiguration
 }
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Equatable {}
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Hashable {}

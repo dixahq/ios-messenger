@@ -304,7 +304,24 @@
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Modulo di contatto";
 
-"dixa_frontpage_continue_conversation" = "Continue the conversation";
+"dixa_frontpage_continue_conversation" = "Continua la conversazione";
 
 /* loco:6168043aa8e5357081734583 */
-"dixa_invalid_email" = "E-mail non valida";
+"dixa_invalid_email" = "Email non valida. Riprova.";
+
+/* name textfield label */
+"dixa_name_field_label" = "Il tuo nome";
+
+/* name textfield placeholder*/
+"dixa_name_field_placeholder" = "Qual è il tuo nome?";
+
+/* email textfield label */
+"dixa_email_field_label" = "La tua email";
+
+/* email field placeholder */
+"dixa_email_field_placeholder" = "Per esempio “bruce@wayne.com”";
+
+/*login/ user identification screen header text*/
+"dixa_user_claim_header" = "Cominciamo con le tue informazioni";
+/* error message when name field is left blanc*/
+"dixa_invalid_name" = "Please enter your name";
