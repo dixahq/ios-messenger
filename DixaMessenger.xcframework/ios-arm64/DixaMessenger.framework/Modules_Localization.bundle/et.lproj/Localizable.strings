@@ -326,4 +326,9 @@ või meie kasutajatoele e-kirja saata.";
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "Alustame sinu andmete sisestamisega";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Palun sisestage oma nimi";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Liikuge edasi vestluse juurde";
+/* missing input in field */
+"dixa_empty_field_error" = "Jätkamiseks palun täitke väli";

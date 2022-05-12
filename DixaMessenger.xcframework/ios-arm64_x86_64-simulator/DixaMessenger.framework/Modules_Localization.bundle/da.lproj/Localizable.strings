@@ -324,4 +324,9 @@
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "Lad os komme i gang med dine oplysninger";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Indtast dit navn";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Fortsæt til samtale";
+/* missing input in field */
+"dixa_empty_field_error" = "Udfyld feltet for at fortsætte";

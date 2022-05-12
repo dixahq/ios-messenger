@@ -5,7 +5,6 @@ import Combine
 import CoreHaptics
 import CoreText
 import CryptoKit
-@_exported import DixaMessenger
 import Foundation
 import MobileCoreServices
 import OSLog
@@ -21,15 +20,18 @@ import os
 extension Combine.Publisher where Self.Failure == Swift.Never {
   public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
 }
-@_hasMissingDesignatedInitializers final public class Messenger {
+@objc @_inheritsConvenienceInitializers final public class Messenger : ObjectiveC.NSObject {
   public static var pushNotification: DixaMessenger.RemoteNotification {
     get
   }
   public static func configure(_ config: DixaMessenger.DixaConfiguration)
-  public static func unreadMessagesCountListener(completion: @escaping (_ count: Swift.Int) -> Swift.Void)
-  public static func updateUserCredentials(username: Swift.String, email: Swift.String)
-  public static func clearUserCredentials()
-  public static func openMessenger(from presentationController: UIKit.UIViewController, completion: (() -> Swift.Void)? = nil)
+  @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt, pushEnvironment: Swift.UInt)
+  @objc public static func registerForPushNotification(deviceToken: Foundation.Data)
+  @objc public static func unreadMessagesCountListener(completion: @escaping (_ count: Swift.Int) -> Swift.Void)
+  @objc public static func updateUserCredentials(username: Swift.String, email: Swift.String)
+  @objc public static func clearUserCredentials()
+  @objc public static func openMessenger(from presentationController: UIKit.UIViewController, completion: (() -> Swift.Void)? = nil)
+  @objc override dynamic public init()
   @objc deinit
 }
 extension UIKit.UIColor {
@@ -81,12 +83,12 @@ extension Swift.Dictionary {
   public func merging(contentsOf dictionary: [Key : Value]) -> [Key : Value]
 }
 public struct DixaConfiguration {
-  public enum PushEnvironment {
+  public enum PushEnvironment : Swift.UInt {
     case production
     case sandbox
-    public static func == (a: DixaMessenger.DixaConfiguration.PushEnvironment, b: DixaMessenger.DixaConfiguration.PushEnvironment) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
       get
     }
   }
@@ -99,6 +101,7 @@ public struct DixaConfiguration {
 }
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Equatable {}
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Hashable {}
+extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.RawRepresentable {}
 extension DixaMessenger.LogLevel : Swift.Hashable {}
 extension DixaMessenger.LogLevel : Swift.RawRepresentable {}
 extension DixaMessenger.LogDestination : Swift.Equatable {}

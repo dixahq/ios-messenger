@@ -326,4 +326,9 @@ lähettää sähköpostia tukitiimillemme.";
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "Aloitetaan tiedoillasi";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Anna nimesi";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Jatka keskusteluun";
+/* missing input in field */
+"dixa_empty_field_error" = "Täytä kenttä jatkaaksesi";

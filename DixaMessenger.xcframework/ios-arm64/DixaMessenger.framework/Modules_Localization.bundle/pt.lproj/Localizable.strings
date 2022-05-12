@@ -326,4 +326,9 @@ ou enviar um e-mail à nossa equipa de suporte.";
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "Vamos começar com suas informações";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Por favor, especifique o seu nome";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Continuar para a conversa";
+/* missing input in field */
+"dixa_empty_field_error" = "Por favor, preencha o campo para continuar";

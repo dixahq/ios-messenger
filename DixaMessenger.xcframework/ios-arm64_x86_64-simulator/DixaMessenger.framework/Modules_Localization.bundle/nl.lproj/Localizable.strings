@@ -1,0 +1,334 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: DIXA messenger
+ * Release: Working copy
+ * Locale: en, English
+ * Exported by: Gianluca Frediani
+ * Exported at: Mon, 18 Oct 2021 16:43:01 +0200
+ 
+ loco:60f7de8d40efd37b18055312
+ * Toolbar */
+
+"dixa_chat_title_we_usually_reply" = "We antwoorden meestal";
+
+/* loco:60f7de8d40efd37b18055313 */
+"dixa_chat_title_response_time" = "Binnen 10 minuten";
+
+/* loco:60f7de8d40efd37b18055314
+ * Message */
+"dixa_hint_write_your_message" = "Schrijf uw bericht";
+
+/* loco:60f7de8d40efd37b18055315
+ * Unread Messages */
+"dixa_message_new_messages" = "Nieuwe berichten";
+
+/* loco:60f7de8d40efd37b18055316
+ * Agent */
+"dixa_message_agent_joined_the_conversation" = "%@ neemt deel aan het gesprek";
+
+/* loco:60f7de8d40efd37b18055317
+ * Access Permissions */
+"dixa_error_message_access_denied" = "Geef toegang tot de media van uw telefoon om bestanden toe te voegen en te verzenden.";
+
+/* loco:60f7de8d40efd37b18055318
+ * Content Description */
+"dixa_accessibility_label_back" = "Terug";
+
+/* loco:60f7de8d40efd37b18055319 */
+"dixa_accessibility_label_agent_photo" = "Foto van medewerker";
+
+/* loco:60f7de8d40efd37b1805531b */
+"dixa_accessibility_label_agent_is_typing" = "Medewerker is aan het typen";
+
+/* loco:60f7de8d40efd37b1805531d */
+"dixa_accessibility_label_expand_input_field" = "Invoerveld uitvouwen";
+
+/* loco:60f7de8d40efd37b1805531e */
+"dixa_accessibility_label_collapse_input_field" = "Invoerveld samenvouwen";
+
+/* loco:60f7de8d40efd37b18055320 */
+"dixa_accessibility_label_download_file" = "Bestand downloaden";
+
+/* loco:60f7de8d40efd37b18055321 */
+"dixa_accessibility_label_attach_file" = "Bestand toevoegen";
+
+/* loco:60f7de8d40efd37b18055322 */
+"dixa_accessibility_label_send_message" = "Bericht verzenden";
+
+/* loco:60f7e10a3c543245a60bc012 */
+"dixa_message_state_sending" = "Verzenden";
+
+/* loco:60f7e1210b15b5190230fd92 */
+"dixa_message_state_sent" = "Verzonden";
+
+/* loco:60f7e1333a5da90c4f1481d3 */
+"dixa_message_state_delivered" = "Afgeleverd";
+
+/* loco:60f7e13c62bc0a3ea204f362 */
+"dixa_message_state_seen" = "Gelezen";
+
+/* loco:60f7e149afb31164004fbe42 */
+"dixa_message_state_failed_to_send" = "Verzenden mislukt";
+
+/* loco:610403c6751c8b16453f3592 */
+"dixa_frontpage_start_new_conversation" = "Een gesprek beginnen";
+
+/* loco:6107a9cb34ad852afd5bc4a2 */
+"dixa_accessibility_label_exit_button" = "Afsluiten";
+
+/* loco:6107a9f9ca07942cbf4a3f52 */
+"dixa_accessibility_label_loading_progress_bar" = "Laden";
+
+/* loco:6107abe2f999e05b1f6f1a42 */
+"dixa_frontpage_view_previous_conversations" = "Vorige gesprekken weergeven";
+
+/* loco:6107ac8031c9d864260b9072 */
+"dixa_frontpage_footer" = "We gebruiken Dixa";
+
+/* loco:6107aca41a5587331c1a6b92 */
+"dixa_frontpage_error_title" = "Sorry...";
+
+/* loco:6107acda3fa307445a5c3892 */
+"dixa_frontpage_error_subtitle" = "We ondervinden problemen met het netwerk. U kunt proberen de pagina te vernieuwen of een e-mail naar onze klantenservice sturen.";
+
+/* loco:6107ad02279d6a68c77c4ba3 */
+"dixa_frontpage_refresh_button" = "Vernieuw de pagina";
+
+/* loco:6107b0e8455d1f26cb1d5912 */
+"dixa_accessibility_label_cancel" = "Annuleren";
+
+/* loco:6107b1c38818932d0c1027e3 */
+"dixa_accessibility_label_message_status_failed" = "Verzenden van bericht mislukt";
+
+/* loco:6107b1dce39849525b1bd1b2 */
+"dixa_accessibility_label_message_status_sent" = "Bericht verzonden";
+
+/* loco:6107b1ee11f9f863d72975f2 */
+"dixa_accessibility_label_message_status_delivered" = "Bericht afgeleverd";
+
+/* loco:6107b202ff6dfd4511463f82 */
+"dixa_accessibility_label_message_status_seen" = "Bericht gelezen";
+
+/* loco:6107b214528e7441d53089c2 */
+"dixa_accessibility_label_message_status_sending" = "Bericht wordt verzonden";
+
+/* loco:6107bf3bce0ba60a620ff6f2 */
+"dixa_frontpage_greeting_subtitle" = "Neem gerust contact op. We staan klaar om u te helpen.";
+
+/* loco:6107bf71ce0ba60a620ff6f4 */
+"dixa_frontpage_greeting_title" = "Hallo daar 👋 ";
+
+/* loco:610bd86ca85c0c3a081d3e03 */
+"dixa_accessibility_label_message_with_image" = "Bericht met afbeelding";
+
+/* loco:610d23cd128ef23c623c9d64 */
+"dixa_select_a_smaller_file_error_message" = "Selecteer een bestand kleiner dan 10 MB";
+
+/* loco:6110fdd36475e07e7f6975a2 */
+"dixa_last_message_user_prefix" = "U: %@";
+
+/* loco:6111433d2381b25a153d3bd2 */
+"dixa_last_message_no_text" = "Doorgaan met uw gesprek";
+
+/* loco:6114e437f195376afe2c2df4 */
+"dixa_previous_conversations_header" = "Uw vorige gesprekken";
+
+/* loco:6114edb9bac50e62167ae8f2 */
+"dixa_closed_conversation_start_new_conversation" = "Een nieuw gesprek beginnen";
+
+/* loco:6114ee4104d1c612164cff95 */
+"dixa_closed_conversation_message" = "Uw gesprek is beëindigd.";
+
+/* loco:6116310f0076a37fa47b5282 */
+"dixa_toolbar_agent_online" = "Nu online";
+
+/* loco:61163432f5b4e41e23144bb5 */
+"dixa_attachment_permission_settings_button" = "Instellingen";
+
+/* loco:6116345def574f222501fd16 */
+"dixa_cancel_button" = "Annuleren";
+
+/* loco:6116349f9165e12401377145 */
+"dixa_attachment_image_title" = "Afbeelding";
+
+/* loco:611634b59165e12401377147 */
+"dixa_attachment_file_title" = "Bestand";
+
+/* loco:611634de394e7548310a44d2 */
+"dixa_attachment_type_title" = "Type bijlage";
+
+/* loco:61163512311d220c902b7562 */
+"dixa_attachment_type_message" = "Bestand uit galerij of archief selecteren";
+
+/* loco:611638d94c152a5aac338f22 */
+"dixa_toolbar_agent_away" = "Afwezig";
+
+/* loco:61180fc2e7b52c5d5a4d5262 */
+"dixa_previous_conversations_error_subtitle" = "We ondervinden problemen bij het laden van uw vorige gesprekken. U kunt proberen de pagina te vernieuwen of een e-mail naar onze klantenservice sturen.";
+
+/* loco:611810caa6b60c796014eaf2 */
+"dixa_previous_conversations_error_title" = "Sorry...";
+
+/* loco:611b69ef7f08a65e71347746 */
+"dixa_open_file_error" = "Bestand openen mislukt";
+
+/* loco:611b7fa15d606462c83d1b42 */
+"dixa_attachment_download_label_in_progress" = "Downloaden";
+
+/* loco:611b7fc1d4d18b3b533df2c5 */
+"dixa_attachment_download_label_success" = "Gedownload";
+
+/* loco:611b7fd773dacb447029c422 */
+"dixa_attachment_download_label_error" = "Downloaden mislukt";
+
+/* loco:611b849d84e41d2378415393 */
+"dixa_accessibility_label_open_file" = "Bestand openen";
+
+/* loco:611e22f0aa31a8697e5dc0a2 */
+"dixa_error_select_an_attachment" = "Selecteer een geldige foto of geldig bestand";
+
+/* loco:61262710d9972f38f45c7112 */
+"dixa_file_too_big_error_ok" = "OK";
+
+/* loco:612f633075538025f02bb932 */
+"dixa_android_push_notification_channel_name" = "Klantenservice";
+
+/* loco:61320b63a23ea67e81664d56 */
+"dixa_network_issues_error_message" = "Sorry, we ondervinden problemen met het netwerk. U kunt proberen de pagina te vernieuwen of een e-mail naar onze klantenservice sturen.";
+
+/* loco:613214d1cefdd85f6113f6c2 */
+"dixa_send_message_to_start_conversation" = "Verstuur een bericht om een gesprek te beginnen";
+
+/* loco:613717a4a605ea60ee0199c2 */
+"dixa_network_issues_reconnected_message" = "Geweldig! U bent opnieuw verbonden.";
+
+/* loco:61372ce6a3010252bf266332 */
+"dixa_resend_message" = "Bericht opnieuw verzenden";
+
+/* loco:61372d0f4d68a81f735cf504 */
+"dixa_delete_message" = "Bericht verwijderen";
+
+/* loco:6138c25252374851ef4478c3 */
+"dixa_csat_emoji_label_bad" = "Slecht";
+
+/* loco:6138c26b4f84a7150e45e3f2 */
+"dixa_csat_emoji_label_meh" = "Mwah";
+
+/* loco:6138c27d52374851ef4478c6 */
+"dixa_csat_emoji_label_okay" = "OK";
+
+/* loco:6138c28e9999206ee6679386 */
+"dixa_csat_emoji_label_good" = "Goed";
+
+/* loco:6138c2a046bec603b66dd897 */
+"dixa_csat_emoji_label_great" = "Geweldig";
+
+/* loco:6138c2e0b0badf0aa53921c2 */
+"dixa_csat_add_comment" = "Een reactie toevoegen";
+
+/* loco:6138c2f64daeb310a0580c72 */
+"dixa_csat_save_comment" = "Reactie opslaan";
+
+/* loco:6138c32ba68f3650bb2050b2 */
+"dixa_csat_see_comment" = "Uw reactie lezen";
+
+/* loco:6138c364a68f3650bb2050b4 */
+"dixa_csat_hide_comment" = "Uw reactie verbergen";
+
+/* loco:6138c3e87bd53a70c72edb43 */
+"dixa_message_agent_left_the_conversation" = "%@ heeft het gesprek verlaten";
+
+/* loco:613f4e33c13ac642c62cdc82 */
+"dixa_bulletin_board_show_more" = "Meer weergeven";
+
+/* loco:613f4e52ae0b645e63586492 */
+"dixa_bulletin_board_show_less" = "Minder weergeven";
+
+/* loco:6140a16d72c44a4ec857db33 */
+"dixa_message_sent_interval_now" = "Op dit moment";
+
+/* loco:6140a224600e886e3b3ba295 */
+"dixa_message_sent_interval_less_than_a_minute" = "Minder dan één minuut geleden";
+
+/* loco:6140a4263ae2d5100d1d0d42 */
+"dixa_message_sent_interval_minutes" = "1 minuut geleden";
+
+/* loco:6140a4437359c031495ee6c2 */
+"dixa_message_sent_interval_x_minutes" = "%d minuten geleden";
+
+/* loco:6140a6ddd950c10d283c64a4 */
+"dixa_message_sent_interval_hours" = "1 uur geleden";
+
+/* loco:6140a70f6747061e477e3802 */
+"dixa_message_sent_interval_x_hours" = "%d uur geleden";
+
+/* loco:6141b36031fe824b755f77a2 */
+"dixa_title_reply_time" = "We antwoorden meestal binnen 10 minuten";
+
+/* loco:6144867c61928d6c4f372ed3 */
+"dixa_message_state_failed_to_deliver" = "Afleveren mislukt";
+
+/* loco:61518243fdf18619fb6d1162 */
+"dixa_no_messages_sent" = "Geen berichten verzonden";
+
+/* loco:6152f1e34a248a7ae90bae22 */
+"dixa_unable_to_start_new_conversation_error" = "Sorry, we ondervinden problemen met het beginnen 
+van nieuwe gesprekken. U kunt het opnieuw proberen 
+of een e-mail naar onze klantenservice sturen.";
+
+/* loco:615bcdcc2c89326bcf297324 */
+"dixa_message_sent_interval_minutes-plural-2" = "";
+
+/* loco:615bcdcc2c89326bcf297325 */
+"dixa_message_sent_interval_hours-plural-2" = "";
+
+/* loco:615fdcfede0c6b419e49a233 */
+"dixa_your_name" = "Uw naam";
+
+/* loco:615fdd55b1167b76987201d2 */
+"dixa_your_email" = "Uw e-mailadres";
+
+/* loco:615fdd6f6193485355724282 */
+"dixa_enter_details" = "Voer gegevens in";
+
+/* loco:615fdd8fde0c6b419e49a235 */
+"dixa_leave_message" = "Bericht achterlaten";
+
+/* loco:615fe04e6dae5b4925026972 */
+"dixa_contact_form_whats_your_name" = "Wat is uw voornaam?";
+
+/* loco:615fe06ee3f1914e4e429aa2 */
+"dixa_contact_form_email_example" = "Bijvoorbeeld \"bruce@wayne.com\"";
+
+/* loco:615fe09696ea1a64d6036ad2 */
+"dixa_contact_form_tell_us_everything" = "Vertel ons alles wat we moeten weten";
+
+/* loco:61641128c50d266dbc2414b2 */
+"dixa_contact_form" = "Contactformulier";
+
+"dixa_frontpage_continue_conversation" = "Doorgaan met gesprek";
+
+/* loco:6168043aa8e5357081734583 */
+"dixa_invalid_email" = "Ongeldig e-mailadres. Probeer het opnieuw.";
+
+/* name textfield label */
+"dixa_name_field_label" = "Uw naam";
+
+/* name textfield placeholder*/
+"dixa_name_field_placeholder" = "Wat is uw voornaam?";
+
+/* email textfield label */
+"dixa_email_field_label" = "Uw e-mailadres";
+
+/* email field placeholder */
+"dixa_email_field_placeholder" = "Bijvoorbeeld \"bruce@wayne.com\"";
+
+/*login/ user identification screen header text*/
+"dixa_user_claim_header" = "Laten we beginnen met uw informatie";
+/* error message when name field is left blanc*/
+"dixa_invalid_name" = "Voer uw naam in";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Doorgaan naar gesprek";
+/* missing input in field */
+"dixa_empty_field_error" = "Vul het veld in om door te gaan";

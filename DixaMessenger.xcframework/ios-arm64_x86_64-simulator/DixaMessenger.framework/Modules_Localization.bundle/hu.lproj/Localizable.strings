@@ -324,4 +324,9 @@
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "Kezdjük az adataival";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Kérjük, írja be a nevét";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Folytassa a beszélgetéssel";
+/* missing input in field */
+"dixa_empty_field_error" = "Kérjük, töltse ki a mezőt a folytatáshoz";

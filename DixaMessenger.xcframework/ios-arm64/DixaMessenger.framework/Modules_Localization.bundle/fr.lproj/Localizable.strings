@@ -62,7 +62,7 @@
 "dixa_message_state_sent" = "Envoyé";
 
 /* loco:60f7e1333a5da90c4f1481d3 */
-"dixa_message_state_delivered" = "Reçu";
+"dixa_message_state_delivered" = "Transmis";
 
 /* loco:60f7e13c62bc0a3ea204f362 */
 "dixa_message_state_seen" = "Lu";
@@ -324,4 +324,9 @@
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "Commençons avec vos informations";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Veuillez saisir votre nom";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Continuer vers la conversation";
+/* missing input in field */
+"dixa_empty_field_error" = "Veuillez remplir le champ pour continuer";

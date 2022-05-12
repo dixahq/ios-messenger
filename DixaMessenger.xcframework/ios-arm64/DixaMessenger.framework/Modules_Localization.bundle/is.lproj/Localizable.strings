@@ -326,4 +326,9 @@ eða sent þjónustudeildinni skilaboð.";
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "Byrjum á upplýsingunum þínum";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Sláðu inn nafn þitt";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Halda áfram í samtal";
+/* missing input in field */
+"dixa_empty_field_error" = "Fylltu út reitinn til að halda áfram";

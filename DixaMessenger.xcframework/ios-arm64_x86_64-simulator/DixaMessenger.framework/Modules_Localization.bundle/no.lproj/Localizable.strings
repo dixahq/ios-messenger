@@ -326,4 +326,9 @@ eller sende supportteamet vårt en e-post.";
 /*login/ user identification screen header text*/
 "dixa_user_claim_header" = "La oss komme i gang med din informasjon";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "Please enter your name";
+"dixa_invalid_name" = "Skriv inn navnet ditt";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Fortsett til samtalen";
+/* missing input in field */
+"dixa_empty_field_error" = "Fyll ut feltet for å fortsette";

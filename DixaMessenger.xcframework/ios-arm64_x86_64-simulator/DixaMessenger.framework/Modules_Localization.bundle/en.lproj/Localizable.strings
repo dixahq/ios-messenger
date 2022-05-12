@@ -325,3 +325,8 @@
 "dixa_user_claim_header" = "Let’s get started with your information";
 /* error message when name field is left blanc*/
 "dixa_invalid_name" = "Please enter your name";
+
+/*manual user claim view button title*/
+"dixa_continue_to_conversation" = "Continue to Conversation";
+/* missing input in field */
+"dixa_empty_field_error" = "Please fill out field to continue";

@@ -23,6 +23,7 @@ In Xcode add a package dependency to your project with the following URL: ``"htt
 The XCFramework can be downloaded from our [release page](https://github.com/dixahq/ios-messenger/releases). The unzipped XCFramework needs to be placed on the Framewrok searchpath of your Xcode project, and imported into the project, then configured to `Embed and sign`.
 
 ## Configuring DixaMessenger
+
 Our suggestion for configuring the DixaMessenger, is to do so in the AppDelegate.
 The following is an example of how it could be done:
 ```swift
@@ -43,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             .pushEnvironment(.sandbox)
         #endif
 
-        DixaMessenger.configure(config)
+        Messenger.configure(config)
         
         return true
     }
