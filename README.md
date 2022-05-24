@@ -83,7 +83,7 @@ DixaConfiguration().supportedLanguages(_: [String]) -> DixaConfiguration
 
 /// Configures the Messenger
 /// - Parameter config: Configuration to configure the Client
-DixaMessenger.configure(_: DixaConfiguration)
+Messenger.configure(_: DixaConfiguration)
 
 ```
 
@@ -139,10 +139,10 @@ If you previously had identification for a user, but no longer do, call "clearUs
 /// - Parameters:
 ///   - username: username to identify the user
 ///   - email: email to identify the user
-DixaMessenger.updateUserCredentials(username: String, email: String)
+Messenger.updateUserCredentials(username: String, email: String)
 
 /// Removes stored credentials, if there's stored credentials
-DixaMessenger.clearUserCredentials()
+Messenger.clearUserCredentials()
 ```
 
 ## Launching the Messenger
@@ -156,14 +156,14 @@ The completion is called when the completion of  `.present(_: UIViewController, 
 /// Call openMessenger, when the user has tapped on a button to launch the Messenger Client.
 /// The presentation style will be .fullScreen
 /// - Parameter presentationController: The view controller from which the Messenger Client is to be presented
-DixaMessenger.openMessenger(from: UIViewController, completion: (() -> Void)? = nil)
+Messenger.openMessenger(from: UIViewController, completion: (() -> Void)? = nil)
 ```
 
 ## Unread messages
 The SDK offers an option for the hosting application to show how many unread messages there is.
 You can add yourself as a listener by calling the API like
 ```swift
-DixaMessenger.unreadMessagesCountListener(completion: @escaping (_ count: Int) -> Void)
+Messenger.unreadMessagesCountListener(completion: @escaping (_ count: Int) -> Void)
 ```
 
 ## Push notification handling
@@ -174,30 +174,30 @@ First of all, create a push certificate and upload this in the your Dixa account
 In the app, when you get a push token, forward that to the DixaMessenger
 ```swift
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-    DixaMessenger.pushNotification.register(deviceToken: deviceToken)
+    Messenger.pushNotification.register(deviceToken: deviceToken)
 }
 ```
 
 In your `UNUserNotificationCenterDelegate` implementation, let DixaMessenger check if the received notification is intended for the Messenger.
 All checks that DixaMessenger does, to verify whether the notification is intended for the Messenger, is done in-app.
-If the Notification was intended for the Messenger, it returns true when you call `DixaMessenger.pushNotification.process(notification: , rootViewController: )` otherwise false.
+If the Notification was intended for the Messenger, it returns true when you call `Messenger.pushNotification.process(notification: , rootViewController: )` otherwise false.
 Make sure to provide a ViewController from which it makes sense to present the Messenger in full-screen
 
-As well, DixaMessenger contains some logic for when to show, or not show a notification `DixaMessenger.pushNotification.presentNotification(, withCompletionHandler: )` will return true if the message was intended for the Messenger and false otherwise. 
+As well, DixaMessenger contains some logic for when to show, or not show a notification `Messenger.pushNotification.presentNotification(, withCompletionHandler: )` will return true if the message was intended for the Messenger and false otherwise. 
 If the notification wasn't intended for the messenger, you can handle the notification yourself.
 
 ```swift
 extension YourNotificationHandlingObject: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
 
-        if !DixaMessenger.pushNotification.process(notification: response.notification, rootViewController: someViewController) {
+        if !Messenger.pushNotification.process(notification: response.notification, rootViewController: someViewController) {
             // this notification wasn't intended for the DixaMessenger - please handle it :o)
         }
         completionHandler()
     }
 
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        if !DixaMessenger.pushNotification.presentNotification(notification, withCompletionHandler: completionHandler) {
+        if !Messenger.pushNotification.presentNotification(notification, withCompletionHandler: completionHandler) {
             // this notification wasn't intended for the DixaMessenger - please handle it :o)
             completionHandler([])
         }
@@ -208,7 +208,7 @@ extension YourNotificationHandlingObject: UNUserNotificationCenterDelegate {
 ## Push notification API
 ```swift
 /// Registers the deviceToken with DixaMessenger
-DixaMessenger.pushNotification.register(deviceToken: Data)
+Messenger.pushNotification.register(deviceToken: Data)
 
 /// Processes the notification
 ///
@@ -216,7 +216,7 @@ DixaMessenger.pushNotification.register(deviceToken: Data)
 /// - Parameter notification: Notification to be processed by the SDK
 /// - Parameter rootViewController: A view controller to launch the SDK from, if it's not already visible
 /// - Returns: true if the notification was intended for the SDK and it could be processed otherwise false
-DixaMessenger.pushNotification.process(notification: UNNotification, rootViewController: UIViewController) -> Bool
+Messenger.pushNotification.process(notification: UNNotification, rootViewController: UIViewController) -> Bool
 
 /// Show a notification while the app is in foreground
 ///
@@ -226,9 +226,16 @@ DixaMessenger.pushNotification.process(notification: UNNotification, rootViewCon
 ///   - notification: Notification to potentially be shown to the user
 ///   - completionHandler: Callback to UNNotificationCenter
 /// - Returns: true if the notification was intended for the SDK and it could be processed otherwise false
-DixaMessenger.pushNotification.presentNotification(_: UNNotification, withCompletionHandler:(UNNotificationPresentationOptions) -> Void
+Messenger.pushNotification.presentNotification(_: UNNotification, withCompletionHandler:(UNNotificationPresentationOptions) -> Void
     ) -> Bool)
 ```
+
+## Uploading photos
+
+To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file. 
+
+
+
  ## Supporting nfo files
 If you need to send nfo-files as attachments on devices below iOS 14, you need to declare a new uniform type identifier:
 
