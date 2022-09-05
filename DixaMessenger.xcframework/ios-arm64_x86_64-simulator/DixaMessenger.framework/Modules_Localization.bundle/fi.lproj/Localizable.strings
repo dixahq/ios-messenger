@@ -303,6 +303,8 @@ lähettää sähköpostia tukitiimillemme.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Kerro meille kaikki, mitä meidän tarvitsee tietää";
 
+"dixa_contact_form_send" = "Lähetä";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Yhteydenottolomake";
 
@@ -332,3 +334,37 @@ lähettää sähköpostia tukitiimillemme.";
 "dixa_continue_to_conversation" = "Jatka keskusteluun";
 /* missing input in field */
 "dixa_empty_field_error" = "Täytä kenttä jatkaaksesi";
+
+"dixa_frontpage_find_articles" = "Etsi artikkeleita";
+
+"dixa_knowledge_search_textfield_placeholder" = "Hae";
+
+"dixa_knowledge_navigation_title" = "Miten voimme auttaa sinua?";
+
+"dixa_knowledge_suggested_articles" = "Ehdotetut artikkelit";
+
+"dixa_knowledge_popular_topics" = "Suositut aiheet";
+
+"dixa_knowledge_comment_title_helpful" = "Oliko tästä apua?";
+
+"dixa_knowledge_comment_title_contact_us" = "Ota yhteyttä, jos tarvitset lisäapua";
+
+"dixa_knowledge_comment_title_comment" = "Hienoa. Haluatko jättää kommentin?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Kiitos kommentistasi.";
+
+"dixa_knowledge_comment_yes" = "Kyllä, kiitos";
+
+"dixa_knowledge_comment_no" = "Ei, tarvitsen apua";
+
+"dixa_knowledge_feedback_button_add_comment" = "Lisää kommentti";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Aloita keskustelu";
+
+"dixa_knowledge_feedback_your_comment" = "Kommenttisi";
+
+"dixa_knowledge_search_placeholder_info" = "Etsi aiheeseen liittyviä artikkeleita kirjoittamalla avainsana tai lause";
+
+"dixa_knowledge_search_placeholder_no_results" = "Ei tuloksia haulla";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Kokeile toista avainsanaa";

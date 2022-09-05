@@ -303,6 +303,8 @@ ett e-postmeddelande till vårt supportteam.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Berätta allt vi behöver veta";
 
+"dixa_contact_form_send" = "Skicka";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontaktformulär";
 
@@ -332,3 +334,37 @@ ett e-postmeddelande till vårt supportteam.";
 "dixa_continue_to_conversation" = "Fortsätt till konversation";
 /* missing input in field */
 "dixa_empty_field_error" = "Fyll i fältet för att fortsätta";
+
+"dixa_frontpage_find_articles" = "Hitta artiklar";
+
+"dixa_knowledge_search_textfield_placeholder" = "Sök";
+
+"dixa_knowledge_navigation_title" = "Hur kan vi hjälpa dig?";
+
+"dixa_knowledge_suggested_articles" = "Föreslagna artiklar";
+
+"dixa_knowledge_popular_topics" = "Populära ämnen";
+
+"dixa_knowledge_comment_title_helpful" = "Var det här till hjälp?";
+
+"dixa_knowledge_comment_title_contact_us" = "Kontakta oss om du behöver hjälp";
+
+"dixa_knowledge_comment_title_comment" = "Bra. Vill du lämna en kommentar?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Tack för din kommentar.";
+
+"dixa_knowledge_comment_yes" = "Ja tack";
+
+"dixa_knowledge_comment_no" = "Nej, jag behöver hjälp";
+
+"dixa_knowledge_feedback_button_add_comment" = "Lägg till kommentar";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Starta konversation";
+
+"dixa_knowledge_feedback_your_comment" = "Din kommentar";
+
+"dixa_knowledge_search_placeholder_info" = "Ange ett nyckelord eller en mening för att hitta relaterade artiklar";
+
+"dixa_knowledge_search_placeholder_no_results" = "Inga resultat hittades för";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Testa ett annat nyckelord";

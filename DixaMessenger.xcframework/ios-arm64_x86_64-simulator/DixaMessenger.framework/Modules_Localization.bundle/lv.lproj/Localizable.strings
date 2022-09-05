@@ -301,6 +301,8 @@
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Pastāstiet mums visu, kas mums jāzina";
 
+"dixa_contact_form_send" = "Sūtīt";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Saziņas veidlapa";
 
@@ -330,3 +332,37 @@
 "dixa_continue_to_conversation" = "Turpināt uz sarunu";
 /* missing input in field */
 "dixa_empty_field_error" = "Lūdzu, aizpildiet lauku, lai turpinātu";
+
+"dixa_frontpage_find_articles" = "Atrast rakstus";
+
+"dixa_knowledge_search_textfield_placeholder" = "Meklēt";
+
+"dixa_knowledge_navigation_title" = "Kā varam palīdzēt?";
+
+"dixa_knowledge_suggested_articles" = "Ieteiktie raksti";
+
+"dixa_knowledge_popular_topics" = "Populārie temati";
+
+"dixa_knowledge_comment_title_helpful" = "Vai tas palīdzēja?";
+
+"dixa_knowledge_comment_title_contact_us" = "Lūdzu, sazinieties ar mums, lai saņemtu papildu palīdzību";
+
+"dixa_knowledge_comment_title_comment" = "Lieliski. Vai vēlaties atstāt komentāru?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Paldies par komentāru.";
+
+"dixa_knowledge_comment_yes" = "Jā, paldies";
+
+"dixa_knowledge_comment_no" = "Nē, man nepieciešama palīdzība";
+
+"dixa_knowledge_feedback_button_add_comment" = "Pievienot komentāru";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Sākt sarunu";
+
+"dixa_knowledge_feedback_your_comment" = "Jūsu komentārs";
+
+"dixa_knowledge_search_placeholder_info" = "Ierakstiet atslēgvārdu vai teikumu, lai atrastu saistītos rakstus";
+
+"dixa_knowledge_search_placeholder_no_results" = "Netika atrasts neviens rezultāts:";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Izmēģiniet citu atslēgvārdu";

@@ -303,6 +303,8 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Papasakokite mums viską, ką turėtume žinoti";
 
+"dixa_contact_form_send" = "Siųsti";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontakto forma";
 
@@ -332,3 +334,37 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 "dixa_continue_to_conversation" = "Tęsti pokalbį";
 /* missing input in field */
 "dixa_empty_field_error" = "Užpildykite langelį ir tęskite";
+
+"dixa_frontpage_find_articles" = "Rasti straipsnių";
+
+"dixa_knowledge_search_textfield_placeholder" = "Ieškoti";
+
+"dixa_knowledge_navigation_title" = "Kuo galime padėti?";
+
+"dixa_knowledge_suggested_articles" = "Siūlomi straipsniai";
+
+"dixa_knowledge_popular_topics" = "Populiarios temos";
+
+"dixa_knowledge_comment_title_helpful" = "Ar tai buvo naudinga?";
+
+"dixa_knowledge_comment_title_contact_us" = "Kreipkitės, jei reikia daugiau pagalbos";
+
+"dixa_knowledge_comment_title_comment" = "Puiku. Norite palikti komentarą?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Dėkojame už jūsų komentarą.";
+
+"dixa_knowledge_comment_yes" = "Taip, ačiū";
+
+"dixa_knowledge_comment_no" = "Ne, man reikia pagalbos";
+
+"dixa_knowledge_feedback_button_add_comment" = "Pridėti komentarą";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Pradėti pokalbį";
+
+"dixa_knowledge_feedback_your_comment" = "Jūsų komentaras";
+
+"dixa_knowledge_search_placeholder_info" = "Norėdami rasti susijusius straipsnius, įveskite bet kokį raktažodį arba sakinį";
+
+"dixa_knowledge_search_placeholder_no_results" = "Nerasta jokių rezultatų, atitinkančių";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Bandyti įvesti kitą raktažodį";

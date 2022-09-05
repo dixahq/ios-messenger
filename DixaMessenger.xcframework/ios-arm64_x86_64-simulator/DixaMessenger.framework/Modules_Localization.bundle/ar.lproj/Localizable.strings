@@ -301,6 +301,8 @@
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "أخبرنا بكل ما نحتاج إلى معرفته";
 
+"dixa_contact_form_send" = "إرسال";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "اتصل بنا";
 
@@ -330,3 +332,37 @@
 "dixa_continue_to_conversation" = "متابعة إلى المحادثة";
 /* missing input in field */
 "dixa_empty_field_error" = "يرجى ملء الحقل للمتابعة";
+
+"dixa_frontpage_find_articles" = "البحث عن مقالات";
+
+"dixa_knowledge_search_textfield_placeholder" = "البحث";
+
+"dixa_knowledge_navigation_title" = "كيف يمكن أن نساعدك؟";
+
+"dixa_knowledge_suggested_articles" = "مقالات مقترحة";
+
+"dixa_knowledge_popular_topics" = "المواضيع الشائعة";
+
+"dixa_knowledge_comment_title_helpful" = "هل كان هذا مفيدًا؟";
+
+"dixa_knowledge_comment_title_contact_us" = "يرجى التواصل معنا للحصول على المزيد من المساعدة";
+
+"dixa_knowledge_comment_title_comment" = "رائع. هل تريد ترك تعليق؟";
+
+"dixa_knowledge_comment_title_comment_thanks" = "نشكرك على تعليقك.";
+
+"dixa_knowledge_comment_yes" = "نعم، شكرًا";
+
+"dixa_knowledge_comment_no" = "لا، أنا بحاجة إلى مساعدة";
+
+"dixa_knowledge_feedback_button_add_comment" = "إضافة التعليق";
+
+"dixa_knowledge_feedback_button_start_conversation" = "بدء محادثة";
+
+"dixa_knowledge_feedback_your_comment" = "تعليقك";
+
+"dixa_knowledge_search_placeholder_info" = "اكتب أي كلمة رئيسية أو جملة للعثور على المقالات ذات الصلة";
+
+"dixa_knowledge_search_placeholder_no_results" = "لم يتم العثور على نتائج لـ";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "تجربة كلمة رئيسية أخرى";

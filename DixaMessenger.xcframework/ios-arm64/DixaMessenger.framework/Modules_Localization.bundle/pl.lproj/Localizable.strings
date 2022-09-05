@@ -303,6 +303,8 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Powiedz nam wszystko, co musimy wiedzieć.";
 
+"dixa_contact_form_send" = "Wyślij";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Formularz kontaktowy";
 
@@ -332,3 +334,37 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 "dixa_continue_to_conversation" = "Przejdź do rozmowy";
 /* missing input in field */
 "dixa_empty_field_error" = "Aby kontynuować, wypełnij pole";
+
+"dixa_frontpage_find_articles" = "Znajdź artykuły";
+
+"dixa_knowledge_search_textfield_placeholder" = "Szukaj";
+
+"dixa_knowledge_navigation_title" = "Jak możemy pomóc?";
+
+"dixa_knowledge_suggested_articles" = "Proponowane artykuły";
+
+"dixa_knowledge_popular_topics" = "Popularne tematy";
+
+"dixa_knowledge_comment_title_helpful" = "Czy było to pomocne?";
+
+"dixa_knowledge_comment_title_contact_us" = "Skontaktuj się z nami, aby uzyskać dodatkową pomoc";
+
+"dixa_knowledge_comment_title_comment" = "Świetnie. Chcesz zostawić komentarz?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Dziękujemy za komentarz.";
+
+"dixa_knowledge_comment_yes" = "Tak, dziękuję";
+
+"dixa_knowledge_comment_no" = "Nie, potrzebuję pomocy.";
+
+"dixa_knowledge_feedback_button_add_comment" = "Dodaj komentarz";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Rozpocznij konwersację";
+
+"dixa_knowledge_feedback_your_comment" = "Twój komentarz";
+
+"dixa_knowledge_search_placeholder_info" = "Wprowadź dowolne słowo kluczowe lub zdanie, aby znaleźć powiązane artykuły.";
+
+"dixa_knowledge_search_placeholder_no_results" = "Nie znaleziono wyników dla";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Wypróbuj inne słowo kluczowe";

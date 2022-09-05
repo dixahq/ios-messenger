@@ -301,6 +301,8 @@
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Mondja el, amiről tudnunk kellene";
 
+"dixa_contact_form_send" = "Küldés";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kapcsolatfelvételi űrlap";
 
@@ -330,3 +332,37 @@
 "dixa_continue_to_conversation" = "Folytassa a beszélgetéssel";
 /* missing input in field */
 "dixa_empty_field_error" = "Kérjük, töltse ki a mezőt a folytatáshoz";
+
+"dixa_frontpage_find_articles" = "Cikkek keresése";
+
+"dixa_knowledge_search_textfield_placeholder" = "Keresés";
+
+"dixa_knowledge_navigation_title" = "Hogyan segíthetünk?";
+
+"dixa_knowledge_suggested_articles" = "Ajánlott cikkek";
+
+"dixa_knowledge_popular_topics" = "Népszerű témakörök";
+
+"dixa_knowledge_comment_title_helpful" = "Hasznos volt ez?";
+
+"dixa_knowledge_comment_title_contact_us" = "További segítségért vedd fel velünk a kapcsolatot";
+
+"dixa_knowledge_comment_title_comment" = "Nagyszerű. Szeretne megjegyzést hagyni?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Köszönjük a hozzászólását.";
+
+"dixa_knowledge_comment_yes" = "Igen, köszönöm";
+
+"dixa_knowledge_comment_no" = "Nem, segítségre van szükségem";
+
+"dixa_knowledge_feedback_button_add_comment" = "Hozzászólás hozzáadása";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Beszélgetés indítása";
+
+"dixa_knowledge_feedback_your_comment" = "Hozzászólása";
+
+"dixa_knowledge_search_placeholder_info" = "A kapcsolódó cikkek kereséséhez Írjon be egy kulcsszót vagy mondatot";
+
+"dixa_knowledge_search_placeholder_no_results" = "Nincs találat a következőre:";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Próbálkozz egy másik kulcsszóval";

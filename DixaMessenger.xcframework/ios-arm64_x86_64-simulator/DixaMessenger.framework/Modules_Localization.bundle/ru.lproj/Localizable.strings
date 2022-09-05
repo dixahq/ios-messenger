@@ -301,6 +301,8 @@
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Расскажите нам всё!";
 
+"dixa_contact_form_send" = "Отправить";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Форма обратной связи";
 
@@ -330,3 +332,37 @@
 "dixa_continue_to_conversation" = "Перейти к чату";
 /* missing input in field */
 "dixa_empty_field_error" = "Заполните поле, чтобы продолжить";
+
+"dixa_frontpage_find_articles" = "Найти статьи";
+
+"dixa_knowledge_search_textfield_placeholder" = "Поиск";
+
+"dixa_knowledge_navigation_title" = "Чем мы можем вам помочь?";
+
+"dixa_knowledge_suggested_articles" = "Рекомендуемые статьи";
+
+"dixa_knowledge_popular_topics" = "Популярные темы";
+
+"dixa_knowledge_comment_title_helpful" = "Информация была полезной?";
+
+"dixa_knowledge_comment_title_contact_us" = "Свяжитесь с нами для получения помощи";
+
+"dixa_knowledge_comment_title_comment" = "Отлично. Хотите оставить комментарий?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Спасибо за комментарий.";
+
+"dixa_knowledge_comment_yes" = "Да, спасибо";
+
+"dixa_knowledge_comment_no" = "Нет, мне нужна помощь";
+
+"dixa_knowledge_feedback_button_add_comment" = "Добавить комментарий";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Начать чат";
+
+"dixa_knowledge_feedback_your_comment" = "Ваш комментарий";
+
+"dixa_knowledge_search_placeholder_info" = "Введите ключевое слово или фразу, чтобы найти связанные статьи";
+
+"dixa_knowledge_search_placeholder_no_results" = "Нет результатов по запросу";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Попробуйте другое ключевое слово";

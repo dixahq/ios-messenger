@@ -301,6 +301,8 @@
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Fortæl os hvad vi bør vide";
 
+"dixa_contact_form_send" = "Send";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontaktform";
 
@@ -330,3 +332,37 @@
 "dixa_continue_to_conversation" = "Fortsæt til samtale";
 /* missing input in field */
 "dixa_empty_field_error" = "Udfyld feltet for at fortsætte";
+
+"dixa_frontpage_find_articles" = "Find artikler";
+
+"dixa_knowledge_search_textfield_placeholder" = "Søg";
+
+"dixa_knowledge_navigation_title" = "Hvordan kan vi hjælpe dig?";
+
+"dixa_knowledge_suggested_articles" = "Foreslåede artikler";
+
+"dixa_knowledge_popular_topics" = "Populære emner";
+
+"dixa_knowledge_comment_title_helpful" = "Var dette til hjælp?";
+
+"dixa_knowledge_comment_title_contact_us" = "Kontakt os for at få mere hjælp";
+
+"dixa_knowledge_comment_title_comment" = "Glimrende. Vil du efterlade en kommentar?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Tak for din kommentar.";
+
+"dixa_knowledge_comment_yes" = "Ja, tak";
+
+"dixa_knowledge_comment_no" = "Nej, jeg behøver hjælp";
+
+"dixa_knowledge_feedback_button_add_comment" = "Tilføj kommentaren";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Start samtale";
+
+"dixa_knowledge_feedback_your_comment" = "Din kommentar";
+
+"dixa_knowledge_search_placeholder_info" = "Indtast et nøgleord eller en sætning for at finde relaterede artikler";
+
+"dixa_knowledge_search_placeholder_no_results" = "Ingen resultater fundet for";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Prøv et andet nøgleord";

@@ -303,6 +303,8 @@ või meie kasutajatoele e-kirja saata.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Anna meile kogu oluline info";
 
+"dixa_contact_form_send" = "Saada";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontaktivorm";
 
@@ -332,3 +334,37 @@ või meie kasutajatoele e-kirja saata.";
 "dixa_continue_to_conversation" = "Liikuge edasi vestluse juurde";
 /* missing input in field */
 "dixa_empty_field_error" = "Jätkamiseks palun täitke väli";
+
+"dixa_frontpage_find_articles" = "Otsi artikleid";
+
+"dixa_knowledge_search_textfield_placeholder" = "Otsi";
+
+"dixa_knowledge_navigation_title" = "Kuidas saame abiks olla?";
+
+"dixa_knowledge_suggested_articles" = "Soovitatud artiklid";
+
+"dixa_knowledge_popular_topics" = "Populaarsed teemad";
+
+"dixa_knowledge_comment_title_helpful" = "Kas sellest oli abi?";
+
+"dixa_knowledge_comment_title_contact_us" = "Kui sul on veel küsimusi, võta ühendust";
+
+"dixa_knowledge_comment_title_comment" = "Suurepärane. Kas soovid kommenteerida?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Täname kommentaari eest.";
+
+"dixa_knowledge_comment_yes" = "Jah, aitäh";
+
+"dixa_knowledge_comment_no" = "Ei, vajan abi";
+
+"dixa_knowledge_feedback_button_add_comment" = "Lisa kommentaar";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Alusta vestlust";
+
+"dixa_knowledge_feedback_your_comment" = "Sinu kommentaar";
+
+"dixa_knowledge_search_placeholder_info" = "Seotud artiklite leidmiseks sisestage märksõna või lause";
+
+"dixa_knowledge_search_placeholder_no_results" = "Tulemusi ei leitud otsingule";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Proovi teist märksõna";

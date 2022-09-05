@@ -303,6 +303,8 @@ eller sende supportteamet vårt en e-post.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Fortell oss alt vi trenger å vite";
 
+"dixa_contact_form_send" = "Send";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontaktskjema";
 
@@ -332,3 +334,37 @@ eller sende supportteamet vårt en e-post.";
 "dixa_continue_to_conversation" = "Fortsett til samtalen";
 /* missing input in field */
 "dixa_empty_field_error" = "Fyll ut feltet for å fortsette";
+
+"dixa_frontpage_find_articles" = "Finn artikler";
+
+"dixa_knowledge_search_textfield_placeholder" = "Søk";
+
+"dixa_knowledge_navigation_title" = "Hvordan kan vi hjelpe deg?";
+
+"dixa_knowledge_suggested_articles" = "Foreslåtte artikler";
+
+"dixa_knowledge_popular_topics" = "Populære emner";
+
+"dixa_knowledge_comment_title_helpful" = "Var dette til hjelp?";
+
+"dixa_knowledge_comment_title_contact_us" = "Ta gjerne kontakt for mer hjelp";
+
+"dixa_knowledge_comment_title_comment" = "Supert. Vil du skrive en kommentar?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Takk for kommentaren.";
+
+"dixa_knowledge_comment_yes" = "Ja, takk";
+
+"dixa_knowledge_comment_no" = "Nei, jeg trenger hjelp";
+
+"dixa_knowledge_feedback_button_add_comment" = "Legg til kommentaren";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Start samtale";
+
+"dixa_knowledge_feedback_your_comment" = "Din kommentar";
+
+"dixa_knowledge_search_placeholder_info" = "Skriv søkeord eller setning for å finne relaterte artikler";
+
+"dixa_knowledge_search_placeholder_no_results" = "Ingen resultater funnet for";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Prøv et annet nøkkelord";

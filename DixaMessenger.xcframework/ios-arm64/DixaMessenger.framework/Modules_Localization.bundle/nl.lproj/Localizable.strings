@@ -303,6 +303,8 @@ of een e-mail naar onze klantenservice sturen.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Vertel ons alles wat we moeten weten";
 
+"dixa_contact_form_send" = "Verzenden";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Contactformulier";
 
@@ -332,3 +334,37 @@ of een e-mail naar onze klantenservice sturen.";
 "dixa_continue_to_conversation" = "Doorgaan naar gesprek";
 /* missing input in field */
 "dixa_empty_field_error" = "Vul het veld in om door te gaan";
+
+"dixa_frontpage_find_articles" = "Artikelen zoeken";
+
+"dixa_knowledge_search_textfield_placeholder" = "Zoeken";
+
+"dixa_knowledge_navigation_title" = "Hoe kunnen we u helpen?";
+
+"dixa_knowledge_suggested_articles" = "Aanbevolen artikelen";
+
+"dixa_knowledge_popular_topics" = "Populaire onderwerpen";
+
+"dixa_knowledge_comment_title_helpful" = "Was dit nuttig?";
+
+"dixa_knowledge_comment_title_contact_us" = "Neem contact op voor meer hulp";
+
+"dixa_knowledge_comment_title_comment" = "Geweldig. Wilt u een reactie achterlaten?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Bedankt voor uw reactie.";
+
+"dixa_knowledge_comment_yes" = "Ja, bedankt";
+
+"dixa_knowledge_comment_no" = "Nee, ik heb hulp nodig";
+
+"dixa_knowledge_feedback_button_add_comment" = "Voeg de reactie toe";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Gesprek beginnen";
+
+"dixa_knowledge_feedback_your_comment" = "Uw reactie";
+
+"dixa_knowledge_search_placeholder_info" = "Typ elk trefwoord of zin om verwante artikelen te zoeken";
+
+"dixa_knowledge_search_placeholder_no_results" = "Geen resultaten gevonden voor";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Probeer een ander trefwoord";

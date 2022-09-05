@@ -303,6 +303,8 @@ eða sent þjónustudeildinni skilaboð.";
 /* loco:615fe09696ea1a64d6036ad2 */
 "dixa_contact_form_tell_us_everything" = "Segðu okkur allt sem við þurfum að vita";
 
+"dixa_contact_form_send" = "Senda";
+
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Sambandseyðublað";
 
@@ -332,3 +334,37 @@ eða sent þjónustudeildinni skilaboð.";
 "dixa_continue_to_conversation" = "Halda áfram í samtal";
 /* missing input in field */
 "dixa_empty_field_error" = "Fylltu út reitinn til að halda áfram";
+
+"dixa_frontpage_find_articles" = "Finna greinar";
+
+"dixa_knowledge_search_textfield_placeholder" = "Leit";
+
+"dixa_knowledge_navigation_title" = "Hvernig getum við aðstoðað?";
+
+"dixa_knowledge_suggested_articles" = "Tillögur að greinum";
+
+"dixa_knowledge_popular_topics" = "Vinsæl málefni";
+
+"dixa_knowledge_comment_title_helpful" = "Var þetta hjálplegt?";
+
+"dixa_knowledge_comment_title_contact_us" = "Hafðu samband til að fá meiri aðstoð";
+
+"dixa_knowledge_comment_title_comment" = "Frábært. Viltu skilja eftir ummæli?";
+
+"dixa_knowledge_comment_title_comment_thanks" = "Takk fyrir ummælin.";
+
+"dixa_knowledge_comment_yes" = "Já, takk";
+
+"dixa_knowledge_comment_no" = "Nei, ég þarf aðstoð";
+
+"dixa_knowledge_feedback_button_add_comment" = "Bæta við athugasemd";
+
+"dixa_knowledge_feedback_button_start_conversation" = "Byrja á samtali";
+
+"dixa_knowledge_feedback_your_comment" = "Ummælin þín";
+
+"dixa_knowledge_search_placeholder_info" = "Skrifaðu leitarorð eða setningu til að finna tengdar greinar";
+
+"dixa_knowledge_search_placeholder_no_results" = "Engar niðurstöður fundust fyrir";
+
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Prófaðu annað leitarorð";
