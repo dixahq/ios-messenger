@@ -366,3 +366,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "Nessun risultato per";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Prova un'altra parola chiave";
+
+"dixa_message_waiting_for_agent" = "In attesa di partecipazione da parte dell'agente";

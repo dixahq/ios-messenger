@@ -368,3 +368,5 @@ ett e-postmeddelande till vårt supportteam.";
 "dixa_knowledge_search_placeholder_no_results" = "Inga resultat hittades för";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Testa ett annat nyckelord";
+
+"dixa_message_waiting_for_agent" = "Väntar på en agent att gå med";

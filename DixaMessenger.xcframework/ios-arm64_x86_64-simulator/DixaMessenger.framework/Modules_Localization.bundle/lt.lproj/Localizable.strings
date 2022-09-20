@@ -368,3 +368,5 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 "dixa_knowledge_search_placeholder_no_results" = "Nerasta jokių rezultatų, atitinkančių";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Bandyti įvesti kitą raktažodį";
+
+"dixa_message_waiting_for_agent" = "Laukiama, kol prisijungs agentas";

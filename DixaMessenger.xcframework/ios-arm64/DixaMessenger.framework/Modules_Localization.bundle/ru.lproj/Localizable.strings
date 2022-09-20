@@ -366,3 +366,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "Нет результатов по запросу";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Попробуйте другое ключевое слово";
+
+"dixa_message_waiting_for_agent" = "В ожидании присоединения агента поддержки";

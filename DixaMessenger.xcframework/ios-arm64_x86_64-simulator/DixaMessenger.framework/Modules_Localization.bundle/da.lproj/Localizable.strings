@@ -366,3 +366,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "Ingen resultater fundet for";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Prøv et andet nøgleord";
+
+"dixa_message_waiting_for_agent" = "Venter på, at en medarbejder tilslutter";

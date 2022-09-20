@@ -368,3 +368,5 @@ o enviar un correo electrónico al equipo de asistencia.";
 "dixa_knowledge_search_placeholder_no_results" = "No se han encontrado resultados para";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Prueba otra palabra clave";
+
+"dixa_message_waiting_for_agent" = "Esperando que se una un agente";

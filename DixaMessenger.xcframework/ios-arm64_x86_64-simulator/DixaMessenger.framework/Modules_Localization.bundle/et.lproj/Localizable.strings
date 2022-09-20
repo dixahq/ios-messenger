@@ -368,3 +368,5 @@ või meie kasutajatoele e-kirja saata.";
 "dixa_knowledge_search_placeholder_no_results" = "Tulemusi ei leitud otsingule";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Proovi teist märksõna";
+
+"dixa_message_waiting_for_agent" = "Oodatakse agendi liitumist";

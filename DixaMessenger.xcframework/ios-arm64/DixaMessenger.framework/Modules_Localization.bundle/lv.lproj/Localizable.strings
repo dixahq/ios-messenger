@@ -366,3 +366,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "Netika atrasts neviens rezultāts:";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Izmēģiniet citu atslēgvārdu";
+
+"dixa_message_waiting_for_agent" = "Gaida aģenta pievienošanos";

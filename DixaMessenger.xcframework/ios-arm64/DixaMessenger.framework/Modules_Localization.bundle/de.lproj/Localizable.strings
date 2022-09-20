@@ -368,3 +368,5 @@ versuchen, oder dich per E-Mail an unser Support-Team wenden.";
 "dixa_knowledge_search_placeholder_no_results" = "Keine Ergebnisse gefunden für";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Versuche es mit einem anderen Schlüsselwort";
+
+"dixa_message_waiting_for_agent" = "Warten auf den Beitritt eines Agenten";

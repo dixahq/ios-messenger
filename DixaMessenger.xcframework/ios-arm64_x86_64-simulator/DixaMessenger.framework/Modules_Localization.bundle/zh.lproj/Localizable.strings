@@ -368,3 +368,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "未找到符合以下条件的结果";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "请尝试其他关键词";
+
+"dixa_message_waiting_for_agent" = "正在等待代理加入";

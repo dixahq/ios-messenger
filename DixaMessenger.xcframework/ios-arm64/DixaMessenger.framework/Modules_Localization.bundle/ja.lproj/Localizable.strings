@@ -368,3 +368,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "該当する結果が見つかりませんでした： ";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "別のキーワードを試してください";
+
+"dixa_message_waiting_for_agent" = "担当者の参加待ち";

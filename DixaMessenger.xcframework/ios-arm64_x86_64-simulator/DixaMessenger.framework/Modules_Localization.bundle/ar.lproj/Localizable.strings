@@ -366,3 +366,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "لم يتم العثور على نتائج لـ";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "تجربة كلمة رئيسية أخرى";
+
+"dixa_message_waiting_for_agent" = "في انتظار انضمام وكيل";

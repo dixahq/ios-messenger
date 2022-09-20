@@ -366,3 +366,5 @@
 "dixa_knowledge_search_placeholder_no_results" = "Nincs találat a következőre:";
 
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Próbálkozz egy másik kulcsszóval";
+
+"dixa_message_waiting_for_agent" = "Várakozás a munkatársunk csatlakozására";
