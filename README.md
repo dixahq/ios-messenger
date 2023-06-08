@@ -1,9 +1,8 @@
 ## Contents
-
 - [Requirements](#requirements)
 - [Configuring DixaMessenger](#configuring-dixamessenger)
-  - [Log level](#log-level)
-  - [Push Environment](#push-environment)
+    - [Log level](#log-level)
+    - [Push Environment](#push-environment)
 - [Authentication](#authentication)
 - [Launching the Messenger](#launching-the-messenger)
 - [Unread messages](#unread-messages)
@@ -11,26 +10,22 @@
 - [Supporting nfo files](#supporting-nfo-files)
 
 ## Requirements
-
 - iOS 13+
 
 ## Installation
-
-Dixa Messenger SDK can be installed using Swift package manager or by manually downloading and adding it to the project.
+The Dixa Messenger SDK can be installed using Swift package manager or by manually downloading and adding it to the project.
 
 ### Swift package manager (preferred)
 
-In Xcode add a package dependency to your project with the following URL: `https://github.com/dixahq/ios-messenger`
+In Xcode add a package dependency to your project with the following URL: ``"https://github.com/dixahq/ios-messenger"`
 
 ### Manual
-
 The XCFramework can be downloaded from our [release page](https://github.com/dixahq/ios-messenger/releases). The unzipped XCFramework needs to be placed on the Framewrok searchpath of your Xcode project, and imported into the project, then configured to `Embed and sign`.
 
 ## Configuring DixaMessenger
 
 Our suggestion for configuring the DixaMessenger, is to do so in the AppDelegate.
 The following is an example of how it could be done:
-
 ```swift
 import DixaMessenger
 
@@ -50,14 +45,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #endif
 
         Messenger.configure(config)
-
+        
         return true
     }
 }
 ```
 
 ## Configuration API
-
 ```swift
 /// Creates a new configuration
 DixaConfiguration(token: String, logLevel: LogLevel, pushEnvironment: PushEnvironment)
@@ -94,7 +88,6 @@ Messenger.configure(_: DixaConfiguration)
 ```
 
 Example:
-
 ```swift
 // One line configuration
 DixaConfiguration(token: "<api-key-goes-here>", logLevel: .error, pushEnvironment: .sandbox)
@@ -108,10 +101,8 @@ DixaConfiguration()
 ```
 
 ### Log level
-
 The messenger provides you with different options for logging information to the console.
 By default, no messages is logged to console
-
 ```swift
 /// This logging level will not print any messages
 case none
@@ -124,26 +115,21 @@ case all
 ```
 
 example
-
 ```swift
 config.logLevel(.error)
 ```
 
 ### Push Environment
-
 By default, the push environment is set to `.production`, however, if you'd like you can set the pushEnvironment to `.sandbox` if you need to test push notifications while running your app in debug mode.
 
 example
-
 ```swift
 config.pushEnvironment(.sandbox)
 ```
 
 ## Authentication
-
 You can decide to have your users identified by supplying a username and an email for the user.
 If you previously had identification for a user, but no longer do, call "clearUserCredentials()" to remove the identification from the Messenger
-
 ```swift
 /// Update the user credentials associated with the DixaMessenger
 ///
@@ -160,12 +146,10 @@ Messenger.clearUserCredentials()
 ```
 
 ## Launching the Messenger
-
 In the host application, add a button from where the user can open the support interface.
 All you need to do, is to supply a view controller from where the messenger should be presented.
 
-The completion is called when the completion of `.present(_: UIViewController, completion: (() -> Void)?)` is called.
-
+The completion is called when the completion of  `.present(_: UIViewController, completion: (() -> Void)?)` is called.
 ```swift
 /// Presents the messenger as a Modal presentation
 ///
@@ -176,22 +160,18 @@ Messenger.openMessenger(from: UIViewController, completion: (() -> Void)? = nil)
 ```
 
 ## Unread messages
-
 The SDK offers an option for the hosting application to show how many unread messages there is.
 You can add yourself as a listener by calling the API like
-
 ```swift
 Messenger.unreadMessagesCountListener(completion: @escaping (_ count: Int) -> Void)
 ```
 
 ## Push notification handling
-
 To have DixaMessenger handle push messages, it requires that you do some footwork, since DixaMessenger doesn't automatically listens for notifications.
 
 First of all, create a push certificate and upload this in the your Dixa account.
 
 In the app, when you get a push token, forward that to the DixaMessenger
-
 ```swift
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
     Messenger.pushNotification.register(deviceToken: deviceToken)
@@ -203,7 +183,7 @@ All checks that DixaMessenger does, to verify whether the notification is intend
 If the Notification was intended for the Messenger, it returns true when you call `Messenger.pushNotification.process(notification: , rootViewController: )` otherwise false.
 Make sure to provide a ViewController from which it makes sense to present the Messenger in full-screen
 
-As well, DixaMessenger contains some logic for when to show, or not show a notification `Messenger.pushNotification.presentNotification(, withCompletionHandler: )` will return true if the message was intended for the Messenger and false otherwise.
+As well, DixaMessenger contains some logic for when to show, or not show a notification `Messenger.pushNotification.presentNotification(, withCompletionHandler: )` will return true if the message was intended for the Messenger and false otherwise. 
 If the notification wasn't intended for the messenger, you can handle the notification yourself.
 
 ```swift
@@ -226,7 +206,6 @@ extension YourNotificationHandlingObject: UNUserNotificationCenterDelegate {
 ```
 
 ## Push notification API
-
 ```swift
 /// Registers the deviceToken with DixaMessenger
 Messenger.pushNotification.register(deviceToken: Data)
@@ -253,10 +232,11 @@ Messenger.pushNotification.presentNotification(_: UNNotification, withCompletion
 
 ## Uploading photos
 
-To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file.
+To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file. 
 
-## Supporting nfo files
 
+
+ ## Supporting nfo files
 If you need to send nfo-files as attachments on devices below iOS 14, you need to declare a new uniform type identifier:
 
 - Go to Project Settings
@@ -267,17 +247,3 @@ If you need to send nfo-files as attachments on devices below iOS 14, you need t
 - In 'Extension' write: nfo
 
 ![supporting nfo files](./supporting-nfo.png)
-
-## Other platforms and docs on Dixa Messenger
-
-Dixa Messenger is supported on multiple platforms, including web and Native Mobile apps.
-
-1. iOS (iPhones)
-2. Android
-3. Browsers (Chrome, Safari, Firefox)
-4. React Native (Early Access Program)
-5. Flutter (Early Access Program)
-
-[Read more on technical documentation](https://messenger-docs.dixa.io/)
-
-[Read more on Dixa Messenger](https://support.dixa.help/en/categories/144-dixa-messenger)

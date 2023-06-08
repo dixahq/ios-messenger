@@ -1,0 +1,121 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import CoreHaptics
+import CoreText
+import CryptoKit
+import Foundation
+import MobileCoreServices
+import OSLog
+import PhotosUI
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import UniformTypeIdentifiers
+import UserNotifications
+import _Concurrency
+import _PhotosUI_SwiftUI
+import _StringProcessing
+import os
+extension Combine.Publisher where Self.Failure == Swift.Never {
+  public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
+}
+@objc @_inheritsConvenienceInitializers final public class Messenger : ObjectiveC.NSObject {
+  public static var pushNotification: DixaMessenger.RemoteNotification {
+    get
+  }
+  public static func configure(_ config: DixaMessenger.DixaConfiguration)
+  @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt, pushEnvironment: Swift.UInt)
+  @objc public static func registerForPushNotification(deviceToken: Foundation.Data)
+  @objc public static func unreadMessagesCountListener(completion: @escaping (_ count: Swift.Int) -> Swift.Void)
+  @objc public static func updateUserCredentials(username: Swift.String, email: Swift.String)
+  @objc public static func clearUserCredentials()
+  @objc public static func openMessenger(from presentationController: UIKit.UIViewController, completion: (() -> Swift.Void)? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIColor {
+  public func image(ofSize size: CoreFoundation.CGSize = CGSize(width: 1, height: 1), cornerRadius: CoreFoundation.CGFloat = 0) -> UIKit.UIImage?
+}
+@_hasMissingDesignatedInitializers final public class RemoteNotification {
+  final public func register(deviceToken token: Foundation.Data)
+  final public func process(notification: UserNotifications.UNNotification, rootViewController: UIKit.UIViewController) -> Swift.Bool
+  final public func presentNotification(_ notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
+  @objc deinit
+}
+extension os.OSLog {
+  public static let application: os.OSLog
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class AnimatedButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class KnowledgeViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+public enum LogLevel : Swift.UInt, Swift.Comparable {
+  public static func < (lhs: DixaMessenger.LogLevel, rhs: DixaMessenger.LogLevel) -> Swift.Bool
+  case none
+  case error
+  case warning
+  case all
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+public enum LogDestination {
+  case OSLog
+  case console
+  public static func == (a: DixaMessenger.LogDestination, b: DixaMessenger.LogDestination) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct APIError : Swift.Error {
+  public init(_ data: Foundation.Data)
+}
+extension Combine.Publishers {
+  public struct EventLogger<Upstream> : Combine.Publisher where Upstream : Combine.Publisher {
+    public typealias Output = Upstream.Output
+    public typealias Failure = Upstream.Failure
+    public init(upstream: Upstream, logMessage: Swift.String, logLevel: DixaMessenger.LogLevel)
+    public func receive<S>(subscriber: S) where S : Combine.Subscriber, Upstream.Failure == S.Failure, Upstream.Output == S.Input
+  }
+}
+extension Swift.Dictionary {
+  public mutating func merge(contentsOf dictionary: [Key : Value])
+  public func merging(contentsOf dictionary: [Key : Value]) -> [Key : Value]
+}
+public struct DixaConfiguration {
+  public enum PushEnvironment : Swift.UInt {
+    case production
+    case sandbox
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+  }
+  public init(token: Swift.String, logLevel: DixaMessenger.LogLevel = .none, pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment = .production)
+  public init()
+  public func apikey(_ token: Swift.String) -> DixaMessenger.DixaConfiguration
+  public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
+  public func pushEnvironment(_ environment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
+  public func supportedLanguages(_ languages: [Swift.String]) -> DixaMessenger.DixaConfiguration
+}
+extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Equatable {}
+extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Hashable {}
+extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.RawRepresentable {}
+extension DixaMessenger.LogLevel : Swift.Hashable {}
+extension DixaMessenger.LogLevel : Swift.RawRepresentable {}
+extension DixaMessenger.LogDestination : Swift.Equatable {}
+extension DixaMessenger.LogDestination : Swift.Hashable {}

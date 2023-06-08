@@ -370,3 +370,7 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Bandyti įvesti kitą raktažodį";
 
 "dixa_message_waiting_for_agent" = "Laukiama, kol prisijungs agentas";
+
+"dixa_end_conversation_title" = "End conversation";
+
+"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";

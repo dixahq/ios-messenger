@@ -370,3 +370,7 @@ eller sende supportteamet vårt en e-post.";
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Prøv et annet nøkkelord";
 
 "dixa_message_waiting_for_agent" = "Venter på at en agent skal koble til";
+
+"dixa_end_conversation_title" = "End conversation";
+
+"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";

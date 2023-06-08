@@ -370,3 +370,7 @@ ou enviar um e-mail à nossa equipa de suporte.";
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Tente outra palavra-chave";
 
 "dixa_message_waiting_for_agent" = "A aguardar a entrada de um agente";
+
+"dixa_end_conversation_title" = "End conversation";
+
+"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";

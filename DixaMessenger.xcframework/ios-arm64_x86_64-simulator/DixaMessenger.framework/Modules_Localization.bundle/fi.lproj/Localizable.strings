@@ -370,3 +370,7 @@ lähettää sähköpostia tukitiimillemme.";
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Kokeile toista avainsanaa";
 
 "dixa_message_waiting_for_agent" = "Odotetaan asiakaspalvelijan liittymistä";
+
+"dixa_end_conversation_title" = "End conversation";
+
+"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";

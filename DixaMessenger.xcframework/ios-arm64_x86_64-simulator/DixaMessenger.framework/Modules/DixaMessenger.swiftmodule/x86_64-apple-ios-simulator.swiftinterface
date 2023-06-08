@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import CoreHaptics
 import CoreText
@@ -16,6 +17,8 @@ import UIKit
 import UniformTypeIdentifiers
 import UserNotifications
 import _Concurrency
+import _PhotosUI_SwiftUI
+import _StringProcessing
 import os
 extension Combine.Publisher where Self.Failure == Swift.Never {
   public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
@@ -35,7 +38,7 @@ extension Combine.Publisher where Self.Failure == Swift.Never {
   @objc deinit
 }
 extension UIKit.UIColor {
-  public func image(ofSize size: CoreGraphics.CGSize = CGSize(width: 1, height: 1), cornerRadius: CoreGraphics.CGFloat = 0) -> UIKit.UIImage?
+  public func image(ofSize size: CoreFoundation.CGSize = CGSize(width: 1, height: 1), cornerRadius: CoreFoundation.CGFloat = 0) -> UIKit.UIImage?
 }
 @_hasMissingDesignatedInitializers final public class RemoteNotification {
   final public func register(deviceToken token: Foundation.Data)
