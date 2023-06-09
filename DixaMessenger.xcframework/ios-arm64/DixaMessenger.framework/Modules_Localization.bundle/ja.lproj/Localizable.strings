@@ -371,6 +371,6 @@
 
 "dixa_message_waiting_for_agent" = "担当者の参加待ち";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "会話を終了する";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "下のボタンをクリックすると、現在の会話を終了します。";

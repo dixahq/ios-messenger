@@ -369,6 +369,6 @@
 
 "dixa_message_waiting_for_agent" = "En attente d'un agent";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Terminer cette conversation";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "En cliquant sur le bouton ci-dessous, vous terminerez votre conversation actuelle.";

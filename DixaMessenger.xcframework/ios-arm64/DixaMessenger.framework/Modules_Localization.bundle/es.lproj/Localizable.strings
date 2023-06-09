@@ -371,6 +371,6 @@ o enviar un correo electrónico al equipo de asistencia.";
 
 "dixa_message_waiting_for_agent" = "Esperando que se una un agente";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Finalizar conversación";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "Al hacer clic en el botón de abajo terminarás tu conversación actual.";

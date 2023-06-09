@@ -371,6 +371,6 @@ versuchen, oder dich per E-Mail an unser Support-Team wenden.";
 
 "dixa_message_waiting_for_agent" = "Warten auf den Beitritt eines Agenten";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Konversation beenden";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "Bist Du sicher, dass Du die Konversation beenden möchtest?";

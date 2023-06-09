@@ -369,6 +369,6 @@
 
 "dixa_message_waiting_for_agent" = "Várakozás a munkatársunk csatlakozására";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Beszélgetés befejezése";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "Az alábbi gomb megnyomásával ön befejezi a beszélgetést.";

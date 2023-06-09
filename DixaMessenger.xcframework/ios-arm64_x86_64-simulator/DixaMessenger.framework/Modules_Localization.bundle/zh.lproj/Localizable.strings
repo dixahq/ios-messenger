@@ -371,6 +371,6 @@
 
 "dixa_message_waiting_for_agent" = "正在等待代理加入";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "关闭会话";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "点击下面的按钮将结束您当前的对话。";
