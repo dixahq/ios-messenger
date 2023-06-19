@@ -157,7 +157,7 @@ Authentication is done using a JWE token, that is signed with one of the private
     ///   - token: jwe token
 Messenger.verifyUser(token: String)
 
-/// Removes jwe-token, if there's stored any.
+/// Removes jwe-token, if it is stored.
 Messenger.clearVerificationToken()
 ```
 
