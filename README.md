@@ -152,9 +152,9 @@ Messenger.clearUserCredentials()
 Authentication is done using a JWE token, that is signed with one of the private keys, configured in the DixaMessenger Dashboard. This token needs to be specified programatically, as opposed to the **Claimed** authentication where the SDK will ask the user to input their username and email.
 
 ```swift
-    /// Update the user authentication jwe-token
-    /// - Parameters:
-    ///   - token: jwe token
+/// Update the user authentication jwe-token
+/// - Parameters:
+///   - token: jwe token
 Messenger.verifyUser(token: String)
 
 /// Removes jwe-token, if there's stored any.
