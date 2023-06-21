@@ -303,8 +303,14 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// \param email email to identify the user
 ///
 + (void)updateUserCredentialsWithUsername:(NSString * _Nonnull)username email:(NSString * _Nonnull)email;
+/// Update the user authentication jwe-token
+/// \param token jwe token
+///
++ (void)verifyUserWith:(NSString * _Nonnull)token;
 /// Removes stored credentials, if there’s stored credentials
 + (void)clearUserCredentials;
+/// Removes stored credentials, if there’s stored credentials
++ (void)clearVerificationToken;
 /// Presents the messenger as a Modal presentation
 /// Call openMessenger, when the user has tapped on a button to launch the Messenger Client.
 /// The presentation style will be .fullScreen
@@ -657,8 +663,14 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// \param email email to identify the user
 ///
 + (void)updateUserCredentialsWithUsername:(NSString * _Nonnull)username email:(NSString * _Nonnull)email;
+/// Update the user authentication jwe-token
+/// \param token jwe token
+///
++ (void)verifyUserWith:(NSString * _Nonnull)token;
 /// Removes stored credentials, if there’s stored credentials
 + (void)clearUserCredentials;
+/// Removes stored credentials, if there’s stored credentials
++ (void)clearVerificationToken;
 /// Presents the messenger as a Modal presentation
 /// Call openMessenger, when the user has tapped on a button to launch the Messenger Client.
 /// The presentation style will be .fullScreen
