@@ -350,6 +350,7 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -679,6 +680,7 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 + (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController completion:(void (^ _Nullable)(void))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

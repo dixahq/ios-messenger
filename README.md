@@ -17,7 +17,7 @@ The Dixa Messenger SDK can be installed using Swift package manager or by manual
 
 ### Swift package manager (preferred)
 
-In Xcode add a package dependency to your project with the following URL: `"https://github.com/dixahq/ios-messenger"`
+In Xcode add a package dependency to your project with the following URL: ``"https://github.com/dixahq/ios-messenger"`
 
 ### Manual
 The XCFramework can be downloaded from our [release page](https://github.com/dixahq/ios-messenger/releases). The unzipped XCFramework needs to be placed on the Framewrok searchpath of your Xcode project, and imported into the project, then configured to `Embed and sign`.
@@ -128,11 +128,8 @@ config.pushEnvironment(.sandbox)
 ```
 
 ## Authentication
-You can decide to have your users identified. There are two types of authentication:
-
-**Claimed**
-Authentication is done using a username and email that the users provide.
-
+You can decide to have your users identified by supplying a username and an email for the user.
+If you previously had identification for a user, but no longer do, call "clearUserCredentials()" to remove the identification from the Messenger
 ```swift
 /// Update the user credentials associated with the DixaMessenger
 ///
@@ -146,19 +143,6 @@ Messenger.updateUserCredentials(username: String, email: String)
 
 /// Removes stored credentials, if there's stored credentials
 Messenger.clearUserCredentials()
-```
-
-**Verified**
-Authentication is done using a JWE token, that is signed with one of the private keys, configured in the Dixa Messenger Dashboard. This token needs to be specified programatically, as opposed to the **Claimed** authentication where the SDK will ask the user to input their username and email.
-
-```swift
-/// Update the user authentication jwe-token
-/// - Parameters:
-///   - token: jwe token
-Messenger.verifyUser(token: String)
-
-/// Removes jwe-token, if it is stored.
-Messenger.clearVerificationToken()
 ```
 
 ## Launching the Messenger
@@ -249,6 +233,8 @@ Messenger.pushNotification.presentNotification(_: UNNotification, withCompletion
 ## Uploading photos
 
 To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file. 
+
+
 
  ## Supporting nfo files
 If you need to send nfo-files as attachments on devices below iOS 14, you need to declare a new uniform type identifier:
