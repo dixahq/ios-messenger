@@ -26,7 +26,7 @@ In Xcode add a package dependency to your project with the following URL:
 
 In your pod file, add: 
 ```
-pod 'DixaMessengerKit', :git => 'https://github.com/dixahq/ios-messenger', :branch => 'main'
+pod 'DixaMessengerKit'
 ```
 
 ### Manual
