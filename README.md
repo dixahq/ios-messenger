@@ -19,7 +19,7 @@ The Dixa Messenger SDK can be installed using Swift package manager, cocoa pods 
 
 In Xcode add a package dependency to your project with the following URL: 
 ```
-"https://github.com/dixahq/ios-messenger"
+https://github.com/dixahq/ios-messenger
 ```
 
 ### Cocoapods
