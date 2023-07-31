@@ -17,11 +17,13 @@ The Dixa Messenger SDK can be installed using Swift package manager, cocoa pods 
 
 ### Swift package manager (preferred)
 
-In Xcode add a package dependency to your project with the following URL: `"https://github.com/dixahq/ios-messenger"`
+In Xcode add a package dependency to your project with the following URL: 
+```"https://github.com/dixahq/ios-messenger"```
 
 ### Cocoapods
 
-In your pod file, add: `pod 'DixaMessengerKit'`
+In your pod file, add: 
+```pod 'DixaMessengerKit'```
 
 ### Manual
 The XCFramework can be downloaded from our [release page](https://github.com/dixahq/ios-messenger/releases). The unzipped XCFramework needs to be placed on the Framewrok searchpath of your Xcode project, and imported into the project, then configured to `Embed and sign`.
