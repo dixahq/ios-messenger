@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import CoreHaptics
@@ -18,13 +18,8 @@ import UniformTypeIdentifiers
 import UserNotifications
 import WebKit
 import _Concurrency
-import _PhotosUI_SwiftUI
 import _StringProcessing
 import os
-extension SwiftUI.View {
-  public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
-  
-}
 extension Combine.Publisher where Self.Failure == Swift.Never {
   public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
 }

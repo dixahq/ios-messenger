@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		2/Ex7Bzh+bszffVZBn2w8GmKAh8=
+		uIvp0cmjWFnPvYkppFI5FXTpSXk=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<data>
-		wa/IjyACqM7ogcRYJeC5iee5WfI=
+		4/W6yl0gIAQPV5iQoVwUqPrSfZE=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		1tFpccqJsmdWcn2LA6xEdtSbNMA=
+		aF6QE8jvNWES95Vwl1UI7NrrJRk=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		LM5fsk1sj04GIZ7M/t6kNx15Mdw=
+		jXIfvYntPk2xHAoHdcVphFtbqdU=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		5kZWJHRkIKxboJ7bPwwwNkzTv94=
+		Xf2p/LhJ29R2Z7uGNZKVUU8kiEg=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -38,51 +38,51 @@
 		</data>
 		<key>Headers/DixaMessenger.h</key>
 		<data>
-		LQqWRtrETyuUc5I7FlOkpqJL8Oc=
+		gdSoXZGNqB/uxp85KHKkMcvXCXg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lQfpAPOW5wPjcoJj0l1kTZiNOUA=
+		qoOzfq5M7bDIwpmsQ667aHByj0k=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		07Z5gx4FiIhdXYosDCgQnY1q0Fw=
+		zkYoNDImEixnKLFYU7UhOO+w9d8=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IucfNc9vBBh3zDxMHc3n/lHvEFU=
+		Hl64pZRDoSMK+kn4m2en08Cl1gQ=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3onG2PRlkp8M0+U7JsZDRIJLl5A=
+		svu8uw9jlSehnH1KWqPaWhbLezY=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IucfNc9vBBh3zDxMHc3n/lHvEFU=
+		Hl64pZRDoSMK+kn4m2en08Cl1gQ=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x98KkOhWUIsEZECQzMjgxRbIJ10=
+		bVQY/UooZbSTnIrGcriQcYLB94Y=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		07Z5gx4FiIhdXYosDCgQnY1q0Fw=
+		zkYoNDImEixnKLFYU7UhOO+w9d8=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CyMUnIOjTBlVbdKxzBWZ4DHxGX8=
+		xSJ91C2KWUnkKo4XM1UugFqiYQU=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OaeiNKbGGulKrAvSY77NWtB/eTY=
+		c2p1aG5MOFzDgoekSRFlHyl11sw=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CyMUnIOjTBlVbdKxzBWZ4DHxGX8=
+		xSJ91C2KWUnkKo4XM1UugFqiYQU=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ei1jWJ+tXWvtZwV3buK2+FkX7FY=
+		+dsWaa/vUppm4ilkb0+/QBb3mT0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -330,7 +330,7 @@
 		</dict>
 		<key>Modules_Looks.bundle/Assets.car</key>
 		<data>
-		KHnmxRqUmWqQY+BGBefUdtcAETw=
+		/pJQMfq1ZQpSKbKSqS6TjgbC5fY=
 		</data>
 		<key>Modules_Looks.bundle/Info.plist</key>
 		<data>
@@ -338,7 +338,7 @@
 		</data>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		GenkbYmj3zse5q42SkJpHMNbND8=
+		0WfEVad+8XbtVY99JcOnDpDfmLQ=
 		</data>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -346,15 +346,87 @@
 		</data>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		I1JVPXdAnQ7H28eXNsqR5nfQEmA=
+		fSP2cQ6lRZB7TcI7M0kfNBA37cU=
 		</data>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		UNHJDng9RA+sH1EXXRFcsN59d24=
+		qWnhGhgexglbkHApJ1pTqOIa6C4=
 		</data>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeSignature</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>SFProText-Black.otf</key>
+		<data>
+		8mPEob8oANm7LjOKnHs7Fuk6TB4=
+		</data>
+		<key>SFProText-BlackItalic.otf</key>
+		<data>
+		pfq7v9ptSyOgdWlN520ijrjci7A=
+		</data>
+		<key>SFProText-Bold.otf</key>
+		<data>
+		w2LYIOMgRubQHyOWcWM+XhpthMM=
+		</data>
+		<key>SFProText-BoldItalic.otf</key>
+		<data>
+		euJ6vjTNjes5WTmt153K9bWOpxA=
+		</data>
+		<key>SFProText-Heavy.otf</key>
+		<data>
+		RpNrLCjTONC7ePUF03gQOS6PjuA=
+		</data>
+		<key>SFProText-HeavyItalic.otf</key>
+		<data>
+		ZAVBYQp/Zk/RCOMdRq83usdMawo=
+		</data>
+		<key>SFProText-Light.otf</key>
+		<data>
+		Q1LgdQAY6rwUac7QncLgNs2w7Gw=
+		</data>
+		<key>SFProText-LightItalic.otf</key>
+		<data>
+		FQbZ50dEYVSTHKVgzmpDAdlOXjI=
+		</data>
+		<key>SFProText-Medium.otf</key>
+		<data>
+		2UbBlEz7Y4z9QoIk3ngQNHiKftc=
+		</data>
+		<key>SFProText-MediumItalic.otf</key>
+		<data>
+		cwMJurYDakXskhWHyDdCocwbKFc=
+		</data>
+		<key>SFProText-Regular.otf</key>
+		<data>
+		bBsMkaMH6n9c3mCxb6qrkWU4VYU=
+		</data>
+		<key>SFProText-RegularItalic.otf</key>
+		<data>
+		/Stj07FZNpFkh+5Q/SeiScZtPnI=
+		</data>
+		<key>SFProText-Semibold.otf</key>
+		<data>
+		CHID6TzADuyoprEbwmRh2pTGZWU=
+		</data>
+		<key>SFProText-SemiboldItalic.otf</key>
+		<data>
+		QW+9aXPsWJbnGolgEvvBv101M7o=
+		</data>
+		<key>SFProText-Thin.otf</key>
+		<data>
+		IVAeog6yRgqYHPHDAmPbNRUS6Ec=
+		</data>
+		<key>SFProText-ThinItalic.otf</key>
+		<data>
+		i+GD/zIergXGABslu57ej5Jh1cM=
+		</data>
+		<key>SFProText-Ultralight.otf</key>
+		<data>
+		5AKOqHdNI/sj6I+YCJiLJ3UwgLo=
+		</data>
+		<key>SFProText-UltralightItalic.otf</key>
+		<data>
+		LlW+iYMU5ybUOVfPwgY91zHAWXE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -363,14 +435,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYGDjYCmnHSruITcAJN1eQZeIVVsLVFG+m18drvlGdI=
+			q9cPdic/7zFXA7XReCf0ONkInuQozRp30qXc6byJMsI=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ahzsB3jt/ML/Pw18oreKBXJxhara2bBfRBqY+OjsG/U=
+			t3xZajRzqgQVoavlUjkL+Z41MogjHaXDGZpX5Fie+LI=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
@@ -384,7 +456,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/0W8cCVPl7sx1Ap0p+18tyeaWYQqFVjQv1OkpYRY94=
+			l9iBEoClwyu/kdYL0MgKjOjQ2Aj6JN+FUzM5HGdP5DQ=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
@@ -398,14 +470,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tl0OdF8pWo9hTQExJHsr1AcZUbF1DUQrigNjQuMjyQo=
+			33QMqFMb6NpSK7o8QRK57tqytmrsRAF3oP2qk5XUyQI=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vAo0xWOBWKUAI63vMdwW9lKdhmKd7caYciQeB1h2jbc=
+			4vJsj+o0bR0XtLm70ytZFDcCCi1pFWrs+U1WPlb0HZo=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
@@ -419,77 +491,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B97mlPcyR1V2Yfpl1oALADx3ZM86E7T3vDiyyfCiVtE=
+			7YYLG56kAsKn2ToJj73f2ofRYRmOnP7yJAjPSDundoY=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3E3OuL/rM15JosnDeBlKtsayFujy4M0h1QbNileIRg=
+			Iy5vBURr5hIFeGmkRII7yzsq8ItrVEmyGLUCjkieWxg=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FWX9h3VKxQnI5sBYd1yD//BW9KfWsfoQw8e5/sKBs8Q=
+			M922tYC6ZOnTb6cccwiSRB/rU3IGOCRbzjjU6fOT7PE=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HxvsXAZ4B2jkjclcxEXcjqNN4KJA7HSx1uCK06UObJs=
+			TVdu1gSH3P/vpcxEPnHjXvPb7MT4tEK0oQHqCAaKoAM=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FWX9h3VKxQnI5sBYd1yD//BW9KfWsfoQw8e5/sKBs8Q=
+			M922tYC6ZOnTb6cccwiSRB/rU3IGOCRbzjjU6fOT7PE=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			alYWOdknOC9eCREPvQBMF77ZD0jNEHrJxebmZxJzlXY=
+			HB0x+iDQmdAweSeHdaLGt/BaGswu0oRy/ErxBrFQXxM=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3E3OuL/rM15JosnDeBlKtsayFujy4M0h1QbNileIRg=
+			Iy5vBURr5hIFeGmkRII7yzsq8ItrVEmyGLUCjkieWxg=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XbdzW2x2y7hUMbkQFldRXUsLI22zKDIgKyGNcBpfxtA=
+			e7dWxGekj0z9fDBUffy4Kd18P2CW31IYLpnU6E1YWtc=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7bDsee4vbNa2i0rqfgiXUjyVMywxrZuAE5PEddJnIFk=
+			BUtoYf7uROwEkNec3sBJDR3H9JzGhLrS8AE3tXmkj6g=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XbdzW2x2y7hUMbkQFldRXUsLI22zKDIgKyGNcBpfxtA=
+			e7dWxGekj0z9fDBUffy4Kd18P2CW31IYLpnU6E1YWtc=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wm515e+1OAmUmbQLK1cvAeAP1yFrBG0I3qZ5+XCVuzk=
+			s4a1OwzNAApB8DyE7zei7Xx/3VwlXZGB/BWVc0jO0xQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -761,7 +833,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMjIz7YyPu4F0RY27UwTzG7SKjpgJzLfKEKUGpNYo3U=
+			r8+6H7/vVW0qmsJSygCLVwYr4zxNO7dqHc8kboLQnRw=
 			</data>
 		</dict>
 		<key>Modules_Looks.bundle/Info.plist</key>
@@ -775,7 +847,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/4n+/QzdbJwK53fy9jvgzv9+MUvaGP0C1Nwd9xdNoE=
+			RrtQk4PQqp5opq53YO9M7X18c/0HMxSBp6A3tU/6emo=
 			</data>
 		</dict>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeRequirements</key>
@@ -789,14 +861,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sd5seMDTSQPfcZ+Q+WupulOHxlYj4aWESifpRJ+0eIk=
+			Ee2ClXKNViqK16JKHBBBY/h1mangwe9cfmQCvQ0bW8Y=
 			</data>
 		</dict>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cKM82+59A5bTpE+TWnniIAT+x3kKWALrFTsz1ls/LUA=
+			aU9qcVfiYauwRPx7OE8zQT7NkdZRhWmaxmkZHwv/u5w=
 			</data>
 		</dict>
 		<key>Modules_Looks.bundle/_CodeSignature/CodeSignature</key>
@@ -804,6 +876,132 @@
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>SFProText-Black.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FhCiODg19tCFsDjhJuB5wLDlugg7ZOiz0qIdQB790HM=
+			</data>
+		</dict>
+		<key>SFProText-BlackItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bcqANmGHMcW+XByRDliDcHb1rnEhuA6jUyfI7IkUOpo=
+			</data>
+		</dict>
+		<key>SFProText-Bold.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/vfrZTkKQb3SR7ASoOAYdQr9UhQ8KYkrghpqV5ZRaso=
+			</data>
+		</dict>
+		<key>SFProText-BoldItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2wCF9bm/U7n6DPxSmSG0jfDT64VG3aEWV0Rk6/iB7mE=
+			</data>
+		</dict>
+		<key>SFProText-Heavy.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NOWsvhOtXs3syDVTm3nvHuCCy7blF2oeLol42cdgajc=
+			</data>
+		</dict>
+		<key>SFProText-HeavyItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NXyJgJIzSxMBMlQMlYWlGGArY9KMrVqvQz8bmpYHk3c=
+			</data>
+		</dict>
+		<key>SFProText-Light.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MhRuEVVhjAsOM+r21DVejzrHALCYJIIgtgIZhVV1RXU=
+			</data>
+		</dict>
+		<key>SFProText-LightItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Kz/qXvXIWqTRVDVjXrG6rzLdZMO/zcNGJUq9xh11YCo=
+			</data>
+		</dict>
+		<key>SFProText-Medium.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kLNkfI0t/Iy7YiM6ApgtZjt0xtxuRQzRvn+3FLUzO1Q=
+			</data>
+		</dict>
+		<key>SFProText-MediumItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qcWVYrghfdM/n8XEMea0OyrhVcQpAS6V9LzsKQ1tbhc=
+			</data>
+		</dict>
+		<key>SFProText-Regular.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ov0qyVxb/487oy8NZYZACUdnRznYV+c/TXtjlLCui3c=
+			</data>
+		</dict>
+		<key>SFProText-RegularItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sncZgJGVUB/rVS+F5yap5fP+Nrkp3754JakHtbUCVHE=
+			</data>
+		</dict>
+		<key>SFProText-Semibold.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FAlzQ7SVSOgQJrMo6Lm11QTAKXa4pMU74QtbRQXWt6w=
+			</data>
+		</dict>
+		<key>SFProText-SemiboldItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MOy/tkgiUrRLmr2cb2nKUxIYad1c/REzQuy3rieqnuo=
+			</data>
+		</dict>
+		<key>SFProText-Thin.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kWcuNy5y1O48fOIOLocvuBW8ISZfoUKQuDoRHCsljYs=
+			</data>
+		</dict>
+		<key>SFProText-ThinItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RI2DtYd1AKzNq9rrDbu0+ElwgWWrXvUKH+SlhLNAAno=
+			</data>
+		</dict>
+		<key>SFProText-Ultralight.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jO1sdWLfar91BsiAGLRqBoBKMp6HfU4/dpy6VZ9Dvmg=
+			</data>
+		</dict>
+		<key>SFProText-UltralightItalic.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6qr3/HWthJGrE3o4e1Raf7LULuW5AsBnTFkcWJkebWg=
 			</data>
 		</dict>
 	</dict>
