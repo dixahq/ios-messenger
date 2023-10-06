@@ -10,7 +10,7 @@
 - [Supporting nfo files](#supporting-nfo-files)
 
 ## Requirements
-- iOS 13+
+- iOS 15+
 
 ## Installation
 The Dixa Messenger SDK can be installed using Swift package manager or by manually downloading and adding it to the project.
