@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		uIvp0cmjWFnPvYkppFI5FXTpSXk=
+		82UILGZAkk0T/1jA8Cmk0oJ3Jx0=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<data>
@@ -42,47 +42,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F4m7Pz3LDeyyG1XRF7jXZ9kwEVg=
+		XvFaj7S8V4HO2m0x5EHgieRE13A=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sVIsfPwLRqCyAZOu79OpsZBH4OM=
+		kVaU1pw3OkV4c0zE+Z2RmhQs914=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Hl64pZRDoSMK+kn4m2en08Cl1gQ=
+		oGRtc+hySXYVb412PRogXg2vncQ=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		svu8uw9jlSehnH1KWqPaWhbLezY=
+		rHHtQJp+vouD7qsPh8B5reWCuLE=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Hl64pZRDoSMK+kn4m2en08Cl1gQ=
+		oGRtc+hySXYVb412PRogXg2vncQ=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jh+7g7mwKobZMqxmQlPVMX6mO3E=
+		fuKzZ4gdHYBgffZNalugSRRqpyI=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sVIsfPwLRqCyAZOu79OpsZBH4OM=
+		kVaU1pw3OkV4c0zE+Z2RmhQs914=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xSJ91C2KWUnkKo4XM1UugFqiYQU=
+		MWDLKvXz10VK4PWk0rSG4dBCBwE=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c2p1aG5MOFzDgoekSRFlHyl11sw=
+		CcMJk8n2M4BPXXkjSfwTzOd8Q98=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xSJ91C2KWUnkKo4XM1UugFqiYQU=
+		MWDLKvXz10VK4PWk0rSG4dBCBwE=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KwLtZayGpUUbn5oGSANhGtDB+SM=
+		QraWSlBOctiVLKK5Yam+XyDUwnM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -356,77 +356,45 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
-		<key>SFProText-Black.otf</key>
+		<key>OpenSans-Bold.ttf</key>
 		<data>
-		8mPEob8oANm7LjOKnHs7Fuk6TB4=
+		wWkegWiyWWr4oAFiusYNvmBenjY=
 		</data>
-		<key>SFProText-BlackItalic.otf</key>
+		<key>OpenSans-BoldItalic.ttf</key>
 		<data>
-		pfq7v9ptSyOgdWlN520ijrjci7A=
+		zqeyXmJfj0LQnDA0qtiv2CbplBo=
 		</data>
-		<key>SFProText-Bold.otf</key>
+		<key>OpenSans-ExtraBold.ttf</key>
 		<data>
-		w2LYIOMgRubQHyOWcWM+XhpthMM=
+		l9C9RPFzGp2X/CnisiCINVdbYLk=
 		</data>
-		<key>SFProText-BoldItalic.otf</key>
+		<key>OpenSans-ExtraBoldItalic.ttf</key>
 		<data>
-		euJ6vjTNjes5WTmt153K9bWOpxA=
+		HYZdCj4F8TzpHjcn4MuX/cHEykI=
 		</data>
-		<key>SFProText-Heavy.otf</key>
+		<key>OpenSans-Italic.ttf</key>
 		<data>
-		RpNrLCjTONC7ePUF03gQOS6PjuA=
+		8WkurFZOlQI+TaNBobibquemUVU=
 		</data>
-		<key>SFProText-HeavyItalic.otf</key>
+		<key>OpenSans-Light.ttf</key>
 		<data>
-		ZAVBYQp/Zk/RCOMdRq83usdMawo=
+		QEQsGJVoGEtubCeiXWnxTZG2UDk=
 		</data>
-		<key>SFProText-Light.otf</key>
+		<key>OpenSans-LightItalic.ttf</key>
 		<data>
-		Q1LgdQAY6rwUac7QncLgNs2w7Gw=
+		c8RzCJTGeQDgt716SRxxfUojazA=
 		</data>
-		<key>SFProText-LightItalic.otf</key>
+		<key>OpenSans-Regular.ttf</key>
 		<data>
-		FQbZ50dEYVSTHKVgzmpDAdlOXjI=
+		NWTtC1Nj31zyd8FuDGvtxaaCIX8=
 		</data>
-		<key>SFProText-Medium.otf</key>
+		<key>OpenSans-Semibold.ttf</key>
 		<data>
-		2UbBlEz7Y4z9QoIk3ngQNHiKftc=
+		8e56nG0T7i1kKoBsCec3J15hN5I=
 		</data>
-		<key>SFProText-MediumItalic.otf</key>
+		<key>OpenSans-SemiboldItalic.ttf</key>
 		<data>
-		cwMJurYDakXskhWHyDdCocwbKFc=
-		</data>
-		<key>SFProText-Regular.otf</key>
-		<data>
-		bBsMkaMH6n9c3mCxb6qrkWU4VYU=
-		</data>
-		<key>SFProText-RegularItalic.otf</key>
-		<data>
-		/Stj07FZNpFkh+5Q/SeiScZtPnI=
-		</data>
-		<key>SFProText-Semibold.otf</key>
-		<data>
-		CHID6TzADuyoprEbwmRh2pTGZWU=
-		</data>
-		<key>SFProText-SemiboldItalic.otf</key>
-		<data>
-		QW+9aXPsWJbnGolgEvvBv101M7o=
-		</data>
-		<key>SFProText-Thin.otf</key>
-		<data>
-		IVAeog6yRgqYHPHDAmPbNRUS6Ec=
-		</data>
-		<key>SFProText-ThinItalic.otf</key>
-		<data>
-		i+GD/zIergXGABslu57ej5Jh1cM=
-		</data>
-		<key>SFProText-Ultralight.otf</key>
-		<data>
-		5AKOqHdNI/sj6I+YCJiLJ3UwgLo=
-		</data>
-		<key>SFProText-UltralightItalic.otf</key>
-		<data>
-		LlW+iYMU5ybUOVfPwgY91zHAWXE=
+		9XfOQyLHYaENCT8R8HekhgLSwHY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -435,7 +403,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q9cPdic/7zFXA7XReCf0ONkInuQozRp30qXc6byJMsI=
+			LX8xrHg5R0F8Tiy/Zydy3Ul6t4SCGBRqqSTgsW2gJgU=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
@@ -498,70 +466,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9+OtXWhYz9h4273w1t3QxaoDX5lcmEAPaQO97ytIzkk=
+			/cCgCt9CVInlvGUmaIWiPI/+VU2/E9p9BHBnZHDDWxw=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M922tYC6ZOnTb6cccwiSRB/rU3IGOCRbzjjU6fOT7PE=
+			vGU/5Q4w0o0t/8d0P0tfgqZLh0gctTPPOQG6JyAiWpM=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TVdu1gSH3P/vpcxEPnHjXvPb7MT4tEK0oQHqCAaKoAM=
+			teyoprdOpc4Ol/AAPv+S7vy65PBWdJB8jfCkf8G/80s=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M922tYC6ZOnTb6cccwiSRB/rU3IGOCRbzjjU6fOT7PE=
+			vGU/5Q4w0o0t/8d0P0tfgqZLh0gctTPPOQG6JyAiWpM=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gqsai9PEKqlKBBIfAT3rAMh3Fqcoc66dNCFLcPn02qM=
+			2tt7xniiiEz9m+v0BFtVGH9K0B0SEoEf/YhQAYtUF1U=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9+OtXWhYz9h4273w1t3QxaoDX5lcmEAPaQO97ytIzkk=
+			/cCgCt9CVInlvGUmaIWiPI/+VU2/E9p9BHBnZHDDWxw=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e7dWxGekj0z9fDBUffy4Kd18P2CW31IYLpnU6E1YWtc=
+			kKRJqrMlpGY4eLfISHcJaibIo6JRoQlwrDVblgIt7KI=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BUtoYf7uROwEkNec3sBJDR3H9JzGhLrS8AE3tXmkj6g=
+			xpscezNKD5YyUC0oIIjhay442g8rP0i1awcUWPq6kPE=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e7dWxGekj0z9fDBUffy4Kd18P2CW31IYLpnU6E1YWtc=
+			kKRJqrMlpGY4eLfISHcJaibIo6JRoQlwrDVblgIt7KI=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F7pa44c7juAVTidaqPT+/9hlDBPvIYNZ2Y+BQAuHuUE=
+			xTzxvOPOAQY+fg8NqXvQj9fOxitkFv6sFaYvB0zbnaM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -878,130 +846,74 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
-		<key>SFProText-Black.otf</key>
+		<key>OpenSans-Bold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FhCiODg19tCFsDjhJuB5wLDlugg7ZOiz0qIdQB790HM=
+			WJSjZJshPPWy1nO256hxgV/R0SD6aKRjWS8n2xTq4yM=
 			</data>
 		</dict>
-		<key>SFProText-BlackItalic.otf</key>
+		<key>OpenSans-BoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bcqANmGHMcW+XByRDliDcHb1rnEhuA6jUyfI7IkUOpo=
+			PKaA8kRMyeUER9BXwAZGRWbpLy53sLbiZJHlvXV+1Oc=
 			</data>
 		</dict>
-		<key>SFProText-Bold.otf</key>
+		<key>OpenSans-ExtraBold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/vfrZTkKQb3SR7ASoOAYdQr9UhQ8KYkrghpqV5ZRaso=
+			D8vbXL7qAK5TI1LHyUp9KI68kRuoX01ZUBIDLcq2S6g=
 			</data>
 		</dict>
-		<key>SFProText-BoldItalic.otf</key>
+		<key>OpenSans-ExtraBoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wCF9bm/U7n6DPxSmSG0jfDT64VG3aEWV0Rk6/iB7mE=
+			DuypgRFmIalqSE7MWPv83Hj9oAZf0h/RNwe2O/ipkSw=
 			</data>
 		</dict>
-		<key>SFProText-Heavy.otf</key>
+		<key>OpenSans-Italic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NOWsvhOtXs3syDVTm3nvHuCCy7blF2oeLol42cdgajc=
+			pU3ISI+Bk78ww4IM9vJh+RH50yjWmeGhuAQmQVVM7HA=
 			</data>
 		</dict>
-		<key>SFProText-HeavyItalic.otf</key>
+		<key>OpenSans-Light.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NXyJgJIzSxMBMlQMlYWlGGArY9KMrVqvQz8bmpYHk3c=
+			z19RhMFEGhZgqlJSYyjp1cJ5Pne22NOjrWVL2werhCQ=
 			</data>
 		</dict>
-		<key>SFProText-Light.otf</key>
+		<key>OpenSans-LightItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MhRuEVVhjAsOM+r21DVejzrHALCYJIIgtgIZhVV1RXU=
+			RILRizDEU0tUgdWUt8C8epkTp8TCYZheRSAQqJq3Vfw=
 			</data>
 		</dict>
-		<key>SFProText-LightItalic.otf</key>
+		<key>OpenSans-Regular.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kz/qXvXIWqTRVDVjXrG6rzLdZMO/zcNGJUq9xh11YCo=
+			5k5QiyqiiA+QfkcMRVCYDsTAaU0QOkPzYVCsP5MYm+4=
 			</data>
 		</dict>
-		<key>SFProText-Medium.otf</key>
+		<key>OpenSans-Semibold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kLNkfI0t/Iy7YiM6ApgtZjt0xtxuRQzRvn+3FLUzO1Q=
+			qjsO9T2xLj1FCUAwysDmnThORMxZeGQ91DkAQcrVRuI=
 			</data>
 		</dict>
-		<key>SFProText-MediumItalic.otf</key>
+		<key>OpenSans-SemiboldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qcWVYrghfdM/n8XEMea0OyrhVcQpAS6V9LzsKQ1tbhc=
-			</data>
-		</dict>
-		<key>SFProText-Regular.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ov0qyVxb/487oy8NZYZACUdnRznYV+c/TXtjlLCui3c=
-			</data>
-		</dict>
-		<key>SFProText-RegularItalic.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sncZgJGVUB/rVS+F5yap5fP+Nrkp3754JakHtbUCVHE=
-			</data>
-		</dict>
-		<key>SFProText-Semibold.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FAlzQ7SVSOgQJrMo6Lm11QTAKXa4pMU74QtbRQXWt6w=
-			</data>
-		</dict>
-		<key>SFProText-SemiboldItalic.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MOy/tkgiUrRLmr2cb2nKUxIYad1c/REzQuy3rieqnuo=
-			</data>
-		</dict>
-		<key>SFProText-Thin.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kWcuNy5y1O48fOIOLocvuBW8ISZfoUKQuDoRHCsljYs=
-			</data>
-		</dict>
-		<key>SFProText-ThinItalic.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RI2DtYd1AKzNq9rrDbu0+ElwgWWrXvUKH+SlhLNAAno=
-			</data>
-		</dict>
-		<key>SFProText-Ultralight.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jO1sdWLfar91BsiAGLRqBoBKMp6HfU4/dpy6VZ9Dvmg=
-			</data>
-		</dict>
-		<key>SFProText-UltralightItalic.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6qr3/HWthJGrE3o4e1Raf7LULuW5AsBnTFkcWJkebWg=
+			MFNiSOWSdFSNUSRWYvne7H+1KUb6ujOq3ijEFHO905s=
 			</data>
 		</dict>
 	</dict>
