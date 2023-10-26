@@ -10,7 +10,7 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<data>
-		wa/IjyACqM7ogcRYJeC5iee5WfI=
+		4/W6yl0gIAQPV5iQoVwUqPrSfZE=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		1tFpccqJsmdWcn2LA6xEdtSbNMA=
+		aF6QE8jvNWES95Vwl1UI7NrrJRk=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		LM5fsk1sj04GIZ7M/t6kNx15Mdw=
+		jXIfvYntPk2xHAoHdcVphFtbqdU=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		5kZWJHRkIKxboJ7bPwwwNkzTv94=
+		Xf2p/LhJ29R2Z7uGNZKVUU8kiEg=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kVaU1pw3OkV4c0zE+Z2RmhQs914=
+		cqT9hEO6n3x2IP6IzyWuVqTCCHg=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fuKzZ4gdHYBgffZNalugSRRqpyI=
+		Vx74qUYli4BHquEViOVuFKOM6EQ=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kVaU1pw3OkV4c0zE+Z2RmhQs914=
+		cqT9hEO6n3x2IP6IzyWuVqTCCHg=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QraWSlBOctiVLKK5Yam+XyDUwnM=
+		dx6BP5uLDp4YNlbxsVxr+R8XQAM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -410,7 +410,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ahzsB3jt/ML/Pw18oreKBXJxhara2bBfRBqY+OjsG/U=
+			t3xZajRzqgQVoavlUjkL+Z41MogjHaXDGZpX5Fie+LI=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
@@ -424,7 +424,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/0W8cCVPl7sx1Ap0p+18tyeaWYQqFVjQv1OkpYRY94=
+			l9iBEoClwyu/kdYL0MgKjOjQ2Aj6JN+FUzM5HGdP5DQ=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
@@ -438,14 +438,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tl0OdF8pWo9hTQExJHsr1AcZUbF1DUQrigNjQuMjyQo=
+			33QMqFMb6NpSK7o8QRK57tqytmrsRAF3oP2qk5XUyQI=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vAo0xWOBWKUAI63vMdwW9lKdhmKd7caYciQeB1h2jbc=
+			4vJsj+o0bR0XtLm70ytZFDcCCi1pFWrs+U1WPlb0HZo=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
@@ -466,7 +466,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/cCgCt9CVInlvGUmaIWiPI/+VU2/E9p9BHBnZHDDWxw=
+			KecIXgMBleINVY6dXRsO25J+dKwoiwJkCEuaXhuZCI4=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -494,14 +494,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2tt7xniiiEz9m+v0BFtVGH9K0B0SEoEf/YhQAYtUF1U=
+			zi2CZ/tKMMmDR+mqlmzYMT6NFrMCsLeDH7ukk8Ig9So=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/cCgCt9CVInlvGUmaIWiPI/+VU2/E9p9BHBnZHDDWxw=
+			KecIXgMBleINVY6dXRsO25J+dKwoiwJkCEuaXhuZCI4=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -529,7 +529,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xTzxvOPOAQY+fg8NqXvQj9fOxitkFv6sFaYvB0zbnaM=
+			D1Xr4R+UN30xZ0BdMUk3b6uXaZYPCsnQxeMifMlinF8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

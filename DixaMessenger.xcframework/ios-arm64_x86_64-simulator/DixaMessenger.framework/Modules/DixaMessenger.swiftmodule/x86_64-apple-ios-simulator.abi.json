@@ -8154,6 +8154,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/MessageBubbleTextCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 686,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Knowledge\/ArticleSearch\/Views\/CategoryHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 216,
@@ -9636,6 +9643,13 @@
       "offset": 827,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Extensions\/String helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 138,
+      "length": 2,
+      "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/PreviousConversationsViewController.swift",
