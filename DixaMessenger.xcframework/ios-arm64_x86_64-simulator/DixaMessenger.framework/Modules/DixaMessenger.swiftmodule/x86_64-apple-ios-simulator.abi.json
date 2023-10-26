@@ -7533,14 +7533,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/MenuView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3228,
+      "offset": 3007,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/MenuView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3473,
+      "offset": 3252,
       "length": 4,
       "value": "true"
     },
