@@ -7183,21 +7183,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationContainerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7035,
+      "offset": 7204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationContainerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7072,
+      "offset": 7241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationContainerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9915,
+      "offset": 10087,
       "length": 5,
       "value": "false"
     },
@@ -7309,7 +7309,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/ChatInputCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2554,
+      "offset": 2574,
       "length": 5,
       "value": "false"
     },
@@ -7447,6 +7447,48 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/CommandExecutionFailedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 12,
+      "value": "\"command_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/CommandExecutionFailedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/CommandExecutionFailedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/CommandExecutionFailedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 12,
+      "value": "\"command_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/CommandExecutionFailedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/CommandExecutionFailedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "Dictionary",
       "offset": 812,
@@ -7543,6 +7585,48 @@
       "offset": 3252,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/Agent.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 12,
+      "value": "\"avatar_url\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/Agent.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 12,
+      "value": "\"avatar_url\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentAssignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 12,
+      "value": "\"avatar_url\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentAssignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentAssignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 12,
+      "value": "\"avatar_url\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentAssignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 17,
+      "value": "\"conversation_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Knowledge\/ArticleSearch\/SearchViewModel.swift",
@@ -7690,6 +7774,188 @@
       "offset": 2618,
       "length": 1,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 6212,
+      "length": 14,
+      "value": "\"content_type\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 6212,
+      "length": 14,
+      "value": "\"content_type\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 7809,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 7809,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8058,
+      "length": 17,
+      "value": "\"rating_question\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8102,
+      "length": 13,
+      "value": "\"rating_type\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8148,
+      "length": 19,
+      "value": "\"followup_question\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8215,
+      "length": 36,
+      "value": "\"followup_question_placeholder_text\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8283,
+      "length": 19,
+      "value": "\"thank_you_message\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8058,
+      "length": 17,
+      "value": "\"rating_question\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8102,
+      "length": 13,
+      "value": "\"rating_type\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8148,
+      "length": 19,
+      "value": "\"followup_question\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8215,
+      "length": 36,
+      "value": "\"followup_question_placeholder_text\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8283,
+      "length": 19,
+      "value": "\"thank_you_message\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8738,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 8738,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 9262,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 9314,
+      "length": 18,
+      "value": "\"chosen_option_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 9262,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 9314,
+      "length": 18,
+      "value": "\"chosen_option_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 9683,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/DeliverMessagePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 9683,
+      "length": 21,
+      "value": "\"reply_to_message_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/MessageFormCell\/MessageFormCellViewModel.swift",
@@ -9395,7 +9661,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketHandling\/SocketWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 4452,
+      "offset": 4450,
       "length": 5,
       "value": "false"
     },
@@ -9981,6 +10247,34 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSeenPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSeenPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSeenPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSeenPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/MessageBubblePlaceholderCell.swift",
       "kind": "IntegerLiteral",
       "offset": 109,
@@ -10410,21 +10704,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Knowledge\/ArticleSearch\/Views\/KnowledgeTableHeaderView.swift",
       "kind": "FloatLiteral",
-      "offset": 4755,
+      "offset": 4680,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Knowledge\/ArticleSearch\/Views\/KnowledgeTableHeaderView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4977,
+      "offset": 4902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Knowledge\/ArticleSearch\/Views\/KnowledgeTableHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5024,
+      "offset": 4949,
       "length": 2,
       "value": "14"
     },
@@ -10627,16 +10921,86 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
       "kind": "StringLiteral",
-      "offset": 583,
-      "length": 9,
-      "value": "\"orgName\""
+      "offset": 200,
+      "length": 20,
+      "value": "\"open_conversations\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
       "kind": "StringLiteral",
-      "offset": 583,
-      "length": 9,
-      "value": "\"orgName\""
+      "offset": 256,
+      "length": 22,
+      "value": "\"closed_conversations\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 20,
+      "value": "\"open_conversations\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 22,
+      "value": "\"closed_conversations\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 14,
+      "value": "\"last_message\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 23,
+      "value": "\"unseen_messages_count\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 10,
+      "value": "\"org_name\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 14,
+      "value": "\"last_message\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 23,
+      "value": "\"unseen_messages_count\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Client Model\/MessengerState.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 10,
+      "value": "\"org_name\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/ChatInputView.swift",
@@ -11220,6 +11584,34 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentUnassignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 10,
+      "value": "\"agent_it\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentUnassignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentUnassignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 10,
+      "value": "\"agent_it\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/AgentUnassignedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/MessageFormCell\/SubViews\/FormTextArea\/FormTextAreaView.swift",
       "kind": "StringLiteral",
       "offset": 297,
@@ -11600,42 +11992,49 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 196,
-      "length": 12,
-      "value": "\"text\/x-nfo\""
+      "offset": 197,
+      "length": 11,
+      "value": "\"text\/html\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 12,
-      "value": "\"text\/x-log\""
+      "value": "\"text\/x-nfo\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
       "offset": 252,
+      "length": 12,
+      "value": "\"text\/x-log\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
       "length": 17,
       "value": "\"application\/pdf\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 317,
       "length": 10,
       "value": "\"text\/xml\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 326,
+      "offset": 354,
       "length": 17,
       "value": "\"application\/xml\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 395,
       "length": 26,
       "value": "\"application\/octet-stream\""
     },
@@ -11670,42 +12069,49 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 196,
-      "length": 12,
-      "value": "\"text\/x-nfo\""
+      "offset": 197,
+      "length": 11,
+      "value": "\"text\/html\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 12,
-      "value": "\"text\/x-log\""
+      "value": "\"text\/x-nfo\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
       "offset": 252,
+      "length": 12,
+      "value": "\"text\/x-log\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
       "length": 17,
       "value": "\"application\/pdf\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 317,
       "length": 10,
       "value": "\"text\/xml\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 326,
+      "offset": 354,
       "length": 17,
       "value": "\"application\/xml\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/ContentTypes.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 395,
       "length": 26,
       "value": "\"application\/octet-stream\""
     },
@@ -11733,7 +12139,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketResponse.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 570,
       "length": 34,
       "value": "\"Date not matching ISO8601 format\""
     },
@@ -11908,9 +12314,51 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/Send Messages\/SendMessageBuffer.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1308,
       "length": 13,
       "value": "\"dixa_buffer\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/Send Messages\/SendMessageBuffer.swift",
+      "kind": "StringLiteral",
+      "offset": 5339,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/Send Messages\/SendMessageBuffer.swift",
+      "kind": "StringLiteral",
+      "offset": 5382,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/Send Messages\/SendMessageBuffer.swift",
+      "kind": "StringLiteral",
+      "offset": 5426,
+      "length": 13,
+      "value": "\"buffer_date\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/Send Messages\/SendMessageBuffer.swift",
+      "kind": "StringLiteral",
+      "offset": 5339,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/Send Messages\/SendMessageBuffer.swift",
+      "kind": "StringLiteral",
+      "offset": 5382,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/Send Messages\/SendMessageBuffer.swift",
+      "kind": "StringLiteral",
+      "offset": 5426,
+      "length": 13,
+      "value": "\"buffer_date\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Knowledge\/Requests\/GetCategoriesRequest.swift",
@@ -11978,7 +12426,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 3918,
+      "offset": 4026,
       "length": 5,
       "value": "false"
     },
@@ -12002,6 +12450,20 @@
       "offset": 252,
       "length": 2,
       "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/DeliverMessageSender.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 10,
+      "value": "\"agent_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/DeliverMessageSender.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 10,
+      "value": "\"agent_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Knowledge\/Requests\/CommentArticleRequest.swift",
@@ -12767,6 +13229,20 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/EndConversationPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/EndConversationPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/MessageSeparatorCell.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
@@ -13028,7 +13504,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/ContactFormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1657,
+      "offset": 1789,
       "length": 5,
       "value": "false"
     },
@@ -13483,16 +13959,30 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/ConversationStartedPayload.swift",
       "kind": "StringLiteral",
-      "offset": 191,
-      "length": 9,
-      "value": "\"orgName\""
+      "offset": 173,
+      "length": 17,
+      "value": "\"conversation_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/ConversationStartedPayload.swift",
       "kind": "StringLiteral",
-      "offset": 191,
-      "length": 9,
-      "value": "\"orgName\""
+      "offset": 223,
+      "length": 10,
+      "value": "\"org_name\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/ConversationStartedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/ConversationStartedPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 10,
+      "value": "\"org_name\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/MessageBubbleCell.swift",
@@ -13586,11 +14076,67 @@
       "value": "12"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageDeliveredPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageDeliveredPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageDeliveredPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageDeliveredPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/Client\/Request.swift",
       "kind": "Array",
       "offset": 1657,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSentPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSentPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSentPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 12,
+      "value": "\"message_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/MessageSentPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 17,
+      "value": "\"conversation_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/Cells\/OpenConversationTableViewCell.swift",
@@ -13801,6 +14347,20 @@
       "offset": 207,
       "length": 7,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/ConversationIdPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 17,
+      "value": "\"conversation_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/ConversationIdPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 17,
+      "value": "\"conversation_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
