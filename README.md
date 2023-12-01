@@ -259,18 +259,3 @@ Messenger.pushNotification.presentNotification(_: UNNotification, withCompletion
 ## Uploading photos
 
 To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file. 
-
-
-
- ## Supporting nfo files
-If you need to send nfo-files as attachments on devices below iOS 14, you need to declare a new uniform type identifier:
-
-- Go to Project Settings
-- Select target
-- Go to Info, then Imported Type Identifiers
-- Add new with +
-- In 'Conforms To' write: public.txt
-- In 'Extension' write: nfo
-
-![supporting nfo files](./supporting-nfo.png)
-
