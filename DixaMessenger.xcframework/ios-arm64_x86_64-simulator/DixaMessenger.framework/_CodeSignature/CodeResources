@@ -8,9 +8,21 @@
 		<data>
 		MjZ/STtExfXNESvvDpVER/dqTXU=
 		</data>
+		<key>Release.xcconfig</key>
+		<data>
+		xKepkdkM8Fd7iryjmqv5W/yLTrg=
+		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>Release.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8fbU1KFd6o5lDxNGkQZcgY8M2fEOr586oUOlns2fj5c=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
