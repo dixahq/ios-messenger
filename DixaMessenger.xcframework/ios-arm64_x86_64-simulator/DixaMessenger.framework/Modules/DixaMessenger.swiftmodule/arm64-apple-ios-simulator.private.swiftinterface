@@ -1,11 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
+import CombineSchedulers
 import CoreHaptics
 import CoreText
 import CryptoKit
+import FontBlaster
 import Foundation
 import MobileCoreServices
 import OSLog
@@ -19,11 +21,17 @@ import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class KnowledgeViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
 extension Combine.Publisher where Self.Failure == Swift.Never {
   public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
 }
 @objc @_inheritsConvenienceInitializers final public class Messenger : ObjectiveC.NSObject {
+  public static var shared: DixaMessenger.Messenger
   public static var pushNotification: DixaMessenger.RemoteNotification {
     get
   }
@@ -60,9 +68,49 @@ extension os.OSLog {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
   @objc deinit
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class KnowledgeViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @objc deinit
+extension Foundation.Bundle {
+  public static var current: Foundation.Bundle {
+    get
+  }
+}
+
+extension SwiftUI.View {
+  public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
+  
+}
+extension SwiftUI.View {
+  public func hideKeyboard()
+}
+
+
+public enum DixaColor {
+}
+extension UIKit.UIColor {
+  public static func agentColor(for name: Swift.String) -> UIKit.UIColor
+}
+extension UIKit.UIFont {
+  public static func dixaLight(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaRegular(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+}
+extension SwiftUI.Font {
+  public static func dixaLight(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaRegular(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
 }
 public enum LogLevel : Swift.UInt, Swift.Comparable {
   public static func < (lhs: DixaMessenger.LogLevel, rhs: DixaMessenger.LogLevel) -> Swift.Bool
@@ -85,6 +133,7 @@ public enum LogDestination {
     get
   }
 }
+
 public struct APIError : Swift.Error {
   public init(_ data: Foundation.Data)
 }
@@ -116,10 +165,11 @@ public struct DixaConfiguration {
   public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
   public func pushEnvironment(_ environment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
   public func supportedLanguages(_ languages: [Swift.String]) -> DixaMessenger.DixaConfiguration
+  public func backendEnvironment(_ env: Swift.String) -> DixaMessenger.DixaConfiguration
 }
 public struct Article : Swift.Decodable, Swift.Equatable {
   public static func == (a: DixaMessenger.Article, b: DixaMessenger.Article) -> Swift.Bool
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension DixaMessenger.Article {
   public init(id: Swift.String, title: Swift.String)
@@ -130,10 +180,10 @@ public struct ArticleCategory : Swift.Decodable, Swift.Equatable, Swift.Hashable
   public var hashValue: Swift.Int {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ArticleHighlights : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ArticleAuthor : Swift.Decodable, Swift.Equatable, Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
@@ -141,7 +191,7 @@ public struct ArticleAuthor : Swift.Decodable, Swift.Equatable, Swift.Hashable {
   public var hashValue: Swift.Int {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Equatable {}
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Hashable {}
