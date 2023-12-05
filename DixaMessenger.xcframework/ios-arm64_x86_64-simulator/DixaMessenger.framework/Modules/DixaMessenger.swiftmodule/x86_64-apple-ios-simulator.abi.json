@@ -15341,21 +15341,21 @@
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_2A3363177F538C0E03917F1BA10F9177Ll7PreviewfMf_.swift",
       "kind": "StringLiteral",
-      "offset": 243,
+      "offset": 239,
       "length": 40,
       "value": "\"DixaMessenger\/MimTypingIndicator.swift\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_2A3363177F538C0E03917F1BA10F9177Ll7PreviewfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 307,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_2A3363177F538C0E03917F1BA10F9177Ll7PreviewfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 343,
+      "offset": 339,
       "length": 1,
       "value": "1"
     },
@@ -19457,56 +19457,56 @@
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 240,
       "length": 39,
       "value": "\"DixaMessenger\/MimArticlePreview.swift\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 307,
       "length": 2,
       "value": "37"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 343,
+      "offset": 339,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 509,
+      "offset": 505,
       "length": 8,
       "value": "\"elevio\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 577,
       "length": 47,
       "value": "\"https:\/\/solvemate.elevio.help\/en\/articles\/189\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 684,
+      "offset": 680,
       "length": 100,
       "value": "\"How to add solution information in questions (e.g. for troubleshooting bots, multi-step-solutions)\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 842,
+      "offset": 838,
       "length": 5,
       "value": "\"189\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_64B86389D2D6EF2ED5B86B71611D8F08Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 901,
       "length": 15,
       "value": "\"61f28077ddcf5\""
     },
@@ -20542,168 +20542,168 @@
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 240,
       "length": 35,
       "value": "\"DixaMessenger\/FormFieldView.swift\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 307,
+      "offset": 303,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 339,
+      "offset": 335,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 503,
+      "offset": 499,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 610,
       "length": 7,
       "value": "\"Email\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 675,
       "length": 18,
       "value": "\"Write your email\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 749,
+      "offset": 745,
       "length": 7,
       "value": "\"Email\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1171,
+      "offset": 1167,
       "length": 7,
       "value": "\"Sorry\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 1404,
+      "offset": 1400,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1515,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1586,
+      "offset": 1582,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1643,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2067,
       "length": 7,
       "value": "\"Sorry\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2304,
+      "offset": 2300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2417,
+      "offset": 2413,
       "length": 17,
       "value": "\"Dropdown Select\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2488,
       "length": 17,
       "value": "\"Dropdown Select\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2557,
       "length": 17,
       "value": "\"Dropdown Select\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2993,
+      "offset": 2989,
       "length": 7,
       "value": "\"Sorry\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 3226,
+      "offset": 3222,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 3338,
+      "offset": 3334,
       "length": 13,
       "value": "\"File Upload\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 3409,
+      "offset": 3405,
       "length": 13,
       "value": "\"File Upload\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 3474,
+      "offset": 3470,
       "length": 13,
       "value": "\"File Upload\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 3902,
+      "offset": 3898,
       "length": 7,
       "value": "\"Sorry\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_4B3C05C0646DE908E56E4D070DE56F12Ll7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 4135,
+      "offset": 4131,
       "length": 4,
       "value": "true"
     },
@@ -27829,287 +27829,287 @@
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 240,
       "length": 39,
       "value": "\"DixaMessenger\/MessageBubbleView.swift\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 307,
       "length": 3,
       "value": "125"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
+      "offset": 340,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 558,
       "length": 8,
       "value": "\"elevio\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 639,
       "length": 47,
       "value": "\"https:\/\/solvemate.elevio.help\/en\/articles\/189\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 755,
+      "offset": 751,
       "length": 100,
       "value": "\"How to add solution information in questions (e.g. for troubleshooting bots, multi-step-solutions)\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 922,
+      "offset": 918,
       "length": 5,
       "value": "\"189\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 990,
       "length": 15,
       "value": "\"61f28077ddcf5\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1080,
       "length": 9,
       "value": "\"chatbot\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1240,
+      "offset": 1236,
       "length": 25,
       "value": "\"Welcome to Delight 🥑\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 1281,
+      "offset": 1277,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 1383,
+      "offset": 1379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1424,
+      "offset": 1420,
       "length": 7,
       "value": "\"Lab08\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1509,
+      "offset": 1505,
       "length": 44,
       "value": "\"Here's an interesting article for you 🎁\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 1569,
+      "offset": 1565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1663,
+      "offset": 1659,
       "length": 51,
       "value": "\"Translated from German; may contain inaccuracies.\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 1726,
+      "offset": 1722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1767,
+      "offset": 1763,
       "length": 7,
       "value": "\"Lab08\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 1848,
       "length": 28,
       "value": "\"How can we help you today?\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 1896,
+      "offset": 1892,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2001,
+      "offset": 1997,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2042,
+      "offset": 2038,
       "length": 7,
       "value": "\"Lab08\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2128,
+      "offset": 2124,
       "length": 41,
       "value": "\"I have multiple issues with my billing.\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2185,
+      "offset": 2181,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2286,
+      "offset": 2282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2323,
       "length": 7,
       "value": "\"Lab08\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2413,
+      "offset": 2409,
       "length": 7,
       "value": "\"Hello\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2436,
+      "offset": 2432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2541,
+      "offset": 2537,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2582,
+      "offset": 2578,
       "length": 7,
       "value": "\"Lab08\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2663,
       "length": 24,
       "value": "\"This is Hubert Blaine.\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2707,
+      "offset": 2703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 2812,
+      "offset": 2808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 2849,
       "length": 7,
       "value": "\"Lab08\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 2956,
+      "offset": 2952,
       "length": 257,
       "value": "\"No, wait Hubert Blaine! I’m here now and\nI really need your help. If you’re still with\nme and would like to help, please start\ntyping. It would mean the world to me.\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 3246,
+      "offset": 3242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 3348,
+      "offset": 3344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3385,
       "length": 7,
       "value": "\"Lab08\""
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 3486,
+      "offset": 3482,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 3589,
+      "offset": 3585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_58BFF24B36CD7F2297D4D30CFF6ABDCBLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 3630,
+      "offset": 3626,
       "length": 7,
       "value": "\"Lab08\""
     },
