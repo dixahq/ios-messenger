@@ -2224,23 +2224,6 @@
       },
       {
         "kind": "Import",
-        "name": "CombineSchedulers",
-        "printedName": "CombineSchedulers",
-        "declKind": "Import",
-        "moduleName": "DixaMessenger"
-      },
-      {
-        "kind": "Import",
-        "name": "ComposableArchitecture",
-        "printedName": "ComposableArchitecture",
-        "declKind": "Import",
-        "moduleName": "DixaMessenger",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Models",
         "printedName": "Models",
         "declKind": "Import",
@@ -2248,6 +2231,13 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DixaMessenger"
       },
       {
         "kind": "Import",
@@ -14529,182 +14519,182 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 287,
+      "offset": 240,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 351,
+      "offset": 304,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 423,
+      "offset": 376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 454,
+      "offset": 407,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 689,
       "length": 27,
       "value": "\"name: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 701,
       "length": 1,
       "value": "\", email: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 762,
+      "offset": 715,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 785,
+      "offset": 738,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1348,
+      "offset": 1301,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1592,
+      "offset": 1545,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2206,
+      "offset": 2159,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2626,
+      "offset": 2579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 3099,
+      "offset": 3052,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3258,
+      "offset": 3211,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3310,
+      "offset": 3263,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3557,
+      "offset": 3510,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 3648,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3748,
+      "offset": 3701,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4203,
+      "offset": 4156,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 4268,
+      "offset": 4221,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4321,
+      "offset": 4274,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4781,
+      "offset": 4734,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4815,
+      "offset": 4768,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5280,
+      "offset": 5233,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5347,
+      "offset": 5300,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5403,
+      "offset": 5356,
       "length": 2,
       "value": "14"
     },

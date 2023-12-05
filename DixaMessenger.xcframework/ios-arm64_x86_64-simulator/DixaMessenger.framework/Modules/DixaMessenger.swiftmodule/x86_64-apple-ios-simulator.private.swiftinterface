@@ -3,7 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
-import CombineSchedulers
+import ComposableArchitecture
 import CoreHaptics
 import CoreText
 import CryptoKit
