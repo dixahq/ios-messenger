@@ -71,7 +71,6 @@ extension Foundation.Bundle {
     get
   }
 }
-#Preview()
 extension SwiftUI.View {
   public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
   
@@ -79,8 +78,6 @@ extension SwiftUI.View {
 extension SwiftUI.View {
   public func hideKeyboard()
 }
-#Preview()
-#Preview()
 public enum DixaColor {
 }
 extension UIKit.UIColor {
@@ -131,7 +128,6 @@ public enum LogDestination {
     get
   }
 }
-#Preview()
 public struct APIError : Swift.Error {
   public init(_ data: Foundation.Data)
 }
