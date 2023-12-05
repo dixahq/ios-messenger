@@ -2237,7 +2237,10 @@
         "name": "ComposableArchitecture",
         "printedName": "ComposableArchitecture",
         "declKind": "Import",
-        "moduleName": "DixaMessenger"
+        "moduleName": "DixaMessenger",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -14519,182 +14522,182 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 240,
+      "offset": 261,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 304,
+      "offset": 325,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 376,
+      "offset": 397,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 407,
+      "offset": 428,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 710,
       "length": 27,
       "value": "\"name: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 701,
+      "offset": 722,
       "length": 1,
       "value": "\", email: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 715,
+      "offset": 736,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 738,
+      "offset": 759,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1301,
+      "offset": 1322,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1545,
+      "offset": 1566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2159,
+      "offset": 2180,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2579,
+      "offset": 2600,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 3052,
+      "offset": 3073,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3211,
+      "offset": 3232,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3263,
+      "offset": 3284,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3510,
+      "offset": 3531,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 3648,
+      "offset": 3669,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3701,
+      "offset": 3722,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4156,
+      "offset": 4177,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "StringLiteral",
-      "offset": 4221,
+      "offset": 4242,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4274,
+      "offset": 4295,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4734,
+      "offset": 4755,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4768,
+      "offset": 4789,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5233,
+      "offset": 5254,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5300,
+      "offset": 5321,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/ManualClaimView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5356,
+      "offset": 5377,
       "length": 2,
       "value": "14"
     },
