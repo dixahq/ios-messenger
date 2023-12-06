@@ -6,7 +6,7 @@
 	<dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<data>
-		C5NgvgWWrtFvq1bGBBWjZExl3Sg=
+		AymX3RE0j033pgaUxLOHtfgSHgk=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		AAn3TJEy8ohLB77rMrP+FJwuOZI=
+		kqnsbx7Manyrm4yRN4AeG9BVbNY=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		t5R6nE/tUGqn4Qrc6P6SWJrEXeI=
+		FKQRgZBV2zYwrtuIndmSykG8EoY=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		zC8fc76pI6vk3zQ7HcOWag97gB8=
+		btXQxl5OGbNmv3PI/SogXipHi8k=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vdqY90xKGOKxe5WY3m74BqpUDiQ=
+		glVjapslVHNIkdR5sCUkEY9FlnI=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L2zk9T8t+gKzrM6Ua2DcuUA332g=
+		0DRByluSGxF5PIO9/MzHqn+zar8=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vdqY90xKGOKxe5WY3m74BqpUDiQ=
+		glVjapslVHNIkdR5sCUkEY9FlnI=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7NVBQr1euNjOgvPuRFMqw1F8RQM=
+		ukHygI1LEVRoohe9OXM1IhByng4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -420,6 +420,34 @@
 		<data>
 		9XfOQyLHYaENCT8R8HekhgLSwHY=
 		</data>
+		<key>Sentry_SentryPrivate.bundle/Info.plist</key>
+		<data>
+		TP9sbKuui9LFgGhsK7m9v5zQ7lM=
+		</data>
+		<key>Sentry_SentryPrivate.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		SPx0A639arALHWcGRl7W8ZqxfYw=
+		</data>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		d+DrzOh0tkAeilOZoaLXdVzVqaU=
+		</data>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		G7D0OkMHhVffgiOd3ElO5TlCUHs=
+		</data>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		JCaN8ZpGA4pxFXlQRFveem6ulKM=
+		</data>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -427,7 +455,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mOoSBZcJrpgZxtliteVa9W3HQFtIkak8e4BrdqYWEo=
+			LVXF5bzipGEWKnkXrmDd0MSLq/BIsBM2Kl8Ufwijck8=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
@@ -441,7 +469,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHn9E3xA2Ip7eGbGnODd2XJIiQH7rvJyMjtqhIHmP1w=
+			ms+5ZTQNe8BDd8idhbATkDii/rvzu23uYV4Pe4ajY3Y=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
@@ -455,14 +483,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			spJjsA4yiN0tiVGhXkToYW5BqwlJ04mM9jtWgC22+ko=
+			xe3/F2KXjIh2jzo0o4qELzy5oYD+dkLKtHq40WiXKbU=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vnW44Uxn5l5U7xQnn0lOxz8F3i9pZFyX6sYE3a0qHFQ=
+			pcqjtXp5BOesrQrwHM+5yYEhxWaV4Qb3Q0sB8UdbTQo=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
@@ -532,7 +560,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2kOtwdFWoWiLcYPDTTm8om9+kjpYbOGMOHwPeWgUSuY=
+			Daqs6vy41z0xV5KEV87s45OlaIBScBGPE7Ekb5BaIAU=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -560,14 +588,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SuZGmr2VCX/AfB6zA27F4kEHX8Hg6p5bQEdxbztKXP0=
+			qXFvhTrGZbL7KRhT9Fz9cjofXEeOvsZnC2SZFw5A/0E=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2kOtwdFWoWiLcYPDTTm8om9+kjpYbOGMOHwPeWgUSuY=
+			Daqs6vy41z0xV5KEV87s45OlaIBScBGPE7Ekb5BaIAU=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -595,7 +623,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FRrjLLJ1K9y3U1e6hDEQv3K6Cyc4VBR5eF1Y4tHKlTQ=
+			IjrDAyCruif6TMtTqTXVzRoiauZCM+Jlx/d+z1X+7Ps=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -980,6 +1008,55 @@
 			<key>hash2</key>
 			<data>
 			MFNiSOWSdFSNUSRWYvne7H+1KUb6ujOq3ijEFHO905s=
+			</data>
+		</dict>
+		<key>Sentry_SentryPrivate.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GOoG7cb4gxJwG0mg3LS3Be0SgeD0RLMCHLiWus2LJyM=
+			</data>
+		</dict>
+		<key>Sentry_SentryPrivate.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ylFRif+2jEnaxLSgp8YgKlyTgMmcAmuoT2eW/7zZE6w=
+			</data>
+		</dict>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5e5zrCfJWI/E/WuW+iFmosLqbo9tlLz5mJGqhDRdXSc=
+			</data>
+		</dict>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jm6pRNhP4JLTSE6MkSHFQeTxHW4+ya2odorUN35/FHc=
+			</data>
+		</dict>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oP0prui3j+dzD0LaVh81+0Fl0Cf5qLYmuUcgBl5lvaU=
+			</data>
+		</dict>
+		<key>Sentry_SentryPrivate.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 	</dict>
