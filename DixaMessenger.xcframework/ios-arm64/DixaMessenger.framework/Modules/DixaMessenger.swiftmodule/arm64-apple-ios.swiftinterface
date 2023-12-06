@@ -25,9 +25,6 @@ import os
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
-extension Combine.Publisher where Self.Failure == Swift.Never {
-  public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
-}
 @objc @_inheritsConvenienceInitializers final public class Messenger : ObjectiveC.NSObject {
   public static var shared: DixaMessenger.Messenger
   public static var pushNotification: DixaMessenger.RemoteNotification {
@@ -47,65 +44,6 @@ extension Combine.Publisher where Self.Failure == Swift.Never {
 }
 extension UIKit.UIColor {
   public func image(ofSize size: CoreFoundation.CGSize = CGSize(width: 1, height: 1), cornerRadius: CoreFoundation.CGFloat = 0) -> UIKit.UIImage?
-}
-@_hasMissingDesignatedInitializers final public class RemoteNotification {
-  final public func register(deviceToken token: Foundation.Data)
-  final public func process(notification: UserNotifications.UNNotification, rootViewController: UIKit.UIViewController) -> Swift.Bool
-  final public func presentNotification(_ notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
-  @objc deinit
-}
-extension UIKit.UIImage {
-  public func resized(to target: CoreFoundation.CGSize) -> UIKit.UIImage
-}
-extension os.OSLog {
-  public static let application: os.OSLog
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class AnimatedButton : UIKit.UIButton {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @objc deinit
-}
-extension Foundation.Bundle {
-  public static var current: Foundation.Bundle {
-    get
-  }
-}
-extension SwiftUI.View {
-  public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
-  
-}
-extension SwiftUI.View {
-  public func hideKeyboard()
-}
-public enum DixaColor {
-}
-extension UIKit.UIColor {
-  public static func agentColor(for name: Swift.String) -> UIKit.UIColor
-}
-extension UIKit.UIFont {
-  public static func dixaLight(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaRegular(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
-}
-extension SwiftUI.Font {
-  public static func dixaLight(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaRegular(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
 }
 public enum LogLevel : Swift.UInt, Swift.Comparable {
   public static func < (lhs: DixaMessenger.LogLevel, rhs: DixaMessenger.LogLevel) -> Swift.Bool
@@ -128,8 +66,13 @@ public enum LogDestination {
     get
   }
 }
-public struct APIError : Swift.Error {
-  public init(_ data: Foundation.Data)
+extension UIKit.UIImage {
+  public func resized(to target: CoreFoundation.CGSize) -> UIKit.UIImage
+}
+extension Foundation.Bundle {
+  public static var current: Foundation.Bundle {
+    get
+  }
 }
 extension Combine.Publishers {
   public struct EventLogger<Upstream> : Combine.Publisher where Upstream : Combine.Publisher {
@@ -139,27 +82,15 @@ extension Combine.Publishers {
     public func receive<S>(subscriber: S) where S : Combine.Subscriber, Upstream.Failure == S.Failure, Upstream.Output == S.Input
   }
 }
-extension Swift.Dictionary {
-  public mutating func merge(contentsOf dictionary: [Key : Value])
-  public func merging(contentsOf dictionary: [Key : Value]) -> [Key : Value]
+extension os.OSLog {
+  public static let application: os.OSLog
 }
-public struct DixaConfiguration {
-  public enum PushEnvironment : Swift.UInt {
-    case production
-    case sandbox
-    public init?(rawValue: Swift.UInt)
-    public typealias RawValue = Swift.UInt
-    public var rawValue: Swift.UInt {
-      get
-    }
-  }
-  public init(token: Swift.String, logLevel: DixaMessenger.LogLevel = .none, pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment = .production)
-  public init()
-  public func apikey(_ token: Swift.String) -> DixaMessenger.DixaConfiguration
-  public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
-  public func pushEnvironment(_ environment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
-  public func supportedLanguages(_ languages: [Swift.String]) -> DixaMessenger.DixaConfiguration
-  public func backendEnvironment(_ env: Swift.String) -> DixaMessenger.DixaConfiguration
+extension SwiftUI.View {
+  public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
+  
+}
+extension SwiftUI.View {
+  public func hideKeyboard()
 }
 public struct Article : Swift.Decodable, Swift.Equatable {
   public static func == (a: DixaMessenger.Article, b: DixaMessenger.Article) -> Swift.Bool
@@ -186,6 +117,75 @@ public struct ArticleAuthor : Swift.Decodable, Swift.Equatable, Swift.Hashable {
     get
   }
   public init(from decoder: any Swift.Decoder) throws
+}
+extension Combine.Publisher where Self.Failure == Swift.Never {
+  public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
+}
+public enum DixaColor {
+}
+extension UIKit.UIColor {
+  public static func agentColor(for name: Swift.String) -> UIKit.UIColor
+}
+@_hasMissingDesignatedInitializers final public class RemoteNotification {
+  final public func register(deviceToken token: Foundation.Data)
+  final public func process(notification: UserNotifications.UNNotification, rootViewController: UIKit.UIViewController) -> Swift.Bool
+  final public func presentNotification(_ notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
+  @objc deinit
+}
+extension UIKit.UIFont {
+  public static func dixaLight(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaRegular(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
+}
+extension SwiftUI.Font {
+  public static func dixaLight(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaRegular(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+}
+public struct APIError : Swift.Error {
+  public init(_ data: Foundation.Data)
+}
+extension Swift.Dictionary {
+  public mutating func merge(contentsOf dictionary: [Key : Value])
+  public func merging(contentsOf dictionary: [Key : Value]) -> [Key : Value]
+}
+public struct DixaConfiguration {
+  public enum PushEnvironment : Swift.UInt {
+    case production
+    case sandbox
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+  }
+  public init(token: Swift.String, logLevel: DixaMessenger.LogLevel = .none, pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment = .production)
+  public init()
+  public func apikey(_ token: Swift.String) -> DixaMessenger.DixaConfiguration
+  public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
+  public func pushEnvironment(_ environment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
+  public func supportedLanguages(_ languages: [Swift.String]) -> DixaMessenger.DixaConfiguration
+  public func backendEnvironment(_ env: Swift.String) -> DixaMessenger.DixaConfiguration
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class AnimatedButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc deinit
 }
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Equatable {}
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Hashable {}
