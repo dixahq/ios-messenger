@@ -12443,21 +12443,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3052,
+      "offset": 3059,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3244,
+      "offset": 3251,
       "length": 23,
       "value": "\"What's your shoe size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3310,
+      "offset": 3317,
       "length": 23,
       "value": "\"What's your shoe size\""
     },
@@ -13584,7 +13584,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/ContactFormView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6001,
+      "offset": 6008,
       "length": 2,
       "value": "12"
     },
