@@ -6,7 +6,7 @@
 	<dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Assets.car</key>
 		<data>
-		C5NgvgWWrtFvq1bGBBWjZExl3Sg=
+		eFKmj0RMO2xBNM3oQ8pqzFCt4to=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		AAn3TJEy8ohLB77rMrP+FJwuOZI=
+		zJD5D5yKr9STWNAkeBE4l2ohbfo=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		t5R6nE/tUGqn4Qrc6P6SWJrEXeI=
+		29d7SIjwbwu/e5fQPShnqJSXlfI=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		zC8fc76pI6vk3zQ7HcOWag97gB8=
+		fbvM5IX27QxAR/LAqqbSvNI5QzE=
 		</data>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		71P0Olfq5nUhKUeRjvWKVy7Skag=
+		ubssgEHR1Bv4ZpEQiPSfXGX/2e8=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		71P0Olfq5nUhKUeRjvWKVy7Skag=
+		ubssgEHR1Bv4ZpEQiPSfXGX/2e8=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		PWv1D0M2ETLHQaKl+iqtGVOcOGI=
+		YSulR6C+++EGt7en/KEcd4DCOf0=
 		</data>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		qX1b/CbkuL73d4pbR8Nlz0XEOnk=
+		MKKpWmX4nQtm6yWSp4fBFjBx0Y8=
 		</data>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		PdQOLRJCPKl0S4rBuSBDQ3AkLNQ=
+		gQeSDI42L70Gx90+SUc12yCJ0Cw=
 		</data>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -249,15 +249,6 @@
 			<key>hash</key>
 			<data>
 			kra+LqLIkitRYFrPexz7ZzSWrog=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Modules_Localization.bundle/lt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Gfb7PQcjgc+sApTvinGVkPmuHVY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -427,7 +418,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mOoSBZcJrpgZxtliteVa9W3HQFtIkak8e4BrdqYWEo=
+			aqWu8B0657U/zVD6pbE3+UcJIT8H7Er/gf8DbZ3g6U4=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/Info.plist</key>
@@ -441,7 +432,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHn9E3xA2Ip7eGbGnODd2XJIiQH7rvJyMjtqhIHmP1w=
+			4t0tqXzHHgAxmal9FsHO/hYWcKEAZcrF3MjaPMaIe+A=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeRequirements</key>
@@ -455,14 +446,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			spJjsA4yiN0tiVGhXkToYW5BqwlJ04mM9jtWgC22+ko=
+			BOmjn8pfxnZuQ3GXRtBaGTfuPgktHq5fssr6qCinMuY=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vnW44Uxn5l5U7xQnn0lOxz8F3i9pZFyX6sYE3a0qHFQ=
+			uO3TSwI4QQH64FO3JBz5M6zS815DlE+BA1GfsiUgLkA=
 			</data>
 		</dict>
 		<key>BulletinBoardKit_BulletinBoardKit.bundle/_CodeSignature/CodeSignature</key>
@@ -532,7 +523,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U24adxDCgzBqOgSK0Q5LV1nyO6rpWbq7qYc6LKvHPP8=
+			K4pztxmMy+Xmrr+gWHf4WoEpIuz0/5/v9BEjqWGG9dw=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -567,7 +558,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U24adxDCgzBqOgSK0Q5LV1nyO6rpWbq7qYc6LKvHPP8=
+			K4pztxmMy+Xmrr+gWHf4WoEpIuz0/5/v9BEjqWGG9dw=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -616,7 +607,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Re6tmgu89NAl0tMvX03+okDu049Apff7osb+b1w8sxw=
+			JJyry+tflVtkCYjtjAO8uAqjVqQVS35WWYuwyqhCDyg=
 			</data>
 		</dict>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeRequirements</key>
@@ -630,14 +621,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YrO+pl9zv3EjnIJSWFXL0chg+BtgI1chYsYgmvaKiVQ=
+			OXZYahLQyoUL6BRTHNfKKNA1GgRCd0wnvcyLLbJWesc=
 			</data>
 		</dict>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y/wRf1ynInCF6jWvkkvoA5yqT22aD/ojb3vct32xv7E=
+			RrYGMc83+aKQWEegtEOaRWz30BB8DdxaEq2s/FwUAto=
 			</data>
 		</dict>
 		<key>Modules_Localization.bundle/_CodeSignature/CodeSignature</key>
@@ -760,15 +751,6 @@
 			<key>hash2</key>
 			<data>
 			6kQfES2gqFRCFBd5FaKDAnS8jAXUcQEYBIW1IqJL40c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Modules_Localization.bundle/lt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wc4dy4PH8ySaYak1E0o8g8ELIkBEVrsyH0JgFbtfVOA=
 			</data>
 			<key>optional</key>
 			<true/>

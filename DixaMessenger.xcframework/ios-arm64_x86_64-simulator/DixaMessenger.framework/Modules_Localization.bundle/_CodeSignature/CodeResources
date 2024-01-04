@@ -121,15 +121,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>lt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Gfb7PQcjgc+sApTvinGVkPmuHVY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>lv.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -388,19 +379,6 @@
 			<key>hash2</key>
 			<data>
 			6kQfES2gqFRCFBd5FaKDAnS8jAXUcQEYBIW1IqJL40c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>lt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Gfb7PQcjgc+sApTvinGVkPmuHVY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Wc4dy4PH8ySaYak1E0o8g8ELIkBEVrsyH0JgFbtfVOA=
 			</data>
 			<key>optional</key>
 			<true/>
