@@ -2273,6 +2273,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DixaMessenger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DixaUtils",
+        "printedName": "DixaUtils",
+        "declKind": "Import",
+        "moduleName": "DixaMessenger",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -2428,6 +2448,16 @@
         "kind": "Import",
         "name": "BulletinBoardKit",
         "printedName": "BulletinBoardKit",
+        "declKind": "Import",
+        "moduleName": "DixaMessenger",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Looks",
+        "printedName": "Looks",
         "declKind": "Import",
         "moduleName": "DixaMessenger",
         "declAttributes": [
@@ -3131,6 +3161,16 @@
         "kind": "Import",
         "name": "DixaUtils",
         "printedName": "DixaUtils",
+        "declKind": "Import",
+        "moduleName": "DixaMessenger",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Looks",
+        "printedName": "Looks",
         "declKind": "Import",
         "moduleName": "DixaMessenger",
         "declAttributes": [
@@ -13774,182 +13814,231 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1704,
+      "offset": 1738,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2630,
+      "offset": 2664,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "Array",
-      "offset": 2783,
+      "offset": 2817,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2972,
+      "offset": 3006,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3170,
+      "offset": 3204,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3810,
+      "offset": 3844,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3845,
+      "offset": 3879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3881,
+      "offset": 3915,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4065,
+      "offset": 4099,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4548,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4350,
+      "offset": 4644,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5838,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 4903,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5521,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6057,
-      "length": 4,
-      "value": "true"
+      "offset": 6461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6485,
+      "length": 53,
+      "value": "\"Error: Expected BanUnbanUser object in notification\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6583,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6599,
+      "offset": 6775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6636,
+      "offset": 6829,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6781,
+      "offset": 6943,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7886,
+      "offset": 6996,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7186,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7310,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7477,
+      "length": 7,
+      "value": "\"Sorry\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7580,
+      "length": 30,
+      "value": "\"\n messenger is unavailable.\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8056,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8683,
+      "offset": 8116,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8752,
+      "offset": 8555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9272,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9564,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8768,
+      "offset": 9783,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8962,
+      "offset": 10309,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9080,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9371,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10052,
+      "offset": 10325,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10099,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10461,
+      "offset": 10362,
       "length": 4,
       "value": "true"
     },
@@ -13957,216 +14046,293 @@
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 10507,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11612,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12409,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12478,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12806,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13097,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13778,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13825,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14187,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12560,
+      "offset": 16286,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13105,
+      "offset": 16831,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13239,
+      "offset": 16965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14228,
+      "offset": 17954,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15667,
+      "offset": 19393,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15987,
+      "offset": 19713,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19296,
+      "offset": 23022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19445,
+      "offset": 23171,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19649,
+      "offset": 23375,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20669,
+      "offset": 24395,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20886,
+      "offset": 24612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22209,
+      "offset": 25935,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22651,
+      "offset": 26377,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22737,
+      "offset": 26463,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22816,
+      "offset": 26542,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 940,
+      "offset": 974,
       "length": 23,
       "value": "\"DixaMessenger.FrontpageViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23123,
+      "offset": 26849,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23144,
+      "offset": 26870,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23598,
+      "offset": 27324,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24057,
+      "offset": 27783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24208,
+      "offset": 27934,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24295,
+      "offset": 28021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24501,
+      "offset": 28227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24565,
+      "offset": 28291,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24777,
+      "offset": 28503,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25191,
+      "offset": 28917,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25294,
+      "offset": 29020,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25536,
+      "offset": 29262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25704,
+      "offset": 29430,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/ViewControllers\/FrontpageViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25768,
+      "offset": 29494,
       "length": 4,
       "value": "true"
     },
@@ -17211,504 +17377,623 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "Dictionary",
-      "offset": 727,
+      "offset": 761,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "Dictionary",
-      "offset": 790,
+      "offset": 824,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 820,
+      "offset": 854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 848,
+      "offset": 882,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1058,
+      "offset": 1092,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1466,
+      "offset": 1500,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1513,
+      "offset": 1547,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1561,
+      "offset": 1595,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1661,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1948,
+      "offset": 2009,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 2377,
       "length": 26,
       "value": "\"DidClickOnArticlePreview\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2639,
+      "offset": 2700,
       "length": 26,
       "value": "\"DidUpdateFormAttachments\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2949,
+      "offset": 3010,
       "length": 13,
       "value": "\"DidSendForm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3249,
+      "offset": 3310,
       "length": 16,
       "value": "\"DidDeliverForm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3557,
+      "offset": 3618,
       "length": 21,
       "value": "\"DidChooseMenuOption\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4115,
+      "offset": 3931,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4489,
       "length": 26,
       "value": "\"DidClickOnArticlePreview\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4237,
+      "offset": 4611,
       "length": 26,
       "value": "\"DidUpdateFormAttachments\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4359,
+      "offset": 4733,
       "length": 13,
       "value": "\"DidSendForm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4468,
+      "offset": 4842,
       "length": 16,
       "value": "\"DidDeliverForm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4580,
+      "offset": 4954,
       "length": 21,
       "value": "\"DidChooseMenuOption\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4821,
-      "length": 11,
-      "value": "\"companyId\""
+      "offset": 5071,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5044,
+      "kind": "IntegerLiteral",
+      "offset": 5268,
       "length": 2,
-      "value": "\"\""
+      "value": "18"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5204,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5264,
-      "length": 4,
-      "value": "true"
+      "kind": "IntegerLiteral",
+      "offset": 5392,
+      "length": 2,
+      "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5847,
-      "length": 16,
-      "value": "\"successMessage\""
+      "offset": 5559,
+      "length": 7,
+      "value": "\"Sorry\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5662,
+      "length": 30,
+      "value": "\"\n messenger is unavailable.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6786,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7049,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7397,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8858,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9025,
+      "offset": 6103,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9101,
+      "offset": 6138,
       "length": 1,
-      "value": "0"
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6198,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9132,
-      "length": 1,
-      "value": "0"
+      "offset": 6525,
+      "length": 3,
+      "value": "-80"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7286,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7549,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7897,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9358,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9183,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9285,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9351,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10257,
+      "offset": 10296,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "Array",
-      "offset": 10475,
+      "offset": 10514,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11451,
+      "offset": 11490,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11505,
+      "offset": 11544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12071,
+      "offset": 12110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12760,
+      "offset": 12799,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12930,
+      "offset": 12969,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13363,
+      "offset": 13402,
       "length": 95,
       "value": "\"<a href='\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13394,
+      "offset": 13433,
       "length": 64,
       "value": "\"' target=\"_blank\"  rel=\"nofollow\">\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13453,
+      "offset": 13492,
       "length": 2,
       "value": "\"<\/a>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13784,
+      "offset": 13823,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13796,
+      "offset": 13835,
       "length": 6,
       "value": "\"<br>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16039,
+      "offset": 16078,
       "length": 5,
       "value": "\"...\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16473,
+      "offset": 16512,
       "length": 5,
       "value": "\"...\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16843,
+      "offset": 16857,
       "length": 5,
       "value": "\"...\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18165,
+      "offset": 18096,
       "length": 24,
       "value": "\"Failed getting message\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18285,
+      "offset": 18216,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18549,
+      "offset": 18480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26300,
+      "offset": 26202,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 82,
+      "offset": 116,
       "length": 26,
       "value": "\"DixaMessenger.ConversationViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 82,
+      "offset": 116,
       "length": 26,
       "value": "\"DixaMessenger.ConversationViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29278,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 28834,
+      "length": 11,
+      "value": "\"companyId\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 29057,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29362,
+      "offset": 29217,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29416,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29510,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 30095,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 30566,
+      "offset": 29277,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32290,
+      "offset": 29620,
+      "length": 53,
+      "value": "\"Error: Expected BanUnbanUser object in notification\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29852,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29906,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29969,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30097,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30150,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 30650,
+      "length": 16,
+      "value": "\"successMessage\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31114,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31190,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31221,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31272,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31374,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31440,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32162,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32246,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32394,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33450,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 34829,
       "length": 27,
       "value": "\"Failed getting identifier\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32921,
+      "offset": 35460,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33162,
+      "offset": 35701,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37167,
+      "offset": 39706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37578,
+      "offset": 40117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38280,
+      "offset": 40819,
       "length": 46,
       "value": "\"invalid regex: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38325,
+      "offset": 40864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "Array",
-      "offset": 38347,
+      "offset": 40886,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38453,
+      "offset": 40992,
       "length": 6,
       "value": "\"\\d+\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/ViewControllers\/ConversationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38786,
+      "offset": 41325,
       "length": 2,
       "value": "\"\""
     },
@@ -19793,8 +20078,22 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/ConversationsComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 7434,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/ConversationsComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 7592,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Conversation management\/ConversationsComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 13234,
+      "offset": 13549,
       "length": 1,
       "value": "0"
     },
@@ -20493,141 +20792,169 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 1975,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2014,
+      "offset": 2315,
       "length": 3,
       "value": "-14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2118,
+      "offset": 2419,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2190,
+      "offset": 2491,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2263,
+      "offset": 2564,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 2368,
+      "offset": 2669,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2598,
+      "offset": 2899,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2697,
+      "offset": 2998,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2765,
+      "offset": 3066,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 2834,
+      "offset": 3135,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 3052,
+      "offset": 3353,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 3140,
+      "offset": 3441,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 3207,
+      "offset": 3508,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 3274,
+      "offset": 3575,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 3453,
+      "offset": 3754,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 4147,
+      "offset": 4448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "FloatLiteral",
-      "offset": 4534,
+      "offset": 4835,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 4540,
+      "offset": 4841,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 4676,
+      "offset": 4977,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 4682,
+      "offset": 4983,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
       "kind": "StringLiteral",
-      "offset": 4986,
+      "offset": 5390,
+      "length": 53,
+      "value": "\"Error: Expected BanUnbanUser object in notification\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 5646,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 5948,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/NavigationBar\/ConversationNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 6259,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
@@ -24778,35 +25105,49 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/MessageStore\/MessageHandling.swift",
       "kind": "StringLiteral",
-      "offset": 1450,
+      "offset": 1387,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/MessageStore\/MessageHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 1537,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/MessageStore\/MessageHandling.swift",
+      "kind": "StringLiteral",
+      "offset": 1750,
       "length": 53,
       "value": "\"ConversationComponent handleReceivedMessage default\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/MessageStore\/MessageHandling.swift",
       "kind": "IntegerLiteral",
-      "offset": 1794,
+      "offset": 2094,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/MessageStore\/MessageHandling.swift",
       "kind": "BooleanLiteral",
-      "offset": 2746,
+      "offset": 3046,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/MessageStore\/MessageHandling.swift",
       "kind": "BooleanLiteral",
-      "offset": 3264,
+      "offset": 3564,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/MessageStore\/MessageHandling.swift",
       "kind": "StringLiteral",
-      "offset": 3750,
+      "offset": 4050,
       "length": 2,
       "value": "\"\""
     },
@@ -26465,196 +26806,252 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1323,
+      "offset": 1401,
       "length": 19,
       "value": "\"identity-verified\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1394,
+      "offset": 1490,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
       "length": 22,
       "value": "\"conversation-started\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1744,
       "length": 19,
       "value": "\"messaging-allowed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1683,
+      "offset": 1883,
       "length": 28,
       "value": "\"agent-assignment-requested\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1830,
+      "offset": 2030,
       "length": 16,
       "value": "\"agent-assigned\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 2162,
       "length": 15,
       "value": "\"sender-joined\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2091,
+      "offset": 2291,
       "length": 18,
       "value": "\"agent-unassigned\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2229,
+      "offset": 2429,
       "length": 22,
       "value": "\"messaging-disallowed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2374,
+      "offset": 2574,
       "length": 20,
       "value": "\"conversation-ended\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2780,
       "length": 14,
       "value": "\"message-sent\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2706,
+      "offset": 2906,
       "length": 19,
       "value": "\"message-delivered\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2847,
+      "offset": 3047,
       "length": 14,
       "value": "\"message-seen\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2973,
+      "offset": 3173,
       "length": 17,
       "value": "\"deliver-message\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3216,
+      "offset": 3416,
       "length": 6,
       "value": "\"pong\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3262,
+      "offset": 3462,
       "length": 26,
       "value": "\"command-execution-failed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3558,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3744,
       "length": 14,
       "value": "\"echo-message\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3601,
+      "offset": 3923,
       "length": 17,
       "value": "\"deliver-message\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 4028,
       "length": 14,
       "value": "\"message-seen\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3882,
+      "offset": 4204,
       "length": 16,
       "value": "\"Unhandled Type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3927,
+      "offset": 4249,
       "length": 24,
       "value": "\"message-typing-started\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4904,
+      "length": 8,
+      "value": "\"banned\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 5076,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 5143,
+      "length": 10,
+      "value": "\"unbanned\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 5319,
+      "length": 21,
+      "value": "\"DidReceiveBanStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 4863,
+      "offset": 5669,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 6156,
+      "offset": 6962,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 6541,
+      "offset": 7344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 8342,
+      "offset": 7397,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9280,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8429,
+      "offset": 9367,
       "length": 10,
       "value": "\"TERMINAL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8463,
+      "offset": 9401,
       "length": 14,
       "value": "\"NON_TERMINAL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8429,
+      "offset": 9367,
       "length": 10,
       "value": "\"TERMINAL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8463,
+      "offset": 9401,
       "length": 14,
       "value": "\"NON_TERMINAL\""
     },
