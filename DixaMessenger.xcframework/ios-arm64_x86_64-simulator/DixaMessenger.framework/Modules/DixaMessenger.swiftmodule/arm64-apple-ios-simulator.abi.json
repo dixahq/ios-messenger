@@ -9439,37 +9439,37 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/ChatInputCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3318,
+      "offset": 2865,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/ChatInputCell.swift",
       "kind": "StringLiteral",
-      "offset": 4058,
+      "offset": 3606,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/ChatInputCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4468,
+      "offset": 4016,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/ChatInputCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4639,
+      "offset": 4187,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Cells\/ChatInputCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4921,
-      "length": 2,
-      "value": "70"
+      "offset": 4469,
+      "length": 3,
+      "value": "110"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversations\/Cells\/EmptySpaceTableViewCell.swift",
@@ -12456,126 +12456,175 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 302,
+      "offset": 301,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 332,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1179,
+      "offset": 1132,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1355,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1254,
+      "offset": 1476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1456,
+      "offset": 1678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "StringLiteral",
-      "offset": 1583,
+      "offset": 1805,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1618,
+      "offset": 1840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1656,
+      "offset": 1878,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1979,
+      "offset": 2306,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2694,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2570,
+      "offset": 2914,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3017,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2649,
+      "offset": 3109,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2740,
-      "length": 1,
-      "value": "8"
+      "offset": 3464,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3855,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4114,
+      "length": 2,
+      "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "FloatLiteral",
-      "offset": 2793,
+      "offset": 4396,
       "length": 3,
-      "value": "0.1"
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3044,
+      "offset": 4509,
       "length": 2,
-      "value": "12"
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4779,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3659,
-      "length": 2,
-      "value": "12"
+      "offset": 4797,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4889,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3909,
+      "offset": 5079,
       "length": 23,
       "value": "\"What's your shoe size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "StringLiteral",
-      "offset": 3975,
+      "offset": 5145,
       "length": 23,
       "value": "\"What's your shoe size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Conversation\/Views\/InputView\/InlineChatInputView.swift",
       "kind": "StringLiteral",
-      "offset": 4036,
+      "offset": 5206,
       "length": 17,
       "value": "\"123121231233312\""
     },
