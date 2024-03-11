@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
@@ -18,8 +18,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-#Preview()
-#Preview()
+
+
 @objc @_inheritsConvenienceInitializers final public class Messenger : ObjectiveC.NSObject, Combine.ObservableObject {
   public static var shared: DixaMessenger.Messenger
   public static var pushNotification: DixaMessenger.RemoteNotification {
@@ -41,8 +41,8 @@ import os
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-#Preview()
-#Preview()
+
+
 extension UIKit.UIColor {
   public func image(ofSize size: CoreFoundation.CGSize = CGSize(width: 1, height: 1), cornerRadius: CoreFoundation.CGFloat = 0) -> UIKit.UIImage?
 }
@@ -67,18 +67,18 @@ public enum LogDestination {
     get
   }
 }
-#Preview()
+
 @_Concurrency.MainActor(unsafe) public struct MessengerView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger0B4ViewV4bodyQrvp", 0) __
 }
-#Preview()
+
 extension UIKit.UIImage {
   public func resized(to target: CoreFoundation.CGSize) -> UIKit.UIImage
 }
-#Preview()
+
 public struct Board : Swift.Decodable, Swift.Equatable {
   public typealias Id = Swift.String
   public static func == (a: DixaMessenger.Board, b: DixaMessenger.Board) -> Swift.Bool
@@ -91,8 +91,8 @@ public struct BoardPath : Swift.Decodable, Swift.Equatable {
   public static func == (a: DixaMessenger.BoardPath, b: DixaMessenger.BoardPath) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
-#Preview()
-#Preview()
+
+
 public struct AsyncFile<Content, Placeholder> : SwiftUI.View where Content : SwiftUI.View, Placeholder : SwiftUI.View {
   public init(url: Foundation.URL?, @SwiftUI.ViewBuilder content: @escaping () -> Content, @SwiftUI.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping (Foundation.Data) -> Swift.Void?)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -100,7 +100,7 @@ public struct AsyncFile<Content, Placeholder> : SwiftUI.View where Content : Swi
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger9AsyncFileV4bodyQrvp", 0) __<Content, Placeholder>
 }
-#Preview()
+
 public enum BulletinError : Swift.Error, Swift.Equatable {
   case networkError(Foundation.NSError)
   case notFound
@@ -152,7 +152,7 @@ extension Foundation.Bundle {
     get
   }
 }
-#Preview()
+
 public struct AsyncImage<Content, Placeholder> : SwiftUI.View where Content : SwiftUI.View, Placeholder : SwiftUI.View {
   public init(url: Foundation.URL?, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> Content, @SwiftUI.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping (UIKit.UIImage) -> Swift.Void?)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -160,7 +160,7 @@ public struct AsyncImage<Content, Placeholder> : SwiftUI.View where Content : Sw
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger10AsyncImageV4bodyQrvp", 0) __<Content, Placeholder>
 }
-#Preview()
+
 extension Combine.Publishers {
   public struct EventLogger<Upstream> : Combine.Publisher where Upstream : Combine.Publisher {
     public typealias Output = Upstream.Output
@@ -169,8 +169,8 @@ extension Combine.Publishers {
     public func receive<S>(subscriber: S) where S : Combine.Subscriber, Upstream.Failure == S.Failure, Upstream.Output == S.Input
   }
 }
-#Preview()
-#Preview()
+
+
 extension os.OSLog {
   public static let application: os.OSLog
 }
@@ -181,11 +181,11 @@ public struct ShowMoreBulletinRow : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger19ShowMoreBulletinRowV4bodyQrvp", 0) __
 }
-#Preview()
-#Preview()
-#Preview()
-#Preview()
-#Preview()
+
+
+
+
+
 extension SwiftUI.View {
   public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
   
@@ -193,9 +193,9 @@ extension SwiftUI.View {
 extension SwiftUI.View {
   public func hideKeyboard()
 }
-#Preview()
-#Preview()
-#Preview()
+
+
+
 public struct Article : Swift.Decodable, Swift.Equatable {
   public static func == (a: DixaMessenger.Article, b: DixaMessenger.Article) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
@@ -225,11 +225,11 @@ public struct ArticleAuthor : Swift.Decodable, Swift.Equatable, Swift.Hashable {
 extension Combine.Publisher where Self.Failure == Swift.Never {
   public func assignNoRetain<Root>(to keyPath: Swift.ReferenceWritableKeyPath<Root, Self.Output>, on object: Root) -> Combine.AnyCancellable where Root : AnyObject
 }
-#Preview()
-#Preview()
-#Preview()
-#Preview()
-#Preview()
+
+
+
+
+
 public enum DixaColor {
 }
 extension UIKit.UIColor {
@@ -270,13 +270,13 @@ extension SwiftUI.Font {
   public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
   public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
 }
-#Preview()
+
 public struct APIError : Swift.Error {
   public init(_ data: Foundation.Data)
 }
-#Preview()
-#Preview()
-#Preview()
+
+
+
 extension Swift.Dictionary {
   public mutating func merge(contentsOf dictionary: [Key : Value])
   public func merging(contentsOf dictionary: [Key : Value]) -> [Key : Value]
@@ -299,7 +299,7 @@ public struct DixaConfiguration {
   public func supportedLanguages(_ languages: [Swift.String]) -> DixaMessenger.DixaConfiguration
   public func backendEnvironment(_ env: Swift.String) -> DixaMessenger.DixaConfiguration
 }
-#Preview()
+
 extension DixaMessenger.LogLevel : Swift.Hashable {}
 extension DixaMessenger.LogLevel : Swift.RawRepresentable {}
 extension DixaMessenger.LogDestination : Swift.Equatable {}
