@@ -11,6 +11,7 @@
 
 ## Requirements
 - iOS 15+
+- Xcode 15.2+
 
 ## Installation
 The Dixa Messenger SDK can be installed using Swift package manager, cocoa pods or by manually downloading and adding it to the project.
@@ -195,15 +196,33 @@ struct YourHostingView: View {
     // MARK: - States
     @State var openMessenger: Bool = false
 
+    // MARK: - Config
+    var config: DixaConfiguration {
+        DixaConfiguration()
+            .logLevel(.all)
+            .pushEnvironment(.production)
+            .logLevel(.warning)
+            .apikey("API Key")
+    }
+
+    // MARK: - View
     var body: some View {
         VStack {
             Button {
                 openMessenger.toggle()
             } label: {
                 Text("Contact Support")
+                    .foregroundStyle(.black)
             }
         }
+        .onAppear(perform: {
+
+            /// MARK: - Configure the SDK
+            Messenger.configure(config)
+        })
         .fullScreenCover(isPresented: $openMessenger) {
+
+            /// MARK: - Present it
             Messenger.openMessenger()
         }
     }
@@ -213,7 +232,6 @@ struct YourHostingView: View {
     YourHostingView()
 }
 ```
-
 
 **UIKit**
 
