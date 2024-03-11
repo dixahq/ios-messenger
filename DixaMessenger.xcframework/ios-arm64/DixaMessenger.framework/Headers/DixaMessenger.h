@@ -277,10 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
-@import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -301,32 +298,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
-@class UITouch;
-@class UIEvent;
-
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC13DixaMessenger14AnimatedButton")
-@interface AnimatedButton : UIButton
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)layoutSubviews;
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-@end
-
 
 
 @class NSString;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC13DixaMessenger23KnowledgeViewController")
-@interface KnowledgeViewController : UIViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
 @class NSData;
 
 SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
@@ -339,7 +313,11 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// \param pushEnvironment 0: sandbox, 1: production
 ///
 + (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel pushEnvironment:(NSUInteger)pushEnvironment;
+/// Configure the Messenger from Objective-C
+/// \param deviceToken Device token data
+///
 + (void)registerForPushNotificationWithDeviceToken:(NSData * _Nonnull)deviceToken;
+/// Observed for updates of unread messages count
 + (void)unreadMessagesCountListenerWithCompletion:(void (^ _Nonnull)(NSInteger))completion;
 /// Update the user credentials associated with the DixaMessenger
 /// This can safely be called multiple times with the same username and email,
@@ -350,30 +328,16 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// \param email email to identify the user
 ///
 + (void)updateUserCredentialsWithUsername:(NSString * _Nonnull)username email:(NSString * _Nonnull)email;
+/// Removes stored credentials, if there’s stored credentials
++ (void)clearUserCredentials;
 /// Update the user authentication jwe-token
 /// \param token jwe token
 ///
 + (void)verifyUserWith:(NSString * _Nonnull)token;
 /// Removes stored credentials, if there’s stored credentials
-+ (void)clearUserCredentials;
-/// Removes stored credentials, if there’s stored credentials
 + (void)clearVerificationToken;
-/// Presents the messenger as a Modal presentation
-/// Call openMessenger, when the user has tapped on a button to launch the Messenger Client.
-/// The presentation style will be .fullScreen
-/// \param presentationController The view controller from which the Messenger Client is to be presented
-///
-+ (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController completion:(void (^ _Nullable)(void))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-
-
-
-
-
-
 
 
 

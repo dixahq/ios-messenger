@@ -84,7 +84,6 @@ DixaConfiguration().logLevel(_: LogLevel) -> DixaConfiguration
 /// - Returns: Configuration
 DixaConfiguration().pushEnvironment(_: PushEnvironment) -> DixaConfiguration
 
-
 /// The `supportedLaguages` array overrides the language settings from the Agent Interface.
 /// This setting only affects the conversation language, not the UI language. The UI language is automatically set based on the system settings.
 /// - Parameter supportedLanguages: a list of conversation languages supported by the SDK (two letter language code)
@@ -172,9 +171,53 @@ Messenger.clearVerificationToken()
 ```
 
 ## Launching the Messenger
-In the host application, add a button from where the user can open the support interface.
-All you need to do, is to supply a view controller from where the messenger should be presented.
+The Dixa Messenger is compatible with both UIKit and SwiftUI, allowing you to select the most appropriate function based on your UI framework. 
+You need to create a button within the host application that, when pressed, will trigger the opening of the support interface.
 
+**SwiftUI**
+
+```swift
+/// Creates a MessengerView as SwiftUI component.
+///
+/// - Returns: A `MessengerView` instance. Use this when you want to access the `MessengerView` directly.
+///
+/// Call this method as content to  .fullScreenCover modifier of your hosting view.
+Messenger.openMessenger()
+```
+
+example
+```swift
+import SwiftUI
+import DixaMessenger
+
+struct YourHostingView: View {
+
+    // MARK: - States
+    @State var openMessenger: Bool = false
+
+    var body: some View {
+        VStack {
+            Button {
+                openMessenger.toggle()
+            } label: {
+                Text("Contact Support")
+            }
+        }
+        .fullScreenCover(isPresented: $openMessenger) {
+            Messenger.openMessenger()
+        }
+    }
+}
+
+#Preview {
+    YourHostingView()
+}
+```
+
+
+**UIKit**
+
+All you need to do, is to supply a view controller from where the messenger should be presented.
 The completion is called when the completion of  `.present(_: UIViewController, completion: (() -> Void)?)` is called.
 ```swift
 /// Presents the messenger as a Modal presentation
@@ -259,3 +302,4 @@ Messenger.pushNotification.presentNotification(_: UNNotification, withCompletion
 ## Uploading photos
 
 To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file. 
+
