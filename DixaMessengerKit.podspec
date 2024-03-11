@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DixaMessengerKit'
-  s.version          = '1.8.5'
+  s.version          = '1.8.5.1'
   s.summary          = 'DixaMessenger for iOS'
   
 # This description is used to generate tags and improve search results.
