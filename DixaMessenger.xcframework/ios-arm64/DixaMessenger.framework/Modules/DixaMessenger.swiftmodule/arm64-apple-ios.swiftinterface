@@ -26,7 +26,7 @@ import os
     get
   }
   public static func configure(_ config: DixaMessenger.DixaConfiguration)
-  @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt, pushEnvironment: Swift.UInt)
+  @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt)
   @objc public static func registerForPushNotification(deviceToken: Foundation.Data)
   public static func openMessenger() -> some SwiftUI.View
   
@@ -196,27 +196,32 @@ extension SwiftUI.View {
 
 
 
-public struct Article : Swift.Decodable, Swift.Equatable {
+public struct Article : Swift.Codable, Swift.Equatable {
   public static func == (a: DixaMessenger.Article, b: DixaMessenger.Article) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 extension DixaMessenger.Article {
   public init(id: Swift.String, title: Swift.String)
 }
-public struct ArticleCategory : Swift.Decodable, Swift.Equatable, Swift.Hashable {
+public struct ArticleCategory : Swift.Codable, Swift.Equatable, Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: DixaMessenger.ArticleCategory, b: DixaMessenger.ArticleCategory) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ArticleHighlights : Swift.Decodable {
+public struct ArticleHighlights : Swift.Codable, Swift.Equatable {
+  public static func == (a: DixaMessenger.ArticleHighlights, b: DixaMessenger.ArticleHighlights) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ArticleAuthor : Swift.Decodable, Swift.Equatable, Swift.Hashable {
+public struct ArticleAuthor : Swift.Codable, Swift.Equatable, Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: DixaMessenger.ArticleAuthor, b: DixaMessenger.ArticleAuthor) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
@@ -242,9 +247,14 @@ extension UIKit.UIColor {
 }
 @_hasMissingDesignatedInitializers final public class RemoteNotification {
   final public func register(deviceToken token: Foundation.Data)
-  final public func process(notification: UserNotifications.UNNotification, rootViewController: UIKit.UIViewController) -> Swift.Bool
-  final public func presentNotification(_ notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
+  final public func markNotifiationAsSeen()
   @objc deinit
+}
+extension DixaMessenger.RemoteNotification {
+  final public func process(notification: UserNotifications.UNNotification, rootViewController: UIKit.UIViewController) -> Swift.Bool
+}
+extension DixaMessenger.RemoteNotification {
+  final public func presentNotification(_ notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
 }
 extension UIKit.UIFont {
   public static func dixaLight(size: CoreFoundation.CGFloat) -> UIKit.UIFont
@@ -270,9 +280,9 @@ extension SwiftUI.Font {
   public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
   public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
 }
-
 public struct APIError : Swift.Error {
   public init(_ data: Foundation.Data)
+  public init(_ description: Swift.String)
 }
 
 
@@ -295,8 +305,8 @@ public struct DixaConfiguration {
   public init()
   public func apikey(_ token: Swift.String) -> DixaMessenger.DixaConfiguration
   public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
-  public func pushEnvironment(_ environment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
   public func supportedLanguages(_ languages: [Swift.String]) -> DixaMessenger.DixaConfiguration
+  public func pushEnvironment(_ pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment) -> DixaMessenger.DixaConfiguration
   public func backendEnvironment(_ env: Swift.String) -> DixaMessenger.DixaConfiguration
 }
 

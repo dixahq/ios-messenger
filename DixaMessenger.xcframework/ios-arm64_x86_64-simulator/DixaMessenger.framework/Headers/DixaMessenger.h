@@ -310,9 +310,7 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 ///
 /// \param logLevel 0: none, 1: warning, 2: error, 3: all
 ///
-/// \param pushEnvironment 0: sandbox, 1: production
-///
-+ (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel pushEnvironment:(NSUInteger)pushEnvironment;
++ (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel;
 /// Configure the Messenger from Objective-C
 /// \param deviceToken Device token data
 ///
@@ -334,13 +332,10 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// \param token jwe token
 ///
 + (void)verifyUserWith:(NSString * _Nonnull)token;
-/// Removes stored credentials, if there’s stored credentials
+/// Removes stored veritifcation token, if there’s anything stored
 + (void)clearVerificationToken;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-
 
 
 
@@ -682,9 +677,7 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 ///
 /// \param logLevel 0: none, 1: warning, 2: error, 3: all
 ///
-/// \param pushEnvironment 0: sandbox, 1: production
-///
-+ (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel pushEnvironment:(NSUInteger)pushEnvironment;
++ (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel;
 /// Configure the Messenger from Objective-C
 /// \param deviceToken Device token data
 ///
@@ -706,13 +699,10 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// \param token jwe token
 ///
 + (void)verifyUserWith:(NSString * _Nonnull)token;
-/// Removes stored credentials, if there’s stored credentials
+/// Removes stored veritifcation token, if there’s anything stored
 + (void)clearVerificationToken;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-
 
 
 

@@ -130,11 +130,12 @@ config.logLevel(.error)
 ```
 
 ### Push Environment
-By default, the push environment is set to `.production`, however, if you'd like you can set the pushEnvironment to `.sandbox` if you need to test push notifications while running your app in debug mode.
+By default, the push environment is set to .production, however, if you'd like you can set the pushEnvironment to .sandbox if you need to test push notifications while running your app in debug mode.
 
 example
 ```swift
-config.pushEnvironment(.sandbox)
+DixaConfiguration()
+    .pushEnvironment(.sandbox)
 ```
 
 ## Authentication
@@ -256,7 +257,7 @@ Messenger.unreadMessagesCountListener(completion: @escaping (_ count: Int) -> Vo
 ## Push notification handling
 To have DixaMessenger handle push messages, it requires that you do some footwork, since DixaMessenger doesn't automatically listens for notifications.
 
-First of all, create a push certificate and upload this in the your Dixa account.
+First of all, create a push certificate and upload it in the agent interface specific messenger account.
 
 In the app, when you get a push token, forward that to the DixaMessenger
 ```swift
@@ -274,19 +275,23 @@ As well, DixaMessenger contains some logic for when to show, or not show a notif
 If the notification wasn't intended for the messenger, you can handle the notification yourself.
 
 ```swift
+// MARK: - UNUserNotificationCenterDelegate
 extension YourNotificationHandlingObject: UNUserNotificationCenterDelegate {
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                willPresent notification: UNNotification,
+                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
 
-        if !Messenger.pushNotification.process(notification: response.notification, rootViewController: someViewController) {
-            // this notification wasn't intended for the DixaMessenger - please handle it :o)
+        // MARK: - Present notification if its related to DixaMessenger (while app being opened)
+        if Messenger.pushNotification.presentNotification(notification, withCompletionHandler: completionHandler) {
+            completionHandler([.banner])
         }
-        completionHandler()
     }
 
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        if !Messenger.pushNotification.presentNotification(notification, withCompletionHandler: completionHandler) {
-            // this notification wasn't intended for the DixaMessenger - please handle it :o)
-            completionHandler([])
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+
+        // MARK: - Push click in background
+        if Messenger.pushNotification.process(notification: response.notification, rootViewController: UIViewController()) {
+            completionHandler()
         }
     }
 }
