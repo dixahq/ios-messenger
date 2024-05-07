@@ -306,6 +306,8 @@
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "اتصل بنا";
 
+"dixa_contact_form_thanks_message" = "شكرًا! سنراسلك عبر البريد";
+
 "dixa_frontpage_continue_conversation" = "متابعة المحادثة";
 
 /* loco:6168043aa8e5357081734583 */

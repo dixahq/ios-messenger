@@ -308,6 +308,8 @@ eller sende supportteamet vårt en e-post.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontaktskjema";
 
+"dixa_contact_form_thanks_message" = "Takk! Vi kommer tilbake til deg på e-post";
+
 "dixa_frontpage_continue_conversation" = "Fortsett samtalen";
 
 /* loco:6168043aa8e5357081734583 */

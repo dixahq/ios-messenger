@@ -308,6 +308,8 @@ või meie kasutajatoele e-kirja saata.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontaktivorm";
 
+"dixa_contact_form_thanks_message" = "Aitäh! Võtame sinuga meili teel ühendust";
+
 "dixa_frontpage_continue_conversation" = "Jätka vestlust";
 
 /* loco:6168043aa8e5357081734583 */

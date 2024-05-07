@@ -308,6 +308,8 @@ eða sent þjónustudeildinni skilaboð.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Sambandseyðublað";
 
+"dixa_contact_form_thanks_message" = "Takk! Við höfum samband í tölvupósti";
+
 "dixa_frontpage_continue_conversation" = "Halda samtalinu áfram";
 
 /* loco:6168043aa8e5357081734583 */

@@ -67,7 +67,6 @@ public enum LogDestination {
     get
   }
 }
-
 @_Concurrency.MainActor(unsafe) public struct MessengerView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get

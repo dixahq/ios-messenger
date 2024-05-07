@@ -308,6 +308,8 @@ versuchen, oder dich per E-Mail an unser Support-Team wenden.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontaktformular";
 
+"dixa_contact_form_thanks_message" = "Danke! Wir melden uns per E-Mail bei dir";
+
 "dixa_frontpage_continue_conversation" = "Das Gespräch fortsetzen";
 
 /* loco:6168043aa8e5357081734583 */

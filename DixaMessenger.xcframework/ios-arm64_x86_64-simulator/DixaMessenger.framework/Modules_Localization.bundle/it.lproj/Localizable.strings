@@ -306,6 +306,8 @@
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Modulo di contatto";
 
+"dixa_contact_form_thanks_message" = "Grazie! Ti ricontatteremo tramite e-mail";
+
 "dixa_frontpage_continue_conversation" = "Continua la conversazione";
 
 /* loco:6168043aa8e5357081734583 */

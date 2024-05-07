@@ -306,6 +306,8 @@
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Contact form";
 
+"dixa_contact_form_thanks_message" = "Thanks! We’ll get back to you on mail";
+
 "dixa_frontpage_continue_conversation" = "Continue the conversation";
 
 /* loco:6168043aa8e5357081734583 */

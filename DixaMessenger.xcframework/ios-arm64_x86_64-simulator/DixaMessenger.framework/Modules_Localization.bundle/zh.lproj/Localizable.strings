@@ -308,6 +308,8 @@
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "联系表单";
 
+"dixa_contact_form_thanks_message" = "谢谢！我们会通过邮件回复您。";
+
 "dixa_frontpage_continue_conversation" = "继续对话";
 
 /* loco:6168043aa8e5357081734583 */

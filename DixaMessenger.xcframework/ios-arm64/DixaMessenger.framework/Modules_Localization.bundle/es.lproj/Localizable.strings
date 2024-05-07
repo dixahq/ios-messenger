@@ -308,6 +308,8 @@ o enviar un correo electrónico al equipo de asistencia.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Formulario de contacto";
 
+"dixa_contact_form_thanks_message" = "¡Gracias! Nos pondremos en contacto contigo por correo electrónico";
+
 "dixa_frontpage_continue_conversation" = "Continuar la conversación";
 
 /* loco:6168043aa8e5357081734583 */

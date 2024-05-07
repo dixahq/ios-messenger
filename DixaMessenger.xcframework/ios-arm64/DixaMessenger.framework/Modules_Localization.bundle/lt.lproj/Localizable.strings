@@ -308,6 +308,8 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Kontakto forma";
 
+"dixa_contact_form_thanks_message" = "Dėkojame! Susisieksime su jumis el. paštu";
+
 "dixa_frontpage_continue_conversation" = "Tęsti pokalbį";
 
 /* loco:6168043aa8e5357081734583 */

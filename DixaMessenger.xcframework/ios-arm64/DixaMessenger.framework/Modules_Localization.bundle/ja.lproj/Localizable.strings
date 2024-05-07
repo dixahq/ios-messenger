@@ -308,6 +308,8 @@
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "お問い合わせフォーム";
 
+"dixa_contact_form_thanks_message" = "ありがとうございます。メールでご連絡いたします。";
+
 "dixa_frontpage_continue_conversation" = "チャットを続ける";
 
 /* loco:6168043aa8e5357081734583 */

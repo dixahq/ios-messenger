@@ -308,6 +308,8 @@ lähettää sähköpostia tukitiimillemme.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Yhteydenottolomake";
 
+"dixa_contact_form_thanks_message" = "Kiitos! Otamme sinuun yhteyttä postitse";
+
 "dixa_frontpage_continue_conversation" = "Jatka keskustelua";
 
 /* loco:6168043aa8e5357081734583 */

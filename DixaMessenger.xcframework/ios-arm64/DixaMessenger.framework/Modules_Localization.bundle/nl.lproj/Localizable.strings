@@ -308,6 +308,8 @@ of een e-mail naar onze klantenservice sturen.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Contactformulier";
 
+"dixa_contact_form_thanks_message" = "Bedankt! We nemen contact met uw op via e-mail";
+
 "dixa_frontpage_continue_conversation" = "Doorgaan met gesprek";
 
 /* loco:6168043aa8e5357081734583 */
