@@ -687,13 +687,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13DixaMessenger0B0C04openB04from10completionySo16UIViewControllerC_yycSgtFZ",
+            "usr": "c:@M@DixaMessenger@objc(cs)Messenger(cm)openMessengerFrom:completion:",
             "mangledName": "$s13DixaMessenger0B0C04openB04from10completionySo16UIViewControllerC_yycSgtFZ",
             "moduleName": "DixaMessenger",
             "static": true,
+            "objc_name": "openMessengerFrom:completion:",
             "declAttributes": [
               "Final",
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -710,13 +712,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13DixaMessenger0B0C7dismissyyFZ",
+            "usr": "c:@M@DixaMessenger@objc(cs)Messenger(cm)dismiss",
             "mangledName": "$s13DixaMessenger0B0C7dismissyyFZ",
             "moduleName": "DixaMessenger",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -12515,77 +12518,77 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "BooleanLiteral",
-      "offset": 4746,
+      "offset": 4730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 7301,
+      "offset": 7295,
       "length": 23,
       "value": "\"Configuration not set\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 7396,
+      "offset": 7390,
       "length": 32,
       "value": "\"Configuration not is not valid\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 7467,
+      "offset": 7461,
       "length": 49,
       "value": "\"Dixa messenger SDK was successfully initialized\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 8155,
+      "offset": 8149,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "BooleanLiteral",
-      "offset": 8587,
+      "offset": 8581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 9038,
+      "offset": 9032,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 9952,
+      "offset": 9946,
       "length": 4,
       "value": "\"no\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 10086,
+      "offset": 10080,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "StringLiteral",
-      "offset": 10195,
+      "offset": 10189,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Messenger.swift",
       "kind": "IntegerLiteral",
-      "offset": 10200,
+      "offset": 10194,
       "length": 1,
       "value": "0"
     },

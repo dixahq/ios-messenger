@@ -302,19 +302,30 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSString;
 @class NSData;
+@class UIViewController;
 
 SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 @interface Messenger : NSObject
-/// Configure the Messenger from Objective-C
+/// Configure the Messenger
 /// \param token Dixa Messenger token
 ///
 /// \param logLevel 0: none, 1: warning, 2: error, 3: all
 ///
 + (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel;
-/// Configure the Messenger from Objective-C
+/// Register for push notifications
 /// \param deviceToken Device token data
 ///
 + (void)registerForPushNotificationWithDeviceToken:(NSData * _Nonnull)deviceToken;
+/// Presents the Messenger View on a given <code>UIViewController</code>.
+/// This method creates a new <code>MessengerView</code>, wraps it in a <code>UIHostingController</code>, and presents it on the provided <code>UIViewController</code>.
+/// This method sets the <code>modalPresentationStyle</code> of the <code>UIHostingController</code> to <code>.fullScreen</code>.
+/// \param presentationController The <code>UIViewController</code> on which the Messenger View should be presented.
+///
+/// \param completion An optional closure that’s called when the presentation finishes. Default is <code>nil</code>.
+///
++ (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController completion:(void (^ _Nullable)(void))completion;
+/// Dimisses the messenger & invalidates its socket connection
++ (void)dismiss;
 /// Observed for updates of unread messages count
 + (void)unreadMessagesCountListenerWithCompletion:(void (^ _Nonnull)(NSInteger))completion;
 /// Update the user credentials associated with the DixaMessenger
