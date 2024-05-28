@@ -14376,86 +14376,93 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8360,
+      "offset": 8292,
       "length": 3,
       "value": "115"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8643,
+      "offset": 8575,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9425,
+      "offset": 9357,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10201,
+      "offset": 10133,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10253,
+      "offset": 10185,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10492,
+      "offset": 10424,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10540,
+      "offset": 10472,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11062,
+      "offset": 10994,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11123,
+      "offset": 11055,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11485,
+      "offset": 11417,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11799,
+      "offset": 11731,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11860,
+      "offset": 11792,
       "length": 2,
       "value": "14"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12117,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
@@ -14466,36 +14473,29 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12253,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12474,
+      "offset": 12406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12738,
+      "offset": 12670,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13375,
+      "offset": 13307,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Conversation\/ConversationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14195,
+      "offset": 14127,
       "length": 1,
       "value": "0"
     },
