@@ -194,7 +194,6 @@ extension SwiftUI.View {
 }
 
 
-
 public struct Article : Swift.Codable, Swift.Equatable {
   public static func == (a: DixaMessenger.Article, b: DixaMessenger.Article) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
