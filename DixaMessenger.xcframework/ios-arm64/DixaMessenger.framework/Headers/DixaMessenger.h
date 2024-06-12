@@ -311,6 +311,14 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 ///
 /// \param logLevel 0: none, 1: warning, 2: error, 3: all
 ///
+/// \param pushEnvironment 0: production, 1: sandbox
+///
++ (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel pushEnvironment:(NSUInteger)pushEnvironment;
+/// Configure the Messenger
+/// \param token Dixa Messenger token
+///
+/// \param logLevel 0: none, 1: warning, 2: error, 3: all
+///
 + (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel;
 /// Register for push notifications
 /// \param deviceToken Device token data

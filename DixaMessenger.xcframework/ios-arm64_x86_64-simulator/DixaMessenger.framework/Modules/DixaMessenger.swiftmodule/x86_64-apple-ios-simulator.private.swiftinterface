@@ -26,6 +26,7 @@ import os
     get
   }
   public static func configure(_ config: DixaMessenger.DixaConfiguration)
+  @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt, pushEnvironment: Swift.UInt)
   @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt)
   @objc public static func registerForPushNotification(deviceToken: Foundation.Data)
   public static func openMessenger() -> some SwiftUI.View
@@ -153,7 +154,7 @@ extension Foundation.Bundle {
 }
 
 public struct AsyncImage<Content, Placeholder> : SwiftUI.View where Content : SwiftUI.View, Placeholder : SwiftUI.View {
-  public init(url: Foundation.URL?, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> Content, @SwiftUI.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping (UIKit.UIImage) -> Swift.Void?)
+  public init(url: Foundation.URL?, shouldAuthorize: Swift.Bool?, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> Content, @SwiftUI.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping (UIKit.UIImage) -> Swift.Void?)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

@@ -5,9 +5,8 @@
     - [Push Environment](#push-environment)
 - [Authentication](#authentication)
 - [Launching the Messenger](#launching-the-messenger)
-- [Unread messages](#unread-messages)
+- [DEPRECATED: Unread messages](#deprecated-unread-messages)
 - [Push notification handling](#push-notification-handling)
-- [Supporting nfo files](#supporting-nfo-files)
 
 ## Requirements
 - iOS 15+
@@ -247,7 +246,7 @@ The completion is called when the completion of  `.present(_: UIViewController, 
 Messenger.openMessenger(from: UIViewController, completion: (() -> Void)? = nil)
 ```
 
-## Unread messages
+## DEPRECATED: Unread messages
 The SDK offers an option for the hosting application to show how many unread messages there is.
 You can add yourself as a listener by calling the API like
 ```swift
@@ -324,5 +323,4 @@ Messenger.pushNotification.presentNotification(_: UNNotification, withCompletion
 
 ## Uploading photos
 
-To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file. 
-
+To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDescription` key and description to the Info.plist file.
