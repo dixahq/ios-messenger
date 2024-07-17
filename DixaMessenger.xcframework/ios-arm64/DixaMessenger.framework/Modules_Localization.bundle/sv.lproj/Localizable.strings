@@ -376,3 +376,29 @@ ett e-postmeddelande till vårt supportteam.";
 "dixa_end_conversation_title" = "Avsluta denna konversation";
 
 "dixa_end_conversation_info" = "Genom att klicka på knappen nedan avslutar du din nuvarande konversation.";
+
+"dixa_form_confirmation_question" = "Vill du använda dessa ändringar?";
+
+"dixa_form_confirmation_submit_answer" = "Ja, sänd dem";
+
+"dixa_form_confirmation_submit_cancel" = "Nej, skicka dem inte";
+
+"dixa_form_attachments_add_file" = "Lägg till fil";
+
+"dixa_form_attachments_description" = "bild, text (max. storlek 10MB)";
+
+"dixa_form_email_error" = "Ange en giltig e-postadress";
+
+"dixa_form_required_error" = "This field is required";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Select options";

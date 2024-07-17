@@ -197,7 +197,7 @@
 "dixa_network_issues_error_message" = "Entschuldigung, aktuell bestehen Netzwerkprobleme. Du kannst versuchen die Seite zu aktualisieren, oder dich per E-Mail an unser Support-Team wenden.";
 
 /* loco:613214d1cefdd85f6113f6c2 */
-"dixa_send_message_to_start_conversation" = "Tippe auf Personen, um ein Gespräch anzufangen";
+"dixa_send_message_to_start_conversation" = "Schreibe uns eine Nachricht hier";
 
 /* loco:613717a4a605ea60ee0199c2 */
 "dixa_network_issues_reconnected_message" = "Super! Du wurdest wieder verbunden.";
@@ -376,3 +376,29 @@ versuchen, oder dich per E-Mail an unser Support-Team wenden.";
 "dixa_end_conversation_title" = "Konversation beenden";
 
 "dixa_end_conversation_info" = "Bist Du sicher, dass Du die Konversation beenden möchtest?";
+
+"dixa_form_confirmation_question" = "Sind Sie sicher, dass Sie diese Änderungen speichern möchten?";
+
+"dixa_form_confirmation_submit_answer" = "Ja, sende sie";
+
+"dixa_form_confirmation_submit_cancel" = "Nein, sie nicht senden";
+
+"dixa_form_attachments_add_file" = "Add file";
+
+"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+
+"dixa_form_email_error" = "Bitte geben Sie eine gültige E-Mail-Adresse ein";
+
+"dixa_form_required_error" = "Dieses Feld ist erforderlich";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "Die Dateien überschreiten die zulässige Größe";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Optionen wählen";

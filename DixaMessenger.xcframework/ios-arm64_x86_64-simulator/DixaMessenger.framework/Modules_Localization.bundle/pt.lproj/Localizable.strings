@@ -376,3 +376,29 @@ ou enviar um e-mail à nossa equipa de suporte.";
 "dixa_end_conversation_title" = "Finalizar essa conversa";
 
 "dixa_end_conversation_info" = "Clicando no botão abaixo, você terminará sua conversa atual.";
+
+"dixa_form_confirmation_question" = "Tem a certeza de que quer aplicar estas alterações?";
+
+"dixa_form_confirmation_submit_answer" = "Sim, enviar";
+
+"dixa_form_confirmation_submit_cancel" = "Não, não envie-os";
+
+"dixa_form_attachments_add_file" = "Adicionar ficheiro";
+
+"dixa_form_attachments_description" = "imagem, texto (tamanho máximo 10 MB)";
+
+"dixa_form_email_error" = "Por favor insere um e-mail válido";
+
+"dixa_form_required_error" = "Este campo é obrigatório";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Selecionar opções";

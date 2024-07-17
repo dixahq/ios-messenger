@@ -6,6 +6,8 @@ import Combine
 import CoreText
 import CryptoKit
 import Foundation
+import ImageIO
+import MobileCoreServices
 import Network
 import OSLog
 import Swift
@@ -18,6 +20,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+
 
 
 @objc @_inheritsConvenienceInitializers final public class Messenger : ObjectiveC.NSObject, Combine.ObservableObject {
@@ -93,13 +96,6 @@ public struct BoardPath : Swift.Decodable, Swift.Equatable {
 }
 
 
-public struct AsyncFile<Content, Placeholder> : SwiftUI.View where Content : SwiftUI.View, Placeholder : SwiftUI.View {
-  public init(url: Foundation.URL?, @SwiftUI.ViewBuilder content: @escaping () -> Content, @SwiftUI.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping (Foundation.Data) -> Swift.Void?)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger9AsyncFileV4bodyQrvp", 0) __<Content, Placeholder>
-}
 
 public enum BulletinError : Swift.Error, Swift.Equatable {
   case networkError(Foundation.NSError)

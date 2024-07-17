@@ -376,3 +376,29 @@ o enviar un correo electrónico al equipo de asistencia.";
 "dixa_end_conversation_title" = "Finalizar conversación";
 
 "dixa_end_conversation_info" = "Al hacer clic en el botón de abajo terminarás tu conversación actual.";
+
+"dixa_form_confirmation_question" = "¿Seguro que quieres guardar los cambios?";
+
+"dixa_form_confirmation_submit_answer" = "Sí, enviar";
+
+"dixa_form_confirmation_submit_cancel" = "No, no los envíes";
+
+"dixa_form_attachments_add_file" = "Agregar archivo";
+
+"dixa_form_attachments_description" = "imagen, texto (tamaño máximo 10MB)";
+
+"dixa_form_email_error" = "Por favor, introduce un correo electrónico válido";
+
+"dixa_form_required_error" = "This field is required";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "Los archivos exceden el tamaño permitido";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Seleccione opciones";

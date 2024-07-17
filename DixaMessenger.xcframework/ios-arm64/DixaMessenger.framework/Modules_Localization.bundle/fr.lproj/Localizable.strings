@@ -374,3 +374,29 @@
 "dixa_end_conversation_title" = "Terminer cette conversation";
 
 "dixa_end_conversation_info" = "En cliquant sur le bouton ci-dessous, vous terminerez votre conversation actuelle.";
+
+"dixa_form_confirmation_question" = "Êtes-vous sûr de vouloir effectuer ces modifications ?";
+
+"dixa_form_confirmation_submit_answer" = "Oui, envoyer";
+
+"dixa_form_confirmation_submit_cancel" = "Non, ne les envoyez pas";
+
+"dixa_form_attachments_add_file" = "Ajouter un fichier";
+
+"dixa_form_attachments_description" = "image, texte (taille max. 10Mo)";
+
+"dixa_form_email_error" = "Veuillez entrer un email valide";
+
+"dixa_form_required_error" = "Ce champ est obligatoire";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "Les fichiers dépassent la taille autorisée";
+
+"dixa_form_maxSingleFileSize_error" = "Le fichier dépasse la taille maximale autorisée";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Sélectionner les options";

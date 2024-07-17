@@ -374,3 +374,29 @@
 "dixa_end_conversation_title" = "Конец разговора";
 
 "dixa_end_conversation_info" = "Нажав на кнопку ниже, вы завершите текущий диалог.";
+
+"dixa_form_confirmation_question" = "Сохранить изменения?";
+
+"dixa_form_confirmation_submit_answer" = "Да, отправить его";
+
+"dixa_form_confirmation_submit_cancel" = "Нет, не отправлять";
+
+"dixa_form_attachments_add_file" = "Добавить файл";
+
+"dixa_form_attachments_description" = "изображение, текст (макс. размер 10MB)";
+
+"dixa_form_email_error" = "Please enter a valid email";
+
+"dixa_form_required_error" = "This field is required";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Select options";

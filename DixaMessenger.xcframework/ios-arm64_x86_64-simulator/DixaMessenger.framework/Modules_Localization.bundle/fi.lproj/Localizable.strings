@@ -376,3 +376,29 @@ lähettää sähköpostia tukitiimillemme.";
 "dixa_end_conversation_title" = "Lopeta keskustelu";
 
 "dixa_end_conversation_info" = "Klikkaamalla alla olevaa painiketta lopetat nykyisen keskustelun.";
+
+"dixa_form_confirmation_question" = "Haluatko varmasti käyttää näitä muutoksia?";
+
+"dixa_form_confirmation_submit_answer" = "Kyllä, lähetä";
+
+"dixa_form_confirmation_submit_cancel" = "Ei, älä lähetä niitä";
+
+"dixa_form_attachments_add_file" = "Lisää tiedosto";
+
+"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+
+"dixa_form_email_error" = "Anna kelvollinen sähköpostiosoite";
+
+"dixa_form_required_error" = "This field is required";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Valitse vaihtoehdot";

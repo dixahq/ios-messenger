@@ -376,3 +376,29 @@ of een e-mail naar onze klantenservice sturen.";
 "dixa_end_conversation_title" = "Gesprek beëindigen";
 
 "dixa_end_conversation_info" = "Door op de knop hieronder te klikken zal je je huidige gesprek beëindigen.";
+
+"dixa_form_confirmation_question" = "Wilt u deze wijzigingen echt toepassen?";
+
+"dixa_form_confirmation_submit_answer" = "Ja, verstuur";
+
+"dixa_form_confirmation_submit_cancel" = "Nee, stuur ze niet";
+
+"dixa_form_attachments_add_file" = "Bestand toevoegen";
+
+"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+
+"dixa_form_email_error" = "Gelieve een geldig e-mailadres in te vullen";
+
+"dixa_form_required_error" = "Dit veld is verplicht";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Select options";

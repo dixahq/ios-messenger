@@ -376,3 +376,29 @@ eller sende supportteamet vårt en e-post.";
 "dixa_end_conversation_title" = "Avslutt samtale";
 
 "dixa_end_conversation_info" = "Ved å klikke på knappen nedenfor, vil du avslutte din nåværende samtale.";
+
+"dixa_form_confirmation_question" = "Er du sikker på at du vil sende disse endringene?";
+
+"dixa_form_confirmation_submit_answer" = "Ja, send";
+
+"dixa_form_confirmation_submit_cancel" = "Nei, ikke send dem";
+
+"dixa_form_attachments_add_file" = "Legg til fil";
+
+"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+
+"dixa_form_email_error" = "Vennligst skriv inn en gyldig e-post adresse";
+
+"dixa_form_required_error" = "Dette feltet er obligatorisk";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Select options";

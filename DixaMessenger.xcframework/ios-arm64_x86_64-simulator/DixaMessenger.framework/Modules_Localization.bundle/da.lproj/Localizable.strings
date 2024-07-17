@@ -374,3 +374,29 @@
 "dixa_end_conversation_title" = "Luk samtale";
 
 "dixa_end_conversation_info" = "Ved at klikke på knappen nedenfor, vil du afslutte din aktuelle samtale.";
+
+"dixa_form_confirmation_question" = "Er du sikker på, at du vil sende disse ændringer?";
+
+"dixa_form_confirmation_submit_answer" = "Ja, send dem";
+
+"dixa_form_confirmation_submit_cancel" = "Nej, send dem ikke";
+
+"dixa_form_attachments_add_file" = "Tilføj fil";
+
+"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+
+"dixa_form_email_error" = "Indtast venligst en gyldig e-mail";
+
+"dixa_form_required_error" = "Dette felt er påkrævet";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "Filerne overstiger den tilladte størrelse";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Select options";

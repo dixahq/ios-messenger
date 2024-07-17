@@ -376,3 +376,29 @@
 "dixa_end_conversation_title" = "关闭会话";
 
 "dixa_end_conversation_info" = "点击下面的按钮将结束您当前的对话。";
+
+"dixa_form_confirmation_question" = "确定要应用这些更改吗?";
+
+"dixa_form_confirmation_submit_answer" = "是的，找到他们！";
+
+"dixa_form_confirmation_submit_cancel" = "不，请不要发送。";
+
+"dixa_form_attachments_add_file" = "添加文件";
+
+"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+
+"dixa_form_email_error" = "Please enter a valid email";
+
+"dixa_form_required_error" = "This field is required";
+
+"dixa_form_regex_error" = "The text does not match field’s requirements";
+
+"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+
+"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_mim_related_sources" = "Related sources";
+
+"dixa_form_select_options" = "Select options";
