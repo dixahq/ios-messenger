@@ -385,20 +385,36 @@ eller sende supportteamet vårt en e-post.";
 
 "dixa_form_attachments_add_file" = "Legg til fil";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "bilde, tekst (maks. størrelse 10MB)";
 
-"dixa_form_email_error" = "Vennligst skriv inn en gyldig e-post adresse";
+"dixa_form_email_error" = "Vennligst skriv inn en gyldig e-postadresse";
 
 "dixa_form_required_error" = "Dette feltet er obligatorisk";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Teksten samsvarer ikke med feltets krav";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Filene overskrider den tillatte størrelsen";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Filen overskrider tillatt størrelse";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Ustøttet filtype";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Teksten samsvarer ikke med feltets krav";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Relaterte kilder";
+
+"dixa_form_select_options" = "Velg tillegg";
+
+"dixa_outside_form_contact_us" = "Kontakt oss";
+
+"dixa_outside_form_message_received" = "Melding mottatt";
+
+"dixa_outside_form_message_in_review" = "Vi skal se nærmere på det snart.";
+
+"dixa_outside_form_close" = "Lukk";
+
+"dixa_outside_form_something_went_wrong" = "Noe gikk galt!";
+
+"messenger_unavailable_title" = "Beklager";
+
+"messenger_unavailable_description" = "Messenger er utilgjengelig.";

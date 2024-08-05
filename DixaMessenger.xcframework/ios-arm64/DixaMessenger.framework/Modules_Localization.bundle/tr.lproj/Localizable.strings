@@ -387,16 +387,32 @@
 
 "dixa_form_email_error" = "Lütfen geçerli bir e-posta adresi gir";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Bu alan gereklidir";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Metin, alanın gereksinimleriyle uyuşmuyor";
 
 "dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
 
 "dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Desteklenmeyen dosya türü";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Metin, alanın gereksinimleriyle uyuşmuyor";
+
+"dixa_mim_related_sources" = "İlgili kaynaklar (makaleler)";
 
 "dixa_form_select_options" = "Select options";
+
+"dixa_outside_form_contact_us" = "Bize Ulaşın";
+
+"dixa_outside_form_message_received" = "Message received!";
+
+"dixa_outside_form_message_in_review" = "We will review it shortly.";
+
+"dixa_outside_form_close" = "Close";
+
+"dixa_outside_form_something_went_wrong" = "Something went wrong!";
+
+"messenger_unavailable_title" = "Üzgünüz";
+
+"messenger_unavailable_description" = "Messenger kullanılamıyor.";

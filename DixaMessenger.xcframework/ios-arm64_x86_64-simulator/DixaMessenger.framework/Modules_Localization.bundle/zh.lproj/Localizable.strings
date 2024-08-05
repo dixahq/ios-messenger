@@ -385,20 +385,36 @@
 
 "dixa_form_attachments_add_file" = "添加文件";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "图像，文本(最大 10MB)";
 
-"dixa_form_email_error" = "Please enter a valid email";
+"dixa_form_email_error" = "请输入有效的电子邮件";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "此字段是必需的";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "文本不符合字段要求";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "文件超出允许的大小";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "文件超出允许的大小";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "不支持的文件类型";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "文本不符合字段要求";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "相关来源（文章）";
+
+"dixa_form_select_options" = "选择选项";
+
+"dixa_outside_form_contact_us" = "联系我们";
+
+"dixa_outside_form_message_received" = "收到消息！";
+
+"dixa_outside_form_message_in_review" = "我们很快将对此进行审查。";
+
+"dixa_outside_form_close" = "关闭";
+
+"dixa_outside_form_something_went_wrong" = "出错了";
+
+"messenger_unavailable_title" = "对不起";
+
+"messenger_unavailable_description" = "Messenger 不可用。";

@@ -389,16 +389,32 @@ o enviar un correo electrónico al equipo de asistencia.";
 
 "dixa_form_email_error" = "Por favor, introduce un correo electrónico válido";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Este campo es obligatorio";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "El texto no coincide con los requisitos del campo";
 
 "dixa_form_maxTotalFilesSize_error" = "Los archivos exceden el tamaño permitido";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "El archivo excede el tamaño permitido";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Tipo de archivo no soportado";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "El texto no coincide con los requisitos del campo";
+
+"dixa_mim_related_sources" = "Fuentes relacionadas";
 
 "dixa_form_select_options" = "Seleccione opciones";
+
+"dixa_outside_form_contact_us" = "Contáctenos";
+
+"dixa_outside_form_message_received" = "¡Mensaje recibido!";
+
+"dixa_outside_form_message_in_review" = "La revisaremos en breve.";
+
+"dixa_outside_form_close" = "Cerrar";
+
+"dixa_outside_form_something_went_wrong" = "¡Algo ha ido mal!";
+
+"messenger_unavailable_title" = "Lo sentimos";
+
+"messenger_unavailable_description" = "Messenger no está disponible.";

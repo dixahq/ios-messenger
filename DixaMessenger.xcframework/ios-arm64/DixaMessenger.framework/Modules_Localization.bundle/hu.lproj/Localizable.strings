@@ -383,20 +383,36 @@
 
 "dixa_form_attachments_add_file" = "Fájl hozzáadása";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "kép, szöveg (max. 10MB méret)";
 
-"dixa_form_email_error" = "Please enter a valid email";
+"dixa_form_email_error" = "Kérlek létező email címet adj meg";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Ez a mező kötelező";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "A szöveg nem felel meg a mező követelményeinek";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "A fájlok mérete meghaladja a megengedett méretet";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "A fájl mérete meghaladja a megengedett méretet";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Nem támogatott fájl típus";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Teksti ei vastaa kentän vaatimuksia";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Kapcsolódó források (cikkek)";
+
+"dixa_form_select_options" = "Válasszon a lehetőségek közül";
+
+"dixa_outside_form_contact_us" = "Lépjen kapcsolatba velünk";
+
+"dixa_outside_form_message_received" = "Beérkező üzenet";
+
+"dixa_outside_form_message_in_review" = "Hamarosan áttekintjük.";
+
+"dixa_outside_form_close" = "Bezárás";
+
+"dixa_outside_form_something_went_wrong" = "Valami elromlott!";
+
+"messenger_unavailable_title" = "Sajnálom";
+
+"messenger_unavailable_description" = "A Messenger nem érhető el.";

@@ -383,20 +383,36 @@
 
 "dixa_form_attachments_add_file" = "إضافة ملف";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "الصورة، النص (الحد الأقصى للحجم 10 ميغابايت)";
 
-"dixa_form_email_error" = "Please enter a valid email";
+"dixa_form_email_error" = "الرجاء إدخال بريد إلكتروني صالح";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "يرجى ملء الحقل";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "النص لا يتوافق مع متطلبات المجال";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "الملفات تتجاوز الحجم المسموح به";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "الملف يتجاوز الحجم المسموح به";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "نوع الملف غير معتمد";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "النص لا يتطابق مع متطلبات الحقل";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "المصادر ذات الصلة (المقالات)";
+
+"dixa_form_select_options" = "حدد الخيارات";
+
+"dixa_outside_form_contact_us" = "اتصل بنا";
+
+"dixa_outside_form_message_received" = "استلام رسالة";
+
+"dixa_outside_form_message_in_review" = "وسنقوم باستعراضه قريبا.";
+
+"dixa_outside_form_close" = "إغلاق";
+
+"dixa_outside_form_something_went_wrong" = "حدث خطأ ما!";
+
+"messenger_unavailable_title" = "عذرًا";
+
+"messenger_unavailable_description" = "ماسنجر غير متوفر.";

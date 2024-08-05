@@ -385,20 +385,36 @@ of een e-mail naar onze klantenservice sturen.";
 
 "dixa_form_attachments_add_file" = "Bestand toevoegen";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "afbeelding, tekst (max. grootte 10MB)";
 
 "dixa_form_email_error" = "Gelieve een geldig e-mailadres in te vullen";
 
 "dixa_form_required_error" = "Dit veld is verplicht";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "De tekst komt niet overeen met de vereisten van het veld";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "De bestanden overschrijden de toegestane grootte";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Het bestand overschrijdt de maximaal toegestane grootte";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Niet ondersteund bestandstype";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "De tekst voldoet niet aan de vereisten van het veld";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Gerelateerde bronnen (artikelen)";
+
+"dixa_form_select_options" = "Selecteer opties";
+
+"dixa_outside_form_contact_us" = "Contacteer ons";
+
+"dixa_outside_form_message_received" = "Bericht ontvangen!";
+
+"dixa_outside_form_message_in_review" = "We zullen het binnenkort opnieuw bekijken.";
+
+"dixa_outside_form_close" = "Sluiten";
+
+"dixa_outside_form_something_went_wrong" = "Er is iets misgegaan";
+
+"messenger_unavailable_title" = "Sorry";
+
+"messenger_unavailable_description" = "Messenger is niet beschikbaar.";

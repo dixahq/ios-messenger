@@ -385,18 +385,34 @@
 
 "dixa_form_attachments_description" = "изображение, текст (макс. размер 10MB)";
 
-"dixa_form_email_error" = "Please enter a valid email";
+"dixa_form_email_error" = "Введите действительный адрес электронной почты";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Это поле является обязательным";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Текст не соответствует требованиям поля";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Файлы превышают допустимый размер";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Файл превышает допустимый размер";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Неподдерживаемый тип файла";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Текст не соответствует требованиям поля";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Связанные источники";
+
+"dixa_form_select_options" = "Выберите опции";
+
+"dixa_outside_form_contact_us" = "Связаться с нами";
+
+"dixa_outside_form_message_received" = "Сообщение получено!";
+
+"dixa_outside_form_message_in_review" = "Мы рассмотрим его в ближайшее время.";
+
+"dixa_outside_form_close" = "Закрыть";
+
+"dixa_outside_form_something_went_wrong" = "Что-то пошло не так!";
+
+"messenger_unavailable_title" = "Извините";
+
+"messenger_unavailable_description" = "Мессенджер недоступен.";

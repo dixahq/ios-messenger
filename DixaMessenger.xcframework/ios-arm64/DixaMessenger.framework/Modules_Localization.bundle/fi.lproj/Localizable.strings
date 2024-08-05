@@ -385,20 +385,36 @@ lähettää sähköpostia tukitiimillemme.";
 
 "dixa_form_attachments_add_file" = "Lisää tiedosto";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "kuva, teksti (max. koko 10MB)";
 
 "dixa_form_email_error" = "Anna kelvollinen sähköpostiosoite";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Tämä kenttä on pakollinen";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Teksti ei vastaa kentän vaatimuksia";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Tiedostot ylittävät sallitun koon";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Tiedosto ylittää sallitun koon";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Tiedostotyyppiä ei tueta";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Teksti ei vastaa kentän vaatimuksia";
+
+"dixa_mim_related_sources" = "Aiheeseen liittyvät lähteet (artikkelit)";
 
 "dixa_form_select_options" = "Valitse vaihtoehdot";
+
+"dixa_outside_form_contact_us" = "Ota yhteyttä";
+
+"dixa_outside_form_message_received" = "Viesti vastaanotettu";
+
+"dixa_outside_form_message_in_review" = "Tarkistamme sitä lähiaikoina.";
+
+"dixa_outside_form_close" = "Sulje";
+
+"dixa_outside_form_something_went_wrong" = "Jokin meni vikaan";
+
+"messenger_unavailable_title" = "Pahoittelumme";
+
+"messenger_unavailable_description" = "Messenger ei ole käytettävissä.";

@@ -395,8 +395,24 @@
 
 "dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
 
-"dixa_form_mimeTypes_error" = "Example message for failed mime type validation";
+"dixa_form_mimeTypes_error" = "Unsupported file type";
+
+"dixa_form_maxTextSize_error" = "The text does not match the field’s requirements";
 
 "dixa_mim_related_sources" = "Related sources";
 
 "dixa_form_select_options" = "Select options";
+
+"dixa_outside_form_contact_us" = "Contact us";
+
+"dixa_outside_form_message_received" = "Message received!";
+
+"dixa_outside_form_message_in_review" = "We will review it shortly.";
+
+"dixa_outside_form_close" = "Close";
+
+"dixa_outside_form_something_went_wrong" = "Something went wrong!";
+
+"messenger_unavailable_title" = "Sorry";
+
+"messenger_unavailable_description" = "Messenger is unavailable.";

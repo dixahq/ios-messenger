@@ -78,6 +78,7 @@ public struct MessengerView : SwiftUI.View {
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger0B4ViewV4bodyQrvp", 0) __
 }
 
+
 extension UIKit.UIImage {
   public func resized(to target: CoreFoundation.CGSize) -> UIKit.UIImage
 }

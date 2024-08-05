@@ -383,20 +383,36 @@
 
 "dixa_form_attachments_add_file" = "Tilføj fil";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "billede, tekst (maks. størrelse 10MB)";
 
 "dixa_form_email_error" = "Indtast venligst en gyldig e-mail";
 
 "dixa_form_required_error" = "Dette felt er påkrævet";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Teksten matcher ikke feltets krav";
 
 "dixa_form_maxTotalFilesSize_error" = "Filerne overstiger den tilladte størrelse";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Filen overskrider den tilladte størrelse";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Ikke-understøttet filtype";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Teksten matcher ikke feltets krav";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Relaterede kilder";
+
+"dixa_form_select_options" = "Vælg varianter";
+
+"dixa_outside_form_contact_us" = "Kontakt os";
+
+"dixa_outside_form_message_received" = "Besked modtaget";
+
+"dixa_outside_form_message_in_review" = "Vi vil om kort tid gennemgå det.";
+
+"dixa_outside_form_close" = "Luk";
+
+"dixa_outside_form_something_went_wrong" = "Noget gik galt!";
+
+"messenger_unavailable_title" = "Beklager";
+
+"messenger_unavailable_description" = "Messenger er ikke tilgængelig.";

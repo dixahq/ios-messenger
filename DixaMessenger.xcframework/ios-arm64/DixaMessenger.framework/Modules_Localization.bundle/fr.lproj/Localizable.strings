@@ -389,14 +389,30 @@
 
 "dixa_form_required_error" = "Ce champ est obligatoire";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Le texte ne correspond pas aux exigences du champ";
 
 "dixa_form_maxTotalFilesSize_error" = "Les fichiers dépassent la taille autorisée";
 
 "dixa_form_maxSingleFileSize_error" = "Le fichier dépasse la taille maximale autorisée";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Type de fichier non pris en charge";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Le texte ne correspond pas aux exigences du champ";
+
+"dixa_mim_related_sources" = "Sources connexes ";
 
 "dixa_form_select_options" = "Sélectionner les options";
+
+"dixa_outside_form_contact_us" = "Contactez-nous";
+
+"dixa_outside_form_message_received" = "Message reçu";
+
+"dixa_outside_form_message_in_review" = "Nous allons le réviser sous peu.";
+
+"dixa_outside_form_close" = "Fermer";
+
+"dixa_outside_form_something_went_wrong" = "Un problème est survenu";
+
+"messenger_unavailable_title" = "Désolé";
+
+"messenger_unavailable_description" = "Messenger est indisponible.";

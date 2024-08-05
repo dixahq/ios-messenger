@@ -385,20 +385,36 @@
 
 "dixa_form_attachments_add_file" = "ファイルを追加";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "画像、テキスト（最大サイズ10MB）";
 
-"dixa_form_email_error" = "Please enter a valid email";
+"dixa_form_email_error" = "正しいメールアドレスを入力してください";
 
 "dixa_form_required_error" = "このフィールドは必須です";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "テキストがフィールドの要件と一致しません";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "ファイルが許容サイズを超えています";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "ファイルが許容サイズを超えています";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "サポートされていないファイルタイプ";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "テキストがフィールドの要件に一致しません";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "関連情報源（記事）";
+
+"dixa_form_select_options" = "オプションの選択";
+
+"dixa_outside_form_contact_us" = "お問い合わせ";
+
+"dixa_outside_form_message_received" = "メッセージを受け取った!";
+
+"dixa_outside_form_message_in_review" = "まもなくそれを見直します。";
+
+"dixa_outside_form_close" = "閉じる";
+
+"dixa_outside_form_something_went_wrong" = "問題が発生しました";
+
+"messenger_unavailable_title" = "ごめん";
+
+"messenger_unavailable_description" = "メッセンジャーは利用できません。";

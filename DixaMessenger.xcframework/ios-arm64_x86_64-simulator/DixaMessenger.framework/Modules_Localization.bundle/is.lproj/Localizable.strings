@@ -373,7 +373,7 @@ eða sent þjónustudeildinni skilaboð.";
 
 "dixa_message_waiting_for_agent" = "Bíður eftir fulltrúa";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Ljúktu samtali";
 
 "dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
 
@@ -383,22 +383,38 @@ eða sent þjónustudeildinni skilaboð.";
 
 "dixa_form_confirmation_submit_cancel" = "No, don't send them";
 
-"dixa_form_attachments_add_file" = "Add file";
+"dixa_form_attachments_add_file" = "Bæta við skrá";
 
 "dixa_form_attachments_description" = "image, text (max. size 10MB)";
 
 "dixa_form_email_error" = "Vinsamlegast sláðu inn gilt netfang";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Þessi reitur er nauðsynlegur";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Textinn passar ekki við kröfur reitsins";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Skrárnar fara yfir leyfilega stærð";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Skráin fer yfir leyfilega stærð";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Óstudd skráargerð";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Textinn passar ekki við kröfur reitsins";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Tengdar heimildir (greinar)";
+
+"dixa_form_select_options" = "Veldu valkosti";
+
+"dixa_outside_form_contact_us" = "Hafðu samband við okkur";
+
+"dixa_outside_form_message_received" = "Message received!";
+
+"dixa_outside_form_message_in_review" = "We will review it shortly.";
+
+"dixa_outside_form_close" = "Loka";
+
+"dixa_outside_form_something_went_wrong" = "Eitthvað fór úrskeiðis.";
+
+"messenger_unavailable_title" = "Því miður";
+
+"messenger_unavailable_description" = "Messenger er ekki tiltækt.";

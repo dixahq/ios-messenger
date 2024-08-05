@@ -373,7 +373,7 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_message_waiting_for_agent" = "Laukiama, kol prisijungs agentas";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Pradėti pokalbį";
 
 "dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
 
@@ -387,18 +387,34 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_form_attachments_description" = "image, text (max. size 10MB)";
 
-"dixa_form_email_error" = "Please enter a valid email";
+"dixa_form_email_error" = "Įveskite galiojantį el. pašto adresą";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Šį lauką būtina užpildyti";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Tekstas neatitinka lauko reikalavimų";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Failai viršija leistiną dydį";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Failas viršija leistiną dydį";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Nepalaikomas failo tipas";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Tekstas neatitinka lauko reikalavimų";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Susiję šaltiniai (straipsniai)";
+
+"dixa_form_select_options" = "Pasirinkite";
+
+"dixa_outside_form_contact_us" = "Susisiekite su mumis";
+
+"dixa_outside_form_message_received" = "Gautas pranešimas";
+
+"dixa_outside_form_message_in_review" = "We will review it shortly.";
+
+"dixa_outside_form_close" = "Uždaryti";
+
+"dixa_outside_form_something_went_wrong" = "Oi! Kažkas nutiko...";
+
+"messenger_unavailable_title" = "Atsiprašome";
+
+"messenger_unavailable_description" = "Messenger nepasiekiamas.";

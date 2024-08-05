@@ -385,20 +385,36 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 
 "dixa_form_attachments_add_file" = "Dodaj plik";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "obraz, tekst (maks. rozmiar 10MB)";
 
 "dixa_form_email_error" = "Proszę podać poprawny adres e-mail";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "To pole jest wymagane";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Tekst nie jest zgodny z wymaganiami pola";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Pliki przekraczają dozwolony rozmiar";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Plik przekracza dozwolony rozmiar";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Nieobsługiwany typ pliku";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Tekst nie jest zgodny z wymaganiami pola";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Powiązane źródła (artykuły)";
+
+"dixa_form_select_options" = "Wybierz opcje";
+
+"dixa_outside_form_contact_us" = "Skontaktuj się z nami";
+
+"dixa_outside_form_message_received" = "Odebrano wiadomość";
+
+"dixa_outside_form_message_in_review" = "Wkrótce dokonamy jego przeglądu.";
+
+"dixa_outside_form_close" = "Zamknij";
+
+"dixa_outside_form_something_went_wrong" = "Coś poszło nie tak!";
+
+"messenger_unavailable_title" = "Przepraszamy";
+
+"messenger_unavailable_description" = "Messenger jest niedostępny.";

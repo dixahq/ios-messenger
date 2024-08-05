@@ -373,7 +373,7 @@ või meie kasutajatoele e-kirja saata.";
 
 "dixa_message_waiting_for_agent" = "Oodatakse agendi liitumist";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Lõpeta vestlus";
 
 "dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
 
@@ -385,20 +385,36 @@ või meie kasutajatoele e-kirja saata.";
 
 "dixa_form_attachments_add_file" = "Lisa fail";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "pilt, tekst (max 10MB)";
 
 "dixa_form_email_error" = "Palun sisestage kehtiv e-kirja aadress";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Selle välja täitmine on kohustuslik";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Tekst ei vasta välja nõuetele";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Failid ületavad lubatud suurust";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Fail ületab lubatud suuruse";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Toetamata failitüüp";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Tekst ei vasta välja nõuetele";
 
-"dixa_form_select_options" = "Select options";
+"dixa_mim_related_sources" = "Seotud allikad (artiklid)";
+
+"dixa_form_select_options" = "Valige valikud";
+
+"dixa_outside_form_contact_us" = "Võta meiega ühendust";
+
+"dixa_outside_form_message_received" = "Sõnum vastu võetud!";
+
+"dixa_outside_form_message_in_review" = "Vaatame selle peagi üle.";
+
+"dixa_outside_form_close" = "Sulge";
+
+"dixa_outside_form_something_went_wrong" = "Midagi läks valesti!";
+
+"messenger_unavailable_title" = "Vabandust";
+
+"messenger_unavailable_description" = "Messenger pole saadaval.";

@@ -385,18 +385,34 @@
 
 "dixa_form_attachments_description" = "image, text (max. size 10MB)";
 
-"dixa_form_email_error" = "Please enter a valid email";
+"dixa_form_email_error" = "โปรดระบุอีเมลที่ถูกต้อง";
 
 "dixa_form_required_error" = "ข้อมูลจำเป็นต้องระบุ";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "ข้อความไม่ตรงตามข้อกำหนดของสนาม";
 
 "dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
 
 "dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "ประเภทไฟล์ที่ไม่รองรับ";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "ข้อความไม่ตรงตามข้อกำหนดของสนาม";
+
+"dixa_mim_related_sources" = "แหล่งที่มาที่เกี่ยวข้อง (บทความ)";
 
 "dixa_form_select_options" = "Select options";
+
+"dixa_outside_form_contact_us" = "ติดต่อเรา";
+
+"dixa_outside_form_message_received" = "Message received!";
+
+"dixa_outside_form_message_in_review" = "We will review it shortly.";
+
+"dixa_outside_form_close" = "Close";
+
+"dixa_outside_form_something_went_wrong" = "Something went wrong!";
+
+"messenger_unavailable_title" = "ขอโทษ";
+
+"messenger_unavailable_description" = "Messenger ไม่สามารถใช้งานได้";

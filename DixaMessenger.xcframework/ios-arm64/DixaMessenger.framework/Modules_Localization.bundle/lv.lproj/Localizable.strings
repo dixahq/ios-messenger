@@ -389,7 +389,7 @@
 
 "dixa_form_required_error" = "Šis lauks ir obligāts";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Teksts neatbilst lauka prasībām";
 
 "dixa_form_maxTotalFilesSize_error" = "Faili pārsniedz atļauto izmēru";
 
@@ -397,6 +397,22 @@
 
 "dixa_form_mimeTypes_error" = "Neatbalstīts faila veids";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Teksts neatbilst lauka prasībām";
+
+"dixa_mim_related_sources" = "Saistītie avoti (raksti)";
 
 "dixa_form_select_options" = "Izvēlieties opcijas";
+
+"dixa_outside_form_contact_us" = "Sazinies ar mums";
+
+"dixa_outside_form_message_received" = "Ziņojums ir saņemts";
+
+"dixa_outside_form_message_in_review" = "We will review it shortly.";
+
+"dixa_outside_form_close" = "Aizvērt";
+
+"dixa_outside_form_something_went_wrong" = "Kaut kas nogāja greizi!";
+
+"messenger_unavailable_title" = "Atvainojiet";
+
+"messenger_unavailable_description" = "Messenger nav pieejams.";

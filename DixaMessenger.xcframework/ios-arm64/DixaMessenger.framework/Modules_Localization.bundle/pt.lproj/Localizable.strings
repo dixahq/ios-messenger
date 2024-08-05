@@ -391,14 +391,30 @@ ou enviar um e-mail à nossa equipa de suporte.";
 
 "dixa_form_required_error" = "Este campo é obrigatório";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "O texto não corresponde aos requisitos do campo";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "Os arquivos excedem o tamanho permitido";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "O arquivo excede o tamanho permitido";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Tipo de arquivo não suportado";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "O texto não corresponde aos requisitos do campo";
+
+"dixa_mim_related_sources" = "Fontes relacionadas";
 
 "dixa_form_select_options" = "Selecionar opções";
+
+"dixa_outside_form_contact_us" = "Contate-nos";
+
+"dixa_outside_form_message_received" = "Mensagem recebida!";
+
+"dixa_outside_form_message_in_review" = "Em breve, procederemos à sua revisão.";
+
+"dixa_outside_form_close" = "Fechar";
+
+"dixa_outside_form_something_went_wrong" = "Ocorreu algo de errado!";
+
+"messenger_unavailable_title" = "Desculpe";
+
+"messenger_unavailable_description" = "Messenger não está disponível.";

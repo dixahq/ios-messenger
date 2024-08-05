@@ -387,16 +387,32 @@
 
 "dixa_form_email_error" = "Si prega di inserire un indirizzo e-mail valido";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "Questo campo è obbligatorio";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "Il testo non corrisponde ai requisiti del campo";
 
-"dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
+"dixa_form_maxTotalFilesSize_error" = "I file superano la dimensione consentita";
 
-"dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
+"dixa_form_maxSingleFileSize_error" = "Il file supera la dimensione massima consentita";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "Tipo di file non supportato";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "Il testo non corrisponde ai requisiti del campo";
+
+"dixa_mim_related_sources" = "Fonti correlate";
 
 "dixa_form_select_options" = "Seleziona le opzioni";
+
+"dixa_outside_form_contact_us" = "Contattaci";
+
+"dixa_outside_form_message_received" = "Messaggio ricevuto";
+
+"dixa_outside_form_message_in_review" = "La riesamineremo a breve.";
+
+"dixa_outside_form_close" = "Chiudi";
+
+"dixa_outside_form_something_went_wrong" = "Qualcosa è andato storto!";
+
+"messenger_unavailable_title" = "Spiacente";
+
+"messenger_unavailable_description" = "Messenger non è disponibile.";

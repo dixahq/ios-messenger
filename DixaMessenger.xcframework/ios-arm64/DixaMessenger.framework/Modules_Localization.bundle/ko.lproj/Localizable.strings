@@ -387,16 +387,32 @@
 
 "dixa_form_email_error" = "유효한 이메일 주소를 입력하세요";
 
-"dixa_form_required_error" = "This field is required";
+"dixa_form_required_error" = "이 필드는 필수입니다";
 
-"dixa_form_regex_error" = "The text does not match field’s requirements";
+"dixa_form_regex_error" = "텍스트가 필드 요구 사항과 일치하지 않습니다.";
 
 "dixa_form_maxTotalFilesSize_error" = "The files exceed the allowed size";
 
 "dixa_form_maxSingleFileSize_error" = "The file exceeds the allowed size";
 
-"dixa_form_mimeTypes_error" = "Unsupported file type";
+"dixa_form_mimeTypes_error" = "지원되지 않는 파일 형식";
 
-"dixa_mim_related_sources" = "Related sources";
+"dixa_form_maxTextSize_error" = "텍스트가 필드 요구 사항과 일치하지 않습니다.";
+
+"dixa_mim_related_sources" = "관련 소스(기사)";
 
 "dixa_form_select_options" = "Select options";
+
+"dixa_outside_form_contact_us" = "문의하기";
+
+"dixa_outside_form_message_received" = "Message received!";
+
+"dixa_outside_form_message_in_review" = "We will review it shortly.";
+
+"dixa_outside_form_close" = "Close";
+
+"dixa_outside_form_something_went_wrong" = "Something went wrong!";
+
+"messenger_unavailable_title" = "죄송합니다";
+
+"messenger_unavailable_description" = "메신저를 사용할 수 없습니다.";
