@@ -418,3 +418,9 @@ või meie kasutajatoele e-kirja saata.";
 "messenger_unavailable_title" = "Vabandust";
 
 "messenger_unavailable_description" = "Messenger pole saadaval.";
+
+"dixa_attachment_upload_failed" = "Üleslaadimine ebaõnnestus";
+
+"dixa_attachment_unsupported" = "Ei toetata";
+
+"dixa_attachment_unsupported_file_format" = "Toetamata failitüüp";

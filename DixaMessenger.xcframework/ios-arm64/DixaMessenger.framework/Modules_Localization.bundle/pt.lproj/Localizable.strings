@@ -418,3 +418,9 @@ ou enviar um e-mail à nossa equipa de suporte.";
 "messenger_unavailable_title" = "Desculpe";
 
 "messenger_unavailable_description" = "Messenger não está disponível.";
+
+"dixa_attachment_upload_failed" = "Falha no carregamento";
+
+"dixa_attachment_unsupported" = "Não Suportado";
+
+"dixa_attachment_unsupported_file_format" = "Tipo de arquivo não suportado";

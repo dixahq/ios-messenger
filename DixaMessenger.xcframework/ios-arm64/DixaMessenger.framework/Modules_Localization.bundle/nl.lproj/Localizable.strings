@@ -418,3 +418,9 @@ of een e-mail naar onze klantenservice sturen.";
 "messenger_unavailable_title" = "Sorry";
 
 "messenger_unavailable_description" = "Messenger is niet beschikbaar.";
+
+"dixa_attachment_upload_failed" = "Upload mislukt";
+
+"dixa_attachment_unsupported" = "Niet ondersteund";
+
+"dixa_attachment_unsupported_file_format" = "Niet ondersteund bestandstype";

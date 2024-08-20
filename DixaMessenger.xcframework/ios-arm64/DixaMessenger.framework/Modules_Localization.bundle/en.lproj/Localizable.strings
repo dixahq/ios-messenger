@@ -416,3 +416,10 @@
 "messenger_unavailable_title" = "Sorry";
 
 "messenger_unavailable_description" = "Messenger is unavailable.";
+
+"dixa_attachment_upload_failed" = "Upload failed";
+
+"dixa_attachment_unsupported" = "Unsupported";
+
+"dixa_attachment_unsupported_file_format" = "Unsupported file format";
+

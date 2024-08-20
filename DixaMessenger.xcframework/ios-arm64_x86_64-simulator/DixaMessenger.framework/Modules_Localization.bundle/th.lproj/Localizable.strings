@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "ขอโทษ";
 
 "messenger_unavailable_description" = "Messenger ไม่สามารถใช้งานได้";
+
+"dixa_attachment_upload_failed" = "การอัพโหลดล้มเหลว";
+
+"dixa_attachment_unsupported" = "ไม่ได้รับการสนับสนุน";
+
+"dixa_attachment_unsupported_file_format" = "ประเภทไฟล์ที่ไม่รองรับ";

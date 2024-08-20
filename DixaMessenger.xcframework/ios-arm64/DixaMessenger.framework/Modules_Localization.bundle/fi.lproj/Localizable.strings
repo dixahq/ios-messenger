@@ -418,3 +418,9 @@ lähettää sähköpostia tukitiimillemme.";
 "messenger_unavailable_title" = "Pahoittelumme";
 
 "messenger_unavailable_description" = "Messenger ei ole käytettävissä.";
+
+"dixa_attachment_upload_failed" = "Lataus epäonnistui";
+
+"dixa_attachment_unsupported" = "Ei tuetut";
+
+"dixa_attachment_unsupported_file_format" = "Tiedostotyyppiä ei tueta";

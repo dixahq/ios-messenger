@@ -385,7 +385,7 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_form_attachments_add_file" = "Pridėti failą";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "vaizdas, tekstas (maks. dydis 10MB)";
 
 "dixa_form_email_error" = "Įveskite galiojantį el. pašto adresą";
 
@@ -409,7 +409,7 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_outside_form_message_received" = "Gautas pranešimas";
 
-"dixa_outside_form_message_in_review" = "We will review it shortly.";
+"dixa_outside_form_message_in_review" = "Netrukus jį peržiūrėsime.";
 
 "dixa_outside_form_close" = "Uždaryti";
 
@@ -418,3 +418,9 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 "messenger_unavailable_title" = "Atsiprašome";
 
 "messenger_unavailable_description" = "Messenger nepasiekiamas.";
+
+"dixa_attachment_upload_failed" = "Įkelti nepavyko";
+
+"dixa_attachment_unsupported" = "Nepalaikomas";
+
+"dixa_attachment_unsupported_file_format" = "Nepalaikomas failo tipas";

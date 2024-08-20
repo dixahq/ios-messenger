@@ -418,3 +418,9 @@ eller sende supportteamet vårt en e-post.";
 "messenger_unavailable_title" = "Beklager";
 
 "messenger_unavailable_description" = "Messenger er utilgjengelig.";
+
+"dixa_attachment_upload_failed" = "Opplasting mislyktes";
+
+"dixa_attachment_unsupported" = "Ikke støttet";
+
+"dixa_attachment_unsupported_file_format" = "Ustøttet filtype";

@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "Извините";
 
 "messenger_unavailable_description" = "Мессенджер недоступен.";
+
+"dixa_attachment_upload_failed" = "Загрузка не удалась";
+
+"dixa_attachment_unsupported" = "Не поддерживается";
+
+"dixa_attachment_unsupported_file_format" = "Неподдерживаемый тип файла";

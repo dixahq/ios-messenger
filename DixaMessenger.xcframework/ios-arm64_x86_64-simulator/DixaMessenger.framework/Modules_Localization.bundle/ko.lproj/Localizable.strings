@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "죄송합니다";
 
 "messenger_unavailable_description" = "메신저를 사용할 수 없습니다.";
+
+"dixa_attachment_upload_failed" = "업로드 실패";
+
+"dixa_attachment_unsupported" = "지원안됨";
+
+"dixa_attachment_unsupported_file_format" = "지원되지 않는 파일 형식";

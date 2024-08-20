@@ -418,3 +418,9 @@
 "messenger_unavailable_title" = "ごめん";
 
 "messenger_unavailable_description" = "メッセンジャーは利用できません。";
+
+"dixa_attachment_upload_failed" = "アップロードに失敗しました";
+
+"dixa_attachment_unsupported" = "対応していません";
+
+"dixa_attachment_unsupported_file_format" = "サポートされていないファイルタイプ";

@@ -418,3 +418,9 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 "messenger_unavailable_title" = "Przepraszamy";
 
 "messenger_unavailable_description" = "Messenger jest niedostępny.";
+
+"dixa_attachment_upload_failed" = "Przesyłanie nie powiodło się";
+
+"dixa_attachment_unsupported" = "Nieobsługiwane";
+
+"dixa_attachment_unsupported_file_format" = "Nieobsługiwany typ pliku";

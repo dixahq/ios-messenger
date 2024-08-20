@@ -418,3 +418,9 @@ ett e-postmeddelande till vårt supportteam.";
 "messenger_unavailable_title" = "Tyvärr";
 
 "messenger_unavailable_description" = "Messenger är inte tillgängligt.";
+
+"dixa_attachment_upload_failed" = "Uppladdningen misslyckades";
+
+"dixa_attachment_unsupported" = "Stöds inte";
+
+"dixa_attachment_unsupported_file_format" = "Filtyp som inte stöds";

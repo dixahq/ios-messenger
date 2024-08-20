@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "Sajnálom";
 
 "messenger_unavailable_description" = "A Messenger nem érhető el.";
+
+"dixa_attachment_upload_failed" = "A feltöltés sikertelen";
+
+"dixa_attachment_unsupported" = "Nem támogatott";
+
+"dixa_attachment_unsupported_file_format" = "Nem támogatott fájl típus";

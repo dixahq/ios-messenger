@@ -418,3 +418,9 @@
 "messenger_unavailable_title" = "对不起";
 
 "messenger_unavailable_description" = "Messenger 不可用。";
+
+"dixa_attachment_upload_failed" = "上传失败";
+
+"dixa_attachment_unsupported" = "不支持";
+
+"dixa_attachment_unsupported_file_format" = "不支持的文件类型";

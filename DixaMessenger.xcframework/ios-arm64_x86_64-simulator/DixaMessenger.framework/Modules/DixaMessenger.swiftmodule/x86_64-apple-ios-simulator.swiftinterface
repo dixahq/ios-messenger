@@ -17,6 +17,7 @@ import UniformTypeIdentifiers
 import UserNotifications
 import WebKit
 import _Concurrency
+import _PhotosUI_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
@@ -45,6 +46,7 @@ import os
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
+
 
 
 extension UIKit.UIColor {

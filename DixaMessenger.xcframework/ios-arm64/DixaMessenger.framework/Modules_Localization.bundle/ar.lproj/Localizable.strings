@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "عذرًا";
 
 "messenger_unavailable_description" = "ماسنجر غير متوفر.";
+
+"dixa_attachment_upload_failed" = "فشل التحميل";
+
+"dixa_attachment_unsupported" = "غير مدعوم";
+
+"dixa_attachment_unsupported_file_format" = "صيغة ملف غير مدعومة";

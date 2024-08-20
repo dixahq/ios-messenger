@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "Beklager";
 
 "messenger_unavailable_description" = "Messenger er ikke tilgængelig.";
+
+"dixa_attachment_upload_failed" = "Upload mislykkedes";
+
+"dixa_attachment_unsupported" = "Understøttes ikke";
+
+"dixa_attachment_unsupported_file_format" = "Ikke-understøttet filtype";

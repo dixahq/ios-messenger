@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "Üzgünüz";
 
 "messenger_unavailable_description" = "Messenger kullanılamıyor.";
+
+"dixa_attachment_upload_failed" = "Yükleme başarısız oldu";
+
+"dixa_attachment_unsupported" = "Desteklenmiyor";
+
+"dixa_attachment_unsupported_file_format" = "Desteklenmeyen dosya türü";

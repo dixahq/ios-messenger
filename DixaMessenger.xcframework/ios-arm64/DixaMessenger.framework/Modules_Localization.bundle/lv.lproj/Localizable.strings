@@ -371,7 +371,7 @@
 
 "dixa_message_waiting_for_agent" = "Gaida aģenta pievienošanos";
 
-"dixa_end_conversation_title" = "End conversation";
+"dixa_end_conversation_title" = "Beigt sarunu";
 
 "dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
 
@@ -383,7 +383,7 @@
 
 "dixa_form_attachments_add_file" = "Pievienot failu";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "attēls, teksts (maks. izmērs 10 MB)";
 
 "dixa_form_email_error" = "Lūdzu, ievadiet derīgu e-pasta adresi";
 
@@ -407,7 +407,7 @@
 
 "dixa_outside_form_message_received" = "Ziņojums ir saņemts";
 
-"dixa_outside_form_message_in_review" = "We will review it shortly.";
+"dixa_outside_form_message_in_review" = "Mēs to drīzumā pārskatīsim.";
 
 "dixa_outside_form_close" = "Aizvērt";
 
@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "Atvainojiet";
 
 "messenger_unavailable_description" = "Messenger nav pieejams.";
+
+"dixa_attachment_upload_failed" = "Augšupielāde neizdevās";
+
+"dixa_attachment_unsupported" = "Neatbalstīts";
+
+"dixa_attachment_unsupported_file_format" = "Neatbalstīts faila veids";

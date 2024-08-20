@@ -385,7 +385,7 @@ eða sent þjónustudeildinni skilaboð.";
 
 "dixa_form_attachments_add_file" = "Bæta við skrá";
 
-"dixa_form_attachments_description" = "image, text (max. size 10MB)";
+"dixa_form_attachments_description" = "mynd, texti (hámarksstærð 10MB)";
 
 "dixa_form_email_error" = "Vinsamlegast sláðu inn gilt netfang";
 
@@ -407,9 +407,9 @@ eða sent þjónustudeildinni skilaboð.";
 
 "dixa_outside_form_contact_us" = "Hafðu samband við okkur";
 
-"dixa_outside_form_message_received" = "Message received!";
+"dixa_outside_form_message_received" = "Skilaboð móttekin!";
 
-"dixa_outside_form_message_in_review" = "We will review it shortly.";
+"dixa_outside_form_message_in_review" = "Við munum endurskoða það fljótlega.";
 
 "dixa_outside_form_close" = "Loka";
 
@@ -418,3 +418,9 @@ eða sent þjónustudeildinni skilaboð.";
 "messenger_unavailable_title" = "Því miður";
 
 "messenger_unavailable_description" = "Messenger er ekki tiltækt.";
+
+"dixa_attachment_upload_failed" = "Upphleðsla mistókst";
+
+"dixa_attachment_unsupported" = "Óstudd";
+
+"dixa_attachment_unsupported_file_format" = "Óstudd skráargerð";

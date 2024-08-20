@@ -416,3 +416,9 @@
 "messenger_unavailable_title" = "Désolé";
 
 "messenger_unavailable_description" = "Messenger est indisponible.";
+
+"dixa_attachment_upload_failed" = "Échec du chargement";
+
+"dixa_attachment_unsupported" = "Non supporté";
+
+"dixa_attachment_unsupported_file_format" = "Format de fichier non supporté";
