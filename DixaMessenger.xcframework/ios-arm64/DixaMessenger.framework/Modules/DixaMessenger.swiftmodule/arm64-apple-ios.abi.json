@@ -2006,6 +2006,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DixaMessenger"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7871,6 +7878,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DixaMessenger"
       },
       {
         "kind": "Import",
@@ -15747,24 +15761,87 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 962,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1345,
+      "offset": 1602,
       "length": 9,
       "value": "\"chatbot\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1369,
+      "offset": 1626,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1392,
+      "offset": 1649,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1754,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1824,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1952,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1994,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2000,
+      "length": 3,
+      "value": "5.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Utils\/TextAttachment.swift",
@@ -16714,259 +16791,273 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2135,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4374,
+      "offset": 2053,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4598,
+      "offset": 2094,
       "length": 2,
-      "value": "12"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4610,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4775,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4783,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5173,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5413,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5484,
+      "offset": 2497,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5554,
+      "offset": 4736,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4960,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4972,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5137,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5145,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5535,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5775,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5846,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5916,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5642,
+      "offset": 6004,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 5779,
+      "offset": 6141,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5935,
+      "offset": 6297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6016,
+      "offset": 6378,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 6105,
+      "offset": 6467,
       "length": 6,
       "value": "\"Dixa\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6175,
+      "offset": 6537,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 6252,
+      "offset": 6614,
       "length": 17,
       "value": "\"Stefan Aleksiev\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 6360,
+      "offset": 6722,
       "length": 139,
       "value": "\"https:\/\/dixa-uploads.s3.eu-west-1.amazonaws.com\/7cb5a4c0-b29c-4bbe-8e82-de5112ae1c88\/user_avatar\/a266e9bd-1656-40e8-82da-fa40b472be3f.png\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6577,
+      "offset": 6939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6659,
+      "offset": 7021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 6749,
+      "offset": 7111,
       "length": 6,
       "value": "\"Dixa\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6819,
+      "offset": 7181,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 6897,
+      "offset": 7259,
       "length": 17,
       "value": "\"Stefan Aleksiev\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7072,
+      "offset": 7434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7155,
+      "offset": 7517,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 7245,
+      "offset": 7607,
       "length": 6,
       "value": "\"Dixa\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7315,
+      "offset": 7677,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 7393,
+      "offset": 7755,
       "length": 17,
       "value": "\"Stefan Aleksiev\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7568,
+      "offset": 7930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7651,
+      "offset": 8013,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 7756,
+      "offset": 8118,
       "length": 6,
       "value": "\"Dixa\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7826,
+      "offset": 8188,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 7904,
+      "offset": 8266,
       "length": 17,
       "value": "\"Stefan Aleksiev\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8079,
+      "offset": 8441,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8162,
+      "offset": 8524,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "StringLiteral",
-      "offset": 8267,
+      "offset": 8629,
       "length": 6,
       "value": "\"Dixa\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MessageBubbleBase\/MessageBubbleBaseView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8337,
+      "offset": 8699,
       "length": 4,
       "value": "true"
     },
@@ -16982,7 +17073,7 @@
       "kind": "IntegerLiteral",
       "offset": 315,
       "length": 3,
-      "value": "128"
+      "value": "137"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_0A6D60E669A33474AE40C4FADB8A21BCLl7PreviewfMf0_.swift",
@@ -18366,231 +18457,413 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "BooleanLiteral",
-      "offset": 268,
+      "offset": 350,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 362,
+      "offset": 499,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 482,
+      "offset": 661,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 494,
+      "offset": 673,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 588,
+      "offset": 775,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 629,
+      "offset": 820,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 692,
+      "offset": 887,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 745,
+      "offset": 956,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 962,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 814,
+      "offset": 1039,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1004,
+      "offset": 1245,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1015,
+      "offset": 1256,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1073,
+      "offset": 1318,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1079,
+      "offset": 1324,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1184,
+      "offset": 1437,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1254,
+      "offset": 1511,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1303,
+      "offset": 1564,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1499,
+      "offset": 1776,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1556,
+      "offset": 1837,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1567,
+      "offset": 1848,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1625,
+      "offset": 1910,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1631,
+      "offset": 1916,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1736,
+      "offset": 2029,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1806,
+      "offset": 2103,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1855,
+      "offset": 2156,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 2050,
+      "offset": 2367,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2107,
+      "offset": 2428,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2118,
+      "offset": 2439,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 2176,
+      "offset": 2501,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2182,
+      "offset": 2507,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 2287,
+      "offset": 2620,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2357,
+      "offset": 2694,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 2406,
+      "offset": 2747,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2588,
+      "offset": 2949,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3053,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3197,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3208,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 3262,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3268,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 3365,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3431,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 3476,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 3656,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3709,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3720,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 3774,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3780,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 3877,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3943,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 3988,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 4167,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4220,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4231,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 4285,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4291,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 4388,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4454,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "FloatLiteral",
+      "offset": 4499,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/MimTypingIndicator\/MimTypingIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4777,
       "length": 2,
       "value": "16"
     },
@@ -18605,15 +18878,22 @@
       "filePath": "@__swiftmacro_13DixaMessenger33_2A3363177F538C0E03917F1BA10F9177Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
       "offset": 312,
-      "length": 2,
-      "value": "77"
+      "length": 3,
+      "value": "123"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_2A3363177F538C0E03917F1BA10F9177Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
+      "offset": 345,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_13DixaMessenger33_2A3363177F538C0E03917F1BA10F9177Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 488,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Utils\/Attachmnts\/AsyncImage.swift",
@@ -25401,357 +25681,357 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1509,
+      "offset": 1654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1585,
+      "offset": 1730,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1709,
+      "offset": 1854,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1770,
+      "offset": 1915,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1923,
+      "offset": 2068,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1927,
+      "offset": 2072,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1987,
+      "offset": 2132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1991,
+      "offset": 2136,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2087,
+      "offset": 2232,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2091,
+      "offset": 2236,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2171,
+      "offset": 2316,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2322,
+      "offset": 2467,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2452,
+      "offset": 2597,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 2790,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "StringLiteral",
-      "offset": 2747,
+      "offset": 2892,
       "length": 10,
       "value": "\"arrow.up\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2903,
+      "offset": 3048,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2977,
+      "offset": 3122,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3116,
+      "offset": 3261,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3182,
+      "offset": 3327,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3199,
+      "offset": 3344,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3522,
+      "offset": 3667,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3773,
+      "offset": 3918,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3785,
+      "offset": 3930,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4277,
+      "offset": 4422,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4288,
+      "offset": 4433,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4460,
+      "offset": 4605,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4472,
+      "offset": 4617,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4666,
+      "offset": 4811,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4673,
+      "offset": 4818,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4755,
+      "offset": 4900,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4970,
+      "offset": 5115,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5221,
+      "offset": 5366,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5233,
+      "offset": 5378,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5288,
+      "offset": 5433,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5519,
+      "offset": 5664,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "StringLiteral",
-      "offset": 5625,
+      "offset": 5770,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5907,
+      "offset": 6052,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6029,
+      "offset": 6174,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6179,
+      "offset": 6324,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6902,
+      "offset": 7047,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6914,
+      "offset": 7059,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7019,
+      "offset": 7164,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7094,
+      "offset": 7239,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7268,
+      "offset": 7413,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7305,
+      "offset": 7450,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7757,
+      "offset": 7902,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8063,
+      "offset": 8208,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8165,
+      "offset": 8310,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8240,
+      "offset": 8385,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8545,
+      "offset": 8690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9192,
+      "offset": 9337,
       "length": 5,
       "value": "false"
     },
@@ -25968,100 +26248,114 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1513,
+      "offset": 1767,
       "length": 13,
       "value": "\"identify-me\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1814,
       "length": 20,
       "value": "\"start-conversation\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1865,
       "length": 17,
       "value": "\"deliver-message\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1915,
       "length": 19,
       "value": "\"message-delivered\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1708,
+      "offset": 1962,
       "length": 14,
       "value": "\"message-seen\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
+      "offset": 1997,
       "length": 6,
       "value": "\"ping\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1781,
+      "offset": 2035,
       "length": 18,
       "value": "\"end-conversation\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1513,
+      "offset": 2090,
+      "length": 24,
+      "value": "\"message-typing-started\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1767,
       "length": 13,
       "value": "\"identify-me\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1814,
       "length": 20,
       "value": "\"start-conversation\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1865,
       "length": 17,
       "value": "\"deliver-message\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1915,
       "length": 19,
       "value": "\"message-delivered\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1708,
+      "offset": 1962,
       "length": 14,
       "value": "\"message-seen\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
+      "offset": 1997,
       "length": 6,
       "value": "\"ping\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1781,
+      "offset": 2035,
       "length": 18,
       "value": "\"end-conversation\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketModels\/SocketMessageRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2090,
+      "length": 24,
+      "value": "\"message-typing-started\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/Knowledge\/Requests\/GetArticleRequest.swift",
@@ -29321,77 +29615,77 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 15877,
+      "offset": 16091,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 15941,
+      "offset": 16155,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 16018,
+      "offset": 16232,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 16081,
+      "offset": 16295,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 16375,
+      "offset": 16589,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 16672,
+      "offset": 16886,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 17270,
+      "offset": 17484,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 17891,
+      "offset": 18105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 17922,
+      "offset": 18136,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 18321,
+      "offset": 18535,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Domain\/Models\/ConversationComponent.swift",
       "kind": "StringLiteral",
-      "offset": 18556,
+      "offset": 18770,
       "length": 52,
       "value": "\"Socket resetted & conversation history is fetched.\""
     },
@@ -29986,121 +30280,177 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 284,
+      "offset": 299,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 331,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 503,
+      "offset": 518,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 767,
+      "offset": 694,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 802,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
       "length": 8,
       "value": "10000000"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 975,
+      "offset": 1126,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1520,
+      "offset": 1671,
       "length": 41,
       "value": "\"Content type of attachment is not valid\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2925,
+      "offset": 3076,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3441,
+      "offset": 3592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3870,
+      "offset": 4021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4165,
+      "offset": 4316,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4327,
+      "offset": 4478,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4736,
+      "offset": 4887,
       "length": 95,
       "value": "\"<a href='\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4767,
+      "offset": 4918,
       "length": 64,
       "value": "\"' target=\"_blank\"  rel=\"nofollow\">\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4826,
+      "offset": 4977,
       "length": 2,
       "value": "\"<\/a>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5130,
+      "offset": 5281,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5142,
+      "offset": 5293,
       "length": 6,
       "value": "\"<br>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5203,
+      "offset": 5354,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5603,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5711,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5839,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 5881,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 5887,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Message Components\/Input\/InputViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6061,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/Payloads\/EndConversationPayload.swift",
