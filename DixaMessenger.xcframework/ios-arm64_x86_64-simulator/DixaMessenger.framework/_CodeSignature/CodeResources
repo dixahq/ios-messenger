@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DixaMessenger.h</key>
 		<data>
-		6Mzis+xgs4pN7T7BEQ3lx8ViCPY=
+		o/Vc2VdALZvRLbtV7b5zUU/rqKE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,43 +14,43 @@
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kYZozVx/RZDw6KrjSJqbsOf5W7c=
+		56nHvfA/+7UNsvktMQvp+Tmnu+s=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zcwVLBs6gzDd8SLKy7sZQzKx5Lw=
+		oDXr77F7aw4/7xkBP6/vaptbfeM=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JmEDkpHU1uCG99ar8uauI7ZdN7I=
+		+t8NN33tOUnChLX4W2d/SHFkF2U=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zcwVLBs6gzDd8SLKy7sZQzKx5Lw=
+		oDXr77F7aw4/7xkBP6/vaptbfeM=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YWdolqfFs78GLbzywnuZD6oOPDA=
+		Mlo5p0bIY3kPhNW2QWGYieHfy3A=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kYZozVx/RZDw6KrjSJqbsOf5W7c=
+		56nHvfA/+7UNsvktMQvp+Tmnu+s=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		htxGX2PaPt4Q8P13JJv8ANFTYXo=
+		+MVSbcfevYWpM2fMKXUCr0BXJvk=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		so3eUhZWE0lOyggdUK8GgUEWna4=
+		g0fEO9HixweSGKba3mcPZR1uGcw=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		htxGX2PaPt4Q8P13JJv8ANFTYXo=
+		+MVSbcfevYWpM2fMKXUCr0BXJvk=
 		</data>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aHgiL8vllCJdvWnlHIN7664xBN0=
+		MclawMnckcdJM1yxHI1pa+mDMZ8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -371,77 +371,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGz7Dierlcnk3EKPa003Gb1xY1q4cYF5Schx8L2QVUM=
+			rtM6EdI/db7ThvO+g0gxiDzxYHzaJGQsygb3VRS+vRc=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jG8M+NEBJlD9Vf6H8DXKo9WWrH7E1yAb5kj3clSWHxQ=
+			7oWhiIcV9lDEWt3ZGkS5LtA0E0nThhP5oSNpxXseIMY=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+f5lsCaC8P/tfiuQwpnIfqUVfejsNLqWJvGfMaC9jQ=
+			jSR1HDMYVv80txx1tXja8HmEYFdBcpGX+hTBsZ8+qeU=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dyXloKT0C1ys71+507LpIy/TuQeuvO+NVFbWFER4bwU=
+			5XSmmPzCi4vJPVvUPnKyQ2dbLhH/NuS7FMHBHREPEA8=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+f5lsCaC8P/tfiuQwpnIfqUVfejsNLqWJvGfMaC9jQ=
+			jSR1HDMYVv80txx1tXja8HmEYFdBcpGX+hTBsZ8+qeU=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MYhhg/fNBmn4f9NubKjnfWzxGeRKW25bIiwQeW3CThc=
+			ue0FZEO2xpu95NuXXojEa4fs0cUW0oKYQuJZan1XlIg=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jG8M+NEBJlD9Vf6H8DXKo9WWrH7E1yAb5kj3clSWHxQ=
+			7oWhiIcV9lDEWt3ZGkS5LtA0E0nThhP5oSNpxXseIMY=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cS3Z1wOfG+izI4Vw5wXU5G64DNQKZdqksTZtBl5FOik=
+			NuDTrcq7tui2/G2jqcA5ORso2I0VaOxadR8EA0u7sCc=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3UzmHbCnLcYROYO2SX8dQBZ446v9pP9fzMymU8wUW98=
+			h6bvXRQxZPIwbB4j7Ci4DVW5mD+ijGJHEdJQJxqGkVI=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cS3Z1wOfG+izI4Vw5wXU5G64DNQKZdqksTZtBl5FOik=
+			NuDTrcq7tui2/G2jqcA5ORso2I0VaOxadR8EA0u7sCc=
 			</data>
 		</dict>
 		<key>Modules/DixaMessenger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gCFAADk4FB1KWRsynQPjarmhlpT8gzdXQcgqwhyomQQ=
+			EsaSYjgjT7+SeVDw+d18qGI2v6mjgvxSHBDJwzrlOZk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

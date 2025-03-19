@@ -278,6 +278,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -329,9 +330,11 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// This method sets the <code>modalPresentationStyle</code> of the <code>UIHostingController</code> to <code>.fullScreen</code>.
 /// \param presentationController The <code>UIViewController</code> on which the Messenger View should be presented.
 ///
+/// \param style The presentation style of the <code>UIHostingController</code>.
+///
 /// \param completion An optional closure that’s called when the presentation finishes. Default is <code>nil</code>.
 ///
-+ (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController completion:(void (^ _Nullable)(void))completion;
++ (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController with:(UIModalPresentationStyle)style completion:(void (^ _Nullable)(void))completion;
 /// Dimisses the messenger & invalidates its socket connection
 + (void)dismiss;
 /// Observed for updates of unread messages count
@@ -664,6 +667,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -715,9 +719,11 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// This method sets the <code>modalPresentationStyle</code> of the <code>UIHostingController</code> to <code>.fullScreen</code>.
 /// \param presentationController The <code>UIViewController</code> on which the Messenger View should be presented.
 ///
+/// \param style The presentation style of the <code>UIHostingController</code>.
+///
 /// \param completion An optional closure that’s called when the presentation finishes. Default is <code>nil</code>.
 ///
-+ (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController completion:(void (^ _Nullable)(void))completion;
++ (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController with:(UIModalPresentationStyle)style completion:(void (^ _Nullable)(void))completion;
 /// Dimisses the messenger & invalidates its socket connection
 + (void)dismiss;
 /// Observed for updates of unread messages count
