@@ -16906,35 +16906,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1852,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2027,
+      "offset": 1888,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2277,
+      "offset": 2167,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2393,
+      "offset": 2283,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowView.swift",
       "kind": "StringLiteral",
-      "offset": 2621,
+      "offset": 2511,
       "length": 6,
       "value": "\"Dixa\""
     },
@@ -16950,7 +16943,7 @@
       "kind": "IntegerLiteral",
       "offset": 321,
       "length": 2,
-      "value": "65"
+      "value": "64"
     },
     {
       "filePath": "@__swiftmacro_13DixaMessenger33_0B3928E1862E2A0025B26A51409DB5BCLl7PreviewfMf0_.swift",
@@ -31928,42 +31921,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 294,
+      "offset": 298,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 525,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 589,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 648,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/PreviousConversation\/PreviousConversationRow\/PreviousConversationRowViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 733,
+      "offset": 610,
       "length": 2,
       "value": "\"\""
     },
