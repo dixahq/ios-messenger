@@ -371,16 +371,16 @@ UIKit:
 ```swift
 ///  Presents the Messenger View on a given `UIViewController`.
 ///
-///  - **Parameters**:
+///  - Parameters:
 ///  - presentationController: The `UIViewController` on which the Messenger View should be presented.
 ///  - style: The presentation style of the `UIHostingController`.
 ///  - completion: An optional closure that's called when the presentation finishes. Default is `nil`.
 
-**@objc**
-**public** **static** **func** openMessenger(from presentationController: UIViewController, with style: UIModalPresentationStyle, completion: (() -> Void)? = **nil**) {
+@objc
+public static func openMessenger(from presentationController: UIViewController, with style: UIModalPresentationStyle, completion: (() -> Void)? = **nil**) {
 	**let** hostVC = UIHostingController(rootView: Messenger.openMessenger())
 	hostVC.modalPresentationStyle = style
-	presentationController.present(hostVC, animated: **true**, completion: completion)
+	presentationController.present(hostVC, animated: true, completion: completion)
 }
 ```
 
