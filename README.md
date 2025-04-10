@@ -378,9 +378,9 @@ UIKit:
 
 @objc
 public static func openMessenger(from presentationController: UIViewController, with style: UIModalPresentationStyle, completion: (() -> Void)? = **nil**) {
-	**let** hostVC = UIHostingController(rootView: Messenger.openMessenger())
-	hostVC.modalPresentationStyle = style
-	presentationController.present(hostVC, animated: true, completion: completion)
+    let hostVC = UIHostingController(rootView: Messenger.openMessenger())
+    hostVC.modalPresentationStyle = style
+    presentationController.present(hostVC, animated: true, completion: completion)
 }
 ```
 
