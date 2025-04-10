@@ -397,25 +397,3 @@ The method openMessenger, creates a new `MessengerView`, wraps it in a `UIHostin
 
 All modal presentation styles, available here:
 https://developer.apple.com/documentation/uikit/uimodalpresentationstyle
-
-Action points:
-- Enhance `openMessenger(from presentationController: UIViewController, completion: (() -> Void)?`, so developers can set specific modal presentation style due to their needs.
-
-
-_UIKit_
-```swift
-/// Presents the Messenger View on a given `UIViewController`.
-    ///
-    /// - Parameters:
-    ///   - presentationController: The `UIViewController` on which the Messenger View should be presented.
-    ///   - completion: An optional closure that's called when the presentation finishes. Default is `nil`.
-    ///
-    /// This method creates a new `MessengerView`, wraps it in a `UIHostingController`, and presents it on the provided `UIViewController`.
-    /// This method sets the `modalPresentationStyle` of the `UIHostingController` to `.fullScreen`.
-    @objc
-    public static func openMessenger(from presentationController: UIViewController, completion: (() -> Void)? = nil) {
-        let hostVC = UIHostingController(rootView: Messenger.openMessenger())
-        hostVC.modalPresentationStyle = .fullScreen
-        presentationController.present(hostVC, animated: true, completion: completion)
-    }
-```
