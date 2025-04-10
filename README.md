@@ -238,12 +238,13 @@ struct YourHostingView: View {
 All you need to do, is to supply a view controller from where the messenger should be presented.
 The completion is called when the completion of  `.present(_: UIViewController, completion: (() -> Void)?)` is called.
 ```swift
-/// Presents the messenger as a Modal presentation
+///  Presents the Messenger View on a given `UIViewController`.
 ///
-/// Call openMessenger, when the user has tapped on a button to launch the Messenger Client.
-/// The presentation style will be .fullScreen
-/// - Parameter presentationController: The view controller from which the Messenger Client is to be presented
-Messenger.openMessenger(from: UIViewController, completion: (() -> Void)? = nil)
+///  - Parameters:
+///  - presentationController: The `UIViewController` on which the Messenger View should be presented.
+///  - style: The presentation style of the `UIHostingController`.
+///  - completion: An optional closure that's called when the presentation finishes. Default is `nil`.
+Messenger.openMessenger(from: UIViewController, style: UIModalPresentationStyle, completion: (() -> Void)? = nil)
 ```
 
 ## DEPRECATED: Unread messages
@@ -330,19 +331,6 @@ To enable file uploads from iOS your app needs to add the `NSPhotoLibraryUsageDe
 By default, the Messenger widget is configured to display in full-screen mode. However, you can customize this behavior to present it using modals instead. Below are examples for both  **SwiftUI**  and  **UIKit**:
 
 **SwiftUI:**
-You’ll need to use the `openMessenger` method, which returns a `SwiftUI View`.
-
-
-```swift
-    /// Creates a MessengerView as SwiftUI component.
-    ///
-    /// - Returns: A `MessengerView` instance. Use this when you want to access the `MessengerView` directly.
-    ///
-    /// Call this method as content to  .fullScreenCover modifier of your hosting view.
-    public static func openMessenger() -> some View {
-        MessengerView(session: shared.setupSession())
-    }
-```
 
 Developers can decide how they would like to present the view - sheet, full screen cover or even sheet with specific height:
 
@@ -365,28 +353,10 @@ Developers can decide how they would like to present the view - sheet, full scre
 All presentationDetents available here:
 https://developer.apple.com/documentation/swiftui/view/presentationdetents(_:)
 
-UIKit:
-
-
-```swift
-///  Presents the Messenger View on a given `UIViewController`.
-///
-///  - Parameters:
-///  - presentationController: The `UIViewController` on which the Messenger View should be presented.
-///  - style: The presentation style of the `UIHostingController`.
-///  - completion: An optional closure that's called when the presentation finishes. Default is `nil`.
-
-@objc
-public static func openMessenger(from presentationController: UIViewController, with style: UIModalPresentationStyle, completion: (() -> Void)? = **nil**) {
-    let hostVC = UIHostingController(rootView: Messenger.openMessenger())
-    hostVC.modalPresentationStyle = style
-    presentationController.present(hostVC, animated: true, completion: completion)
-}
-```
-
-UIKit:
+**UIKit:**
 
 The method openMessenger, creates a new `MessengerView`, wraps it in a `UIHostingController`, and presents it on the provided `UIViewController`.
+All you need to do is to set the style parameter that is part of the openMessenger function.
 
 All modal presentation styles available here:
 https://developer.apple.com/documentation/uikit/uimodalpresentationstyle
