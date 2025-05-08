@@ -10,7 +10,7 @@
 
 ## Requirements
 - iOS 15+
-- Xcode 15.2+
+- Xcode 16
 
 ## Installation
 The Dixa Messenger SDK can be installed using Swift package manager, cocoa pods or by manually downloading and adding it to the project.
@@ -26,7 +26,7 @@ In Xcode add a package dependency to your project with the following URL:
 
 In your pod file, add: 
 ```
-pod 'DixaMessengerKit', :git => 'https://github.com/dixahq/ios-messenger', :branch => 'main'
+pod 'DixaMessengerKit', '1.12.0'
 ```
 
 ### Manual
@@ -238,12 +238,12 @@ struct YourHostingView: View {
 All you need to do, is to supply a view controller from where the messenger should be presented.
 The completion is called when the completion of  `.present(_: UIViewController, completion: (() -> Void)?)` is called.
 ```swift
-///  Presents the Messenger View on a given `UIViewController`.
+/// Presents the Messenger View on a given `UIViewController`.
 ///
-///  - Parameters:
-///  - presentationController: The `UIViewController` on which the Messenger View should be presented.
-///  - style: The presentation style of the `UIHostingController`.
-///  - completion: An optional closure that's called when the presentation finishes. Default is `nil`.
+/// - Parameters:
+/// - presentationController: The `UIViewController` on which the Messenger View should be presented.
+/// - style: The presentation style of the `UIHostingController`.
+/// - completion: An optional closure that's called when the presentation finishes. Default is `nil`.
 Messenger.openMessenger(from: UIViewController, style: UIModalPresentationStyle, completion: (() -> Void)? = nil)
 ```
 
