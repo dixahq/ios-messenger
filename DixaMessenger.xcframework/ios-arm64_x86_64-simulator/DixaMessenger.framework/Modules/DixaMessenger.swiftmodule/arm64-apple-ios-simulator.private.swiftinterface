@@ -1,16 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DixaMessenger
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -Onone -module-name DixaMessenger
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
 import CoreText
 import CryptoKit
 import Foundation
 import ImageIO
 import MobileCoreServices
-import Models
 import Network
 import OSLog
+import PhotosUI
 import Swift
 import SwiftUI
 import UIKit
@@ -25,25 +25,35 @@ import os
 
 
 
-@objc @_inheritsConvenienceInitializers final public class Messenger : ObjectiveC.NSObject, Combine.ObservableObject {
-  public static var shared: DixaMessenger.Messenger
-  public static var pushNotification: DixaMessenger.RemoteNotification {
+public enum MessengerError : Swift.Error {
+  case initializationTimeout
+  public static func == (a: DixaMessenger.MessengerError, b: DixaMessenger.MessengerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
-  public static func configure(_ config: DixaMessenger.DixaConfiguration)
-  @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt, pushEnvironment: Swift.UInt)
-  @objc public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt)
-  @objc public static func registerForPushNotification(deviceToken: Foundation.Data)
-  public static func openMessenger() -> some SwiftUI.View
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor final public class Messenger : ObjectiveC.NSObject, Combine.ObservableObject {
+  @_Concurrency.MainActor public static var shared: DixaMessenger.Messenger
+  @_Concurrency.MainActor public static var pushNotification: DixaMessenger.RemoteNotification {
+    get
+  }
+  @_Concurrency.MainActor public static func configure(_ config: DixaMessenger.DixaConfiguration)
+  @objc @_Concurrency.MainActor public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt, pushEnvironment: Swift.UInt)
+  @objc @_Concurrency.MainActor public static func configureWith(messengerToken token: Swift.String, logLevel: Swift.UInt)
+  @objc @_Concurrency.MainActor public static func registerForPushNotification(deviceToken: Foundation.Data)
+  @_Concurrency.MainActor public static func openMessenger() -> some SwiftUICore.View
   
-  @objc public static func openMessenger(from presentationController: UIKit.UIViewController, with style: UIKit.UIModalPresentationStyle, completion: (() -> Swift.Void)? = nil)
-  @objc public static func dismiss()
-  @objc public static func unreadMessagesCountListener(completion: @escaping (_ count: Swift.Int) -> Swift.Void)
-  @objc public static func updateUserCredentials(username: Swift.String, email: Swift.String)
-  @objc public static func clearUserCredentials()
-  @objc public static func verifyUser(with token: Swift.String)
-  @objc public static func clearVerificationToken()
-  @objc override dynamic public init()
+  @objc @_Concurrency.MainActor public static func openMessenger(from presentationController: UIKit.UIViewController, with style: UIKit.UIModalPresentationStyle, completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor public static func openMessenger(from presentationController: UIKit.UIViewController, completion: (() -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor public static func dismiss()
+  @objc @_Concurrency.MainActor public static func unreadMessagesCountListener(completion: @escaping (_ count: Swift.Int) -> Swift.Void)
+  @objc @_Concurrency.MainActor public static func updateUserCredentials(username: Swift.String, email: Swift.String)
+  @objc @_Concurrency.MainActor public static func clearUserCredentials() async
+  @objc @_Concurrency.MainActor public static func verifyUser(with token: Swift.String)
+  @objc @_Concurrency.MainActor public static func clearVerificationToken()
+  @_Concurrency.MainActor @objc override dynamic public init()
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -65,7 +75,7 @@ public enum LogLevel : Swift.UInt, Swift.Comparable {
     get
   }
 }
-public enum LogDestination {
+public enum LogDestination : Swift.Sendable {
   case OSLog
   case console
   public static func == (a: DixaMessenger.LogDestination, b: DixaMessenger.LogDestination) -> Swift.Bool
@@ -75,10 +85,11 @@ public enum LogDestination {
   }
 }
 
-public struct MessengerView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor public struct MessengerView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger0B4ViewV4bodyQrvp", 0) __
 }
 
@@ -87,12 +98,12 @@ extension UIKit.UIImage {
   public func resized(to target: CoreFoundation.CGSize) -> UIKit.UIImage
 }
 
-public struct Board : Swift.Decodable, Swift.Equatable {
+public struct Board : Swift.Decodable, Swift.Equatable, Swift.Sendable {
   public typealias Id = Swift.String
   public static func == (a: DixaMessenger.Board, b: DixaMessenger.Board) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct BoardPath : Swift.Decodable, Swift.Equatable {
+public struct BoardPath : Swift.Decodable, Swift.Equatable, Swift.Sendable {
   public var url: Foundation.URL? {
     get
   }
@@ -109,13 +120,13 @@ public enum BulletinError : Swift.Error, Swift.Equatable {
   case noContent
   public static func == (a: DixaMessenger.BulletinError, b: DixaMessenger.BulletinError) -> Swift.Bool
 }
-public struct Bulletin : Swift.Equatable, Swift.Decodable, Swift.Identifiable, Swift.Hashable {
+public struct Bulletin : Swift.Equatable, Swift.Decodable, Swift.Identifiable, Swift.Hashable, Swift.Sendable {
   public init(content: Swift.String, contentType: DixaMessenger.Bulletin.ContentType, order: Swift.Int, title: Swift.String, shouldDismiss _: Swift.Bool = false)
   public func hash(into hasher: inout Swift.Hasher)
   public var id: DixaMessenger.Bulletin.Id {
     get
   }
-  public enum ContentType : Swift.String, Swift.Decodable {
+  public enum ContentType : Swift.String, Swift.Decodable, Swift.Sendable {
     case text
     case link
     public init?(rawValue: Swift.String)
@@ -142,6 +153,7 @@ public struct Bulletin : Swift.Equatable, Swift.Decodable, Swift.Identifiable, S
   }
   public typealias Id = Swift.Int
   public static func == (a: DixaMessenger.Bulletin, b: DixaMessenger.Bulletin) -> Swift.Bool
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = DixaMessenger.Bulletin.Id
   public var hashValue: Swift.Int {
     get
@@ -154,20 +166,21 @@ extension Foundation.Bundle {
   }
 }
 
-public struct AsyncImage<Content, Placeholder> : SwiftUI.View where Content : SwiftUI.View, Placeholder : SwiftUI.View {
-  public init(url: Foundation.URL?, shouldAuthorize: Swift.Bool?, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> Content, @SwiftUI.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping (UIKit.UIImage) -> Swift.Void?)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct AsyncImage<Content, Placeholder> : SwiftUICore.View where Content : SwiftUICore.View, Placeholder : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL?, shouldAuthorize: Swift.Bool?, @SwiftUICore.ViewBuilder content: @escaping (SwiftUICore.Image) -> Content, @SwiftUICore.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping @Sendable (UIKit.UIImage) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger10AsyncImageV4bodyQrvp", 0) __<Content, Placeholder>
 }
 
 extension Combine.Publishers {
-  public struct EventLogger<Upstream> : Combine.Publisher where Upstream : Combine.Publisher {
+  public struct EventLogger<Upstream> : @preconcurrency Combine.Publisher where Upstream : Combine.Publisher {
     public typealias Output = Upstream.Output
     public typealias Failure = Upstream.Failure
     public init(upstream: Upstream, logMessage: Swift.String, logLevel: DixaMessenger.LogLevel)
-    public func receive<S>(subscriber: S) where S : Combine.Subscriber, Upstream.Failure == S.Failure, Upstream.Output == S.Input
+    @_Concurrency.MainActor public func receive<S>(subscriber: S) where S : Combine.Subscriber, Upstream.Failure == S.Failure, Upstream.Output == S.Input
   }
 }
 
@@ -175,11 +188,12 @@ extension Combine.Publishers {
 extension os.OSLog {
   public static let application: os.OSLog
 }
-public struct ShowMoreBulletinRow : SwiftUI.View {
-  public init(title: Swift.String)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct ShowMoreBulletinRow : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger19ShowMoreBulletinRowV4bodyQrvp", 0) __
 }
 
@@ -187,16 +201,16 @@ public struct ShowMoreBulletinRow : SwiftUI.View {
 
 
 
-extension SwiftUI.View {
-  public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func roundedCorner(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUICore.View
   
 }
-extension SwiftUI.View {
-  public func hideKeyboard()
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func hideKeyboard()
 }
 
 
-public struct Article : Swift.Codable, Swift.Equatable {
+public struct Article : Swift.Codable, Swift.Equatable, Swift.Sendable {
   public static func == (a: DixaMessenger.Article, b: DixaMessenger.Article) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -204,7 +218,7 @@ public struct Article : Swift.Codable, Swift.Equatable {
 extension DixaMessenger.Article {
   public init(id: Swift.String, title: Swift.String)
 }
-public struct ArticleCategory : Swift.Codable, Swift.Equatable, Swift.Hashable {
+public struct ArticleCategory : Swift.Codable, Swift.Equatable, Swift.Hashable, Swift.Sendable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: DixaMessenger.ArticleCategory, b: DixaMessenger.ArticleCategory) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -213,12 +227,12 @@ public struct ArticleCategory : Swift.Codable, Swift.Equatable, Swift.Hashable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ArticleHighlights : Swift.Codable, Swift.Equatable {
+public struct ArticleHighlights : Swift.Codable, Swift.Equatable, Swift.Sendable {
   public static func == (a: DixaMessenger.ArticleHighlights, b: DixaMessenger.ArticleHighlights) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ArticleAuthor : Swift.Codable, Swift.Equatable, Swift.Hashable {
+public struct ArticleAuthor : Swift.Codable, Swift.Equatable, Swift.Hashable, Swift.Sendable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: DixaMessenger.ArticleAuthor, b: DixaMessenger.ArticleAuthor) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -234,26 +248,27 @@ extension Combine.Publisher where Self.Failure == Swift.Never {
 
 
 
-public enum DixaColor {
+@_Concurrency.MainActor public enum DixaColor {
 }
-extension UIKit.UIColor {
-  public static func agentColor(for name: Swift.String) -> UIKit.UIColor
+@_Concurrency.MainActor extension UIKit.UIColor {
+  @_Concurrency.MainActor public static func agentColor(for name: Swift.String) -> UIKit.UIColor
 }
-@_hasMissingDesignatedInitializers public class BulletinBoardViewModel : Combine.ObservableObject {
-  public func toggleShowMore()
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class BulletinBoardViewModel : Combine.ObservableObject {
+  @_Concurrency.MainActor public func toggleShowMore()
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-@_hasMissingDesignatedInitializers final public class RemoteNotification {
-  final public func register(deviceToken token: Foundation.Data)
-  final public func markNotifiationAsSeen()
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class RemoteNotification {
+  @_Concurrency.MainActor final public func register(deviceToken token: Foundation.Data)
+  @_Concurrency.MainActor final public func markNotifiationAsSeen()
   @objc deinit
 }
 extension DixaMessenger.RemoteNotification {
-  final public func process(notification: UserNotifications.UNNotification, rootViewController: UIKit.UIViewController) -> Swift.Bool
+  @_Concurrency.MainActor final public func process(notification: UserNotifications.UNNotification, rootViewController: UIKit.UIViewController) -> Swift.Bool
 }
 extension DixaMessenger.RemoteNotification {
-  final public func presentNotification(_ notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
+  @_Concurrency.MainActor final public func presentNotification(_ notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
 }
 extension UIKit.UIFont {
   public static func dixaLight(size: CoreFoundation.CGFloat) -> UIKit.UIFont
@@ -267,21 +282,22 @@ extension UIKit.UIFont {
   public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> UIKit.UIFont
   public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> UIKit.UIFont
 }
-extension SwiftUI.Font {
-  public static func dixaLight(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaRegular(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> SwiftUI.Font
-  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUI.Font
+extension SwiftUICore.Font {
+  public static func dixaLight(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaLightItalic(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaRegular(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaRegularItalic(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaSemiBold(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaSemiBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaBold(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaExtraBold(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+  public static func dixaExtraBoldItalic(size: CoreFoundation.CGFloat) -> SwiftUICore.Font
 }
-public struct APIError : Swift.Error {
+public struct APIError : Swift.Error, Swift.Sendable, Swift.Decodable {
   public init(_ data: Foundation.Data)
   public init(_ description: Swift.String)
+  public init(from decoder: any Swift.Decoder) throws
 }
 
 
@@ -308,16 +324,25 @@ public struct DixaConfiguration {
   public func backendEnvironment(_ env: Swift.String) -> DixaMessenger.DixaConfiguration
 }
 
+extension DixaMessenger.MessengerError : Swift.Equatable {}
+extension DixaMessenger.MessengerError : Swift.Hashable {}
+extension DixaMessenger.Messenger : Swift.Sendable {}
 extension DixaMessenger.LogLevel : Swift.Hashable {}
 extension DixaMessenger.LogLevel : Swift.RawRepresentable {}
 extension DixaMessenger.LogDestination : Swift.Equatable {}
 extension DixaMessenger.LogDestination : Swift.Hashable {}
+extension DixaMessenger.MessengerView : Swift.Sendable {}
 extension DixaMessenger.Bulletin.ContentType : Swift.Equatable {}
 extension DixaMessenger.Bulletin.ContentType : Swift.Hashable {}
 extension DixaMessenger.Bulletin.ContentType : Swift.RawRepresentable {}
 extension DixaMessenger.Bulletin.CodingKeys : Swift.Equatable {}
 extension DixaMessenger.Bulletin.CodingKeys : Swift.Hashable {}
 extension DixaMessenger.Bulletin.CodingKeys : Swift.RawRepresentable {}
+extension DixaMessenger.AsyncImage : Swift.Sendable {}
+extension DixaMessenger.ShowMoreBulletinRow : Swift.Sendable {}
+extension DixaMessenger.DixaColor : Swift.Sendable {}
+extension DixaMessenger.BulletinBoardViewModel : Swift.Sendable {}
+extension DixaMessenger.RemoteNotification : Swift.Sendable {}
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Equatable {}
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.Hashable {}
 extension DixaMessenger.DixaConfiguration.PushEnvironment : Swift.RawRepresentable {}
