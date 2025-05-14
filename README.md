@@ -9,7 +9,7 @@
 - [Push notification handling](#push-notification-handling)
 
 ## Requirements
-- iOS 15+
+- iOS 18+
 - Xcode 16
 
 ## Installation
@@ -26,7 +26,7 @@ In Xcode add a package dependency to your project with the following URL:
 
 In your pod file, add: 
 ```
-pod 'DixaMessengerKit', '1.12.0'
+pod 'DixaMessengerKit', '1.12.1'
 ```
 
 ### Manual
