@@ -9,7 +9,7 @@
 - [Push notification handling](#push-notification-handling)
 
 ## Requirements
-- iOS 18+
+- iOS 17
 - Xcode 16
 
 ## Installation
@@ -26,7 +26,7 @@ In Xcode add a package dependency to your project with the following URL:
 
 In your pod file, add: 
 ```
-pod 'DixaMessengerKit', '1.12.1'
+pod 'DixaMessengerKit', '1.12.2'
 ```
 
 ### Manual
@@ -360,3 +360,4 @@ All you need to do is to set the style parameter that is part of the openMesseng
 
 All modal presentation styles available here:
 https://developer.apple.com/documentation/uikit/uimodalpresentationstyle
+
