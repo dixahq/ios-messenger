@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -Onone -module-name DixaMessenger
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -module-name DixaMessenger
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import CoreText
 import CryptoKit
@@ -53,7 +53,6 @@ public enum MessengerError : Swift.Error {
   @objc @_Concurrency.MainActor public static func verifyUser(with token: Swift.String)
   @objc @_Concurrency.MainActor public static func clearVerificationToken()
   @_Concurrency.MainActor @objc override dynamic public init()
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -89,7 +88,6 @@ public enum LogDestination : Swift.Sendable {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger0B4ViewV4bodyQrvp", 0) __
 }
 
@@ -153,7 +151,6 @@ public struct Bulletin : Swift.Equatable, Swift.Decodable, Swift.Identifiable, S
   }
   public typealias Id = Swift.Int
   public static func == (a: DixaMessenger.Bulletin, b: DixaMessenger.Bulletin) -> Swift.Bool
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = DixaMessenger.Bulletin.Id
   public var hashValue: Swift.Int {
     get
@@ -171,7 +168,6 @@ extension Foundation.Bundle {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger10AsyncImageV4bodyQrvp", 0) __<Content, Placeholder>
 }
 
@@ -193,7 +189,6 @@ extension os.OSLog {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13DixaMessenger19ShowMoreBulletinRowV4bodyQrvp", 0) __
 }
 
@@ -255,7 +250,6 @@ extension Combine.Publisher where Self.Failure == Swift.Never {
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class BulletinBoardViewModel : Combine.ObservableObject {
   @_Concurrency.MainActor public func toggleShowMore()
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
