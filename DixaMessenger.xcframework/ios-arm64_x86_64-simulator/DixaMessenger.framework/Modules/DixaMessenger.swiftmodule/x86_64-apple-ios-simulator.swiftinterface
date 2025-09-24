@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -module-name DixaMessenger
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -module-name DixaMessenger
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import CoreText
 import CryptoKit
@@ -21,6 +21,7 @@ import _Concurrency
 import _PhotosUI_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
+import _WebKit_SwiftUI
 import os
 
 
@@ -44,8 +45,12 @@ public enum MessengerError : Swift.Error {
   @objc @_Concurrency.MainActor public static func registerForPushNotification(deviceToken: Foundation.Data)
   @_Concurrency.MainActor public static func openMessenger() -> some SwiftUICore.View
   
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor public static func openMessenger(from presentationController: UIKit.UIViewController, with style: UIKit.UIModalPresentationStyle, completion: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor public static func openMessenger(from presentationController: UIKit.UIViewController, completion: (() -> Swift.Void)? = nil)
+  #endif
   @objc @_Concurrency.MainActor public static func dismiss()
   @objc @_Concurrency.MainActor public static func unreadMessagesCountListener(completion: @escaping (_ count: Swift.Int) -> Swift.Void)
   @objc @_Concurrency.MainActor public static func updateUserCredentials(username: Swift.String, email: Swift.String)
@@ -60,7 +65,9 @@ public enum MessengerError : Swift.Error {
 
 
 extension UIKit.UIColor {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func image(ofSize size: CoreFoundation.CGSize = CGSize(width: 1, height: 1), cornerRadius: CoreFoundation.CGFloat = 0) -> UIKit.UIImage?
+  #endif
 }
 public enum LogLevel : Swift.UInt, Swift.Comparable {
   public static func < (lhs: DixaMessenger.LogLevel, rhs: DixaMessenger.LogLevel) -> Swift.Bool
@@ -68,7 +75,9 @@ public enum LogLevel : Swift.UInt, Swift.Comparable {
   case error
   case warning
   case all
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt)
+  #endif
   public typealias RawValue = Swift.UInt
   public var rawValue: Swift.UInt {
     get
@@ -102,9 +111,11 @@ public struct Board : Swift.Decodable, Swift.Equatable, Swift.Sendable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct BoardPath : Swift.Decodable, Swift.Equatable, Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var url: Foundation.URL? {
     get
   }
+  #endif
   public static func == (a: DixaMessenger.BoardPath, b: DixaMessenger.BoardPath) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -127,7 +138,9 @@ public struct Bulletin : Swift.Equatable, Swift.Decodable, Swift.Identifiable, S
   public enum ContentType : Swift.String, Swift.Decodable, Swift.Sendable {
     case text
     case link
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -135,13 +148,21 @@ public struct Bulletin : Swift.Equatable, Swift.Decodable, Swift.Identifiable, S
   }
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case content, contentType, order, title
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.String
+    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
+    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -164,7 +185,9 @@ extension Foundation.Bundle {
 }
 
 @_Concurrency.MainActor @preconcurrency public struct AsyncImage<Content, Placeholder> : SwiftUICore.View where Content : SwiftUICore.View, Placeholder : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL?, shouldAuthorize: Swift.Bool?, @SwiftUICore.ViewBuilder content: @escaping (SwiftUICore.Image) -> Content, @SwiftUICore.ViewBuilder placeholder: @escaping () -> Placeholder, completion: @escaping @Sendable (UIKit.UIImage) -> Swift.Void)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -303,7 +326,9 @@ public struct DixaConfiguration {
   public enum PushEnvironment : Swift.UInt {
     case production
     case sandbox
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.UInt)
+    #endif
     public typealias RawValue = Swift.UInt
     public var rawValue: Swift.UInt {
       get
