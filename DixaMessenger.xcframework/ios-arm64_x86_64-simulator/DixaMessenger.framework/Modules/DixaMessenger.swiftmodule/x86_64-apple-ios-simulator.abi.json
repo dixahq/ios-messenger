@@ -8737,36 +8737,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "DixaMessenger",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Looks",
-        "printedName": "Looks",
-        "declKind": "Import",
-        "moduleName": "DixaMessenger",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DixaUtils",
-        "printedName": "DixaUtils",
-        "declKind": "Import",
-        "moduleName": "DixaMessenger",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -13233,7 +13203,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/SearchArticle\/SearchArticlesViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1494,
+      "offset": 1533,
       "length": 4,
       "value": "\"en\""
     },
@@ -15676,14 +15646,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Frontpage\/FrontPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 643,
+      "offset": 691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Screens\/Frontpage\/FrontPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 682,
+      "offset": 730,
       "length": 4,
       "value": "true"
     },
