@@ -306,7 +306,7 @@
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Форма обратной связи";
 
-"dixa_contact_form_thanks_message" = "Спасибо! Мы свяжемся с вами по электронной почте";
+"dixa_contact_form_thanks_message" = "Спасибо! Мы свяжемся с Вами через email";
 
 "dixa_frontpage_continue_conversation" = "Продолжить чат";
 
@@ -401,7 +401,7 @@
 
 "dixa_mim_related_sources" = "Связанные источники";
 
-"dixa_form_select_options" = "Выберите опции";
+"dixa_form_select_options" = "Выберите варианты";
 
 "dixa_outside_form_contact_us" = "Связаться с нами";
 
@@ -422,3 +422,6 @@
 "dixa_attachment_unsupported" = "Не поддерживается";
 
 "dixa_attachment_unsupported_file_format" = "Неподдерживаемый тип файла";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Могло быть лучше";

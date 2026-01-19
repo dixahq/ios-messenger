@@ -403,7 +403,7 @@ o enviar un correo electrónico al equipo de asistencia.";
 
 "dixa_mim_related_sources" = "Fuentes relacionadas";
 
-"dixa_form_select_options" = "Seleccione opciones";
+"dixa_form_select_options" = "Seleccionar opciones";
 
 "dixa_outside_form_contact_us" = "Contáctenos";
 
@@ -413,14 +413,17 @@ o enviar un correo electrónico al equipo de asistencia.";
 
 "dixa_outside_form_close" = "Cerrar";
 
-"dixa_outside_form_something_went_wrong" = "¡Algo ha ido mal!";
+"dixa_outside_form_something_went_wrong" = "¡Algo salió mal!";
 
 "messenger_unavailable_title" = "Lo sentimos";
 
 "messenger_unavailable_description" = "Messenger no está disponible.";
 
-"dixa_attachment_upload_failed" = "Subida fallida";
+"dixa_attachment_upload_failed" = "Error de carga";
 
-"dixa_attachment_unsupported" = "No compatible";
+"dixa_attachment_unsupported" = "No admitido";
 
-"dixa_attachment_unsupported_file_format" = "Formato de archivo no soportado";
+"dixa_attachment_unsupported_file_format" = "Formato de archivo no admitido";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Peor";

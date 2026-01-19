@@ -375,13 +375,13 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_end_conversation_title" = "Pradėti pokalbį";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "Spustelėję toliau esantį mygtuką baigsite dabartinį pokalbį.";
 
-"dixa_form_confirmation_question" = "Are you sure you want to send these changes?";
+"dixa_form_confirmation_question" = "Ar tikrai norite siųsti šiuos pakeitimus?";
 
-"dixa_form_confirmation_submit_answer" = "Yes, send them";
+"dixa_form_confirmation_submit_answer" = "Taip, siųsti";
 
-"dixa_form_confirmation_submit_cancel" = "No, don't send them";
+"dixa_form_confirmation_submit_cancel" = "Ne, nesiųsti";
 
 "dixa_form_attachments_add_file" = "Pridėti failą";
 
@@ -403,7 +403,7 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_mim_related_sources" = "Susiję šaltiniai (straipsniai)";
 
-"dixa_form_select_options" = "Pasirinkite";
+"dixa_form_select_options" = "Pasirinkite parinktis";
 
 "dixa_outside_form_contact_us" = "Susisiekite su mumis";
 
@@ -413,7 +413,7 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_outside_form_close" = "Uždaryti";
 
-"dixa_outside_form_something_went_wrong" = "Oi! Kažkas nutiko...";
+"dixa_outside_form_something_went_wrong" = "Įvyko klaida!";
 
 "messenger_unavailable_title" = "Atsiprašome";
 
@@ -423,4 +423,7 @@ arba rašykite el. laišką mūsų palaikymo komandai.";
 
 "dixa_attachment_unsupported" = "Nepalaikomas";
 
-"dixa_attachment_unsupported_file_format" = "Nepalaikomas failo tipas";
+"dixa_attachment_unsupported_file_format" = "Nepalaikomas failo formatas";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Galėjo būti ir geriau";

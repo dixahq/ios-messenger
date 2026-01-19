@@ -375,13 +375,13 @@ või meie kasutajatoele e-kirja saata.";
 
 "dixa_end_conversation_title" = "Lõpeta vestlus";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "Klõpsates allolevat nuppu, lõpetad oma praeguse vestluse.";
 
-"dixa_form_confirmation_question" = "Are you sure you want to send these changes?";
+"dixa_form_confirmation_question" = "Kas oled kindel, et soovid need muudatused saata?";
 
-"dixa_form_confirmation_submit_answer" = "Yes, send them";
+"dixa_form_confirmation_submit_answer" = "Jah, saada need";
 
-"dixa_form_confirmation_submit_cancel" = "No, don't send them";
+"dixa_form_confirmation_submit_cancel" = "Ei, ära saada neid";
 
 "dixa_form_attachments_add_file" = "Lisa fail";
 
@@ -403,7 +403,7 @@ või meie kasutajatoele e-kirja saata.";
 
 "dixa_mim_related_sources" = "Seotud allikad (artiklid)";
 
-"dixa_form_select_options" = "Valige valikud";
+"dixa_form_select_options" = "Vali suvandid";
 
 "dixa_outside_form_contact_us" = "Võta meiega ühendust";
 
@@ -424,3 +424,6 @@ või meie kasutajatoele e-kirja saata.";
 "dixa_attachment_unsupported" = "Ei toetata";
 
 "dixa_attachment_unsupported_file_format" = "Toetamata failitüüp";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Möh";

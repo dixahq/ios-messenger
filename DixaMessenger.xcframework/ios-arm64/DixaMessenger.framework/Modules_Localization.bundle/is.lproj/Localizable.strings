@@ -375,13 +375,13 @@ eða sent þjónustudeildinni skilaboð.";
 
 "dixa_end_conversation_title" = "Ljúktu samtali";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "Með því að smella á hnappinn hér að neðan lýkur þú núverandi samtali.";
 
-"dixa_form_confirmation_question" = "Are you sure you want to send these changes?";
+"dixa_form_confirmation_question" = "Ertu viss um að þú viljir senda þessar breytingar?";
 
-"dixa_form_confirmation_submit_answer" = "Yes, send them";
+"dixa_form_confirmation_submit_answer" = "Já, senda þær";
 
-"dixa_form_confirmation_submit_cancel" = "No, don't send them";
+"dixa_form_confirmation_submit_cancel" = "Nei, ekki senda þær";
 
 "dixa_form_attachments_add_file" = "Bæta við skrá";
 
@@ -401,7 +401,7 @@ eða sent þjónustudeildinni skilaboð.";
 
 "dixa_form_maxTextSize_error" = "Textinn passar ekki við kröfur reitsins";
 
-"dixa_mim_related_sources" = "Tengdar heimildir (greinar)";
+"dixa_mim_related_sources" = "Tengdar heimildir";
 
 "dixa_form_select_options" = "Veldu valkosti";
 
@@ -413,7 +413,7 @@ eða sent þjónustudeildinni skilaboð.";
 
 "dixa_outside_form_close" = "Loka";
 
-"dixa_outside_form_something_went_wrong" = "Eitthvað fór úrskeiðis.";
+"dixa_outside_form_something_went_wrong" = "Eitthvað fór úrskeiðis!";
 
 "messenger_unavailable_title" = "Því miður";
 
@@ -424,3 +424,6 @@ eða sent þjónustudeildinni skilaboð.";
 "dixa_attachment_unsupported" = "Óstudd";
 
 "dixa_attachment_unsupported_file_format" = "Óstudd skráargerð";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Lélegt";

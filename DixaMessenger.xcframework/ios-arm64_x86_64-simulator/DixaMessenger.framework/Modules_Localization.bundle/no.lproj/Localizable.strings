@@ -403,7 +403,7 @@ eller sende supportteamet vårt en e-post.";
 
 "dixa_mim_related_sources" = "Relaterte kilder";
 
-"dixa_form_select_options" = "Velg tillegg";
+"dixa_form_select_options" = "Velg alternativer";
 
 "dixa_outside_form_contact_us" = "Kontakt oss";
 
@@ -423,4 +423,7 @@ eller sende supportteamet vårt en e-post.";
 
 "dixa_attachment_unsupported" = "Ikke støttet";
 
-"dixa_attachment_unsupported_file_format" = "Ustøttet filtype";
+"dixa_attachment_unsupported_file_format" = "Filformatet støttes ikke";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Nja";

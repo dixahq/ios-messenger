@@ -308,7 +308,7 @@ ou enviar um e-mail à nossa equipa de suporte.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Formulário de contacto";
 
-"dixa_contact_form_thanks_message" = "Obrigado! Entraremos em contato por e-mail";
+"dixa_contact_form_thanks_message" = "Obrigado! Entraremos em contacto por e-mail";
 
 "dixa_frontpage_continue_conversation" = "Continuar a conversa";
 
@@ -415,12 +415,15 @@ ou enviar um e-mail à nossa equipa de suporte.";
 
 "dixa_outside_form_something_went_wrong" = "Ocorreu algo de errado!";
 
-"messenger_unavailable_title" = "Desculpe";
+"messenger_unavailable_title" = "Lamentamos";
 
 "messenger_unavailable_description" = "Messenger não está disponível.";
 
 "dixa_attachment_upload_failed" = "Falha no carregamento";
 
-"dixa_attachment_unsupported" = "Não Suportado";
+"dixa_attachment_unsupported" = "Não suportado";
 
-"dixa_attachment_unsupported_file_format" = "Tipo de arquivo não suportado";
+"dixa_attachment_unsupported_file_format" = "Tipo de ficheiro não suportado";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Inferior";

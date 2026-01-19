@@ -422,3 +422,6 @@
 "dixa_attachment_unsupported" = "Understøttes ikke";
 
 "dixa_attachment_unsupported_file_format" = "Ikke-understøttet filtype";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Halvskidt";

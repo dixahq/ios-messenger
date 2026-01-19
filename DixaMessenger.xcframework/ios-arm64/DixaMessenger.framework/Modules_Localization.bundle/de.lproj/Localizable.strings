@@ -322,7 +322,7 @@ versuchen, oder dich per E-Mail an unser Support-Team wenden.";
 "dixa_name_field_placeholder" = "Wie lautet dein Vorname?";
 
 /* email textfield label */
-"dixa_email_field_label" = "Dein E-Mail-Adresse";
+"dixa_email_field_label" = "Deine E-Mail";
 
 /* email field placeholder */
 "dixa_email_field_placeholder" = "Zum Beispiel „bruce@wayne.com“";
@@ -413,9 +413,9 @@ versuchen, oder dich per E-Mail an unser Support-Team wenden.";
 
 "dixa_outside_form_close" = "Schließen";
 
-"dixa_outside_form_something_went_wrong" = "Etwas ist schief gelaufen!";
+"dixa_outside_form_something_went_wrong" = "Etwas ist schiefgegangen!";
 
-"messenger_unavailable_title" = "Tut uns leid";
+"messenger_unavailable_title" = "Es tut uns leid";
 
 "messenger_unavailable_description" = "Messenger ist nicht verfügbar.";
 
@@ -423,4 +423,7 @@ versuchen, oder dich per E-Mail an unser Support-Team wenden.";
 
 "dixa_attachment_unsupported" = "Nicht unterstützt";
 
-"dixa_attachment_unsupported_file_format" = "Dateityp nicht unterstützt";
+"dixa_attachment_unsupported_file_format" = "Dateiformat nicht unterstützt";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Arm";

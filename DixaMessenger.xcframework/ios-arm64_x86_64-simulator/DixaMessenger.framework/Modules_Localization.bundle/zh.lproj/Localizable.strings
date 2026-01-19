@@ -399,7 +399,7 @@
 
 "dixa_form_mimeTypes_error" = "不支持的文件类型";
 
-"dixa_form_maxTextSize_error" = "文本不符合字段要求";
+"dixa_form_maxTextSize_error" = "文本不符合该字段的要求";
 
 "dixa_mim_related_sources" = "相关来源（文章）";
 
@@ -413,9 +413,9 @@
 
 "dixa_outside_form_close" = "关闭";
 
-"dixa_outside_form_something_went_wrong" = "出错了";
+"dixa_outside_form_something_went_wrong" = "出错了！";
 
-"messenger_unavailable_title" = "对不起";
+"messenger_unavailable_title" = "抱歉";
 
 "messenger_unavailable_description" = "Messenger 不可用。";
 
@@ -423,4 +423,7 @@
 
 "dixa_attachment_unsupported" = "不支持";
 
-"dixa_attachment_unsupported_file_format" = "不支持的文件类型";
+"dixa_attachment_unsupported_file_format" = "不支持的文件格式";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "凑合";

@@ -308,7 +308,7 @@ of een e-mail naar onze klantenservice sturen.";
 /* loco:61641128c50d266dbc2414b2 */
 "dixa_contact_form" = "Contactformulier";
 
-"dixa_contact_form_thanks_message" = "Bedankt! We nemen contact met uw op via e-mail";
+"dixa_contact_form_thanks_message" = "Bedankt! We nemen contact met je op via e-mail";
 
 "dixa_frontpage_continue_conversation" = "Doorgaan met gesprek";
 
@@ -413,7 +413,7 @@ of een e-mail naar onze klantenservice sturen.";
 
 "dixa_outside_form_close" = "Sluiten";
 
-"dixa_outside_form_something_went_wrong" = "Er is iets misgegaan";
+"dixa_outside_form_something_went_wrong" = "Er is iets misgegaan!";
 
 "messenger_unavailable_title" = "Sorry";
 
@@ -423,4 +423,7 @@ of een e-mail naar onze klantenservice sturen.";
 
 "dixa_attachment_unsupported" = "Niet ondersteund";
 
-"dixa_attachment_unsupported_file_format" = "Niet ondersteund bestandstype";
+"dixa_attachment_unsupported_file_format" = "Niet-ondersteunde bestandsindeling";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Onvoldoende";

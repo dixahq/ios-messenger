@@ -421,6 +421,9 @@ lähettää sähköpostia tukitiimillemme.";
 
 "dixa_attachment_upload_failed" = "Lataus epäonnistui";
 
-"dixa_attachment_unsupported" = "Ei tuetut";
+"dixa_attachment_unsupported" = "Ei tuettu";
 
 "dixa_attachment_unsupported_file_format" = "Tiedostotyyppiä ei tueta";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Plääh";

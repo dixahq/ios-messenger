@@ -283,7 +283,7 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 "dixa_message_sent_interval_hours-plural-2" = "";
 
 /* loco:615fdcfede0c6b419e49a233 */
-"dixa_your_name" = "Twoja nazwa";
+"dixa_your_name" = "Twoje imię";
 
 /* loco:615fdd55b1167b76987201d2 */
 "dixa_your_email" = "Twój adres e-mail";
@@ -316,7 +316,7 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 "dixa_invalid_email" = "Nieprawidłowy adres e-mail. Spróbuj ponownie.";
 
 /* name textfield label */
-"dixa_name_field_label" = "Twoja nazwa";
+"dixa_name_field_label" = "Twoje imię";
 
 /* name textfield placeholder*/
 "dixa_name_field_placeholder" = "Jak masz na imię?";
@@ -399,7 +399,7 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 
 "dixa_form_mimeTypes_error" = "Nieobsługiwany typ pliku";
 
-"dixa_form_maxTextSize_error" = "Tekst nie jest zgodny z wymaganiami pola";
+"dixa_form_maxTextSize_error" = "Tekst jest niezgodny z wymaganiami pola";
 
 "dixa_mim_related_sources" = "Powiązane źródła (artykuły)";
 
@@ -423,4 +423,7 @@ lub wyślij wiadomość e-mail do naszego zespołu wsparcia.";
 
 "dixa_attachment_unsupported" = "Nieobsługiwane";
 
-"dixa_attachment_unsupported_file_format" = "Nieobsługiwany typ pliku";
+"dixa_attachment_unsupported_file_format" = "Nieobsługiwany format plików";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Tak sobie";

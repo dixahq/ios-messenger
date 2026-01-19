@@ -399,11 +399,11 @@
 
 "dixa_form_mimeTypes_error" = "サポートされていないファイルタイプ";
 
-"dixa_form_maxTextSize_error" = "テキストがフィールドの要件に一致しません";
+"dixa_form_maxTextSize_error" = "テキストがフィールドの要件と一致しません";
 
 "dixa_mim_related_sources" = "関連情報源（記事）";
 
-"dixa_form_select_options" = "オプションの選択";
+"dixa_form_select_options" = "オプションを選択";
 
 "dixa_outside_form_contact_us" = "お問い合わせ";
 
@@ -413,9 +413,9 @@
 
 "dixa_outside_form_close" = "閉じる";
 
-"dixa_outside_form_something_went_wrong" = "問題が発生しました";
+"dixa_outside_form_something_went_wrong" = "問題が発生しました！";
 
-"messenger_unavailable_title" = "ごめん";
+"messenger_unavailable_title" = "申し訳ありません";
 
 "messenger_unavailable_description" = "メッセンジャーは利用できません。";
 
@@ -423,4 +423,7 @@
 
 "dixa_attachment_unsupported" = "対応していません";
 
-"dixa_attachment_unsupported_file_format" = "サポートされていないファイルタイプ";
+"dixa_attachment_unsupported_file_format" = "対応していないファイル形式です";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "いまいち";

@@ -373,13 +373,13 @@
 
 "dixa_end_conversation_title" = "Beigt sarunu";
 
-"dixa_end_conversation_info" = "By clicking the button below you will end your current conversation.";
+"dixa_end_conversation_info" = "Noklikšķinot uz zemāk redzamās pogas, jūsu pašreizējā saruna tiks pārtraukta.";
 
-"dixa_form_confirmation_question" = "Are you sure you want to send these changes?";
+"dixa_form_confirmation_question" = "Vai tiešām vēlaties nosūtīt šīs izmaiņas?";
 
-"dixa_form_confirmation_submit_answer" = "Yes, send them";
+"dixa_form_confirmation_submit_answer" = "Jā, nosūtīt tos";
 
-"dixa_form_confirmation_submit_cancel" = "No, don't send them";
+"dixa_form_confirmation_submit_cancel" = "Nē, nesūtīt tos";
 
 "dixa_form_attachments_add_file" = "Pievienot failu";
 
@@ -421,4 +421,7 @@
 
 "dixa_attachment_unsupported" = "Neatbalstīts";
 
-"dixa_attachment_unsupported_file_format" = "Neatbalstīts faila veids";
+"dixa_attachment_unsupported_file_format" = "Neatbalstīts faila formāts";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Ne pārāk";

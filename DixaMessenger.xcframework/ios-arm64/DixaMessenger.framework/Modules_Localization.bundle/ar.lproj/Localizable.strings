@@ -397,7 +397,7 @@
 
 "dixa_form_mimeTypes_error" = "نوع الملف غير معتمد";
 
-"dixa_form_maxTextSize_error" = "النص لا يتطابق مع متطلبات الحقل";
+"dixa_form_maxTextSize_error" = "لا يتطابق النص مع متطلبات الحقل";
 
 "dixa_mim_related_sources" = "المصادر ذات الصلة (المقالات)";
 
@@ -411,7 +411,7 @@
 
 "dixa_outside_form_close" = "إغلاق";
 
-"dixa_outside_form_something_went_wrong" = "حدث خطأ ما!";
+"dixa_outside_form_something_went_wrong" = "حدث حطأ ما!";
 
 "messenger_unavailable_title" = "عذرًا";
 
@@ -421,4 +421,7 @@
 
 "dixa_attachment_unsupported" = "غير مدعوم";
 
-"dixa_attachment_unsupported_file_format" = "صيغة ملف غير مدعومة";
+"dixa_attachment_unsupported_file_format" = "تنسيق الملف غير مدعوم";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "عادي";

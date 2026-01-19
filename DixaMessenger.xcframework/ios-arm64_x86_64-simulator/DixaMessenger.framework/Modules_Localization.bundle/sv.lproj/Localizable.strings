@@ -413,14 +413,17 @@ ett e-postmeddelande till vårt supportteam.";
 
 "dixa_outside_form_close" = "Stäng";
 
-"dixa_outside_form_something_went_wrong" = "Någonting gick fel!";
+"dixa_outside_form_something_went_wrong" = "Ett fel har inträffat!";
 
 "messenger_unavailable_title" = "Tyvärr";
 
 "messenger_unavailable_description" = "Messenger är inte tillgängligt.";
 
-"dixa_attachment_upload_failed" = "Uppladdningen misslyckades";
+"dixa_attachment_upload_failed" = "Det gick inte att ladda upp";
 
 "dixa_attachment_unsupported" = "Stöds inte";
 
-"dixa_attachment_unsupported_file_format" = "Filtyp som inte stöds";
+"dixa_attachment_unsupported_file_format" = "Filformatet stöds inte";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Medioker";

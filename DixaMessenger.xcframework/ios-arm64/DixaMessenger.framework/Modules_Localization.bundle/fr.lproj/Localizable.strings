@@ -395,7 +395,7 @@
 
 "dixa_form_maxSingleFileSize_error" = "Le fichier dépasse la taille maximale autorisée";
 
-"dixa_form_mimeTypes_error" = "Type de fichier non pris en charge";
+"dixa_form_mimeTypes_error" = "Type de fichier non supporté";
 
 "dixa_form_maxTextSize_error" = "Le texte ne correspond pas aux exigences du champ";
 
@@ -411,14 +411,17 @@
 
 "dixa_outside_form_close" = "Fermer";
 
-"dixa_outside_form_something_went_wrong" = "Un problème est survenu";
+"dixa_outside_form_something_went_wrong" = "Une erreur s'est produite !";
 
-"messenger_unavailable_title" = "Désolé";
+"messenger_unavailable_title" = "Nous sommes désolés";
 
 "messenger_unavailable_description" = "Messenger est indisponible.";
 
-"dixa_attachment_upload_failed" = "Échec du chargement";
+"dixa_attachment_upload_failed" = "Échec de l'envoi";
 
-"dixa_attachment_unsupported" = "Non supporté";
+"dixa_attachment_unsupported" = "Non pris en charge";
 
-"dixa_attachment_unsupported_file_format" = "Format de fichier non supporté";
+"dixa_attachment_unsupported_file_format" = "Format de fichier non pris en charge";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Mouais";

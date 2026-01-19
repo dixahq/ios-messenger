@@ -397,7 +397,7 @@
 
 "dixa_form_mimeTypes_error" = "Nem támogatott fájl típus";
 
-"dixa_form_maxTextSize_error" = "Teksti ei vastaa kentän vaatimuksia";
+"dixa_form_maxTextSize_error" = "A szöveg nem felel meg a mező követelményeinek";
 
 "dixa_mim_related_sources" = "Kapcsolódó források (cikkek)";
 
@@ -411,14 +411,17 @@
 
 "dixa_outside_form_close" = "Bezárás";
 
-"dixa_outside_form_something_went_wrong" = "Valami elromlott!";
+"dixa_outside_form_something_went_wrong" = "Hiba történt!";
 
-"messenger_unavailable_title" = "Sajnálom";
+"messenger_unavailable_title" = "Sajnáljuk";
 
 "messenger_unavailable_description" = "A Messenger nem érhető el.";
 
-"dixa_attachment_upload_failed" = "A feltöltés sikertelen";
+"dixa_attachment_upload_failed" = "Sikertelen feltöltés";
 
 "dixa_attachment_unsupported" = "Nem támogatott";
 
-"dixa_attachment_unsupported_file_format" = "Nem támogatott fájl típus";
+"dixa_attachment_unsupported_file_format" = "Nem támogatott fájlformátum";
+
+/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
+"dixa_csat_emoji_label_poor" = "Kifogásolható";
