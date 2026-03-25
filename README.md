@@ -257,7 +257,26 @@ Messenger.unreadMessagesCountListener(completion: @escaping (_ count: Int) -> Vo
 ## Push notification handling
 To have DixaMessenger handle push messages, it requires that you do some footwork, since DixaMessenger doesn't automatically listens for notifications.
 
-First of all, create a push certificate and upload it in the agent interface specific messenger account.
+### Setting up push notifications service certificate
+
+- First, obtain an [Apple Push Notifications Service (APNS) certificate](https://developer.apple.com/documentation/usernotifications/establishing-a-certificate-based-connection-to-apns).
+- Do not forget to enable the 'Push Notifications' capability for your bundle identifier (also called an App ID) - either in the portal for Apple's developer program or in Xcode, if Xcode automatically manages provisioning for you.
+- Then, you need to upload your push service certificate in the Dixa dashboard. To do this, log into your account at https://dixa.com and choose the organization you'll be setting up push notifications for.
+- In the dashboard, locate the management panel on the left side of the screen and choose the Settings option in this panel.
+- Once in the Setting section, locate the Channels and Flows subsection and choose the Messenger option. This will show the list of messengers in your organization.
+- In this list, locate the messenger you're interested in and press the Setup button for it - the Setup button is located on the right. This will open the configuration page for the messenger, titled 'Messenger > { Messenger name }'.
+
+![Select messenger](images/setup_push_notifications_01.png)
+
+- Once there, select the Setup tab and then, in the Setup page, choose the 'Push notifications' option.
+- After, press 'Add platform', select the push notifications platform you'll be setting up and fill in the form with the files and values you've gotten from your account in Apple's developer program portal or from the Firebase console.
+
+![Setup push certificate](images/setup_push_notifications_02.png)
+
+- As a convenience, you can first import the push certificate locally into your Keychain Access app, then export it in .p12 format, and then import the .p12 into the setup form in Dixa's dashboard.
+- Once all the data has been filled in, hit the 'Submit platform' button and you should be good to go on with the rest of this guide.
+
+### Setting up push notifications in the application
 
 In the app, when you get a push token, forward that to the DixaMessenger
 ```swift
