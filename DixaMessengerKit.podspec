@@ -20,10 +20,13 @@ Pod::Spec.new do |s|
   s.description      = 'Dixa Messenger SDK is used to add a messenger functionality to your app. Requires a Dixa subscription.'
   s.homepage         = 'https://dixa.com'
   #s.documentation_url = 'https://'
-  s.license          = { :type => 'Commercial', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'andras' => 'ama@dixa.com' }
   s.source = { :http => "https://github.com/dixahq/ios-messenger/releases/download/#{s.version}/DixaMessenger.xcframework.zip" }
   s.vendored_frameworks = "DixaMessenger.xcframework"
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '16.0'
+  s.pod_target_xcconfig = {
+  'IPHONEOS_DEPLOYMENT_TARGET' => '16.0'
+  }
 
 end
