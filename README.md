@@ -4,6 +4,9 @@
     - [Log level](#log-level)
     - [Push Environment](#push-environment)
 - [Authentication](#authentication)
+    - [Claimed](#claimed)
+    - [Verified](#verified)
+    - [Switching users or logging out](#switching-users-or-logging-out)
 - [Launching the Messenger](#launching-the-messenger)
 - [DEPRECATED: Unread messages](#deprecated-unread-messages)
 - [Push notification handling](#push-notification-handling)
@@ -138,38 +141,76 @@ DixaConfiguration()
 ```
 
 ## Authentication
-You can decide to have your users identified. There are two types of authentication:
+You can decide to have your users identified. The SDK supports three authentication modes:
 
-**Claimed**
-Authentication is done using a username and email that the users provide.
+- **Anonymous** — the default. No user information is shared with the agent.
+- **Claimed** — a username and email supplied by the host app, or entered by the user in a form.
+- **Verified** — a JWE token signed with a private key configured in the Dixa Messenger Dashboard.
+
+> ⚠️ **_Call order matters_**: `Messenger.configure(_:)` must be called **before** `Messenger.updateUserCredentials(username:email:)` or `Messenger.verifyUser(token:)`. Calling the credential methods before `configure` can leave a previous user's identity attached to the session. See [Switching users or logging out](#switching-users-or-logging-out) for the full lifecycle.
+
+### Claimed
+Authentication is done using a username and email that the host app provides, or, if missing, that the SDK prompts the user to enter via a form.
 
 ```swift
-/// Update the user credentials associated with the DixaMessenger
+/// Update the user credentials associated with the DixaMessenger.
 ///
-/// This can safely be called multiple times with the same username and email,
-/// only if the username and/or email has changed the conversations will be wiped.
-/// Note, that there's no validation on the email address
+/// Must be called after `Messenger.configure(_:)`.
+/// This can safely be called multiple times with the same username and email;
+/// only if the username and/or email has changed will the conversations be wiped.
+/// Note, that there's no validation on the email address.
 /// - Parameters:
 ///   - username: username to identify the user
 ///   - email: email to identify the user
 Messenger.updateUserCredentials(username: String, email: String)
 
-/// Removes stored credentials, if there's stored credentials
+/// Removes stored credentials, if there are any stored credentials.
+/// Call this on logout, or before signing in a different user on the same device.
 Messenger.clearUserCredentials()
 ```
 
-**Verified**
-Authentication is done using a JWE token, that is signed with one of the private keys, configured in the Dixa Messenger Dashboard. This token needs to be specified programatically, as opposed to the **Claimed** authentication where the SDK will ask the user to input their username and email.
+**Example** — setting claimed credentials after the user signs in to the host app. `Messenger.configure(_:)` is typically called once at app launch, so by this point it has already run:
 
 ```swift
-/// Update the user authentication jwe-token
+Messenger.configure(config)
+Messenger.updateUserCredentials(username: username, email: email)
+```
+
+### Verified
+Authentication is done using a JWE token, that is signed with one of the private keys configured in the Dixa Messenger Dashboard. This token needs to be specified programmatically, as opposed to the **Claimed** authentication where the SDK will ask the user to input their username and email.
+
+```swift
+/// Update the user authentication jwe-token.
+///
+/// Must be called after `Messenger.configure(_:)`.
 /// - Parameters:
 ///   - token: jwe token
 Messenger.verifyUser(token: String)
 
-/// Removes jwe-token, if it is stored.
+/// Removes the jwe-token, if one is stored.
+/// Call this on logout, or before signing in a different user on the same device.
 Messenger.clearVerificationToken()
 ```
+
+### Switching users or logging out
+On devices shared by multiple end users — for example, a household device, a kiosk, or a user who signs out and a different user signs in — the SDK retains the previously stored credentials until they are explicitly cleared. Starting a new session without clearing them will attribute the new user's conversations to the previous user.
+
+To correctly hand off to a new user, always clear the previous identity before setting the new one. On logout, clear the stored credentials — `clearVerificationToken()` is only needed if you use Verified authentication. When a new user signs in, call `configure(_:)` again only if it has not already been called at app launch.
+
+```swift
+// On logout from your host app:
+Messenger.clearUserCredentials()
+Messenger.clearVerificationToken()
+
+// When a new user signs in:
+Messenger.configure(config)
+Messenger.updateUserCredentials(username: newUsername, email: newEmail)
+Messenger.openMessenger(from: viewController)
+```
+
+> ⚠️ **_Important Note_**: Clearing credentials also wipes the local conversation history tied to that user. This is intentional — it prevents a new user from reading the previous user's conversations.
+
+> 💡 A good rule of thumb: treat `Messenger.configure(_:)` as an app-lifecycle call (run it once in `AppDelegate`), and treat `updateUserCredentials` / `verifyUser` / `clearUserCredentials` / `clearVerificationToken` as user-session-lifecycle calls (run them in response to login and logout in your host app).
 
 ## Launching the Messenger
 The Dixa Messenger is compatible with both UIKit and SwiftUI, allowing you to select the most appropriate function based on your UI framework. 
