@@ -5,10 +5,10 @@
  * Locale: en, English
  * Exported by: Gianluca Frediani
  * Exported at: Mon, 18 Oct 2021 16:43:01 +0200
- 
- loco:60f7de8d40efd37b18055312
- * Toolbar */
+ */
 
+/* loco:60f7de8d40efd37b18055312
+ * Toolbar */
 "dixa_chat_title_we_usually_reply" = "Vi plejer at svare";
 
 /* loco:60f7de8d40efd37b18055313 */
@@ -209,7 +209,7 @@
 "dixa_delete_message" = "Slet besked";
 
 /* loco:6138c25252374851ef4478c3 */
-"dixa_csat_emoji_label_bad" = "Dårlig";
+"dixa_csat_emoji_label_bad" = "Forfærdelig";
 
 /* loco:6138c26b4f84a7150e45e3f2 */
 "dixa_csat_emoji_label_meh" = "Halvskidt";
@@ -423,5 +423,4 @@
 
 "dixa_attachment_unsupported_file_format" = "Ikke-understøttet filtype";
 
-/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
-"dixa_csat_emoji_label_poor" = "Halvskidt";
+"dixa_csat_emoji_label_poor" = "Dårlig";

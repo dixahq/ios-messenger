@@ -9,10 +9,10 @@
 
 /* loco:60f7de8d40efd37b18055312
  * Toolbar */
-"dixa_chat_title_we_usually_reply" = "Obično odgovorio";
+"dixa_chat_title_we_usually_reply" = "Obično odgovaramo";
 
 /* loco:60f7de8d40efd37b18055313 */
-"dixa_chat_title_response_time" = "Unutar 10 minuta";
+"dixa_chat_title_response_time" = "u roku od 10 minuta";
 
 /* loco:60f7de8d40efd37b18055314
  * Message */
@@ -28,11 +28,11 @@
 
 /* loco:60f7de8d40efd37b18055317
  * Access Permissions */
-"dixa_error_message_access_denied" = "Omogućite pristup medijima svojeg telefona za prilaganje i slanje datoteka.";
+"dixa_error_message_access_denied" = "Dozvolite pristup medijima na telefonu da biste mogli da prilažete i šaljete datoteke.";
 
 /* loco:60f7de8d40efd37b18055318
  * Content Description */
-"dixa_accessibility_label_back" = "Povratak";
+"dixa_accessibility_label_back" = "Nazad";
 
 /* loco:60f7de8d40efd37b18055319 */
 "dixa_accessibility_label_agent_photo" = "Fotografija agenta";
@@ -41,10 +41,10 @@
 "dixa_accessibility_label_agent_is_typing" = "Agent tipka";
 
 /* loco:60f7de8d40efd37b1805531d */
-"dixa_accessibility_label_expand_input_field" = "Proširi polje unosa";
+"dixa_accessibility_label_expand_input_field" = "Proširi polje za unos";
 
 /* loco:60f7de8d40efd37b1805531e */
-"dixa_accessibility_label_collapse_input_field" = "Sažmi polje unosa";
+"dixa_accessibility_label_collapse_input_field" = "Sažmi polje za unos";
 
 /* loco:60f7de8d40efd37b18055320 */
 "dixa_accessibility_label_download_file" = "Preuzmi datoteku";
@@ -68,10 +68,10 @@
 "dixa_message_state_seen" = "Viđeno";
 
 /* loco:60f7e149afb31164004fbe42 */
-"dixa_message_state_failed_to_send" = "Slanje nije uspjelo";
+"dixa_message_state_failed_to_send" = "Slanje nije uspelo";
 
 /* loco:610403c6751c8b16453f3592 */
-"dixa_frontpage_start_new_conversation" = "Započni razgovor";
+"dixa_frontpage_start_new_conversation" = "Započnite razgovor";
 
 /* loco:6107a9cb34ad852afd5bc4a2 */
 "dixa_accessibility_label_exit_button" = "Izlaz";
@@ -89,19 +89,19 @@
 "dixa_frontpage_error_title" = "Žao nam je...";
 
 /* loco:6107acda3fa307445a5c3892 */
-"dixa_frontpage_error_subtitle" = "Imamo problema s mrežom. Možete pokušati osvježiti stranicu ili poslati e-poruku našem timu za podršku.";
+"dixa_frontpage_error_subtitle" = "Imamo problema sa mrežom. Možete pokušati da osvežite stranicu ili da pošaljete imejl našem timu za podršku.";
 
 /* loco:6107ad02279d6a68c77c4ba3 */
-"dixa_frontpage_refresh_button" = "Osvježi stranicu";
+"dixa_frontpage_refresh_button" = "Osveži stranicu";
 
 /* loco:6107b0e8455d1f26cb1d5912 */
 "dixa_accessibility_label_cancel" = "Otkaži";
 
 /* loco:6107b1c38818932d0c1027e3 */
-"dixa_accessibility_label_message_status_failed" = "Slanje poruke nije uspjelo";
+"dixa_accessibility_label_message_status_failed" = "Slanje poruke nije uspelo";
 
 /* loco:6107b1dce39849525b1bd1b2 */
-"dixa_accessibility_label_message_status_sent" = "Poruka je poslana";
+"dixa_accessibility_label_message_status_sent" = "Poruka je poslata";
 
 /* loco:6107b1ee11f9f863d72975f2 */
 "dixa_accessibility_label_message_status_delivered" = "Poruka je isporučena";
@@ -113,7 +113,7 @@
 "dixa_accessibility_label_message_status_sending" = "Slanje poruke";
 
 /* loco:6107bf3bce0ba60a620ff6f2 */
-"dixa_frontpage_greeting_subtitle" = "Slobodno se javite. Spremni smo pomoći.";
+"dixa_frontpage_greeting_subtitle" = "Slobodno nas kontaktirajte. Spremni smo da vam pomognemo.";
 
 /* loco:6107bf71ce0ba60a620ff6f4 */
 "dixa_frontpage_greeting_title" = "Pozdrav 👋 ";
@@ -122,7 +122,7 @@
 "dixa_accessibility_label_message_with_image" = "Poruka sa slikom";
 
 /* loco:610d23cd128ef23c623c9d64 */
-"dixa_select_a_smaller_file_error_message" = "Odaberite datoteku manju od 10 MB";
+"dixa_select_a_smaller_file_error_message" = "Izaberite datoteku manju od 10 MB";
 
 /* loco:6110fdd36475e07e7f6975a2 */
 "dixa_last_message_user_prefix" = "Vi: %@";
@@ -134,16 +134,16 @@
 "dixa_previous_conversations_header" = "Vaši prethodni razgovori";
 
 /* loco:6114edb9bac50e62167ae8f2 */
-"dixa_closed_conversation_start_new_conversation" = "Pokrenite novi razgovor";
+"dixa_closed_conversation_start_new_conversation" = "Započnite novi razgovor";
 
 /* loco:6114ee4104d1c612164cff95 */
-"dixa_closed_conversation_message" = "Vaš je razgovor završio.";
+"dixa_closed_conversation_message" = "Vaš razgovor je završen.";
 
 /* loco:6116310f0076a37fa47b5282 */
-"dixa_toolbar_agent_online" = "Sad je na mreži";
+"dixa_toolbar_agent_online" = "Trenutno onlajn";
 
 /* loco:61163432f5b4e41e23144bb5 */
-"dixa_attachment_permission_settings_button" = "Postavke";
+"dixa_attachment_permission_settings_button" = "Podešavanja";
 
 /* loco:6116345def574f222501fd16 */
 "dixa_cancel_button" = "Otkaži";
@@ -155,22 +155,22 @@
 "dixa_attachment_file_title" = "Datoteka";
 
 /* loco:611634de394e7548310a44d2 */
-"dixa_attachment_type_title" = "Vrsta privitka";
+"dixa_attachment_type_title" = "Tip priloga";
 
 /* loco:61163512311d220c902b7562 */
-"dixa_attachment_type_message" = "Odaberite datoteku iz galerije ili arhive";
+"dixa_attachment_type_message" = "Izaberite datoteku iz galerije ili arhive";
 
 /* loco:611638d94c152a5aac338f22 */
 "dixa_toolbar_agent_away" = "Odsutan/na";
 
 /* loco:61180fc2e7b52c5d5a4d5262 */
-"dixa_previous_conversations_error_subtitle" = "Imamo problema s učitavanjem vaših prethodnih razgovora. Možete pokušati osvježiti stranicu ili možete poslati e-poruku našem timu za podršku.";
+"dixa_previous_conversations_error_subtitle" = "Imamo problema sa učitavanjem vaših prethodnih razgovora. Možete pokušati da osvežite stranicu ili da pošaljete imejl našem timu za podršku.";
 
 /* loco:611810caa6b60c796014eaf2 */
 "dixa_previous_conversations_error_title" = "Žao nam je..";
 
 /* loco:611b69ef7f08a65e71347746 */
-"dixa_open_file_error" = "Otvaranje datoteke nije uspjelo";
+"dixa_open_file_error" = "Otvaranje datoteke nije uspelo";
 
 /* loco:611b7fa15d606462c83d1b42 */
 "dixa_attachment_download_label_in_progress" = "Preuzimanje";
@@ -179,13 +179,13 @@
 "dixa_attachment_download_label_success" = "Preuzeto";
 
 /* loco:611b7fd773dacb447029c422 */
-"dixa_attachment_download_label_error" = "Preuzimanje nije uspjelo";
+"dixa_attachment_download_label_error" = "Preuzimanje nije uspelo";
 
 /* loco:611b849d84e41d2378415393 */
 "dixa_accessibility_label_open_file" = "Otvori datoteku";
 
 /* loco:611e22f0aa31a8697e5dc0a2 */
-"dixa_error_select_an_attachment" = "Odaberite valjanu fotografiju ili datoteku";
+"dixa_error_select_an_attachment" = "Izaberite validnu fotografiju ili datoteku";
 
 /* loco:61262710d9972f38f45c7112 */
 "dixa_file_too_big_error_ok" = "U redu";
@@ -194,16 +194,16 @@
 "dixa_android_push_notification_channel_name" = "Korisnička podrška";
 
 /* loco:61320b63a23ea67e81664d56 */
-"dixa_network_issues_error_message" = "Žao nam je, imamo problema s mrežom. Možete pokušati osvježiti stranicu ili poslati e-poruku našem timu za podršku.";
+"dixa_network_issues_error_message" = "Žao nam je, imamo problema sa mrežom. Možete pokušati da osvežite stranicu ili da pošaljete imejl našem timu za podršku.";
 
 /* loco:613214d1cefdd85f6113f6c2 */
-"dixa_send_message_to_start_conversation" = "Pošaljite poruku za početak razgovora";
+"dixa_send_message_to_start_conversation" = "Pošaljite poruku da biste započeli razgovor";
 
 /* loco:613717a4a605ea60ee0199c2 */
-"dixa_network_issues_reconnected_message" = "Odlično! Ponovno ste povezani.";
+"dixa_network_issues_reconnected_message" = "Odlično! Ponovo ste povezani.";
 
 /* loco:61372ce6a3010252bf266332 */
-"dixa_resend_message" = "Ponovno pošalji poruku";
+"dixa_resend_message" = "Ponovo pošalji poruku";
 
 /* loco:61372d0f4d68a81f735cf504 */
 "dixa_delete_message" = "Izbriši poruku";
@@ -212,7 +212,7 @@
 "dixa_csat_emoji_label_bad" = "Loše";
 
 /* loco:6138c26b4f84a7150e45e3f2 */
-"dixa_csat_emoji_label_meh" = "Neh";
+"dixa_csat_emoji_label_meh" = "Prosečno";
 
 /* loco:6138c27d52374851ef4478c6 */
 "dixa_csat_emoji_label_okay" = "U redu";
@@ -227,7 +227,7 @@
 "dixa_csat_add_comment" = "Dodaj komentar";
 
 /* loco:6138c2f64daeb310a0580c72 */
-"dixa_csat_save_comment" = "Pohrani komentar";
+"dixa_csat_save_comment" = "Sačuvaj komentar";
 
 /* loco:6138c32ba68f3650bb2050b2 */
 "dixa_csat_see_comment" = "Pogledajte svoj komentar";
@@ -248,33 +248,33 @@
 "dixa_message_sent_interval_now" = "Upravo sada";
 
 /* loco:6140a224600e886e3b3ba295 */
-"dixa_message_sent_interval_less_than_a_minute" = "Prije manje od minute";
+"dixa_message_sent_interval_less_than_a_minute" = "Pre manje od minut";
 
 /* loco:6140a4263ae2d5100d1d0d42 */
-"dixa_message_sent_interval_minutes" = "Prije minutu";
+"dixa_message_sent_interval_minutes" = "pre 1 minut";
 
 /* loco:6140a4437359c031495ee6c2 */
-"dixa_message_sent_interval_x_minutes" = "Prije %d minuta";
+"dixa_message_sent_interval_x_minutes" = "pre %d minuta";
 
 /* loco:6140a6ddd950c10d283c64a4 */
-"dixa_message_sent_interval_hours" = "Prije sat vremena";
+"dixa_message_sent_interval_hours" = "pre 1 sat";
 
 /* loco:6140a70f6747061e477e3802 */
-"dixa_message_sent_interval_x_hours" = "Prije %d sati";
+"dixa_message_sent_interval_x_hours" = "pre %d sati";
 
 /* loco:6141b36031fe824b755f77a2 */
-"dixa_title_reply_time" = "Obično odgovorimo unutar 10 minuta";
+"dixa_title_reply_time" = "Obično odgovaramo u roku od 10 minuta";
 
 /* loco:6144867c61928d6c4f372ed3 */
-"dixa_message_state_failed_to_deliver" = "Isporuka nije uspjela";
+"dixa_message_state_failed_to_deliver" = "Isporuka nije uspela";
 
 /* loco:61518243fdf18619fb6d1162 */
-"dixa_no_messages_sent" = "Nema poslanih poruka";
+"dixa_no_messages_sent" = "Nema poslatih poruka";
 
 /* loco:6152f1e34a248a7ae90bae22 */
-"dixa_unable_to_start_new_conversation_error" = "Žao nam je! Imamo problema u pokretanju 
-novih razgovora. Možete pokušati ponovno 
-ili poslati e-poruku našem timu za podršku.";
+"dixa_unable_to_start_new_conversation_error" = "Žao nam je! Imamo problema sa pokretanjem 
+novih razgovora. Možete pokušati ponovo 
+ili poslati imejl našem timu za podršku.";
 
 /* loco:615bcdcc2c89326bcf297324 */
 "dixa_message_sent_interval_minutes-plural-2" = "";
@@ -286,10 +286,10 @@ ili poslati e-poruku našem timu za podršku.";
 "dixa_your_name" = "Vaše ime";
 
 /* loco:615fdd55b1167b76987201d2 */
-"dixa_your_email" = "Vaša e-adresa";
+"dixa_your_email" = "Vaša adresa e-pošte";
 
 /* loco:615fdd6f6193485355724282 */
-"dixa_enter_details" = "Unesite pojedinosti";
+"dixa_enter_details" = "Unesite detalje";
 
 /* loco:615fdd8fde0c6b419e49a235 */
 "dixa_leave_message" = "Ostavi poruku";
@@ -298,22 +298,22 @@ ili poslati e-poruku našem timu za podršku.";
 "dixa_contact_form_whats_your_name" = "Koje je vaše ime?";
 
 /* loco:615fe06ee3f1914e4e429aa2 */
-"dixa_contact_form_email_example" = "Na primjer “bruce@wayne.com”";
+"dixa_contact_form_email_example" = "Na primer: “bruce@wayne.com”";
 
 /* loco:615fe09696ea1a64d6036ad2 */
-"dixa_contact_form_tell_us_everything" = "Recite nam sve što trebamo znati";
+"dixa_contact_form_tell_us_everything" = "Recite nam sve što treba da znamo";
 
 "dixa_contact_form_send" = "Pošalji";
 
 /* loco:61641128c50d266dbc2414b2 */
-"dixa_contact_form" = "Obrazac za kontakt";
+"dixa_contact_form" = "Kontakt formular";
 
-"dixa_contact_form_thanks_message" = "Hvala! Odgovorit ćemo vam putem e-pošte";
+"dixa_contact_form_thanks_message" = "Hvala! Javićemo vam se putem imejla";
 
 "dixa_frontpage_continue_conversation" = "Nastavite razgovor";
 
 /* loco:6168043aa8e5357081734583 */
-"dixa_invalid_email" = "Nevažeći e-mail. Pokušajte ponovo.";
+"dixa_invalid_email" = "Neispravna adresa e-pošte. Pokušajte ponovo.";
 
 /* name textfield label */
 "dixa_name_field_label" = "Vaše ime";
@@ -322,18 +322,18 @@ ili poslati e-poruku našem timu za podršku.";
 "dixa_name_field_placeholder" = "Koje je vaše ime?";
 
 /* email textfield label */
-"dixa_email_field_label" = "Vaša e-pošta";
+"dixa_email_field_label" = "Vaša adresa e-pošte";
 
 /* email field placeholder */
-"dixa_email_field_placeholder" = "Na primjer “bruce@wayne.com”";
+"dixa_email_field_placeholder" = "Na primer: “bruce@wayne.com”";
 
 /*login/ user identification screen header text*/
-"dixa_user_claim_header" = "Započnimo s vašim podacima";
+"dixa_user_claim_header" = "Započnimo sa vašim podacima";
 /* error message when name field is left blanc*/
 "dixa_invalid_name" = "Unesite svoje ime";
 
 /*manual user claim view button title*/
-"dixa_continue_to_conversation" = "Nastavite na Razgovor";
+"dixa_continue_to_conversation" = "Nastavite na razgovor";
 /* missing input in field */
 "dixa_empty_field_error" = "Popunite ovo polje za nastavak";
 
@@ -343,21 +343,21 @@ ili poslati e-poruku našem timu za podršku.";
 
 "dixa_knowledge_navigation_title" = "Kako vam možemo pomoći?";
 
-"dixa_knowledge_suggested_articles" = "Preporučeni članci";
+"dixa_knowledge_suggested_articles" = "Predloženi članci";
 
 "dixa_knowledge_popular_topics" = "Popularne teme";
 
-"dixa_knowledge_comment_title_helpful" = "Je li ovo bilo korisno?";
+"dixa_knowledge_comment_title_helpful" = "Da li je ovo bilo korisno?";
 
 "dixa_knowledge_comment_title_contact_us" = "Javite nam se za dodatnu pomoć";
 
-"dixa_knowledge_comment_title_comment" = "Odlično. Želite li ostaviti komentar?";
+"dixa_knowledge_comment_title_comment" = "Odlično. Želite da ostavite komentar?";
 
 "dixa_knowledge_comment_title_comment_thanks" = "Hvala na vašem komentaru.";
 
 "dixa_knowledge_comment_yes" = "Da, hvala";
 
-"dixa_knowledge_comment_no" = "Ne, trebam pomoć";
+"dixa_knowledge_comment_no" = "Ne, potrebna mi je pomoć";
 
 "dixa_knowledge_feedback_button_add_comment" = "Dodaj komentar";
 
@@ -365,21 +365,21 @@ ili poslati e-poruku našem timu za podršku.";
 
 "dixa_knowledge_feedback_your_comment" = "Vaš komentar";
 
-"dixa_knowledge_search_placeholder_info" = "Upišite bilo koju ključnu riječ ili rečenicu da biste pronašli povezane članke";
+"dixa_knowledge_search_placeholder_info" = "Upišite bilo koju ključnu reč ili rečenicu da biste pronašli povezane članke";
 
 "dixa_knowledge_search_placeholder_no_results" = "Nema rezultata za";
 
-"dixa_knowledge_search_placeholder_no_results_try_another" = "Pokušajte s drugom ključnom riječi";
+"dixa_knowledge_search_placeholder_no_results_try_another" = "Pokušajte sa drugom ključnom reči";
 
 "dixa_message_waiting_for_agent" = "Čeka se pridruživanje agenta";
 
 "dixa_end_conversation_title" = "Završi razgovor";
 
-"dixa_end_conversation_info" = "Klikom na gumb ispod završit ćete svoj trenutni razgovor.";
+"dixa_end_conversation_info" = "Klikom na dugme ispod završićete trenutni razgovor.";
 
-"dixa_form_confirmation_question" = "Jeste li sigurni da želite poslati ove promjene?";
+"dixa_form_confirmation_question" = "Da li ste sigurni da želite da pošaljete ove izmene?";
 
-"dixa_form_confirmation_submit_answer" = "Da, pošaljite ih";
+"dixa_form_confirmation_submit_answer" = "Da, pošalji ih";
 
 "dixa_form_confirmation_submit_cancel" = "Ne, nemoj ih slati";
 
@@ -387,23 +387,23 @@ ili poslati e-poruku našem timu za podršku.";
 
 "dixa_form_attachments_description" = "slika, tekst (maks. veličina 10MB)";
 
-"dixa_form_email_error" = "Unesite valjanu e-adresu";
+"dixa_form_email_error" = "Unesite ispravnu adresu e-pošte";
 
-"dixa_form_required_error" = "Ovo je polje obavezno";
+"dixa_form_required_error" = "Ovo polje je obavezno";
 
-"dixa_form_regex_error" = "Tekst ne odgovara zahtjevima polja";
+"dixa_form_regex_error" = "Tekst ne odgovara zahtevima polja";
 
-"dixa_form_maxTotalFilesSize_error" = "Datoteke premašuju dopuštenu veličinu";
+"dixa_form_maxTotalFilesSize_error" = "Datoteke prelaze dozvoljenu veličinu";
 
-"dixa_form_maxSingleFileSize_error" = "Datoteka prelazi dopuštenu veličinu";
+"dixa_form_maxSingleFileSize_error" = "Datoteka prelazi dozvoljenu veličinu";
 
 "dixa_form_mimeTypes_error" = "Nepodržani tip datoteke";
 
-"dixa_form_maxTextSize_error" = "Tekst ne odgovara zahtjevima polja";
+"dixa_form_maxTextSize_error" = "Tekst ne odgovara zahtevima polja";
 
 "dixa_mim_related_sources" = "Povezani izvori";
 
-"dixa_form_select_options" = "Odaberite mogućnosti";
+"dixa_form_select_options" = "Izaberite opcije";
 
 "dixa_outside_form_contact_us" = "Kontaktirajte nas";
 
@@ -419,10 +419,10 @@ ili poslati e-poruku našem timu za podršku.";
 
 "messenger_unavailable_description" = "Messenger nije dostupan.";
 
-"dixa_attachment_upload_failed" = "Učitavanje nije uspjelo";
+"dixa_attachment_upload_failed" = "Otprеmanjе nijе uspеlo";
 
 "dixa_attachment_unsupported" = "Nije podržano";
 
 "dixa_attachment_unsupported_file_format" = "Format datoteke nije podržan";
 
-"dixa_csat_emoji_label_poor" = "Slabo";
+"dixa_csat_emoji_label_poor" = "Loše";

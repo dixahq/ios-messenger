@@ -5,276 +5,276 @@
  * Locale: en, English
  * Exported by: Gianluca Frediani
  * Exported at: Mon, 18 Oct 2021 16:43:01 +0200
- 
- loco:60f7de8d40efd37b18055312
- * Toolbar */
+ */
 
-"dixa_chat_title_we_usually_reply" = "我们通常会在";
+/* loco:60f7de8d40efd37b18055312
+ * Toolbar */
+"dixa_chat_title_we_usually_reply" = "我們通常會回覆";
 
 /* loco:60f7de8d40efd37b18055313 */
-"dixa_chat_title_response_time" = "10 分钟内回复";
+"dixa_chat_title_response_time" = "10 分鐘內";
 
 /* loco:60f7de8d40efd37b18055314
  * Message */
-"dixa_hint_write_your_message" = "撰写您的消息";
+"dixa_hint_write_your_message" = "撰寫訊息";
 
 /* loco:60f7de8d40efd37b18055315
  * Unread Messages */
-"dixa_message_new_messages" = "新消息";
+"dixa_message_new_messages" = "新訊息";
 
 /* loco:60f7de8d40efd37b18055316
  * Agent */
-"dixa_message_agent_joined_the_conversation" = "%@ 已加入对话";
+"dixa_message_agent_joined_the_conversation" = "%@ 加入對話";
 
 /* loco:60f7de8d40efd37b18055317
  * Access Permissions */
-"dixa_error_message_access_denied" = "请允许访问您的手机媒体以附加和发送文件。";
+"dixa_error_message_access_denied" = "請允許存取您手機的媒體，以便附加並傳送檔案。";
 
 /* loco:60f7de8d40efd37b18055318
  * Content Description */
 "dixa_accessibility_label_back" = "返回";
 
 /* loco:60f7de8d40efd37b18055319 */
-"dixa_accessibility_label_agent_photo" = "代理照片";
+"dixa_accessibility_label_agent_photo" = "代理人的相片";
 
 /* loco:60f7de8d40efd37b1805531b */
-"dixa_accessibility_label_agent_is_typing" = "代理正在輸入";
+"dixa_accessibility_label_agent_is_typing" = "代理人正在輸入";
 
 /* loco:60f7de8d40efd37b1805531d */
-"dixa_accessibility_label_expand_input_field" = "展开输入字段";
+"dixa_accessibility_label_expand_input_field" = "展開輸入欄位";
 
 /* loco:60f7de8d40efd37b1805531e */
-"dixa_accessibility_label_collapse_input_field" = "折叠输入字段";
+"dixa_accessibility_label_collapse_input_field" = "收合輸入欄位";
 
 /* loco:60f7de8d40efd37b18055320 */
-"dixa_accessibility_label_download_file" = "下载文件";
+"dixa_accessibility_label_download_file" = "下載檔案";
 
 /* loco:60f7de8d40efd37b18055321 */
-"dixa_accessibility_label_attach_file" = "附加文件";
+"dixa_accessibility_label_attach_file" = "附加檔案";
 
 /* loco:60f7de8d40efd37b18055322 */
-"dixa_accessibility_label_send_message" = "发送消息";
+"dixa_accessibility_label_send_message" = "傳送訊息";
 
 /* loco:60f7e10a3c543245a60bc012 */
-"dixa_message_state_sending" = "正在发送";
+"dixa_message_state_sending" = "正在傳送";
 
 /* loco:60f7e1210b15b5190230fd92 */
-"dixa_message_state_sent" = "发送";
+"dixa_message_state_sent" = "已傳送";
 
 /* loco:60f7e1333a5da90c4f1481d3 */
-"dixa_message_state_delivered" = "已送达";
+"dixa_message_state_delivered" = "已送達";
 
 /* loco:60f7e13c62bc0a3ea204f362 */
-"dixa_message_state_seen" = "已读";
+"dixa_message_state_seen" = "已讀";
 
 /* loco:60f7e149afb31164004fbe42 */
-"dixa_message_state_failed_to_send" = "发送失败";
+"dixa_message_state_failed_to_send" = "無法傳送";
 
 /* loco:610403c6751c8b16453f3592 */
-"dixa_frontpage_start_new_conversation" = "开始对话";
+"dixa_frontpage_start_new_conversation" = "開始對話";
 
 /* loco:6107a9cb34ad852afd5bc4a2 */
 "dixa_accessibility_label_exit_button" = "退出";
 
 /* loco:6107a9f9ca07942cbf4a3f52 */
-"dixa_accessibility_label_loading_progress_bar" = "正在加载";
+"dixa_accessibility_label_loading_progress_bar" = "正在載入";
 
 /* loco:6107abe2f999e05b1f6f1a42 */
-"dixa_frontpage_view_previous_conversations" = "查看之前的对话";
+"dixa_frontpage_view_previous_conversations" = "檢視先前的對話";
 
 /* loco:6107ac8031c9d864260b9072 */
-"dixa_frontpage_footer" = "我们在使用 Dixa";
+"dixa_frontpage_footer" = "我們使用 Dixa";
 
 /* loco:6107aca41a5587331c1a6b92 */
 "dixa_frontpage_error_title" = "抱歉…";
 
 /* loco:6107acda3fa307445a5c3892 */
-"dixa_frontpage_error_subtitle" = "我们遇到了网络问题。您可以尝试刷新页面或向我们的支持团队发送电子邮件。";
+"dixa_frontpage_error_subtitle" = "我們遇到網路問題。您可以嘗試重新整理頁面，或傳送電子郵件給我們的支援團隊。";
 
 /* loco:6107ad02279d6a68c77c4ba3 */
-"dixa_frontpage_refresh_button" = "刷新页面";
+"dixa_frontpage_refresh_button" = "重新整理頁面";
 
 /* loco:6107b0e8455d1f26cb1d5912 */
 "dixa_accessibility_label_cancel" = "取消";
 
 /* loco:6107b1c38818932d0c1027e3 */
-"dixa_accessibility_label_message_status_failed" = "消息发送失败";
+"dixa_accessibility_label_message_status_failed" = "訊息無法傳送";
 
 /* loco:6107b1dce39849525b1bd1b2 */
-"dixa_accessibility_label_message_status_sent" = "消息已发送";
+"dixa_accessibility_label_message_status_sent" = "訊息已傳送";
 
 /* loco:6107b1ee11f9f863d72975f2 */
-"dixa_accessibility_label_message_status_delivered" = "消息已送达";
+"dixa_accessibility_label_message_status_delivered" = "訊息已送達";
 
 /* loco:6107b202ff6dfd4511463f82 */
-"dixa_accessibility_label_message_status_seen" = "消息已读";
+"dixa_accessibility_label_message_status_seen" = "訊息已讀";
 
 /* loco:6107b214528e7441d53089c2 */
-"dixa_accessibility_label_message_status_sending" = "正在发送消息";
+"dixa_accessibility_label_message_status_sending" = "正在傳送訊息";
 
 /* loco:6107bf3bce0ba60a620ff6f2 */
-"dixa_frontpage_greeting_subtitle" = "请随时联系我们。我们随时准备为您提供帮助。";
+"dixa_frontpage_greeting_subtitle" = "歡迎與我們聯絡。我們隨時可以提供協助。";
 
 /* loco:6107bf71ce0ba60a620ff6f4 */
-"dixa_frontpage_greeting_title" = "您好 👋 ";
+"dixa_frontpage_greeting_title" = "嗨 👋 ";
 
 /* loco:610bd86ca85c0c3a081d3e03 */
-"dixa_accessibility_label_message_with_image" = "带图片的消息";
+"dixa_accessibility_label_message_with_image" = "含圖片的訊息";
 
 /* loco:610d23cd128ef23c623c9d64 */
-"dixa_select_a_smaller_file_error_message" = "请选择 10MB 以下的文件";
+"dixa_select_a_smaller_file_error_message" = "請選擇小於 10MB 的檔案";
 
 /* loco:6110fdd36475e07e7f6975a2 */
 "dixa_last_message_user_prefix" = "您：%@";
 
 /* loco:6111433d2381b25a153d3bd2 */
-"dixa_last_message_no_text" = "继续对话";
+"dixa_last_message_no_text" = "繼續您的對話";
 
 /* loco:6114e437f195376afe2c2df4 */
-"dixa_previous_conversations_header" = "您之前的对话";
+"dixa_previous_conversations_header" = "您先前的對話";
 
 /* loco:6114edb9bac50e62167ae8f2 */
-"dixa_closed_conversation_start_new_conversation" = "开始新对话";
+"dixa_closed_conversation_start_new_conversation" = "開始新對話";
 
 /* loco:6114ee4104d1c612164cff95 */
-"dixa_closed_conversation_message" = "对话已结束。";
+"dixa_closed_conversation_message" = "您的對話已結束。";
 
 /* loco:6116310f0076a37fa47b5282 */
-"dixa_toolbar_agent_online" = "立即上线";
+"dixa_toolbar_agent_online" = "目前在線上";
 
 /* loco:61163432f5b4e41e23144bb5 */
-"dixa_attachment_permission_settings_button" = "设置";
+"dixa_attachment_permission_settings_button" = "設定";
 
 /* loco:6116345def574f222501fd16 */
 "dixa_cancel_button" = "取消";
 
 /* loco:6116349f9165e12401377145 */
-"dixa_attachment_image_title" = "图片";
+"dixa_attachment_image_title" = "圖片";
 
 /* loco:611634b59165e12401377147 */
-"dixa_attachment_file_title" = "文件";
+"dixa_attachment_file_title" = "檔案";
 
 /* loco:611634de394e7548310a44d2 */
-"dixa_attachment_type_title" = "附件类型";
+"dixa_attachment_type_title" = "附件類型";
 
 /* loco:61163512311d220c902b7562 */
-"dixa_attachment_type_message" = "请从图库或文件夹中选择文件";
+"dixa_attachment_type_message" = "從相簿或封存檔中選取檔案";
 
 /* loco:611638d94c152a5aac338f22 */
-"dixa_toolbar_agent_away" = "离开";
+"dixa_toolbar_agent_away" = "離開";
 
 /* loco:61180fc2e7b52c5d5a4d5262 */
-"dixa_previous_conversations_error_subtitle" = "我们在加载您之前的对话时遇到了问题。您可以尝试刷新页面或向我们的支持团队发送电子邮件。";
+"dixa_previous_conversations_error_subtitle" = "我們在載入您先前的對話時遇到問題。您可以嘗試重新整理頁面，或傳送電子郵件給我們的支援團隊。";
 
 /* loco:611810caa6b60c796014eaf2 */
-"dixa_previous_conversations_error_title" = "抱歉...";
+"dixa_previous_conversations_error_title" = "抱歉…";
 
 /* loco:611b69ef7f08a65e71347746 */
-"dixa_open_file_error" = "无法打开文件";
+"dixa_open_file_error" = "無法開啟檔案";
 
 /* loco:611b7fa15d606462c83d1b42 */
-"dixa_attachment_download_label_in_progress" = "正在下载";
+"dixa_attachment_download_label_in_progress" = "正在下載";
 
 /* loco:611b7fc1d4d18b3b533df2c5 */
-"dixa_attachment_download_label_success" = "已下载";
+"dixa_attachment_download_label_success" = "已下載";
 
 /* loco:611b7fd773dacb447029c422 */
-"dixa_attachment_download_label_error" = "下载失败";
+"dixa_attachment_download_label_error" = "無法下載";
 
 /* loco:611b849d84e41d2378415393 */
-"dixa_accessibility_label_open_file" = "打开文件";
+"dixa_accessibility_label_open_file" = "開啟檔案";
 
 /* loco:611e22f0aa31a8697e5dc0a2 */
-"dixa_error_select_an_attachment" = "请选择有效的照片或文件";
+"dixa_error_select_an_attachment" = "請選擇有效的相片或檔案";
 
 /* loco:61262710d9972f38f45c7112 */
-"dixa_file_too_big_error_ok" = "确定";
+"dixa_file_too_big_error_ok" = "確定";
 
 /* loco:612f633075538025f02bb932 */
-"dixa_android_push_notification_channel_name" = "客户支持";
+"dixa_android_push_notification_channel_name" = "客戶支援";
 
 /* loco:61320b63a23ea67e81664d56 */
-"dixa_network_issues_error_message" = "抱歉，我们遇到了网络问题。您可以尝试刷新页面或向我们的支持团队发送电子邮件。";
+"dixa_network_issues_error_message" = "抱歉，我們遇到網路問題。您可以嘗試重新整理頁面，或傳送電子郵件給我們的支援團隊。";
 
 /* loco:613214d1cefdd85f6113f6c2 */
-"dixa_send_message_to_start_conversation" = "发送消息以开始对话";
+"dixa_send_message_to_start_conversation" = "傳送訊息以開始對話";
 
 /* loco:613717a4a605ea60ee0199c2 */
-"dixa_network_issues_reconnected_message" = "太好了！您已重新连接。";
+"dixa_network_issues_reconnected_message" = "太好了！您已重新連線。";
 
 /* loco:61372ce6a3010252bf266332 */
-"dixa_resend_message" = "重新发送消息";
+"dixa_resend_message" = "重新傳送訊息";
 
 /* loco:61372d0f4d68a81f735cf504 */
-"dixa_delete_message" = "删除消息";
+"dixa_delete_message" = "刪除訊息";
 
 /* loco:6138c25252374851ef4478c3 */
-"dixa_csat_emoji_label_bad" = "不好";
+"dixa_csat_emoji_label_bad" = "差";
 
 /* loco:6138c26b4f84a7150e45e3f2 */
-"dixa_csat_emoji_label_meh" = "凑合";
+"dixa_csat_emoji_label_meh" = "普通";
 
 /* loco:6138c27d52374851ef4478c6 */
-"dixa_csat_emoji_label_okay" = "不错";
+"dixa_csat_emoji_label_okay" = "尚可";
 
 /* loco:6138c28e9999206ee6679386 */
-"dixa_csat_emoji_label_good" = "良好";
+"dixa_csat_emoji_label_good" = "好";
 
 /* loco:6138c2a046bec603b66dd897 */
-"dixa_csat_emoji_label_great" = "很棒";
+"dixa_csat_emoji_label_great" = "非常好";
 
 /* loco:6138c2e0b0badf0aa53921c2 */
-"dixa_csat_add_comment" = "添加评论";
+"dixa_csat_add_comment" = "新增留言";
 
 /* loco:6138c2f64daeb310a0580c72 */
-"dixa_csat_save_comment" = "保存评论";
+"dixa_csat_save_comment" = "儲存留言";
 
 /* loco:6138c32ba68f3650bb2050b2 */
-"dixa_csat_see_comment" = "查看您的评论";
+"dixa_csat_see_comment" = "查看您的留言";
 
 /* loco:6138c364a68f3650bb2050b4 */
-"dixa_csat_hide_comment" = "隐藏您的评论";
+"dixa_csat_hide_comment" = "隱藏您的留言";
 
 /* loco:6138c3e87bd53a70c72edb43 */
-"dixa_message_agent_left_the_conversation" = "%@ 已离开对话";
+"dixa_message_agent_left_the_conversation" = "%@ 離開對話";
 
 /* loco:613f4e33c13ac642c62cdc82 */
-"dixa_bulletin_board_show_more" = "显示更多";
+"dixa_bulletin_board_show_more" = "顯示更多";
 
 /* loco:613f4e52ae0b645e63586492 */
-"dixa_bulletin_board_show_less" = "显示更少";
+"dixa_bulletin_board_show_less" = "顯示較少";
 
 /* loco:6140a16d72c44a4ec857db33 */
-"dixa_message_sent_interval_now" = "刚刚";
+"dixa_message_sent_interval_now" = "剛剛";
 
 /* loco:6140a224600e886e3b3ba295 */
-"dixa_message_sent_interval_less_than_a_minute" = "不到一分钟前";
+"dixa_message_sent_interval_less_than_a_minute" = "不到 1 分鐘前";
 
 /* loco:6140a4263ae2d5100d1d0d42 */
-"dixa_message_sent_interval_minutes" = "1 分钟前";
+"dixa_message_sent_interval_minutes" = "1 分鐘前";
 
 /* loco:6140a4437359c031495ee6c2 */
-"dixa_message_sent_interval_x_minutes" = "%d 分钟前";
+"dixa_message_sent_interval_x_minutes" = "%d 分鐘前";
 
 /* loco:6140a6ddd950c10d283c64a4 */
-"dixa_message_sent_interval_hours" = "1 小时前";
+"dixa_message_sent_interval_hours" = "1 小時前";
 
 /* loco:6140a70f6747061e477e3802 */
-"dixa_message_sent_interval_x_hours" = "%d 小时前";
+"dixa_message_sent_interval_x_hours" = "%d 小時前";
 
 /* loco:6141b36031fe824b755f77a2 */
-"dixa_title_reply_time" = "我们通常会在 10 分钟内回复";
+"dixa_title_reply_time" = "我們通常會在 10 分鐘內回覆";
 
 /* loco:6144867c61928d6c4f372ed3 */
-"dixa_message_state_failed_to_deliver" = "无法送达";
+"dixa_message_state_failed_to_deliver" = "無法送達";
 
 /* loco:61518243fdf18619fb6d1162 */
-"dixa_no_messages_sent" = "未发送任何消息";
+"dixa_no_messages_sent" = "尚未傳送訊息";
 
 /* loco:6152f1e34a248a7ae90bae22 */
-"dixa_unable_to_start_new_conversation_error" = "抱歉！我们在开始
-新对话时遇到了问题。您可以重试
-或向我们的支持团队发送电子邮件。";
+"dixa_unable_to_start_new_conversation_error" = "抱歉！我們在開始 
+新對話時遇到問題。您可以再試一次， 
+或傳送電子郵件給我們的支援團隊。";
 
 /* loco:615bcdcc2c89326bcf297324 */
 "dixa_message_sent_interval_minutes-plural-2" = "";
@@ -283,147 +283,146 @@
 "dixa_message_sent_interval_hours-plural-2" = "";
 
 /* loco:615fdcfede0c6b419e49a233 */
-"dixa_your_name" = "您的姓名";
+"dixa_your_name" = "您的名稱";
 
 /* loco:615fdd55b1167b76987201d2 */
-"dixa_your_email" = "您的电子邮件地址";
+"dixa_your_email" = "您的電子郵件";
 
 /* loco:615fdd6f6193485355724282 */
-"dixa_enter_details" = "请输入详细信息";
+"dixa_enter_details" = "輸入詳細資料";
 
 /* loco:615fdd8fde0c6b419e49a235 */
-"dixa_leave_message" = "留言";
+"dixa_leave_message" = "留下訊息";
 
 /* loco:615fe04e6dae5b4925026972 */
-"dixa_contact_form_whats_your_name" = "您的名字是？";
+"dixa_contact_form_whats_your_name" = "您的名稱是什麼？";
 
 /* loco:615fe06ee3f1914e4e429aa2 */
-"dixa_contact_form_email_example" = "例如 “bruce@wayne.com”";
+"dixa_contact_form_email_example" = "例如「bruce@wayne.com」";
 
 /* loco:615fe09696ea1a64d6036ad2 */
-"dixa_contact_form_tell_us_everything" = "请告诉我们所需的一切信息";
+"dixa_contact_form_tell_us_everything" = "告訴我們需要知道的一切";
 
-"dixa_contact_form_send" = "发送";
+"dixa_contact_form_send" = "傳送";
 
 /* loco:61641128c50d266dbc2414b2 */
-"dixa_contact_form" = "联系表单";
+"dixa_contact_form" = "聯絡表單";
 
-"dixa_contact_form_thanks_message" = "谢谢！我们会通过邮件回复您。";
+"dixa_contact_form_thanks_message" = "謝謝！我們會透過電子郵件回覆您";
 
-"dixa_frontpage_continue_conversation" = "继续对话";
+"dixa_frontpage_continue_conversation" = "繼續對話";
 
 /* loco:6168043aa8e5357081734583 */
-"dixa_invalid_email" = "电子邮件无效。请重试。";
+"dixa_invalid_email" = "電子郵件無效。請再試一次。";
 
 /* name textfield label */
-"dixa_name_field_label" = "您的姓名";
+"dixa_name_field_label" = "您的名稱";
 
 /* name textfield placeholder*/
-"dixa_name_field_placeholder" = "您的名字是？";
+"dixa_name_field_placeholder" = "您的名稱是什麼？";
 
 /* email textfield label */
-"dixa_email_field_label" = "您的电子邮箱";
+"dixa_email_field_label" = "您的電子郵件";
 
 /* email field placeholder */
-"dixa_email_field_placeholder" = "例如 “bruce@wayne.com”";
+"dixa_email_field_placeholder" = "例如「bruce@wayne.com」";
 
 /*login/ user identification screen header text*/
-"dixa_user_claim_header" = "让我们从您的信息开始吧";
+"dixa_user_claim_header" = "先從您的資訊開始吧";
 /* error message when name field is left blanc*/
-"dixa_invalid_name" = "请输入您的姓名";
+"dixa_invalid_name" = "請輸入您的名稱";
 
 /*manual user claim view button title*/
-"dixa_continue_to_conversation" = "继续对话";
+"dixa_continue_to_conversation" = "繼續進入對話";
 /* missing input in field */
-"dixa_empty_field_error" = "请填写字段以继续";
+"dixa_empty_field_error" = "請填寫欄位以繼續";
 
-"dixa_frontpage_find_articles" = "查找文章";
+"dixa_frontpage_find_articles" = "尋找文章";
 
-"dixa_knowledge_search_textfield_placeholder" = "搜索";
+"dixa_knowledge_search_textfield_placeholder" = "搜尋";
 
-"dixa_knowledge_navigation_title" = "您需要什么帮助？";
+"dixa_knowledge_navigation_title" = "我們能如何協助您？";
 
-"dixa_knowledge_suggested_articles" = "推荐文章";
+"dixa_knowledge_suggested_articles" = "建議文章";
 
-"dixa_knowledge_popular_topics" = "热门话题";
+"dixa_knowledge_popular_topics" = "熱門主題";
 
-"dixa_knowledge_comment_title_helpful" = "这有帮助吗？";
+"dixa_knowledge_comment_title_helpful" = "這有幫助嗎？";
 
-"dixa_knowledge_comment_title_contact_us" = "请联系我们以获取更多帮助";
+"dixa_knowledge_comment_title_contact_us" = "請聯絡我們取得更多協助";
 
-"dixa_knowledge_comment_title_comment" = "很棒。要留下评论吗？";
+"dixa_knowledge_comment_title_comment" = "太好了。想留下留言嗎？";
 
-"dixa_knowledge_comment_title_comment_thanks" = "感谢您的评论。";
+"dixa_knowledge_comment_title_comment_thanks" = "感謝您的留言。";
 
-"dixa_knowledge_comment_yes" = "好的，谢谢";
+"dixa_knowledge_comment_yes" = "是，謝謝";
 
-"dixa_knowledge_comment_no" = "不，我需要帮助";
+"dixa_knowledge_comment_no" = "不，我需要協助";
 
-"dixa_knowledge_feedback_button_add_comment" = "添加评论";
+"dixa_knowledge_feedback_button_add_comment" = "新增留言";
 
-"dixa_knowledge_feedback_button_start_conversation" = "开始对话";
+"dixa_knowledge_feedback_button_start_conversation" = "開始對話";
 
-"dixa_knowledge_feedback_your_comment" = "您的评论";
+"dixa_knowledge_feedback_your_comment" = "您的留言";
 
-"dixa_knowledge_search_placeholder_info" = "输入任意关键词或句子即可查找相关文章";
+"dixa_knowledge_search_placeholder_info" = "輸入任何關鍵字或句子，以尋找相關文章";
 
-"dixa_knowledge_search_placeholder_no_results" = "未找到符合以下条件的结果";
+"dixa_knowledge_search_placeholder_no_results" = "找不到結果：";
 
-"dixa_knowledge_search_placeholder_no_results_try_another" = "请尝试其他关键词";
+"dixa_knowledge_search_placeholder_no_results_try_another" = "請嘗試其他關鍵字";
 
-"dixa_message_waiting_for_agent" = "正在等待代理加入";
+"dixa_message_waiting_for_agent" = "正在等待代理人加入";
 
-"dixa_end_conversation_title" = "关闭会话";
+"dixa_end_conversation_title" = "結束對話";
 
-"dixa_end_conversation_info" = "点击下面的按钮将结束您当前的对话。";
+"dixa_end_conversation_info" = "按一下下方按鈕即可結束目前對話。";
 
-"dixa_form_confirmation_question" = "确定要应用这些更改吗?";
+"dixa_form_confirmation_question" = "您確定要傳送這些變更嗎？";
 
-"dixa_form_confirmation_submit_answer" = "是的，找到他们！";
+"dixa_form_confirmation_submit_answer" = "是，傳送";
 
-"dixa_form_confirmation_submit_cancel" = "不，请不要发送。";
+"dixa_form_confirmation_submit_cancel" = "不，不要傳送";
 
-"dixa_form_attachments_add_file" = "添加文件";
+"dixa_form_attachments_add_file" = "新增檔案";
 
-"dixa_form_attachments_description" = "图像，文本(最大 10MB)";
+"dixa_form_attachments_description" = "圖片、文字 (大小上限 10MB)";
 
-"dixa_form_email_error" = "请输入有效的电子邮件";
+"dixa_form_email_error" = "請輸入有效的電子郵件";
 
-"dixa_form_required_error" = "此字段是必需的";
+"dixa_form_required_error" = "此欄位為必填";
 
-"dixa_form_regex_error" = "文本不符合字段要求";
+"dixa_form_regex_error" = "文字不符合欄位要求";
 
-"dixa_form_maxTotalFilesSize_error" = "文件超出允许的大小";
+"dixa_form_maxTotalFilesSize_error" = "檔案超過允許的大小";
 
-"dixa_form_maxSingleFileSize_error" = "文件超出允许的大小";
+"dixa_form_maxSingleFileSize_error" = "檔案超過允許的大小";
 
-"dixa_form_mimeTypes_error" = "不支持的文件类型";
+"dixa_form_mimeTypes_error" = "不支援的檔案類型";
 
-"dixa_form_maxTextSize_error" = "文本不符合该字段的要求";
+"dixa_form_maxTextSize_error" = "文字不符合欄位要求";
 
-"dixa_mim_related_sources" = "相关来源（文章）";
+"dixa_mim_related_sources" = "相關來源";
 
-"dixa_form_select_options" = "选择选项";
+"dixa_form_select_options" = "選擇選項";
 
-"dixa_outside_form_contact_us" = "联系我们";
+"dixa_outside_form_contact_us" = "聯絡我們";
 
-"dixa_outside_form_message_received" = "收到消息！";
+"dixa_outside_form_message_received" = "已收到訊息！";
 
-"dixa_outside_form_message_in_review" = "我们很快将对此进行审查。";
+"dixa_outside_form_message_in_review" = "我們很快會進行審閱。";
 
-"dixa_outside_form_close" = "关闭";
+"dixa_outside_form_close" = "關閉";
 
-"dixa_outside_form_something_went_wrong" = "出错了！";
+"dixa_outside_form_something_went_wrong" = "發生錯誤！";
 
 "messenger_unavailable_title" = "抱歉";
 
-"messenger_unavailable_description" = "Messenger 不可用。";
+"messenger_unavailable_description" = "Messenger 目前無法使用。";
 
-"dixa_attachment_upload_failed" = "上传失败";
+"dixa_attachment_upload_failed" = "上傳失敗";
 
-"dixa_attachment_unsupported" = "不支持";
+"dixa_attachment_unsupported" = "不支援";
 
-"dixa_attachment_unsupported_file_format" = "不支持的文件格式";
+"dixa_attachment_unsupported_file_format" = "不支援的檔案格式";
 
-/* dixa_csat_emoji_label_poor Represents CSAT score 2 out of 5 */
-"dixa_csat_emoji_label_poor" = "凑合";
+"dixa_csat_emoji_label_poor" = "差";
