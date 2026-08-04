@@ -13909,8 +13909,15 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1072,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Networking\/WebSocket\/SocketController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2729,
+      "offset": 2908,
       "length": 1,
       "value": "3"
     },
