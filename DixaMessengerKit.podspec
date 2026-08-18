@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
   s.author           = { 'andras' => 'ama@dixa.com' }
   s.source = { :http => "https://github.com/dixahq/ios-messenger/releases/download/#{s.version}/DixaMessenger.xcframework.zip" }
   s.vendored_frameworks = "DixaMessenger.xcframework"
-  s.ios.deployment_target = '16.0'
+  s.ios.deployment_target = '15.0'
   s.pod_target_xcconfig = {
-  'IPHONEOS_DEPLOYMENT_TARGET' => '16.0'
+  'IPHONEOS_DEPLOYMENT_TARGET' => '15.0'
   }
 
 end
