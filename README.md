@@ -9,8 +9,8 @@
 - [Push notification handling](#push-notification-handling)
 
 ## Requirements
-- iOS 17
-- Xcode 16
+- iOS 16
+- Xcode 26.2
 
 ## Installation
 The Dixa Messenger SDK can be installed using Swift package manager, cocoa pods or by manually downloading and adding it to the project.
@@ -26,7 +26,7 @@ In Xcode add a package dependency to your project with the following URL:
 
 In your pod file, add: 
 ```
-pod 'DixaMessengerKit', '1.12.2'
+pod 'DixaMessengerKit', '2.2.5'
 ```
 
 ### Manual
@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             .logLevel(.all)
             .apikey("<api-key-goes-here>")
         #if DEBUG
-            // If you would like to have pushnotifications when developing your application
+            // If you would like to have push notifications when developing your application
             // you can set the push environment to .sandbox - the default is .production
             // To receive push messages, remember to upload your push-certificate to dixa.com
             .pushEnvironment(.sandbox)
@@ -84,7 +84,7 @@ DixaConfiguration().logLevel(_: LogLevel) -> DixaConfiguration
 /// - Returns: Configuration
 DixaConfiguration().pushEnvironment(_: PushEnvironment) -> DixaConfiguration
 
-/// The `supportedLaguages` array overrides the language settings from the Agent Interface.
+/// The `supportedLanguages` array overrides the language settings from the Agent Interface.
 /// This setting only affects the conversation language, not the UI language. The UI language is automatically set based on the system settings.
 /// - Parameter supportedLanguages: a list of conversation languages supported by the SDK (two letter language code)
 /// - Returns: Configuration
@@ -159,7 +159,7 @@ Messenger.clearUserCredentials()
 ```
 
 **Verified**
-Authentication is done using a JWE token, that is signed with one of the private keys, configured in the Dixa Messenger Dashboard. This token needs to be specified programatically, as opposed to the **Claimed** authentication where the SDK will ask the user to input their username and email.
+Authentication is done using a JWE token, that is signed with one of the private keys, configured in the Dixa Messenger Dashboard. This token needs to be specified programmatically, as opposed to the **Claimed** authentication where the SDK will ask the user to input their username and email.
 
 ```swift
 /// Update the user authentication jwe-token
@@ -263,7 +263,7 @@ To have DixaMessenger handle push messages, it requires that you do some footwor
 - Do not forget to enable the 'Push Notifications' capability for your bundle identifier (also called an App ID) - either in the portal for Apple's developer program or in Xcode, if Xcode automatically manages provisioning for you.
 - Then, you need to upload your push service certificate in the Dixa dashboard. To do this, log into your account at https://dixa.com and choose the organization you'll be setting up push notifications for.
 - In the dashboard, locate the management panel on the left side of the screen and choose the Settings option in this panel.
-- Once in the Setting section, locate the Channels and Flows subsection and choose the Messenger option. This will show the list of messengers in your organization.
+- Once in the Settings section, locate the Channels and Flows subsection and choose the Messenger option. This will show the list of messengers in your organization.
 - In this list, locate the messenger you're interested in and press the Setup button for it - the Setup button is located on the right. This will open the configuration page for the messenger, titled 'Messenger > { Messenger name }'.
 
 ![Select messenger](images/setup_push_notifications_01.png)
@@ -300,7 +300,7 @@ extension YourNotificationHandlingObject: UNUserNotificationCenterDelegate {
                                 willPresent notification: UNNotification,
                                 withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
 
-        // MARK: - Present notification if its related to DixaMessenger (while app being opened)
+        // MARK: - Present notification if it's related to DixaMessenger (while app being opened)
         if Messenger.pushNotification.presentNotification(notification, withCompletionHandler: completionHandler) {
             completionHandler([.banner])
         }
