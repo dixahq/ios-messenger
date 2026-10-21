@@ -16,16 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "Looks",
-        "printedName": "Looks",
-        "declKind": "Import",
-        "moduleName": "DixaMessenger",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -12195,6 +12185,27 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Additional Components\/AgentCell\/AvatarsContainer\/AvatarsContainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 939,
+      "length": 25,
+      "value": "\"person.crop.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Additional Components\/AgentCell\/AvatarsContainer\/AvatarsContainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1008,
+      "length": 25,
+      "value": "\"person.crop.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/UI\/Custom Views\/Additional Components\/AgentCell\/AvatarsContainer\/AvatarsContainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
+      "length": 25,
+      "value": "\"person.crop.circle.fill\""
+    },
     {
       "filePath": "\/Users\/vagrant\/git\/DixaMessenger\/Extensions\/UIView+Extensions.swift",
       "kind": "BooleanLiteral",
