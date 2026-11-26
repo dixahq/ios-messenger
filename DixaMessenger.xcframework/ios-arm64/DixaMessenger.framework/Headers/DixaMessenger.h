@@ -311,17 +311,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 @interface Messenger : NSObject
 /// Configure the Messenger
+/// An empty token is ignored, as in <code>configure(_:)</code>.
 /// \param token Dixa Messenger token
 ///
-/// \param logLevel 0: none, 1: warning, 2: error, 3: all
+/// \param logLevel 0: none, 1: error, 2: warning, 3: all
 ///
 /// \param pushEnvironment 0: production, 1: sandbox
 ///
 + (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel pushEnvironment:(NSUInteger)pushEnvironment;
 /// Configure the Messenger
+/// An empty token is ignored, as in <code>configure(_:)</code>.
 /// \param token Dixa Messenger token
 ///
-/// \param logLevel 0: none, 1: warning, 2: error, 3: all
+/// \param logLevel 0: none, 1: error, 2: warning, 3: all
 ///
 + (void)configureWithMessengerToken:(NSString * _Nonnull)token logLevel:(NSUInteger)logLevel;
 /// Register for push notifications
@@ -331,6 +333,7 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// Presents the Messenger View on a given <code>UIViewController</code>.
 /// This method creates a new <code>MessengerView</code>, wraps it in a <code>UIHostingController</code>, and presents it on the provided <code>UIViewController</code>.
 /// This method sets the <code>modalPresentationStyle</code> of the <code>UIHostingController</code> to <code>style</code> parameter.
+/// Until <code>configure</code> has run with a valid Messenger token, this logs an error, presents nothing and doesn’t call <code>completion</code>.
 /// \param presentationController The <code>UIViewController</code> on which the Messenger View should be presented.
 ///
 /// \param style The presentation style of the <code>UIHostingController</code>.
@@ -338,27 +341,38 @@ SWIFT_CLASS("_TtC13DixaMessenger9Messenger")
 /// \param completion An optional closure that’s called when the presentation finishes. Default is <code>nil</code>.
 ///
 + (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController with:(UIModalPresentationStyle)style completion:(void (^ _Nullable)(void))completion;
+/// Presents the Messenger View full screen on a given <code>UIViewController</code>.
+/// Until <code>configure</code> has run with a valid Messenger token, this logs an error, presents nothing and doesn’t call <code>completion</code>.
+/// \param presentationController The <code>UIViewController</code> on which the Messenger View should be presented.
+///
+/// \param completion An optional closure that’s called when the presentation finishes. Default is <code>nil</code>.
+///
 + (void)openMessengerFrom:(UIViewController * _Nonnull)presentationController completion:(void (^ _Nullable)(void))completion;
 /// Dimisses the messenger & invalidates its socket connection
+/// Does nothing before <code>configure</code>.
 + (void)dismiss;
 /// Observed for updates of unread messages count
 + (void)unreadMessagesCountListenerWithCompletion:(void (^ _Nonnull)(NSInteger))completion;
 /// Update the user credentials associated with the DixaMessenger
-/// This can safely be called multiple times with the same username and email,
-/// only if the username and/or email has changed the conversations will be wiped.
+/// This can safely be called multiple times with the same username and email.
 /// Note, that there’s no validation on the email address
+/// Can be called before <code>configure</code>: the name and email are stored and used once the Messenger is configured.
+/// A call with a different email than the stored one is ignored; call <code>clearUserCredentials()</code> first.
 /// \param username username to identify the user
 ///
 /// \param email email to identify the user
 ///
 + (void)updateUserCredentialsWithUsername:(NSString * _Nonnull)username email:(NSString * _Nonnull)email;
 /// Removes stored credentials, if there’s stored credentials
+/// Call it after <code>configure</code>: before it, the call is ignored and the stored credentials are kept.
 + (void)clearUserCredentialsWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 /// Update the user authentication jwe-token
+/// Can be called before <code>configure</code>: the token is stored and used once the Messenger is configured.
 /// \param token jwe token
 ///
 + (void)verifyUserWith:(NSString * _Nonnull)token;
 /// Removes stored veritifcation token, if there’s anything stored
+/// Call it after <code>configure</code>: before it, the call is ignored and the stored token is kept.
 + (void)clearVerificationToken;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

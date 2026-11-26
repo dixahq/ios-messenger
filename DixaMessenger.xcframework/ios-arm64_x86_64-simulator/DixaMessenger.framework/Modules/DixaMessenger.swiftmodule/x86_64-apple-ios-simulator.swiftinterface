@@ -334,7 +334,7 @@ public struct DixaConfiguration {
       get
     }
   }
-  public init(token: Swift.String, logLevel: DixaMessenger.LogLevel = .none, pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment = .production)
+  public init(token: Swift.String, logLevel: DixaMessenger.LogLevel = .error, pushEnvironment: DixaMessenger.DixaConfiguration.PushEnvironment = .production)
   public init()
   public func apikey(_ token: Swift.String) -> DixaMessenger.DixaConfiguration
   public func logLevel(_ logLevel: DixaMessenger.LogLevel) -> DixaMessenger.DixaConfiguration
