@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://dixa.com'
   #s.documentation_url = 'https://'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
-  s.author           = { 'andras' => 'ama@dixa.com' }
+  s.author           = 'Dixa'
   s.source = { :http => "https://github.com/dixahq/ios-messenger/releases/download/#{s.version}/DixaMessenger.xcframework.zip" }
   s.vendored_frameworks = "DixaMessenger.xcframework"
   s.ios.deployment_target = '15.0'
